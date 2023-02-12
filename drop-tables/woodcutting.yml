@@ -1,0 +1,28 @@
+drop-table:
+  ==: NuminousDropTable
+  items:
+  - ==: NuminousDropTableItem
+    chance: 30
+    items:
+    - ==: NuminousItemStack
+      amount: 1
+      item-type: orange
+  - ==: NuminousDropTableItem
+    chance: 55
+    items:
+    - ==: NuminousItemStack
+      amount: 1
+      item-type: wood
+  - ==: NuminousDropTableItem
+    chance: 10
+    items:
+    - ==: NuminousItemStack
+      amount: 2
+      item-type: wood
+  - ==: NuminousDropTableItem
+    chance: 5
+    items:
+    - ==: NuminousItemStack
+      amount: 5
+      item-type: wood
+  id: woodcutting

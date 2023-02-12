@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Steel sword
+  experience: 20
+  icon: IRON_SWORD
+  results:
+  - ==: NuminousItemStack
+    amount: 1
+    item-type: steel_sword
+  workstation: FURNACE
+  ingredients:
+  - ==: NuminousItemStack
+    amount: 1
+    item-type: blade
+  - ==: NuminousItemStack
+    amount: 1
+    item-type: handle
+  required-profession-level:
+    smith: 10
+  stamina: 20

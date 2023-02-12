@@ -1,0 +1,4 @@
+profession:
+  ==: NuminousProfession
+  name: Smith
+  id: smith

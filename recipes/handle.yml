@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Handle
+  experience: 5
+  icon: STICK
+  results:
+  - ==: NuminousItemStack
+    amount: 4
+    item-type: handle
+  workstation: CRAFTING_TABLE
+  ingredients:
+  - ==: NuminousItemStack
+    amount: 1
+    item-type: wood
+  required-profession-level:
+    carpenter: 1
+  stamina: 5

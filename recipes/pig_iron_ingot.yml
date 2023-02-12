@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Pig iron ingot
+  experience: 5
+  icon: IRON_INGOT
+  results:
+  - ==: NuminousItemStack
+    amount: 1
+    item-type: pig_iron_ingot
+  workstation: BLAST_FURNACE
+  ingredients:
+  - ==: NuminousItemStack
+    amount: 1
+    item-type: iron_ore
+  required-profession-level:
+    smith: 1
+  stamina: 5
