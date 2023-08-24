@@ -1,0 +1,35 @@
+item-type:
+  ==: NuminousItemType
+  id: gold_piece
+  name: Gold Piece
+  categories:
+  - TRADE_GOOD
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: GOLD_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#D4AF37","text":"Gold
+        Piece"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Bright,
+        golden coin shining with opulence."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Universally
+        accepted in all of Faerûn."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Favored
+        by nobles and merchants."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Equivalent
+        to ten silver pieces."}],"text":""}'
+  on-eat:
+  - ==: Blocked
+  on-interact-block:
+  - ==: Blocked
+  on-interact-air:
+  - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0.02
+    unit: lb
