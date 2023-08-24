@@ -1,0 +1,35 @@
+item-type:
+  ==: NuminousItemType
+  id: platinum_piece
+  name: Platinum Piece
+  categories:
+  - TRADE_GOOD
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: NETHERITE_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#E5E4E2","text":"Platinum
+        Piece"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Rare,
+        lustrous coin made of almost pure platinum."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Highly
+        valued and used for large transactions."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Carried
+        by the wealthy and powerful."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Worth
+        ten gold pieces."}],"text":""}'
+  on-eat:
+  - ==: Blocked
+  on-interact-block:
+  - ==: Blocked
+  on-interact-air:
+  - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0.02
+    unit: lb
