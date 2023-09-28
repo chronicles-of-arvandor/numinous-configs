@@ -1,0 +1,28 @@
+item-type:
+  ==: NuminousItemType
+  id: common_wine_pitcher
+  name: Common Wine (Pitcher)
+  categories:
+    - FOOD_AND_DRINK
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Common Wine (Pitcher)","color":"white"}'
+      lore:
+        - '{"text":"A pitcher of common wine, ","color":"gray"}'
+        - '{"text":"sweet but not extraordinary. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 5
+    unit: lb

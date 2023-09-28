@@ -1,0 +1,76 @@
+item-type:
+  ==: NuminousItemType
+  id: gaming_set
+  name: Gaming Set
+  categories:
+    - GAMING_SET
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Gaming Set","color":"white"}'
+      lore:
+        - '{"text":"If you are proficient with a ","color":"gray"}'
+        - '{"text":"gaming set, you can add your ","color":"gray"}'
+        - '{"text":"proficiency bonus to ability ","color":"gray"}'
+        - '{"text":"checks you make to play a game ","color":"gray"}'
+        - '{"text":"with that set. Each type of ","color":"gray"}'
+        - '{"text":"gaming set requires a separate ","color":"gray"}'
+        - '{"text":"proficiency.Multiple ","color":"gray"}'
+        - '{"text":"variations of this item exist, ","color":"gray"}'
+        - '{"text":"as listed below:Dice ","color":"gray"}'
+        - '{"text":"SetDragonchess SetPlaying Card ","color":"gray"}'
+        - '{"text":"SetThree-Dragon Ante SetSee ","color":"gray"}'
+        - '{"text":"the Tool Proficiencies entry ","color":"gray"}'
+        - '{"text":"for more ","color":"gray"}'
+        - '{"text":"information.Proficiency with a ","color":"gray"}'
+        - '{"text":"gaming set applies to one type ","color":"gray"}'
+        - '{"text":"of game, such as Three-Dragon ","color":"gray"}'
+        - '{"text":"Ante or games of chance that ","color":"gray"}'
+        - '{"text":"use dice. Components. A gaming ","color":"gray"}'
+        - '{"text":"set has all the pieces needed ","color":"gray"}'
+        - '{"text":"to play a specific game or ","color":"gray"}'
+        - '{"text":"type of game, such as a ","color":"gray"}'
+        - '{"text":"complete deck of cards or a ","color":"gray"}'
+        - '{"text":"board and tokens. History. ","color":"gray"}'
+        - '{"text":"Your mastery of a game ","color":"gray"}'
+        - '{"text":"includes knowledge of its ","color":"gray"}'
+        - '{"text":"history, as well as of ","color":"gray"}'
+        - '{"text":"important events it was ","color":"gray"}'
+        - '{"text":"connected to or prominent ","color":"gray"}'
+        - '{"text":"historical figures involved ","color":"gray"}'
+        - '{"text":"with it. Insight. Playing ","color":"gray"}'
+        - '{"text":"games with someone is a good ","color":"gray"}'
+        - '{"text":"way to gain understanding of ","color":"gray"}'
+        - '{"text":"their personality, granting ","color":"gray"}'
+        - '{"text":"you a better ability to ","color":"gray"}'
+        - '{"text":"discern their lies from their ","color":"gray"}'
+        - '{"text":"truths and read their mood. ","color":"gray"}'
+        - '{"text":"Sleight of Hand. Sleight of ","color":"gray"}'
+        - '{"text":"Hand is a useful skill for ","color":"gray"}'
+        - '{"text":"cheating at a game, as it ","color":"gray"}'
+        - '{"text":"allows you to swap pieces, ","color":"gray"}'
+        - '{"text":"palm cards, or alter a die ","color":"gray"}'
+        - '{"text":"roll. Alternatively, ","color":"gray"}'
+        - '{"text":"engrossing a target in a game ","color":"gray"}'
+        - '{"text":"by manipulating the components ","color":"gray"}'
+        - '{"text":"with dexterous movements is a ","color":"gray"}'
+        - '{"text":"great distraction for a ","color":"gray"}'
+        - '{"text":"pickpocketing attempt.Gaming ","color":"gray"}'
+        - '{"text":"SetActivityDCCatch a player ","color":"gray"}'
+        - '{"text":"cheating15Gain insight into an ","color":"gray"}'
+        - "{\"text\":\"opponent's personality15 \",\"color\":\"gray\"}"
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

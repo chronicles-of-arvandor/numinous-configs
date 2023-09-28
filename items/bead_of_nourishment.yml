@@ -1,0 +1,31 @@
+item-type:
+  ==: NuminousItemType
+  id: bead_of_nourishment
+  name: Bead of Nourishment
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: SLIME_BALL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Bead of Nourishment","color":"white"}'
+      lore:
+        - '{"text":"This spongy, flavorless, ","color":"gray"}'
+        - '{"text":"gelatinous bead dissolves on ","color":"gray"}'
+        - '{"text":"your tongue and provides as ","color":"gray"}'
+        - '{"text":"much nourishment as 1 day of ","color":"gray"}'
+        - '{"text":"rations. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

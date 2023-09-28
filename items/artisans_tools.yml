@@ -1,0 +1,52 @@
+item-type:
+  ==: NuminousItemType
+  id: artisans_tools
+  name: Artisan's Tools
+  categories:
+    - ARTISANS_TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: CRAFTING_TABLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Artisan's Tools\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"These special tools include ","color":"gray"}'
+        - '{"text":"the items needed to pursue a ","color":"gray"}'
+        - '{"text":"craft or trade. Proficiency ","color":"gray"}'
+        - "{\"text\":\"with a set of artisan's tools \",\"color\":\"gray\"}"
+        - '{"text":"lets you add your proficiency ","color":"gray"}'
+        - '{"text":"bonus to any ability checks ","color":"gray"}'
+        - '{"text":"you make using the tools in ","color":"gray"}'
+        - '{"text":"your craft. Each type of ","color":"gray"}'
+        - "{\"text\":\"artisan's tools requires a \",\"color\":\"gray\"}"
+        - '{"text":"separate proficiency.Multiple ","color":"gray"}'
+        - '{"text":"variations of this item exist, ","color":"gray"}'
+        - "{\"text\":\"as listed below:Alchemist's \",\"color\":\"gray\"}"
+        - "{\"text\":\"SuppliesBrewer's \",\"color\":\"gray\"}"
+        - "{\"text\":\"SuppliesCalligrapher's \",\"color\":\"gray\"}"
+        - "{\"text\":\"SuppliesCarpenter's \",\"color\":\"gray\"}"
+        - "{\"text\":\"ToolsCartographer's \",\"color\":\"gray\"}"
+        - "{\"text\":\"ToolsCobbler's ToolsCook's \",\"color\":\"gray\"}"
+        - "{\"text\":\"UtensilsGlassblower's \",\"color\":\"gray\"}"
+        - "{\"text\":\"ToolsJeweler's \",\"color\":\"gray\"}"
+        - "{\"text\":\"ToolsLeatherworker's \",\"color\":\"gray\"}"
+        - "{\"text\":\"ToolsMason's ToolsPainter's \",\"color\":\"gray\"}"
+        - "{\"text\":\"SuppliesPotter's ToolsSmith's \",\"color\":\"gray\"}"
+        - "{\"text\":\"ToolsTinker's ToolsWeaver's \",\"color\":\"gray\"}"
+        - "{\"text\":\"ToolsWoodcarver's ToolsSee the \",\"color\":\"gray\"}"
+        - '{"text":"Tool Proficiencies entry for ","color":"gray"}'
+        - '{"text":"more information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

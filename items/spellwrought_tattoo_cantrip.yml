@@ -1,0 +1,48 @@
+item-type:
+  ==: NuminousItemType
+  id: spellwrought_tattoo_cantrip
+  name: Spellwrought Tattoo (Cantrip)
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: INK_SAC
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Spellwrought Tattoo (Cantrip)","color":"white"}'
+      lore:
+        - '{"text":"Produced by a special needle, ","color":"gray"}'
+        - '{"text":"this magic tattoo contains a ","color":"gray"}'
+        - '{"text":"single cantrip, wrought on ","color":"gray"}'
+        - '{"text":"your skin by a magic needle. ","color":"gray"}'
+        - '{"text":"To use the tattoo, you must ","color":"gray"}'
+        - '{"text":"hold the needle against your ","color":"gray"}'
+        - '{"text":"skin and speak the command ","color":"gray"}'
+        - '{"text":"word. The needle turns into ","color":"gray"}'
+        - '{"text":"ink that becomes the tattoo, ","color":"gray"}'
+        - '{"text":"which appears on the skin in ","color":"gray"}'
+        - '{"text":"whatever design you like. Once ","color":"gray"}'
+        - '{"text":"the tattoo is there, you can ","color":"gray"}'
+        - '{"text":"cast its spell, requiring no ","color":"gray"}'
+        - '{"text":"material components. The ","color":"gray"}'
+        - '{"text":"tattoo glows faintly while you ","color":"gray"}'
+        - '{"text":"cast the spell and for the ","color":"gray"}'
+        - "{\"text\":\"spell's duration. Once the \",\"color\":\"gray\"}"
+        - '{"text":"spell ends, the tattoo ","color":"gray"}'
+        - '{"text":"vanishes from your skin.The ","color":"gray"}'
+        - '{"text":"Ability modifier for this ","color":"gray"}'
+        - '{"text":"spell is +3; the Save DC is 13 ","color":"gray"}'
+        - '{"text":"and the attack bonus is +5. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

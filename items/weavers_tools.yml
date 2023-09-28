@@ -1,0 +1,72 @@
+item-type:
+  ==: NuminousItemType
+  id: weavers_tools
+  name: Weaver's Tools
+  categories:
+    - ARTISANS_TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: SHEARS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Weaver's Tools\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"These special tools include ","color":"gray"}'
+        - '{"text":"the items needed to pursue a ","color":"gray"}'
+        - '{"text":"craft or trade. Proficiency ","color":"gray"}'
+        - "{\"text\":\"with a set of artisan's tools \",\"color\":\"gray\"}"
+        - '{"text":"lets you add your proficiency ","color":"gray"}'
+        - '{"text":"bonus to any ability checks ","color":"gray"}'
+        - '{"text":"you make using the tools in ","color":"gray"}'
+        - '{"text":"your craft. Each type of ","color":"gray"}'
+        - "{\"text\":\"artisan's tools requires a \",\"color\":\"gray\"}"
+        - "{\"text\":\"separate proficiency.Weaver's \",\"color\":\"gray\"}"
+        - '{"text":"tools allow you to create ","color":"gray"}'
+        - '{"text":"cloth and tailor it into ","color":"gray"}'
+        - '{"text":"articles of clothing. ","color":"gray"}'
+        - "{\"text\":\"Components. Weaver's tools \",\"color\":\"gray\"}"
+        - '{"text":"include thread, needles, and ","color":"gray"}'
+        - '{"text":"scraps of cloth. You know how ","color":"gray"}'
+        - '{"text":"to work a loom, but such ","color":"gray"}'
+        - '{"text":"equipment is too large to ","color":"gray"}'
+        - '{"text":"transport. Arcana, History. ","color":"gray"}'
+        - '{"text":"Your expertise lends you ","color":"gray"}'
+        - '{"text":"additional insight when ","color":"gray"}'
+        - '{"text":"examining cloth objects, ","color":"gray"}'
+        - '{"text":"including cloaks and robes. ","color":"gray"}'
+        - '{"text":"Investigation. Using your ","color":"gray"}'
+        - '{"text":"knowledge of the process of ","color":"gray"}'
+        - '{"text":"creating cloth objects, you ","color":"gray"}'
+        - '{"text":"can spot clues and make ","color":"gray"}'
+        - '{"text":"deductions that others would ","color":"gray"}'
+        - '{"text":"overlook when you examine ","color":"gray"}'
+        - '{"text":"tapestries, upholstery, ","color":"gray"}'
+        - '{"text":"clothing, and other woven ","color":"gray"}'
+        - '{"text":"items. Repair. As part of a ","color":"gray"}'
+        - '{"text":"short rest, you can repair a ","color":"gray"}'
+        - '{"text":"single damaged cloth object. ","color":"gray"}'
+        - '{"text":"Craft Clothing. Assuming you ","color":"gray"}'
+        - '{"text":"have access to sufficient ","color":"gray"}'
+        - '{"text":"cloth and thread, you can ","color":"gray"}'
+        - '{"text":"create an outfit for a ","color":"gray"}'
+        - '{"text":"creature as part of a long ","color":"gray"}'
+        - "{\"text\":\"rest.Weaver's \",\"color\":\"gray\"}"
+        - '{"text":"ToolsActivityDCRepurpose ","color":"gray"}'
+        - '{"text":"cloth10Mend a hole in a piece ","color":"gray"}'
+        - '{"text":"of cloth10Tailor an ","color":"gray"}'
+        - '{"text":"outfit15See the Tool ","color":"gray"}'
+        - '{"text":"Proficiencies entry for more ","color":"gray"}'
+        - '{"text":"information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 5
+    unit: lb

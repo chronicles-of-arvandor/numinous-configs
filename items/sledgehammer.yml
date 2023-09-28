@@ -1,0 +1,30 @@
+item-type:
+  ==: NuminousItemType
+  id: sledgehammer
+  name: Sledgehammer
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Sledgehammer","color":"white"}'
+      lore:
+        - '{"text":"A heavy iron or stone head ","color":"gray"}'
+        - '{"text":"mounted on a long shaft, used ","color":"gray"}'
+        - '{"text":"for destruction of structures, ","color":"gray"}'
+        - "{\"text\":\"and sometimes one's enemies. \",\"color\":\"gray\"}"
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 10
+    unit: lb

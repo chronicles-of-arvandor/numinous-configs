@@ -1,0 +1,52 @@
+item-type:
+  ==: NuminousItemType
+  id: staff_of_adornment
+  name: Staff of Adornment
+  categories:
+    - WAND
+    - POTION
+    - SIMPLE_WEAPON
+    - MELEE_WEAPON
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: STICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Staff of Adornment","color":"white"}'
+      lore:
+        - '{"text":"If you place an object ","color":"gray"}'
+        - '{"text":"weighing no more than 1 pound ","color":"gray"}'
+        - '{"text":"(such as a shard of crystal, ","color":"gray"}'
+        - '{"text":"an egg, or a stone) above the ","color":"gray"}'
+        - '{"text":"tip of the staff while holding ","color":"gray"}'
+        - '{"text":"it, the object floats an inch ","color":"gray"}'
+        - "{\"text\":\"from the staff's tip and \",\"color\":\"gray\"}"
+        - '{"text":"remains there until it is ","color":"gray"}'
+        - '{"text":"removed or until the staff is ","color":"gray"}'
+        - '{"text":"no longer in your possession. ","color":"gray"}'
+        - '{"text":"The staff can have up to three ","color":"gray"}'
+        - '{"text":"such objects floating over its ","color":"gray"}'
+        - '{"text":"tip at any given time. While ","color":"gray"}'
+        - '{"text":"holding the staff, you can ","color":"gray"}'
+        - '{"text":"make one or more of the ","color":"gray"}'
+        - '{"text":"objects slowly spin or turn in ","color":"gray"}'
+        - '{"text":"place. Versatile. This weapon ","color":"gray"}'
+        - '{"text":"can be used with one or two ","color":"gray"}'
+        - '{"text":"hands. A damage value in ","color":"gray"}'
+        - '{"text":"parentheses appears with the ","color":"gray"}'
+        - '{"text":"property—the damage when the ","color":"gray"}'
+        - '{"text":"weapon is used with two hands ","color":"gray"}'
+        - '{"text":"to make a melee attack. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 4
+    unit: lb

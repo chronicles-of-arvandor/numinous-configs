@@ -1,0 +1,33 @@
+item-type:
+  ==: NuminousItemType
+  id: portable_ram
+  name: Portable Ram
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: NETHERITE_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Portable Ram","color":"white"}'
+      lore:
+        - '{"text":"You can use a portable ram to ","color":"gray"}'
+        - '{"text":"break down doors. When doing ","color":"gray"}'
+        - '{"text":"so, you gain a +4 bonus on the ","color":"gray"}'
+        - '{"text":"Strength check. One other ","color":"gray"}'
+        - '{"text":"character can help you use the ","color":"gray"}'
+        - '{"text":"ram, giving you advantage on ","color":"gray"}'
+        - '{"text":"this check. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 35
+    unit: lb

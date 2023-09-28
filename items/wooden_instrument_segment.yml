@@ -1,0 +1,30 @@
+item-type:
+  ==: NuminousItemType
+  id: wooden_instrument_segment
+  name: Wooden Instrument Segment
+  categories:
+    - CRAFTING_MATERIAL
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: STICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Wooden Instrument Segment","color":"white"}'
+      lore:
+        - '{"text":"A wooden section of an ","color":"gray"}'
+        - '{"text":"instrument, to be combined ","color":"gray"}'
+        - '{"text":"with a body to form an ","color":"gray"}'
+        - '{"text":"instrument. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0.5
+    unit: lb

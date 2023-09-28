@@ -1,0 +1,55 @@
+item-type:
+  ==: NuminousItemType
+  id: staff_of_flowers
+  name: Staff of Flowers
+  categories:
+    - WAND
+    - POTION
+    - SIMPLE_WEAPON
+    - MELEE_WEAPON
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: DANDELION
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Staff of Flowers","color":"white"}'
+      lore:
+        - '{"text":"This wooden staff has 10 ","color":"gray"}'
+        - '{"text":"charges. While holding it, you ","color":"gray"}'
+        - '{"text":"can use an action to expend 1 ","color":"gray"}'
+        - '{"text":"charge from the staff and ","color":"gray"}'
+        - '{"text":"cause a flower to sprout from ","color":"gray"}'
+        - '{"text":"a patch of earth or soil ","color":"gray"}'
+        - '{"text":"within 5 feet of you, or from ","color":"gray"}'
+        - '{"text":"the staff itself. Unless you ","color":"gray"}'
+        - '{"text":"choose a specific kind of ","color":"gray"}'
+        - '{"text":"flower, the staff creates a ","color":"gray"}'
+        - '{"text":"mildscented daisy. The flower ","color":"gray"}'
+        - '{"text":"is harmless and nonmagical, ","color":"gray"}'
+        - '{"text":"and it grows or withers as a ","color":"gray"}'
+        - '{"text":"normal flower would. The staff ","color":"gray"}'
+        - '{"text":"regains 1d6 + 4 expended ","color":"gray"}'
+        - '{"text":"charges daily at dawn. If you ","color":"gray"}'
+        - '{"text":"expend the last charge, roll a ","color":"gray"}'
+        - '{"text":"d20. On a 1, the staff turns ","color":"gray"}'
+        - '{"text":"into flower petals and is lost ","color":"gray"}'
+        - '{"text":"forever. Versatile. This ","color":"gray"}'
+        - '{"text":"weapon can be used with one or ","color":"gray"}'
+        - '{"text":"two hands. A damage value in ","color":"gray"}'
+        - '{"text":"parentheses appears with the ","color":"gray"}'
+        - '{"text":"property—the damage when the ","color":"gray"}'
+        - '{"text":"weapon is used with two hands ","color":"gray"}'
+        - '{"text":"to make a melee attack. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 4
+    unit: lb

@@ -1,0 +1,35 @@
+item-type:
+  ==: NuminousItemType
+  id: breastplate
+  name: Breastplate
+  categories:
+    - MEDIUM_ARMOUR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Breastplate","color":"white"}'
+      lore:
+        - '{"text":"This armor consists of a ","color":"gray"}'
+        - '{"text":"fitted metal chest piece worn ","color":"gray"}'
+        - '{"text":"with supple leather. Although ","color":"gray"}'
+        - '{"text":"it leaves the legs and arms ","color":"gray"}'
+        - '{"text":"relatively unprotected, this ","color":"gray"}'
+        - '{"text":"armor provides good protection ","color":"gray"}'
+        - "{\"text\":\"for the wearer's vital organs \",\"color\":\"gray\"}"
+        - '{"text":"while leaving the wearer ","color":"gray"}'
+        - '{"text":"relatively unencumbered. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 20
+    unit: lb

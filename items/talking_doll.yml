@@ -1,0 +1,45 @@
+item-type:
+  ==: NuminousItemType
+  id: talking_doll
+  name: Talking Doll
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: TOTEM_OF_UNDYING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Talking Doll","color":"white"}'
+      lore:
+        - '{"text":"While this stuffed doll is ","color":"gray"}'
+        - '{"text":"within 5 feet of you, you can ","color":"gray"}'
+        - '{"text":"spend a short rest telling it ","color":"gray"}'
+        - '{"text":"to say up to six phrases, none ","color":"gray"}'
+        - '{"text":"of which can be more than six ","color":"gray"}'
+        - '{"text":"words long, and set an ","color":"gray"}'
+        - '{"text":"observable condition under ","color":"gray"}'
+        - '{"text":"which the doll speaks each ","color":"gray"}'
+        - '{"text":"phrase. You can also replace ","color":"gray"}'
+        - '{"text":"old phrases with new ones. ","color":"gray"}'
+        - '{"text":"Whatever the condition, it ","color":"gray"}'
+        - '{"text":"must occur within 5 feet of ","color":"gray"}'
+        - '{"text":"the doll to make it speak. For ","color":"gray"}'
+        - '{"text":"example, whenever someone ","color":"gray"}'
+        - '{"text":"picks up the doll, it might ","color":"gray"}'
+        - '{"text":"say, \"I want a piece of ","color":"gray"}'
+        - "{\"text\":\"candy.\\\" The doll's phrases are \",\"color\":\"gray\"}"
+        - '{"text":"lost when your attunement to ","color":"gray"}'
+        - '{"text":"the doll ends. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

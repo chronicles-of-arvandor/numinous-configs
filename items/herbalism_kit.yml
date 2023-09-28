@@ -1,0 +1,78 @@
+item-type:
+  ==: NuminousItemType
+  id: herbalism_kit
+  name: Herbalism Kit
+  categories:
+    - TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Herbalism Kit","color":"white"}'
+      lore:
+        - '{"text":"This kit contains a variety of ","color":"gray"}'
+        - '{"text":"instruments such as clippers, ","color":"gray"}'
+        - '{"text":"mortar and pestle, and pouches ","color":"gray"}'
+        - '{"text":"and vials used by herbalists ","color":"gray"}'
+        - '{"text":"to create remedies and ","color":"gray"}'
+        - '{"text":"potions. Proficiency with this ","color":"gray"}'
+        - '{"text":"kit lets you add your ","color":"gray"}'
+        - '{"text":"proficiency bonus to any ","color":"gray"}'
+        - '{"text":"ability checks you make to ","color":"gray"}'
+        - '{"text":"identify or apply herbs. Also, ","color":"gray"}'
+        - '{"text":"proficiency with this kit is ","color":"gray"}'
+        - '{"text":"required to create antitoxin ","color":"gray"}'
+        - '{"text":"and potions of ","color":"gray"}'
+        - '{"text":"healing.Proficiency with an ","color":"gray"}'
+        - '{"text":"herbalism kit allows you to ","color":"gray"}'
+        - '{"text":"identify plants and safely ","color":"gray"}'
+        - '{"text":"collect their useful elements. ","color":"gray"}'
+        - '{"text":"Components. An herbalism kit ","color":"gray"}'
+        - '{"text":"includes pouches to store ","color":"gray"}'
+        - '{"text":"herbs, clippers and leather ","color":"gray"}'
+        - '{"text":"gloves for collecting plants, ","color":"gray"}'
+        - '{"text":"a mortar and pestle, and ","color":"gray"}'
+        - '{"text":"several glass jars. Arcana. ","color":"gray"}'
+        - '{"text":"Your knowledge of the nature ","color":"gray"}'
+        - '{"text":"and uses of herbs can add ","color":"gray"}'
+        - '{"text":"insight to your magical ","color":"gray"}'
+        - '{"text":"studies that deal with plants ","color":"gray"}'
+        - '{"text":"and your attempts to identify ","color":"gray"}'
+        - '{"text":"potions. Investigation. When ","color":"gray"}'
+        - '{"text":"you inspect an area overgrown ","color":"gray"}'
+        - '{"text":"with plants, your proficiency ","color":"gray"}'
+        - '{"text":"can help you pick out details ","color":"gray"}'
+        - '{"text":"and clues that others might ","color":"gray"}'
+        - '{"text":"miss. Medicine. Your mastery ","color":"gray"}'
+        - '{"text":"of herbalism improves your ","color":"gray"}'
+        - '{"text":"ability to treat illnesses and ","color":"gray"}'
+        - '{"text":"wounds by augmenting your ","color":"gray"}'
+        - '{"text":"methods of care with medicinal ","color":"gray"}'
+        - '{"text":"plants. Nature and Survival. ","color":"gray"}'
+        - '{"text":"When you travel in the wild, ","color":"gray"}'
+        - '{"text":"your skill in herbalism makes ","color":"gray"}'
+        - '{"text":"it easier to identify plants ","color":"gray"}'
+        - '{"text":"and spot sources of food that ","color":"gray"}'
+        - '{"text":"others might overlook. ","color":"gray"}'
+        - '{"text":"Identify Plants. You can ","color":"gray"}'
+        - '{"text":"identify most plants with a ","color":"gray"}'
+        - '{"text":"quick inspection of their ","color":"gray"}'
+        - '{"text":"appearance and smell.Herbalism ","color":"gray"}'
+        - '{"text":"KitActivityDCFind ","color":"gray"}'
+        - '{"text":"plants15Identify poison20See ","color":"gray"}'
+        - '{"text":"the Tool Proficiencies entry ","color":"gray"}'
+        - '{"text":"for more information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 3
+    unit: lb

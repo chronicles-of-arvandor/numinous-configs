@@ -1,0 +1,29 @@
+item-type:
+  ==: NuminousItemType
+  id: glass
+  name: Glass
+  categories:
+    - CRAFTING_MATERIAL
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: GLASS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Glass","color":"white"}'
+      lore:
+        - '{"text":"A square foot of glass, ready ","color":"gray"}'
+        - '{"text":"to be processed into future ","color":"gray"}'
+        - '{"text":"crafts. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1.5
+    unit: lb

@@ -1,0 +1,37 @@
+item-type:
+  ==: NuminousItemType
+  id: pot_of_awakening
+  name: Pot of Awakening
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: FLOWER_POT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Pot of Awakening","color":"white"}'
+      lore:
+        - '{"text":"If you plant an ordinary shrub ","color":"gray"}'
+        - '{"text":"in this 10-pound clay pot and ","color":"gray"}'
+        - '{"text":"let it grow for 30 days, the ","color":"gray"}'
+        - '{"text":"shrub magically transforms ","color":"gray"}'
+        - '{"text":"into an awakened shrub at the ","color":"gray"}'
+        - '{"text":"end of that time. When the ","color":"gray"}'
+        - '{"text":"shrub awakens, its roots break ","color":"gray"}'
+        - '{"text":"the pot, destroying it.The ","color":"gray"}'
+        - '{"text":"awakened shrub is friendly ","color":"gray"}'
+        - '{"text":"toward you. Absent commands ","color":"gray"}'
+        - '{"text":"from you, it does nothing. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

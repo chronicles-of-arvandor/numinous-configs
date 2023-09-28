@@ -1,0 +1,35 @@
+item-type:
+  ==: NuminousItemType
+  id: dragon_vessel
+  name: Dragon Vessel
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Dragon Vessel","color":"white"}'
+      lore:
+        - '{"text":"This vessel can be a potion ","color":"gray"}'
+        - '{"text":"bottle, drinking horn, or ","color":"gray"}'
+        - '{"text":"other container meant to hold ","color":"gray"}'
+        - '{"text":"a liquid.Multiple variations ","color":"gray"}'
+        - '{"text":"of this item exist, as listed ","color":"gray"}'
+        - '{"text":"below:Slumbering Dragon ","color":"gray"}'
+        - '{"text":"VesselStirring Dragon ","color":"gray"}'
+        - '{"text":"VesselWakened Dragon ","color":"gray"}'
+        - '{"text":"VesselAscendant Dragon Vessel ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

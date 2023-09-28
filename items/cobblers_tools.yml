@@ -1,0 +1,87 @@
+item-type:
+  ==: NuminousItemType
+  id: cobblers_tools
+  name: Cobbler's Tools
+  categories:
+    - ARTISANS_TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Cobbler's Tools\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"These special tools include ","color":"gray"}'
+        - '{"text":"the items needed to pursue a ","color":"gray"}'
+        - '{"text":"craft or trade. Proficiency ","color":"gray"}'
+        - "{\"text\":\"with a set of artisan's tools \",\"color\":\"gray\"}"
+        - '{"text":"lets you add your proficiency ","color":"gray"}'
+        - '{"text":"bonus to any ability checks ","color":"gray"}'
+        - '{"text":"you make using the tools in ","color":"gray"}'
+        - '{"text":"your craft. Each type of ","color":"gray"}'
+        - "{\"text\":\"artisan's tools requires a \",\"color\":\"gray\"}"
+        - '{"text":"separate proficiency.Although ","color":"gray"}'
+        - "{\"text\":\"the cobbler's trade might seem \",\"color\":\"gray\"}"
+        - '{"text":"too humble for an adventurer, ","color":"gray"}'
+        - '{"text":"a good pair of boots will see ","color":"gray"}'
+        - '{"text":"a character across rugged ","color":"gray"}'
+        - '{"text":"wilderness and through deadly ","color":"gray"}'
+        - '{"text":"dungeons. Components. ","color":"gray"}'
+        - "{\"text\":\"Cobbler's tools consist of a \",\"color\":\"gray\"}"
+        - '{"text":"hammer, an awl, a knife, a ","color":"gray"}'
+        - '{"text":"shoe stand, a cutter, spare ","color":"gray"}'
+        - '{"text":"leather, and thread. Arcana, ","color":"gray"}'
+        - '{"text":"History. Your knowledge of ","color":"gray"}'
+        - '{"text":"shoes aids you in identifying ","color":"gray"}'
+        - '{"text":"the magical properties of ","color":"gray"}'
+        - '{"text":"enchanted boots or the history ","color":"gray"}'
+        - '{"text":"of such items. Investigation. ","color":"gray"}'
+        - '{"text":"Footwear holds a surprising ","color":"gray"}'
+        - '{"text":"number of secrets. You can ","color":"gray"}'
+        - '{"text":"learn where someone has ","color":"gray"}'
+        - '{"text":"recently visited by examining ","color":"gray"}'
+        - '{"text":"the wear and the dirt that has ","color":"gray"}'
+        - '{"text":"accumulated on their shoes. ","color":"gray"}'
+        - '{"text":"Your experience in repairing ","color":"gray"}'
+        - '{"text":"shoes makes it easier for you ","color":"gray"}'
+        - '{"text":"to identify where damage might ","color":"gray"}'
+        - '{"text":"come from. Maintain Shoes. As ","color":"gray"}'
+        - '{"text":"part of a long rest, you can ","color":"gray"}'
+        - "{\"text\":\"repair your companions' shoes. \",\"color\":\"gray\"}"
+        - '{"text":"For the next 24 hours, up to ","color":"gray"}'
+        - '{"text":"six creatures of your choice ","color":"gray"}'
+        - '{"text":"who wear shoes you worked on ","color":"gray"}'
+        - '{"text":"can travel up to 10 hours a ","color":"gray"}'
+        - '{"text":"day without making saving ","color":"gray"}'
+        - '{"text":"throws to avoid exhaustion. ","color":"gray"}'
+        - '{"text":"Craft Hidden Compartment. With ","color":"gray"}'
+        - '{"text":"8 hours of work, you can add a ","color":"gray"}'
+        - '{"text":"hidden compartment to a pair ","color":"gray"}'
+        - '{"text":"of shoes. The compartment can ","color":"gray"}'
+        - '{"text":"hold an object up to 3 inches ","color":"gray"}'
+        - '{"text":"long and 1 inch wide and deep. ","color":"gray"}'
+        - '{"text":"You make an Intelligence check ","color":"gray"}'
+        - '{"text":"using your tool proficiency to ","color":"gray"}'
+        - '{"text":"determine the Intelligence ","color":"gray"}'
+        - '{"text":"(Investigation) check DC ","color":"gray"}'
+        - '{"text":"needed to find the ","color":"gray"}'
+        - "{\"text\":\"compartment.Cobbler's \",\"color\":\"gray\"}"
+        - '{"text":"ToolsActivityDCDetermine a ","color":"gray"}'
+        - "{\"text\":\"shoe's age and origin10Find a \",\"color\":\"gray\"}"
+        - '{"text":"hidden compartment in a boot ","color":"gray"}'
+        - '{"text":"heel15See the Tool ","color":"gray"}'
+        - '{"text":"Proficiencies entry for more ","color":"gray"}'
+        - '{"text":"information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 5
+    unit: lb

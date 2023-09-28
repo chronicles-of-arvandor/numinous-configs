@@ -1,0 +1,36 @@
+item-type:
+  ==: NuminousItemType
+  id: component_pouch
+  name: Component Pouch
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Component Pouch","color":"white"}'
+      lore:
+        - '{"text":"A component pouch is a small, ","color":"gray"}'
+        - '{"text":"watertight leather belt pouch ","color":"gray"}'
+        - '{"text":"that has compartments to hold ","color":"gray"}'
+        - '{"text":"all the material components ","color":"gray"}'
+        - '{"text":"and other special items you ","color":"gray"}'
+        - '{"text":"need to cast your spells, ","color":"gray"}'
+        - '{"text":"except for those components ","color":"gray"}'
+        - '{"text":"that have a specific cost (as ","color":"gray"}'
+        - "{\"text\":\"indicated in a spell's \",\"color\":\"gray\"}"
+        - '{"text":"description). ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 2
+    unit: lb

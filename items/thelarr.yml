@@ -1,0 +1,69 @@
+item-type:
+  ==: NuminousItemType
+  id: thelarr
+  name: Thelarr
+  categories:
+    - INSTRUMENT
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: BAMBOO
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Thelarr","color":"white"}'
+      lore:
+        - '{"text":"Also known as a whistlecane, a ","color":"gray"}'
+        - '{"text":"simple and easy-to-make wind ","color":"gray"}'
+        - '{"text":"instrument cut from a reed. ","color":"gray"}'
+        - '{"text":"They are so simple, in fact, ","color":"gray"}'
+        - '{"text":"that skilled bards frequently ","color":"gray"}'
+        - '{"text":"make and give them away to ","color":"gray"}'
+        - "{\"text\":\"children—to the parents' \",\"color\":\"gray\"}"
+        - '{"text":"delight or regret.If you have ","color":"gray"}'
+        - '{"text":"proficiency with a given ","color":"gray"}'
+        - '{"text":"musical instrument, you can ","color":"gray"}'
+        - '{"text":"add your proficiency bonus to ","color":"gray"}'
+        - '{"text":"any ability checks you make to ","color":"gray"}'
+        - '{"text":"play music with the ","color":"gray"}'
+        - '{"text":"instrument. A bard can use a ","color":"gray"}'
+        - '{"text":"musical instrument as a ","color":"gray"}'
+        - '{"text":"spellcasting focus. Each type ","color":"gray"}'
+        - '{"text":"of musical instrument requires ","color":"gray"}'
+        - '{"text":"a separate proficiency.See the ","color":"gray"}'
+        - '{"text":"Tool Proficiencies entry for ","color":"gray"}'
+        - '{"text":"more information.Proficiency ","color":"gray"}'
+        - '{"text":"with a musical instrument ","color":"gray"}'
+        - '{"text":"indicates you are familiar ","color":"gray"}'
+        - '{"text":"with the techniques used to ","color":"gray"}'
+        - '{"text":"play it. You also have ","color":"gray"}'
+        - '{"text":"knowledge of some songs ","color":"gray"}'
+        - '{"text":"commonly performed with that ","color":"gray"}'
+        - '{"text":"instrument. History. Your ","color":"gray"}'
+        - '{"text":"expertise aids you in ","color":"gray"}'
+        - '{"text":"recalling lore related to your ","color":"gray"}'
+        - '{"text":"instrument. Performance. Your ","color":"gray"}'
+        - '{"text":"ability to put on a good show ","color":"gray"}'
+        - '{"text":"is improved when you ","color":"gray"}'
+        - '{"text":"incorporate an instrument into ","color":"gray"}'
+        - '{"text":"your act. Compose a Tune. As ","color":"gray"}'
+        - '{"text":"part of a long rest, you can ","color":"gray"}'
+        - '{"text":"compose a new tune and lyrics ","color":"gray"}'
+        - '{"text":"for your instrument. You might ","color":"gray"}'
+        - '{"text":"use this ability to impress a ","color":"gray"}'
+        - '{"text":"noble or spread scandalous ","color":"gray"}'
+        - '{"text":"rumors with a catchy ","color":"gray"}'
+        - '{"text":"tune.Musical ","color":"gray"}'
+        - '{"text":"InstrumentActivityDCIdentify a ","color":"gray"}'
+        - '{"text":"tune10Improvise a tune20 ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

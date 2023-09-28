@@ -1,0 +1,69 @@
+item-type:
+  ==: NuminousItemType
+  id: libram_of_souls_and_flesh
+  name: Libram of Souls and Flesh
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: WRITTEN_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Libram of Souls and Flesh","color":"white"}'
+      lore:
+        - '{"text":"With covers made of skin and ","color":"gray"}'
+        - '{"text":"fittings of bone, this tome is ","color":"gray"}'
+        - '{"text":"cold to the touch, and it ","color":"gray"}'
+        - '{"text":"whispers faintly. When found, ","color":"gray"}'
+        - '{"text":"the book contains the ","color":"gray"}'
+        - '{"text":"following spells, which are ","color":"gray"}'
+        - '{"text":"wizard spells for you while ","color":"gray"}'
+        - '{"text":"you are attuned to the book: ","color":"gray"}'
+        - '{"text":"animate dead, circle of death, ","color":"gray"}'
+        - '{"text":"false life, finger of death, ","color":"gray"}'
+        - '{"text":"speak with dead, summon ","color":"gray"}'
+        - '{"text":"undead, and vampiric touch. It ","color":"gray"}'
+        - '{"text":"functions as a spellbook for ","color":"gray"}'
+        - '{"text":"you.While you are holding the ","color":"gray"}'
+        - '{"text":"book, you can use it as a ","color":"gray"}'
+        - '{"text":"spellcasting focus for your ","color":"gray"}'
+        - '{"text":"wizard spells.The book has 3 ","color":"gray"}'
+        - '{"text":"charges, and it regains 1d3 ","color":"gray"}'
+        - '{"text":"expended charges daily at ","color":"gray"}'
+        - '{"text":"dawn. You can use the charges ","color":"gray"}'
+        - '{"text":"in the following ways while ","color":"gray"}'
+        - '{"text":"holding it:If you spend 1 ","color":"gray"}'
+        - '{"text":"minute studying the book, you ","color":"gray"}'
+        - '{"text":"can expend 1 charge to replace ","color":"gray"}'
+        - '{"text":"one of your prepared wizard ","color":"gray"}'
+        - '{"text":"spells with a different spell ","color":"gray"}'
+        - '{"text":"in the book. The new spell ","color":"gray"}'
+        - '{"text":"must be of the necromancy ","color":"gray"}'
+        - '{"text":"school.As an action, you can ","color":"gray"}'
+        - '{"text":"expend 1 charge to take on a ","color":"gray"}'
+        - '{"text":"semblance of undeath for 10 ","color":"gray"}'
+        - '{"text":"minutes. For the duration, you ","color":"gray"}'
+        - '{"text":"take on a deathly appearance, ","color":"gray"}'
+        - '{"text":"and undead creatures are ","color":"gray"}'
+        - '{"text":"indifferent to you, unless you ","color":"gray"}'
+        - '{"text":"have damaged them. You also ","color":"gray"}'
+        - '{"text":"appear undead to all outward ","color":"gray"}'
+        - '{"text":"inspection and to spells used ","color":"gray"}'
+        - "{\"text\":\"to determine the target's \",\"color\":\"gray\"}"
+        - '{"text":"status. The effect ends if you ","color":"gray"}'
+        - '{"text":"deal damage or force a ","color":"gray"}'
+        - '{"text":"creature to make a saving ","color":"gray"}'
+        - '{"text":"throw. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 3
+    unit: lb

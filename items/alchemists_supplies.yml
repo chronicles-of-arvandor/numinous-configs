@@ -1,0 +1,87 @@
+item-type:
+  ==: NuminousItemType
+  id: alchemists_supplies
+  name: Alchemist's Supplies
+  categories:
+    - ARTISANS_TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: BREWING_STAND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Alchemist's Supplies\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"These special tools include ","color":"gray"}'
+        - '{"text":"the items needed to pursue a ","color":"gray"}'
+        - '{"text":"craft or trade. Proficiency ","color":"gray"}'
+        - "{\"text\":\"with a set of artisan's tools \",\"color\":\"gray\"}"
+        - '{"text":"lets you add your proficiency ","color":"gray"}'
+        - '{"text":"bonus to any ability checks ","color":"gray"}'
+        - '{"text":"you make using the tools in ","color":"gray"}'
+        - '{"text":"your craft. Each type of ","color":"gray"}'
+        - "{\"text\":\"artisan's tools requires a \",\"color\":\"gray\"}"
+        - '{"text":"separate ","color":"gray"}'
+        - "{\"text\":\"proficiency.Alchemist's \",\"color\":\"gray\"}"
+        - '{"text":"supplies enable a character to ","color":"gray"}'
+        - '{"text":"produce useful concoctions, ","color":"gray"}'
+        - "{\"text\":\"such as acid or alchemist's \",\"color\":\"gray\"}"
+        - "{\"text\":\"fire. Components. Alchemist's \",\"color\":\"gray\"}"
+        - '{"text":"supplies include two glass ","color":"gray"}'
+        - '{"text":"beakers, a metal frame to hold ","color":"gray"}'
+        - '{"text":"a beaker in place over an open ","color":"gray"}'
+        - '{"text":"flame, a glass stirring rod, a ","color":"gray"}'
+        - '{"text":"small mortar and pestle, and a ","color":"gray"}'
+        - '{"text":"pouch of common alchemical ","color":"gray"}'
+        - '{"text":"ingredients, including salt, ","color":"gray"}'
+        - '{"text":"powdered iron, and purified ","color":"gray"}'
+        - '{"text":"water. Arcana. Proficiency ","color":"gray"}'
+        - "{\"text\":\"with alchemist's supplies \",\"color\":\"gray\"}"
+        - '{"text":"allows you to unlock more ","color":"gray"}'
+        - '{"text":"information on Arcana checks ","color":"gray"}'
+        - '{"text":"involving potions and similar ","color":"gray"}'
+        - '{"text":"materials. Investigation. When ","color":"gray"}'
+        - '{"text":"you inspect an area for clues, ","color":"gray"}'
+        - "{\"text\":\"proficiency with alchemist's \",\"color\":\"gray\"}"
+        - '{"text":"supplies grants additional ","color":"gray"}'
+        - '{"text":"insight into any chemicals or ","color":"gray"}'
+        - '{"text":"other substances that might ","color":"gray"}'
+        - '{"text":"have been used in the area. ","color":"gray"}'
+        - '{"text":"Alchemical Crafting. You can ","color":"gray"}'
+        - '{"text":"use this tool proficiency to ","color":"gray"}'
+        - '{"text":"create alchemical items. A ","color":"gray"}'
+        - '{"text":"character can spend money to ","color":"gray"}'
+        - '{"text":"collect raw materials, which ","color":"gray"}'
+        - '{"text":"weigh 1 pound for every 50 gp ","color":"gray"}'
+        - '{"text":"spent. The DM can allow a ","color":"gray"}'
+        - '{"text":"character to make a check ","color":"gray"}'
+        - '{"text":"using the indicated skill with ","color":"gray"}'
+        - '{"text":"advantage. As part of a long ","color":"gray"}'
+        - "{\"text\":\"rest, you can use alchemist's \",\"color\":\"gray\"}"
+        - '{"text":"supplies to make one dose of ","color":"gray"}'
+        - "{\"text\":\"acid, alchemist's fire, \",\"color\":\"gray\"}"
+        - '{"text":"antitoxin, oil, perfume, or ","color":"gray"}'
+        - '{"text":"soap. Subtract half the value ","color":"gray"}'
+        - '{"text":"of the created item from the ","color":"gray"}'
+        - '{"text":"total gp worth of raw ","color":"gray"}'
+        - '{"text":"materials you are ","color":"gray"}'
+        - "{\"text\":\"carrying.Alchemist's \",\"color\":\"gray\"}"
+        - '{"text":"SuppliesActivityDCCreate a ","color":"gray"}'
+        - '{"text":"puff of thick smoke10Identify ","color":"gray"}'
+        - '{"text":"a poison10Identify a ","color":"gray"}'
+        - '{"text":"substance15Start a ","color":"gray"}'
+        - '{"text":"fire15Neutralize acid20See the ","color":"gray"}'
+        - '{"text":"Tool Proficiencies entry for ","color":"gray"}'
+        - '{"text":"more information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 8
+    unit: lb

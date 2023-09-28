@@ -1,0 +1,31 @@
+item-type:
+  ==: NuminousItemType
+  id: scholars_pack
+  name: Scholar's Pack
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Scholar's Pack\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"Includes:a backpacka book of ","color":"gray"}'
+        - '{"text":"lorea bottle of inkan ink ","color":"gray"}'
+        - '{"text":"pen10 sheets of parchmenta ","color":"gray"}'
+        - '{"text":"little bag of sanda small ","color":"gray"}'
+        - '{"text":"knife. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 10
+    unit: lb

@@ -1,0 +1,32 @@
+item-type:
+  ==: NuminousItemType
+  id: mystery_key
+  name: Mystery Key
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: NAME_TAG
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Mystery Key","color":"white"}'
+      lore:
+        - '{"text":"A question mark is worked into ","color":"gray"}'
+        - '{"text":"the head of this key. The key ","color":"gray"}'
+        - '{"text":"has a 5 percent chance of ","color":"gray"}'
+        - '{"text":"unlocking any lock into which ","color":"gray"}'
+        - "{\"text\":\"it's inserted. Once it unlocks \",\"color\":\"gray\"}"
+        - '{"text":"something, the key disappears. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

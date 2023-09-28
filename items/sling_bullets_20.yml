@@ -1,0 +1,27 @@
+item-type:
+  ==: NuminousItemType
+  id: sling_bullets_20
+  name: Sling Bullets (20)
+  categories:
+    - AMMUNITION
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: COBBLESTONE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Sling Bullets (20)","color":"white"}'
+      lore:
+        - '{"text":" ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1.5
+    unit: lb

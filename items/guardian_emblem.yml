@@ -1,0 +1,44 @@
+item-type:
+  ==: NuminousItemType
+  id: guardian_emblem
+  name: Guardian Emblem
+  categories:
+    - WONDROUS_ITEM
+  rarity: UNCOMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: LIGHT_BLUE_BANNER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Guardian Emblem","color":"white"}'
+      lore:
+        - '{"text":"This emblem is the symbol of a ","color":"gray"}'
+        - '{"text":"deity or a spiritual ","color":"gray"}'
+        - '{"text":"tradition. As an action, you ","color":"gray"}'
+        - '{"text":"can attach the emblem to a ","color":"gray"}'
+        - '{"text":"suit of armor or a shield or ","color":"gray"}'
+        - '{"text":"remove it.The emblem has 3 ","color":"gray"}'
+        - '{"text":"charges. When you or a ","color":"gray"}'
+        - '{"text":"creature you can see within 30 ","color":"gray"}'
+        - '{"text":"feet of you suffers a critical ","color":"gray"}'
+        - "{\"text\":\"hit while you're wearing the \",\"color\":\"gray\"}"
+        - '{"text":"armor or wielding the shield ","color":"gray"}'
+        - '{"text":"that bears the emblem, you can ","color":"gray"}'
+        - '{"text":"use your reaction to expend 1 ","color":"gray"}'
+        - '{"text":"charge to turn the critical ","color":"gray"}'
+        - '{"text":"hit into a normal hit ","color":"gray"}'
+        - '{"text":"instead.The emblem regains all ","color":"gray"}'
+        - '{"text":"expended charges daily at ","color":"gray"}'
+        - '{"text":"dawn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

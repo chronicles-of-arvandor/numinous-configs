@@ -1,0 +1,37 @@
+item-type:
+  ==: NuminousItemType
+  id: 2_dragonhide_belt
+  name: +2 Dragonhide Belt
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: LEAD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"+2 Dragonhide Belt","color":"white"}'
+      lore:
+        - '{"text":"This finely detailed belt is ","color":"gray"}'
+        - '{"text":"made of dragonhide. While ","color":"gray"}'
+        - '{"text":"wearing it, you gain a +2 ","color":"gray"}'
+        - '{"text":"bonus to the saving throw DCs ","color":"gray"}'
+        - '{"text":"of your ki features. In ","color":"gray"}'
+        - '{"text":"addition, you can use an ","color":"gray"}'
+        - '{"text":"action to regain ki points ","color":"gray"}'
+        - '{"text":"equal to a roll of your ","color":"gray"}'
+        - "{\"text\":\"Martial Arts die. You can't \",\"color\":\"gray\"}"
+        - '{"text":"use this action again until ","color":"gray"}'
+        - '{"text":"the next dawn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

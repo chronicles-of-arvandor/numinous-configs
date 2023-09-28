@@ -1,0 +1,79 @@
+item-type:
+  ==: NuminousItemType
+  id: net
+  name: Net
+  categories:
+    - POTION
+    - WAND
+    - MARTIAL_WEAPON
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: COBWEB
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Net","color":"white"}'
+      lore:
+        - '{"text":"Special. A Large or smaller ","color":"gray"}'
+        - '{"text":"creature hit by a net is ","color":"gray"}'
+        - '{"text":"restrained until it is freed. ","color":"gray"}'
+        - '{"text":"A net has no effect on ","color":"gray"}'
+        - '{"text":"creatures that are formless, ","color":"gray"}'
+        - '{"text":"or creatures that are Huge or ","color":"gray"}'
+        - '{"text":"larger. A creature can use its ","color":"gray"}'
+        - '{"text":"action to make a DC 10 ","color":"gray"}'
+        - '{"text":"Strength check, freeing itself ","color":"gray"}'
+        - '{"text":"or another creature within its ","color":"gray"}'
+        - '{"text":"reach on a success. Dealing 5 ","color":"gray"}'
+        - '{"text":"slashing damage to the net (AC ","color":"gray"}'
+        - '{"text":"10) also frees the creature ","color":"gray"}'
+        - '{"text":"without harming it, ending the ","color":"gray"}'
+        - '{"text":"effect and destroying the net. ","color":"gray"}'
+        - '{"text":"When you use an action, bonus ","color":"gray"}'
+        - '{"text":"action, or reaction to attack ","color":"gray"}'
+        - '{"text":"with a net, you can make only ","color":"gray"}'
+        - '{"text":"one attack regardless of the ","color":"gray"}'
+        - '{"text":"number of attacks you can ","color":"gray"}'
+        - '{"text":"normally make. Range. A weapon ","color":"gray"}'
+        - '{"text":"that can be used to make a ","color":"gray"}'
+        - '{"text":"ranged attack has a range ","color":"gray"}'
+        - '{"text":"shown in parentheses after the ","color":"gray"}'
+        - '{"text":"ammunition or thrown property. ","color":"gray"}'
+        - '{"text":"The range lists two numbers. ","color":"gray"}'
+        - "{\"text\":\"The first is the weapon's \",\"color\":\"gray\"}"
+        - '{"text":"normal range in feet, and the ","color":"gray"}'
+        - "{\"text\":\"second indicates the weapon's \",\"color\":\"gray\"}"
+        - '{"text":"maximum range. When attacking ","color":"gray"}'
+        - '{"text":"a target beyond normal range, ","color":"gray"}'
+        - '{"text":"you have disadvantage on the ","color":"gray"}'
+        - "{\"text\":\"attack roll. You can't attack \",\"color\":\"gray\"}"
+        - "{\"text\":\"a target beyond the weapon's \",\"color\":\"gray\"}"
+        - '{"text":"long range. Thrown. If a ","color":"gray"}'
+        - '{"text":"weapon has the thrown ","color":"gray"}'
+        - '{"text":"property, you can throw the ","color":"gray"}'
+        - '{"text":"weapon to make a ranged ","color":"gray"}'
+        - '{"text":"attack. If the weapon is a ","color":"gray"}'
+        - '{"text":"melee weapon, you use the same ","color":"gray"}'
+        - '{"text":"ability modifier for that ","color":"gray"}'
+        - '{"text":"attack roll and damage roll ","color":"gray"}'
+        - '{"text":"that you would use for a melee ","color":"gray"}'
+        - '{"text":"attack with the weapon. For ","color":"gray"}'
+        - '{"text":"example, if you throw a ","color":"gray"}'
+        - '{"text":"handaxe, you use your ","color":"gray"}'
+        - '{"text":"Strength, but if you throw a ","color":"gray"}'
+        - '{"text":"dagger, you can use either ","color":"gray"}'
+        - '{"text":"your Strength or your ","color":"gray"}'
+        - '{"text":"Dexterity, since the dagger ","color":"gray"}'
+        - '{"text":"has the finesse property. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 3
+    unit: lb

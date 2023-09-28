@@ -1,0 +1,47 @@
+item-type:
+  ==: NuminousItemType
+  id: potion_of_dragons_majesty
+  name: Potion of Dragon's Majesty
+  categories:
+    - POTION
+  rarity: LEGENDARY
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: DRAGON_BREATH
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Potion of Dragon's Majesty\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"This potion looks like liquid ","color":"gray"}'
+        - '{"text":"gold, with a single scale from ","color":"gray"}'
+        - '{"text":"a chromatic, gem, or metallic ","color":"gray"}'
+        - '{"text":"dragon suspended in it. When ","color":"gray"}'
+        - '{"text":"you drink this potion, you ","color":"gray"}'
+        - '{"text":"transform into an adult dragon ","color":"gray"}'
+        - '{"text":"of the same kind as the dragon ","color":"gray"}'
+        - '{"text":"the scale came from. The ","color":"gray"}'
+        - '{"text":"transformation lasts for 1 ","color":"gray"}'
+        - '{"text":"hour. Any equipment you are ","color":"gray"}'
+        - '{"text":"wearing or carrying melds into ","color":"gray"}'
+        - '{"text":"your new form or falls to the ","color":"gray"}'
+        - '{"text":"ground (your choice). For the ","color":"gray"}'
+        - '{"text":"duration, you use the game ","color":"gray"}'
+        - '{"text":"statistics of the adult dragon ","color":"gray"}'
+        - '{"text":"instead of your own, but you ","color":"gray"}'
+        - '{"text":"retain your languages, ","color":"gray"}'
+        - '{"text":"personality, and memories. You ","color":"gray"}'
+        - "{\"text\":\"can't use a dragon's Change \",\"color\":\"gray\"}"
+        - '{"text":"Shape or its legendary or lair ","color":"gray"}'
+        - '{"text":"actions. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

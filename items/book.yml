@@ -1,0 +1,36 @@
+item-type:
+  ==: NuminousItemType
+  id: book
+  name: Book
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Book","color":"white"}'
+      lore:
+        - '{"text":"A book might contain poetry, ","color":"gray"}'
+        - '{"text":"historical accounts, ","color":"gray"}'
+        - '{"text":"information pertaining to a ","color":"gray"}'
+        - '{"text":"particular field of lore, ","color":"gray"}'
+        - '{"text":"diagrams and notes on gnomish ","color":"gray"}'
+        - '{"text":"contraptions, or just about ","color":"gray"}'
+        - '{"text":"anything else that can be ","color":"gray"}'
+        - '{"text":"represented using text or ","color":"gray"}'
+        - '{"text":"pictures. A book of spells is ","color":"gray"}'
+        - '{"text":"a spellbook. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 5
+    unit: lb

@@ -1,0 +1,37 @@
+item-type:
+  ==: NuminousItemType
+  id: splint_armor
+  name: Splint Armor
+  categories:
+    - HEAVY_ARMOUR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Splint Armor","color":"white"}'
+      lore:
+        - '{"text":"This armor is made of narrow ","color":"gray"}'
+        - '{"text":"vertical strips of metal ","color":"gray"}'
+        - '{"text":"riveted to a backing of ","color":"gray"}'
+        - '{"text":"leather that is worn over ","color":"gray"}'
+        - '{"text":"cloth padding. Flexible chain ","color":"gray"}'
+        - '{"text":"mail protects the joints.The ","color":"gray"}'
+        - '{"text":"wearer has disadvantage on ","color":"gray"}'
+        - '{"text":"Dexterity (Stealth) checks.If ","color":"gray"}'
+        - '{"text":"the wearer has a Strength ","color":"gray"}'
+        - '{"text":"score lower than 15, their ","color":"gray"}'
+        - '{"text":"speed is reduced by 10 feet. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 60
+    unit: lb

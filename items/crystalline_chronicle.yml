@@ -1,0 +1,71 @@
+item-type:
+  ==: NuminousItemType
+  id: crystalline_chronicle
+  name: Crystalline Chronicle
+  categories:
+    - WONDROUS_ITEM
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: ENDER_PEARL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Crystalline Chronicle","color":"white"}'
+      lore:
+        - '{"text":"An etched crystal sphere the ","color":"gray"}'
+        - '{"text":"size of a grapefruit hums ","color":"gray"}'
+        - '{"text":"faintly and pulses with ","color":"gray"}'
+        - '{"text":"irregular flares of inner ","color":"gray"}'
+        - '{"text":"light. While you are touching ","color":"gray"}'
+        - '{"text":"the crystal, you can retrieve ","color":"gray"}'
+        - '{"text":"and store information and ","color":"gray"}'
+        - '{"text":"spells within the crystal at ","color":"gray"}'
+        - '{"text":"the same rate as reading and ","color":"gray"}'
+        - '{"text":"writing. When found, the ","color":"gray"}'
+        - '{"text":"crystal contains the following ","color":"gray"}'
+        - '{"text":"spells: detect thoughts, ","color":"gray"}'
+        - "{\"text\":\"intellect fortress, Rary's \",\"color\":\"gray\"}"
+        - '{"text":"telepathic bond, sending, ","color":"gray"}'
+        - "{\"text\":\"telekinesis, Tasha's mind \",\"color\":\"gray\"}"
+        - "{\"text\":\"whip, and Tenser's floating \",\"color\":\"gray\"}"
+        - '{"text":"disk. It functions as a ","color":"gray"}'
+        - '{"text":"spellbook for you, with its ","color":"gray"}'
+        - '{"text":"spells and other writing ","color":"gray"}'
+        - '{"text":"psychically encoded within ","color":"gray"}'
+        - '{"text":"it.While you are holding the ","color":"gray"}'
+        - '{"text":"crystal, you can use it as a ","color":"gray"}'
+        - '{"text":"spellcasting focus for your ","color":"gray"}'
+        - '{"text":"wizard spells, and you know ","color":"gray"}'
+        - '{"text":"the mage hand, mind sliver ","color":"gray"}'
+        - '{"text":"(appears in this book), and ","color":"gray"}'
+        - "{\"text\":\"message cantrips if you don't \",\"color\":\"gray\"}"
+        - '{"text":"already know them.The crystal ","color":"gray"}'
+        - '{"text":"has 3 charges, and it regains ","color":"gray"}'
+        - '{"text":"1d3 expended charges daily at ","color":"gray"}'
+        - '{"text":"dawn. You can use the charges ","color":"gray"}'
+        - '{"text":"in the following ways while ","color":"gray"}'
+        - '{"text":"holding it:If you spend 1 ","color":"gray"}'
+        - '{"text":"minute studying the ","color":"gray"}'
+        - '{"text":"information within the ","color":"gray"}'
+        - '{"text":"crystal, you can expend 1 ","color":"gray"}'
+        - '{"text":"charge to replace one of your ","color":"gray"}'
+        - '{"text":"prepared wizard spells with a ","color":"gray"}'
+        - '{"text":"different spell in the ","color":"gray"}'
+        - '{"text":"book.When you cast a wizard ","color":"gray"}'
+        - '{"text":"spell, you can expend 1 charge ","color":"gray"}'
+        - '{"text":"to cast the spell without ","color":"gray"}'
+        - '{"text":"verbal, somatic, or material ","color":"gray"}'
+        - '{"text":"components of up to 100 gp ","color":"gray"}'
+        - '{"text":"value. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 3
+    unit: lb

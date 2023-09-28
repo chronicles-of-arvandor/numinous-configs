@@ -1,0 +1,52 @@
+item-type:
+  ==: NuminousItemType
+  id: hunting_trap
+  name: Hunting Trap
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: MUSIC_DISC_BLOCKS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Hunting Trap","color":"white"}'
+      lore:
+        - '{"text":"When you use your action to ","color":"gray"}'
+        - '{"text":"set it, this trap forms a ","color":"gray"}'
+        - '{"text":"saw-toothed steel ring that ","color":"gray"}'
+        - '{"text":"snaps shut when a creature ","color":"gray"}'
+        - '{"text":"steps on a pressure plate in ","color":"gray"}'
+        - '{"text":"the center. The trap is ","color":"gray"}'
+        - '{"text":"affixed by a heavy chain to an ","color":"gray"}'
+        - '{"text":"immobile object, such as a ","color":"gray"}'
+        - '{"text":"tree or a spike driven into ","color":"gray"}'
+        - '{"text":"the ground. A creature that ","color":"gray"}'
+        - '{"text":"steps on the plate must ","color":"gray"}'
+        - '{"text":"succeed on a DC 13 Dexterity ","color":"gray"}'
+        - '{"text":"saving throw or take 1d4 ","color":"gray"}'
+        - '{"text":"piercing damage and stop ","color":"gray"}'
+        - '{"text":"moving. Thereafter, until the ","color":"gray"}'
+        - '{"text":"creature breaks free of the ","color":"gray"}'
+        - '{"text":"trap, its movement is limited ","color":"gray"}'
+        - '{"text":"by the length of the chain ","color":"gray"}'
+        - '{"text":"(typically 3 feet long). A ","color":"gray"}'
+        - '{"text":"creature can use its action to ","color":"gray"}'
+        - '{"text":"make a DC 13 Strength check, ","color":"gray"}'
+        - '{"text":"freeing itself or another ","color":"gray"}'
+        - '{"text":"creature within its reach on a ","color":"gray"}'
+        - '{"text":"success. Each failed check ","color":"gray"}'
+        - '{"text":"deals 1 piercing damage to the ","color":"gray"}'
+        - '{"text":"trapped creature. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 25
+    unit: lb

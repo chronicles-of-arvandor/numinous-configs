@@ -1,0 +1,51 @@
+item-type:
+  ==: NuminousItemType
+  id: 3_moon_sickle
+  name: +3 Moon Sickle
+  categories:
+    - GAMING_SET
+    - SIMPLE_WEAPON
+    - MELEE_WEAPON
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"+3 Moon Sickle","color":"white"}'
+      lore:
+        - '{"text":"This silver-bladed sickle ","color":"gray"}'
+        - '{"text":"glimmers softly with ","color":"gray"}'
+        - '{"text":"moonlight. While holding this ","color":"gray"}'
+        - '{"text":"magic weapon, you gain a +3 ","color":"gray"}'
+        - '{"text":"bonus to attack and damage ","color":"gray"}'
+        - '{"text":"rolls made with it, and you ","color":"gray"}'
+        - '{"text":"gain a +3 bonus to spell ","color":"gray"}'
+        - '{"text":"attack rolls and the saving ","color":"gray"}'
+        - '{"text":"throw DCs of your druid and ","color":"gray"}'
+        - '{"text":"ranger spells. In addition, ","color":"gray"}'
+        - '{"text":"you can use the sickle as a ","color":"gray"}'
+        - '{"text":"spellcasting focus for your ","color":"gray"}'
+        - '{"text":"druid and ranger spells.When ","color":"gray"}'
+        - '{"text":"you cast a spell that restores ","color":"gray"}'
+        - '{"text":"hit points, you can roll a d4 ","color":"gray"}'
+        - '{"text":"and add the number rolled to ","color":"gray"}'
+        - '{"text":"the amount of hit points ","color":"gray"}'
+        - '{"text":"restored, provided you are ","color":"gray"}'
+        - '{"text":"holding the sickle. Light. A ","color":"gray"}'
+        - '{"text":"light weapon is small and easy ","color":"gray"}'
+        - '{"text":"to handle, making it ideal for ","color":"gray"}'
+        - '{"text":"use when fighting with two ","color":"gray"}'
+        - '{"text":"weapons. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 2
+    unit: lb

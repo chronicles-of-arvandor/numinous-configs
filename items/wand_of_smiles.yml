@@ -1,0 +1,40 @@
+item-type:
+  ==: NuminousItemType
+  id: wand_of_smiles
+  name: Wand of Smiles
+  categories:
+    - WAND
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: POPPY
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Wand of Smiles","color":"white"}'
+      lore:
+        - '{"text":"This wand has 3 charges. While ","color":"gray"}'
+        - '{"text":"holding it, you can use an ","color":"gray"}'
+        - '{"text":"action to expend 1 of its ","color":"gray"}'
+        - '{"text":"charges and target a humanoid ","color":"gray"}'
+        - '{"text":"you can see within 30 feet of ","color":"gray"}'
+        - '{"text":"you. The target must succeed ","color":"gray"}'
+        - '{"text":"on a DC 10 Charisma saving ","color":"gray"}'
+        - '{"text":"throw or be forced to smile ","color":"gray"}'
+        - '{"text":"for 1 minute.The wand regains ","color":"gray"}'
+        - '{"text":"all expended charges daily at ","color":"gray"}'
+        - "{\"text\":\"dawn. If you expend the wand's \",\"color\":\"gray\"}"
+        - '{"text":"last charge, roll a d20. On a ","color":"gray"}'
+        - '{"text":"1, the wand transforms into a ","color":"gray"}'
+        - '{"text":"wand of scowls. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

@@ -1,0 +1,44 @@
+item-type:
+  ==: NuminousItemType
+  id: outer_essence_shard_evil
+  name: Outer Essence Shard (Evil)
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: AMETHYST_SHARD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Outer Essence Shard (Evil)","color":"white"}'
+      lore:
+        - '{"text":"This flickering crystal holds ","color":"gray"}'
+        - '{"text":"the essence of an Outer Plane. ","color":"gray"}'
+        - '{"text":"As an action, you can attach ","color":"gray"}'
+        - '{"text":"the shard to a Tiny object ","color":"gray"}'
+        - '{"text":"(such as a weapon or a piece ","color":"gray"}'
+        - '{"text":"of jewelry) or detach it. It ","color":"gray"}'
+        - '{"text":"falls off if your attunement ","color":"gray"}'
+        - '{"text":"to it ends. You can use the ","color":"gray"}'
+        - '{"text":"shard as a spellcasting focus ","color":"gray"}'
+        - '{"text":"while you hold or wear it.When ","color":"gray"}'
+        - '{"text":"you use a Metamagic option on ","color":"gray"}'
+        - '{"text":"a spell while you are holding ","color":"gray"}'
+        - '{"text":"or wearing the shard, you can ","color":"gray"}'
+        - '{"text":"use that property. Property. ","color":"gray"}'
+        - '{"text":"Choose one creature who takes ","color":"gray"}'
+        - '{"text":"damage from the spell. That ","color":"gray"}'
+        - '{"text":"target takes an extra 3d6 ","color":"gray"}'
+        - '{"text":"necrotic damage. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

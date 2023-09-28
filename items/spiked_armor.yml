@@ -1,0 +1,34 @@
+item-type:
+  ==: NuminousItemType
+  id: spiked_armor
+  name: Spiked Armor
+  categories:
+    - MEDIUM_ARMOUR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Spiked Armor","color":"white"}'
+      lore:
+        - '{"text":"Spiked armor is a rare type of ","color":"gray"}'
+        - '{"text":"medium armor made by dwarves. ","color":"gray"}'
+        - '{"text":"It consists of a leather coat ","color":"gray"}'
+        - '{"text":"and leggings covered with ","color":"gray"}'
+        - '{"text":"spikes that are usually made ","color":"gray"}'
+        - '{"text":"of metal.The wearer has ","color":"gray"}'
+        - '{"text":"disadvantage on Dexterity ","color":"gray"}'
+        - '{"text":"(Stealth) checks. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 45
+    unit: lb

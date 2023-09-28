@@ -1,0 +1,65 @@
+item-type:
+  ==: NuminousItemType
+  id: smiths_tools
+  name: Smith's Tools
+  categories:
+    - ARTISANS_TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: SMITHING_TABLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Smith's Tools\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"These special tools include ","color":"gray"}'
+        - '{"text":"the items needed to pursue a ","color":"gray"}'
+        - '{"text":"craft or trade. Proficiency ","color":"gray"}'
+        - "{\"text\":\"with a set of artisan's tools \",\"color\":\"gray\"}"
+        - '{"text":"lets you add your proficiency ","color":"gray"}'
+        - '{"text":"bonus to any ability checks ","color":"gray"}'
+        - '{"text":"you make using the tools in ","color":"gray"}'
+        - '{"text":"your craft. Each type of ","color":"gray"}'
+        - "{\"text\":\"artisan's tools requires a \",\"color\":\"gray\"}"
+        - "{\"text\":\"separate proficiency.Smith's \",\"color\":\"gray\"}"
+        - '{"text":"tools allow you to work metal, ","color":"gray"}'
+        - '{"text":"heating it to alter its shape, ","color":"gray"}'
+        - '{"text":"repair damage, or work raw ","color":"gray"}'
+        - '{"text":"ingots into useful items. ","color":"gray"}'
+        - "{\"text\":\"Components. Smith's tools \",\"color\":\"gray\"}"
+        - '{"text":"include hammers, tongs, ","color":"gray"}'
+        - '{"text":"charcoal, rags, and a ","color":"gray"}'
+        - '{"text":"whetstone. Arcana and History. ","color":"gray"}'
+        - '{"text":"Your expertise lends you ","color":"gray"}'
+        - '{"text":"additional insight when ","color":"gray"}'
+        - '{"text":"examining metal objects, such ","color":"gray"}'
+        - '{"text":"as weapons. Investigation. You ","color":"gray"}'
+        - '{"text":"can spot clues and make ","color":"gray"}'
+        - '{"text":"deductions that others might ","color":"gray"}'
+        - '{"text":"overlook when an investigation ","color":"gray"}'
+        - '{"text":"involves armor, weapons, or ","color":"gray"}'
+        - '{"text":"other metalwork. Repair. With ","color":"gray"}'
+        - '{"text":"access to your tools and an ","color":"gray"}'
+        - '{"text":"open flame hot enough to make ","color":"gray"}'
+        - '{"text":"metal pliable, you can restore ","color":"gray"}'
+        - '{"text":"10 hit points to a damaged ","color":"gray"}'
+        - '{"text":"metal object for each hour of ","color":"gray"}'
+        - "{\"text\":\"work.Smith's \",\"color\":\"gray\"}"
+        - '{"text":"ToolsActivityDCSharpen a dull ","color":"gray"}'
+        - '{"text":"blade10Repair a suit of ","color":"gray"}'
+        - '{"text":"armor15Sunder a nonmagical ","color":"gray"}'
+        - '{"text":"metal object15See the Tool ","color":"gray"}'
+        - '{"text":"Proficiencies entry for more ","color":"gray"}'
+        - '{"text":"information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 8
+    unit: lb

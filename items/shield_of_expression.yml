@@ -1,0 +1,32 @@
+item-type:
+  ==: NuminousItemType
+  id: shield_of_expression
+  name: Shield of Expression
+  categories:
+    - SHIELD
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Shield of Expression","color":"white"}'
+      lore:
+        - '{"text":"The front of this shield is ","color":"gray"}'
+        - '{"text":"shaped in the likeness of a ","color":"gray"}'
+        - '{"text":"face. While bearing the ","color":"gray"}'
+        - '{"text":"shield, you can use a bonus ","color":"gray"}'
+        - "{\"text\":\"action to alter the face's \",\"color\":\"gray\"}"
+        - '{"text":"expression. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 6
+    unit: lb

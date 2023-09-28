@@ -1,0 +1,75 @@
+item-type:
+  ==: NuminousItemType
+  id: glassblowers_tools
+  name: Glassblower's Tools
+  categories:
+    - ARTISANS_TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: SHEARS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Glassblower's Tools\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"These special tools include ","color":"gray"}'
+        - '{"text":"the items needed to pursue a ","color":"gray"}'
+        - '{"text":"craft or trade. Proficiency ","color":"gray"}'
+        - "{\"text\":\"with a set of artisan's tools \",\"color\":\"gray\"}"
+        - '{"text":"lets you add your proficiency ","color":"gray"}'
+        - '{"text":"bonus to any ability checks ","color":"gray"}'
+        - '{"text":"you make using the tools in ","color":"gray"}'
+        - '{"text":"your craft. Each type of ","color":"gray"}'
+        - "{\"text\":\"artisan's tools requires a \",\"color\":\"gray\"}"
+        - '{"text":"separate proficiency.Someone ","color":"gray"}'
+        - '{"text":"who is proficient with ","color":"gray"}'
+        - "{\"text\":\"glassblower's tools has not \",\"color\":\"gray\"}"
+        - '{"text":"only the ability to shape ","color":"gray"}'
+        - '{"text":"glass, but also specialized ","color":"gray"}'
+        - '{"text":"knowledge of the methods used ","color":"gray"}'
+        - '{"text":"to produce glass objects. ","color":"gray"}'
+        - '{"text":"Components. The tools include ","color":"gray"}'
+        - '{"text":"a blowpipe, a small marver, ","color":"gray"}'
+        - '{"text":"blocks, and tweezers. You need ","color":"gray"}'
+        - '{"text":"a source of heat to work ","color":"gray"}'
+        - '{"text":"glass. Arcana, History. Your ","color":"gray"}'
+        - '{"text":"knowledge of glassmaking ","color":"gray"}'
+        - '{"text":"techniques aids you when you ","color":"gray"}'
+        - '{"text":"examine glass objects, such as ","color":"gray"}'
+        - '{"text":"potion bottles or glass items ","color":"gray"}'
+        - '{"text":"found in a treasure hoard. For ","color":"gray"}'
+        - '{"text":"instance, you can study how a ","color":"gray"}'
+        - '{"text":"glass potion bottle has been ","color":"gray"}'
+        - '{"text":"changed by its contents to ","color":"gray"}'
+        - "{\"text\":\"help determine a potion's \",\"color\":\"gray\"}"
+        - '{"text":"effects. (A potion might leave ","color":"gray"}'
+        - '{"text":"behind a residue, deform the ","color":"gray"}'
+        - '{"text":"glass, or stain it.) ","color":"gray"}'
+        - '{"text":"Investigation. When you study ","color":"gray"}'
+        - '{"text":"an area, your knowledge can ","color":"gray"}'
+        - '{"text":"aid you if the clues include ","color":"gray"}'
+        - '{"text":"broken glass or glass objects. ","color":"gray"}'
+        - '{"text":"Identify Weakness. With 1 ","color":"gray"}'
+        - '{"text":"minute of study, you can ","color":"gray"}'
+        - '{"text":"identify the weak points in a ","color":"gray"}'
+        - '{"text":"glass object. Any damage dealt ","color":"gray"}'
+        - '{"text":"to the object by striking a ","color":"gray"}'
+        - '{"text":"weak spot is ","color":"gray"}'
+        - "{\"text\":\"doubled.Glassblower's \",\"color\":\"gray\"}"
+        - '{"text":"ToolsActivityDCIdentify source ","color":"gray"}'
+        - '{"text":"of glass10Determine what a ","color":"gray"}'
+        - '{"text":"glass object once held20See ","color":"gray"}'
+        - '{"text":"the Tool Proficiencies entry ","color":"gray"}'
+        - '{"text":"for more information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 5
+    unit: lb

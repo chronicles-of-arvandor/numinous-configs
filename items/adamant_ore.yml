@@ -1,0 +1,28 @@
+item-type:
+  ==: NuminousItemType
+  id: adamant_ore
+  name: Adamant Ore
+  categories:
+    - CRAFTING_MATERIAL
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: NETHERITE_SCRAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Adamant Ore","color":"white"}'
+      lore:
+        - '{"text":"Jet-black adamant ore from the ","color":"gray"}'
+        - '{"text":"depths of Toril. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

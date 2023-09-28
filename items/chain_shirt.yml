@@ -1,0 +1,35 @@
+item-type:
+  ==: NuminousItemType
+  id: chain_shirt
+  name: Chain Shirt
+  categories:
+    - MEDIUM_ARMOUR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: CHAINMAIL_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Chain Shirt","color":"white"}'
+      lore:
+        - '{"text":"Made of interlocking metal ","color":"gray"}'
+        - '{"text":"rings, a chain shirt is worn ","color":"gray"}'
+        - '{"text":"between layers of clothing or ","color":"gray"}'
+        - '{"text":"leather. This armor offers ","color":"gray"}'
+        - '{"text":"modest protection to the ","color":"gray"}'
+        - "{\"text\":\"wearer's upper body and allows \",\"color\":\"gray\"}"
+        - '{"text":"the sound of the rings rubbing ","color":"gray"}'
+        - '{"text":"against one another to be ","color":"gray"}'
+        - '{"text":"muffled by outer layers. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 20
+    unit: lb

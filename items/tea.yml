@@ -1,0 +1,30 @@
+item-type:
+  ==: NuminousItemType
+  id: tea
+  name: Tea
+  categories:
+    - FOOD_AND_DRINK
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Tea","color":"white"}'
+      lore:
+        - '{"text":"A herbal liquid beverage ","color":"gray"}'
+        - '{"text":"resulting from the boiling and ","color":"gray"}'
+        - '{"text":"steeping of tea leaves in ","color":"gray"}'
+        - '{"text":"water. Enjoyd by many. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

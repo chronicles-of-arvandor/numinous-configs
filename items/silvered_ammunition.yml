@@ -1,0 +1,53 @@
+item-type:
+  ==: NuminousItemType
+  id: silvered_ammunition
+  name: Silvered Ammunition
+  categories:
+    - AMMUNITION
+    - VEHICLE_LAND
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_ORE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Silvered Ammunition","color":"white"}'
+      lore:
+        - '{"text":"Some monsters that have ","color":"gray"}'
+        - '{"text":"immunity or resistance to ","color":"gray"}'
+        - '{"text":"nonmagical weapons are ","color":"gray"}'
+        - '{"text":"susceptible to silver ","color":"gray"}'
+        - '{"text":"ammunition, so cautious ","color":"gray"}'
+        - '{"text":"adventurers invest extra coin ","color":"gray"}'
+        - '{"text":"to plate their ammunition in ","color":"gray"}'
+        - '{"text":"silver. You can silver ten ","color":"gray"}'
+        - '{"text":"pieces of ammunition for 100 ","color":"gray"}'
+        - '{"text":"gp. This cost represents not ","color":"gray"}'
+        - '{"text":"only the price of the silver, ","color":"gray"}'
+        - '{"text":"but the time and expertise ","color":"gray"}'
+        - '{"text":"needed to add silver to the ","color":"gray"}'
+        - '{"text":"ammunition without making it ","color":"gray"}'
+        - '{"text":"less effective. Base items. ","color":"gray"}'
+        - '{"text":"This item variant can be ","color":"gray"}'
+        - '{"text":"applied to the following base ","color":"gray"}'
+        - '{"text":"items:Arrow (Silvered ","color":"gray"}'
+        - '{"text":"Arrow)Blowgun Needle (Silvered ","color":"gray"}'
+        - '{"text":"Blowgun Needle)Crossbow Bolt ","color":"gray"}'
+        - '{"text":"(Silvered Crossbow Bolt)Modern ","color":"gray"}'
+        - '{"text":"Bullet (Silvered Modern ","color":"gray"}'
+        - '{"text":"Bullet)Renaissance Bullet ","color":"gray"}'
+        - '{"text":"(Silvered Renaissance ","color":"gray"}'
+        - '{"text":"Bullet)Sling Bullet (Silvered ","color":"gray"}'
+        - '{"text":"Sling Bullet) ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

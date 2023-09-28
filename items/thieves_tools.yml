@@ -1,0 +1,80 @@
+item-type:
+  ==: NuminousItemType
+  id: thieves_tools
+  name: Thieves' Tools
+  categories:
+    - TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: FLINT_AND_STEEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Thieves' Tools\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"This set of tools includes a ","color":"gray"}'
+        - '{"text":"small file, a set of lock ","color":"gray"}'
+        - '{"text":"picks, a small mirror mounted ","color":"gray"}'
+        - '{"text":"on a metal handle, a set of ","color":"gray"}'
+        - '{"text":"narrow-bladed scissors, and a ","color":"gray"}'
+        - '{"text":"pair of pliers. Proficiency ","color":"gray"}'
+        - '{"text":"with these tools lets you add ","color":"gray"}'
+        - '{"text":"your proficiency bonus to any ","color":"gray"}'
+        - '{"text":"ability checks you make to ","color":"gray"}'
+        - '{"text":"disarm traps or open ","color":"gray"}'
+        - '{"text":"locks.Perhaps the most common ","color":"gray"}'
+        - '{"text":"tools used by adventurers, ","color":"gray"}'
+        - "{\"text\":\"thieves' tools are designed \",\"color\":\"gray\"}"
+        - '{"text":"for picking locks and foiling ","color":"gray"}'
+        - '{"text":"traps. Proficiency with the ","color":"gray"}'
+        - '{"text":"tools also grants you a ","color":"gray"}'
+        - '{"text":"general knowledge of traps and ","color":"gray"}'
+        - "{\"text\":\"locks. Components. Thieves' \",\"color\":\"gray\"}"
+        - '{"text":"tools include a small file, a ","color":"gray"}'
+        - '{"text":"set of lock picks, a small ","color":"gray"}'
+        - '{"text":"mirror mounted on a metal ","color":"gray"}'
+        - '{"text":"handle, a set of narrow-bladed ","color":"gray"}'
+        - '{"text":"scissors, and a pair of ","color":"gray"}'
+        - '{"text":"pliers. History. Your ","color":"gray"}'
+        - '{"text":"knowledge of traps grants you ","color":"gray"}'
+        - '{"text":"insight when answering ","color":"gray"}'
+        - '{"text":"questions about locations that ","color":"gray"}'
+        - '{"text":"are renowned for their traps. ","color":"gray"}'
+        - '{"text":"Investigation and Perception. ","color":"gray"}'
+        - '{"text":"You gain additional insight ","color":"gray"}'
+        - '{"text":"when looking for traps, ","color":"gray"}'
+        - '{"text":"because you have learned a ","color":"gray"}'
+        - '{"text":"variety of common signs that ","color":"gray"}'
+        - '{"text":"betray their presence. Set a ","color":"gray"}'
+        - '{"text":"Trap. Just as you can disable ","color":"gray"}'
+        - '{"text":"traps, you can also set them. ","color":"gray"}'
+        - '{"text":"As part of a short rest, you ","color":"gray"}'
+        - '{"text":"can create a trap using items ","color":"gray"}'
+        - '{"text":"you have on hand. The total of ","color":"gray"}'
+        - '{"text":"your check becomes the DC for ","color":"gray"}'
+        - "{\"text\":\"someone else's attempt to \",\"color\":\"gray\"}"
+        - '{"text":"discover or disable the trap. ","color":"gray"}'
+        - '{"text":"The trap deals damage ","color":"gray"}'
+        - '{"text":"appropriate to the materials ","color":"gray"}'
+        - '{"text":"used in crafting it (such as ","color":"gray"}'
+        - '{"text":"poison or a weapon) or damage ","color":"gray"}'
+        - '{"text":"equal to half the total of ","color":"gray"}'
+        - '{"text":"your check, whichever the DM ","color":"gray"}'
+        - "{\"text\":\"deems appropriate.Thieves' \",\"color\":\"gray\"}"
+        - '{"text":"ToolsActivityDCPick a ","color":"gray"}'
+        - '{"text":"lockVariesDisable a ","color":"gray"}'
+        - '{"text":"trapVariesSee the Tool ","color":"gray"}'
+        - '{"text":"Proficiencies entry for more ","color":"gray"}'
+        - '{"text":"information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

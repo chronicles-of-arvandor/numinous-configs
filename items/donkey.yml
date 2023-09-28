@@ -1,0 +1,27 @@
+item-type:
+  ==: NuminousItemType
+  id: donkey
+  name: Donkey
+  categories:
+    - MOUNT
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: DONKEY_SPAWN_EGG
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Donkey","color":"white"}'
+      lore:
+        - '{"text":" ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

@@ -1,0 +1,63 @@
+item-type:
+  ==: NuminousItemType
+  id: navigators_tools
+  name: Navigator's Tools
+  categories:
+    - TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: COMPASS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Navigator's Tools\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"This set of instruments is ","color":"gray"}'
+        - '{"text":"used for navigation at sea. ","color":"gray"}'
+        - "{\"text\":\"Proficiency with navigator's \",\"color\":\"gray\"}"
+        - "{\"text\":\"tools lets you chart a ship's \",\"color\":\"gray\"}"
+        - '{"text":"course and follow navigation ","color":"gray"}'
+        - '{"text":"charts. In addition, these ","color":"gray"}'
+        - '{"text":"tools allow you to add your ","color":"gray"}'
+        - '{"text":"proficiency bonus to any ","color":"gray"}'
+        - '{"text":"ability check you make to ","color":"gray"}'
+        - '{"text":"avoid getting lost at ","color":"gray"}'
+        - '{"text":"sea.Proficiency with ","color":"gray"}'
+        - "{\"text\":\"navigator's tools helps you \",\"color\":\"gray\"}"
+        - '{"text":"determine a true course based ","color":"gray"}'
+        - '{"text":"on observing the stars. It ","color":"gray"}'
+        - '{"text":"also grants you insight into ","color":"gray"}'
+        - '{"text":"charts and maps while ","color":"gray"}'
+        - '{"text":"developing your sense of ","color":"gray"}'
+        - '{"text":"direction. Components. ","color":"gray"}'
+        - "{\"text\":\"Navigator's tools include a \",\"color\":\"gray\"}"
+        - '{"text":"sextant, a compass, calipers, ","color":"gray"}'
+        - '{"text":"a ruler, parchment, ink, and a ","color":"gray"}'
+        - '{"text":"quill. Survival. Knowledge of ","color":"gray"}'
+        - "{\"text\":\"navigator's tools helps you \",\"color\":\"gray\"}"
+        - '{"text":"avoid becoming lost and also ","color":"gray"}'
+        - '{"text":"grants you insight into the ","color":"gray"}'
+        - '{"text":"most likely location for roads ","color":"gray"}'
+        - '{"text":"and settlements. Sighting. By ","color":"gray"}'
+        - '{"text":"taking careful measurements, ","color":"gray"}'
+        - '{"text":"you can determine your ","color":"gray"}'
+        - '{"text":"position on a nautical chart ","color":"gray"}'
+        - '{"text":"and the time of ","color":"gray"}'
+        - "{\"text\":\"day.Navigator's \",\"color\":\"gray\"}"
+        - '{"text":"ToolsActivityDCPlot a ","color":"gray"}'
+        - '{"text":"course10Discover your position ","color":"gray"}'
+        - '{"text":"on a nautical chart15See the ","color":"gray"}'
+        - '{"text":"Tool Proficiencies entry for ","color":"gray"}'
+        - '{"text":"more information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 2
+    unit: lb

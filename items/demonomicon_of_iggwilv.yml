@@ -1,0 +1,165 @@
+item-type:
+  ==: NuminousItemType
+  id: demonomicon_of_iggwilv
+  name: Demonomicon of Iggwilv
+  categories:
+    - WONDROUS_ITEM
+  rarity: UNIQUE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Demonomicon of Iggwilv","color":"white"}'
+      lore:
+        - '{"text":"An expansive treatise ","color":"gray"}'
+        - "{\"text\":\"documenting the Abyss's \",\"color\":\"gray\"}"
+        - '{"text":"infinite layers and ","color":"gray"}'
+        - '{"text":"inhabitants, the Demonomicon ","color":"gray"}'
+        - '{"text":"of Iggwilv is the most ","color":"gray"}'
+        - '{"text":"thorough and blasphemous tome ","color":"gray"}'
+        - '{"text":"of demonology in the ","color":"gray"}'
+        - '{"text":"multiverse. The tome recounts ","color":"gray"}'
+        - '{"text":"both the oldest and most ","color":"gray"}'
+        - '{"text":"current profanities of the ","color":"gray"}'
+        - '{"text":"Abyss and demons. Demons have ","color":"gray"}'
+        - '{"text":"attempted to censor the text, ","color":"gray"}'
+        - '{"text":"and while sections have been ","color":"gray"}'
+        - "{\"text\":\"ripped from the book's spine, \",\"color\":\"gray\"}"
+        - '{"text":"the general chapters remain, ","color":"gray"}'
+        - '{"text":"ever revealing demonic ","color":"gray"}'
+        - '{"text":"secrets. And the book holds ","color":"gray"}'
+        - '{"text":"more than blasphemies. Caged ","color":"gray"}'
+        - '{"text":"behind lines of script roils a ","color":"gray"}'
+        - '{"text":"secret piece of the Abyss ","color":"gray"}'
+        - '{"text":"itself, which keeps the book ","color":"gray"}'
+        - '{"text":"up-to-date, no matter how many ","color":"gray"}'
+        - '{"text":"pages are removed, and it ","color":"gray"}'
+        - '{"text":"longs to be more than mere ","color":"gray"}'
+        - '{"text":"reference material. Random ","color":"gray"}'
+        - '{"text":"Properties. The artifact has ","color":"gray"}'
+        - '{"text":"the follow random properties, ","color":"gray"}'
+        - '{"text":"which you can determine by ","color":"gray"}'
+        - '{"text":"rolling on the tables in the ","color":"gray"}'
+        - '{"text":"\"Artifacts\" section of the ","color":"gray"}'
+        - "{\"text\":\"Dungeon Master's Guide:2 minor \",\"color\":\"gray\"}"
+        - '{"text":"beneficial properties1 minor ","color":"gray"}'
+        - '{"text":"detrimental property1 major ","color":"gray"}'
+        - '{"text":"detrimental property Spells. ","color":"gray"}'
+        - '{"text":"The book has 8 charges. It ","color":"gray"}'
+        - '{"text":"regains 1d8 expended charges ","color":"gray"}'
+        - '{"text":"daily at dawn. While holding ","color":"gray"}'
+        - '{"text":"it, you can use an action to ","color":"gray"}'
+        - "{\"text\":\"cast Tasha's hideous laughter \",\"color\":\"gray\"}"
+        - '{"text":"from it or to expend 1 or more ","color":"gray"}'
+        - '{"text":"of its charges to cast one of ","color":"gray"}'
+        - '{"text":"the following spells (save DC ","color":"gray"}'
+        - '{"text":"20) from it: magic circle (1 ","color":"gray"}'
+        - '{"text":"charge), magic jar (3 ","color":"gray"}'
+        - '{"text":"charges), planar ally (3 ","color":"gray"}'
+        - '{"text":"charges), planar binding (2 ","color":"gray"}'
+        - '{"text":"charges), plane shift (to ","color":"gray"}'
+        - '{"text":"layers of the Abyss only; 3 ","color":"gray"}'
+        - '{"text":"charges), summon fiend (3 ","color":"gray"}'
+        - '{"text":"charges). Abyssal Reference. ","color":"gray"}'
+        - '{"text":"You can reference the ","color":"gray"}'
+        - '{"text":"Demonomicon whenever you make ","color":"gray"}'
+        - '{"text":"an Intelligence check to ","color":"gray"}'
+        - '{"text":"discern information about ","color":"gray"}'
+        - '{"text":"demons or a Wisdom (Survival) ","color":"gray"}'
+        - '{"text":"check related to the Abyss. ","color":"gray"}'
+        - '{"text":"When you do so, you can add ","color":"gray"}'
+        - '{"text":"double your proficiency bonus ","color":"gray"}'
+        - '{"text":"to the check. Fiendish ","color":"gray"}'
+        - '{"text":"Scourging. Your magic causes ","color":"gray"}'
+        - '{"text":"pain to fiends. While carrying ","color":"gray"}'
+        - '{"text":"the book, when you make a ","color":"gray"}'
+        - '{"text":"damage roll for a spell you ","color":"gray"}'
+        - '{"text":"cast against a fiend, you use ","color":"gray"}'
+        - '{"text":"the maximum possible result ","color":"gray"}'
+        - '{"text":"instead of rolling. ","color":"gray"}'
+        - '{"text":"Ensnarement. While carrying ","color":"gray"}'
+        - '{"text":"the book, whenever you cast ","color":"gray"}'
+        - '{"text":"the magic circle spell naming ","color":"gray"}'
+        - '{"text":"only fiends, or the planar ","color":"gray"}'
+        - '{"text":"binding spell targeting a ","color":"gray"}'
+        - '{"text":"fiend, the spell is cast at ","color":"gray"}'
+        - '{"text":"9th level, regardless of what ","color":"gray"}'
+        - '{"text":"level spell slot you used, if ","color":"gray"}'
+        - '{"text":"any. Additionally, the fiend ","color":"gray"}'
+        - '{"text":"has disadvantage on its saving ","color":"gray"}'
+        - '{"text":"throw against the spell. ","color":"gray"}'
+        - '{"text":"Containment. The first 10 ","color":"gray"}'
+        - '{"text":"pages of the Demonomicon are ","color":"gray"}'
+        - '{"text":"blank. As an action while ","color":"gray"}'
+        - '{"text":"holding the book, you can ","color":"gray"}'
+        - '{"text":"target a fiend that you can ","color":"gray"}'
+        - '{"text":"see that is trapped within a ","color":"gray"}'
+        - '{"text":"magic circle. The fiend must ","color":"gray"}'
+        - '{"text":"succeed on a DC 20 Charisma ","color":"gray"}'
+        - '{"text":"saving throw with disadvantage ","color":"gray"}'
+        - '{"text":"or become trapped within one ","color":"gray"}'
+        - "{\"text\":\"of the Demonomicon's empty \",\"color\":\"gray\"}"
+        - '{"text":"blank pages, which fills with ","color":"gray"}'
+        - '{"text":"writing detailing the trapped ","color":"gray"}'
+        - "{\"text\":\"creature's widely known name \",\"color\":\"gray\"}"
+        - '{"text":"and depravities. Once used, ","color":"gray"}'
+        - "{\"text\":\"this action can't be used \",\"color\":\"gray\"}"
+        - '{"text":"again until the next dawn.When ","color":"gray"}'
+        - '{"text":"you finish a long rest, if you ","color":"gray"}'
+        - '{"text":"and the Demonomicon are on the ","color":"gray"}'
+        - '{"text":"same plane of existence, the ","color":"gray"}'
+        - '{"text":"trapped creature of the ","color":"gray"}'
+        - '{"text":"highest challenge rating ","color":"gray"}'
+        - '{"text":"within the book can attempt to ","color":"gray"}'
+        - '{"text":"possess you. You must make a ","color":"gray"}'
+        - '{"text":"DC 20 Charisma saving throw. ","color":"gray"}'
+        - '{"text":"On a failure, you are ","color":"gray"}'
+        - '{"text":"possessed by the creature, ","color":"gray"}'
+        - '{"text":"which controls you like a ","color":"gray"}'
+        - '{"text":"puppet. The possessing ","color":"gray"}'
+        - '{"text":"creature can release you as an ","color":"gray"}'
+        - '{"text":"action, appearing in the ","color":"gray"}'
+        - '{"text":"closest unoccupied space. On a ","color":"gray"}'
+        - '{"text":"successful save, the fiend ","color":"gray"}'
+        - "{\"text\":\"can't try to possess you again \",\"color\":\"gray\"}"
+        - '{"text":"for 7 days.When the tome is ","color":"gray"}'
+        - '{"text":"discovered, it has 1d4 fiends ","color":"gray"}'
+        - '{"text":"occupying its pages, typically ","color":"gray"}'
+        - '{"text":"an assortment of demons. ","color":"gray"}'
+        - '{"text":"Destroying the Demonomicon. To ","color":"gray"}'
+        - '{"text":"destroy the book, six ","color":"gray"}'
+        - '{"text":"different demon lords must ","color":"gray"}'
+        - '{"text":"each tear out a sixth of the ","color":"gray"}'
+        - "{\"text\":\"book's pages. If this occurs, \",\"color\":\"gray\"}"
+        - '{"text":"the pages reappear after 24 ","color":"gray"}'
+        - '{"text":"hours. Before all those hours ","color":"gray"}'
+        - '{"text":"pass, anyone who opens the ","color":"gray"}'
+        - "{\"text\":\"book's remaining binding is \",\"color\":\"gray\"}"
+        - '{"text":"transported to a nascent layer ","color":"gray"}'
+        - '{"text":"of the Abyss that lies hidden ","color":"gray"}'
+        - '{"text":"within the book. At the heart ","color":"gray"}'
+        - '{"text":"of this deadly, semi-sentient ","color":"gray"}'
+        - '{"text":"domain lies a long-lost ","color":"gray"}'
+        - "{\"text\":\"artifact, Fraz-Urb'luu's \",\"color\":\"gray\"}"
+        - '{"text":"Staff. If the staff is dragged ","color":"gray"}'
+        - '{"text":"from the pocket plane, the ","color":"gray"}'
+        - '{"text":"tome is reduced to a mundane ","color":"gray"}'
+        - '{"text":"and quite out-of-date copy of ","color":"gray"}'
+        - '{"text":"the Tome of Zyx, the work that ","color":"gray"}'
+        - '{"text":"served as the foundation for ","color":"gray"}'
+        - '{"text":"the Demonomicon. Once the ","color":"gray"}'
+        - '{"text":"staff emerges, the demon lord ","color":"gray"}'
+        - "{\"text\":\"Fraz-Urb'luu instantly knows. \",\"color\":\"gray\"}"
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

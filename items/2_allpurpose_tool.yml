@@ -1,0 +1,51 @@
+item-type:
+  ==: NuminousItemType
+  id: 2_allpurpose_tool
+  name: +2 All-Purpose Tool
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: END_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"+2 All-Purpose Tool","color":"white"}'
+      lore:
+        - '{"text":"This simple screwdriver can ","color":"gray"}'
+        - '{"text":"transform into a variety of ","color":"gray"}'
+        - '{"text":"tools; as an action, you can ","color":"gray"}'
+        - '{"text":"touch the item and transform ","color":"gray"}'
+        - "{\"text\":\"it into any type of artisan's \",\"color\":\"gray\"}"
+        - '{"text":"tool of your choice (see the ","color":"gray"}'
+        - '{"text":"\"Equipment\" chapter in the ","color":"gray"}'
+        - "{\"text\":\"Player's Handbook for a list \",\"color\":\"gray\"}"
+        - "{\"text\":\"of artisan's tools). Whatever \",\"color\":\"gray\"}"
+        - '{"text":"form the tool takes, you are ","color":"gray"}'
+        - '{"text":"proficient with it.While ","color":"gray"}'
+        - '{"text":"holding this tool, you gain a ","color":"gray"}'
+        - '{"text":"+2 bonus to the spell attack ","color":"gray"}'
+        - '{"text":"rolls and the saving throw DCs ","color":"gray"}'
+        - '{"text":"of your artificer spells.As an ","color":"gray"}'
+        - '{"text":"action, you can focus on the ","color":"gray"}'
+        - '{"text":"tool to channel your creative ","color":"gray"}'
+        - '{"text":"forces. Choose a cantrip that ","color":"gray"}'
+        - "{\"text\":\"you don't know from any class \",\"color\":\"gray\"}"
+        - '{"text":"list. For 8 hours, you can ","color":"gray"}'
+        - '{"text":"cast that cantrip, and it ","color":"gray"}'
+        - '{"text":"counts as an artificer cantrip ","color":"gray"}'
+        - '{"text":"for you. Once this property is ","color":"gray"}'
+        - "{\"text\":\"used, it can't be used again \",\"color\":\"gray\"}"
+        - '{"text":"until the next dawn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

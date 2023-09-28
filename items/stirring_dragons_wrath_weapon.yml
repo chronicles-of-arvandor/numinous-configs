@@ -1,0 +1,141 @@
+item-type:
+  ==: NuminousItemType
+  id: stirring_dragons_wrath_weapon
+  name: Stirring Dragon's Wrath Weapon
+  categories:
+    - VEHICLE_LAND
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: DRAGON_WALL_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Stirring Dragon's Wrath Weapon\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"This weapon is decorated with ","color":"gray"}'
+        - '{"text":"dragon heads, claws, wings, ","color":"gray"}'
+        - '{"text":"scales, or Draconic letters. ","color":"gray"}'
+        - "{\"text\":\"When it steeps in a dragon's \",\"color\":\"gray\"}"
+        - '{"text":"hoard, it absorbs the energy ","color":"gray"}'
+        - "{\"text\":\"of the dragon's breath weapon \",\"color\":\"gray\"}"
+        - '{"text":"and deals damage of that type ","color":"gray"}'
+        - '{"text":"with its special ","color":"gray"}'
+        - '{"text":"properties.Whenever you roll a ","color":"gray"}'
+        - '{"text":"20 on your attack roll with ","color":"gray"}'
+        - '{"text":"this weapon, each creature of ","color":"gray"}'
+        - '{"text":"your choice within 5 feet of ","color":"gray"}'
+        - '{"text":"the target takes 5 damage of ","color":"gray"}'
+        - "{\"text\":\"the type dealt by the dragon's \",\"color\":\"gray\"}"
+        - '{"text":"breath weapon.You gain a +1 ","color":"gray"}'
+        - '{"text":"bonus to attack and damage ","color":"gray"}'
+        - '{"text":"rolls made using the weapon. ","color":"gray"}'
+        - '{"text":"On a hit, the weapon deals an ","color":"gray"}'
+        - '{"text":"extra 1d6 damage of the type ","color":"gray"}'
+        - "{\"text\":\"dealt by the dragon's breath \",\"color\":\"gray\"}"
+        - '{"text":"weapon. Base items. This item ","color":"gray"}'
+        - '{"text":"variant can be applied to the ","color":"gray"}'
+        - '{"text":"following base ","color":"gray"}'
+        - '{"text":"items:Antimatter Rifle ","color":"gray"}'
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Antimatter Rifle)Automatic ","color":"gray"}'
+        - "{\"text\":\"Pistol (Stirring Dragon's \",\"color\":\"gray\"}"
+        - '{"text":"Wrath Automatic ","color":"gray"}'
+        - '{"text":"Pistol)Automatic Rifle ","color":"gray"}'
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Automatic Rifle)Battleaxe ","color":"gray"}'
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Battleaxe)Blowgun (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Blowgun)Club \",\"color\":\"gray\"}"
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - "{\"text\":\"Club)Dagger (Stirring Dragon's \",\"color\":\"gray\"}"
+        - '{"text":"Wrath Dagger)Dart (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Dart)Double-Bladed Scimitar ","color":"gray"}'
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Double-Bladed Scimitar)Flail ","color":"gray"}'
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Flail)Glaive (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Glaive)Greataxe \",\"color\":\"gray\"}"
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Greataxe)Greatclub (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Greatclub)Greatsword (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Greatsword)Halberd (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Halberd)Hand \",\"color\":\"gray\"}"
+        - "{\"text\":\"Crossbow (Stirring Dragon's \",\"color\":\"gray\"}"
+        - '{"text":"Wrath Hand Crossbow)Handaxe ","color":"gray"}'
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Handaxe)Heavy Crossbow ","color":"gray"}'
+        - "{\"text\":\"(Stirring Dragon's Wrath Heavy \",\"color\":\"gray\"}"
+        - '{"text":"Crossbow)Hooked Shortspear ","color":"gray"}'
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Hooked Shortspear)Hoopak ","color":"gray"}'
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Hoopak)Hunting Rifle (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Hunting \",\"color\":\"gray\"}"
+        - '{"text":"Rifle)Javelin (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Javelin)Lance \",\"color\":\"gray\"}"
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Lance)Laser Pistol (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Laser \",\"color\":\"gray\"}"
+        - '{"text":"Pistol)Laser Rifle (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Laser \",\"color\":\"gray\"}"
+        - '{"text":"Rifle)Light Crossbow (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Light \",\"color\":\"gray\"}"
+        - '{"text":"Crossbow)Light Hammer ","color":"gray"}'
+        - "{\"text\":\"(Stirring Dragon's Wrath Light \",\"color\":\"gray\"}"
+        - '{"text":"Hammer)Light Repeating ","color":"gray"}'
+        - "{\"text\":\"Crossbow (Stirring Dragon's \",\"color\":\"gray\"}"
+        - '{"text":"Wrath Light Repeating ","color":"gray"}'
+        - '{"text":"Crossbow)Longbow (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Longbow)Longsword (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Longsword)Mace \",\"color\":\"gray\"}"
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - "{\"text\":\"Mace)Maul (Stirring Dragon's \",\"color\":\"gray\"}"
+        - '{"text":"Wrath Maul)Morningstar ","color":"gray"}'
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Morningstar)Musket (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Musket)Net \",\"color\":\"gray\"}"
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - "{\"text\":\"Net)Pike (Stirring Dragon's \",\"color\":\"gray\"}"
+        - '{"text":"Wrath Pike)Pistol (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Pistol)Quarterstaff (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Quarterstaff)Rapier (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Rapier)Revolver \",\"color\":\"gray\"}"
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Revolver)Scimitar (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Scimitar)Shortbow (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Shortbow)Shortsword (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Shortsword)Shotgun (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Shotgun)Sickle \",\"color\":\"gray\"}"
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Sickle)Sling (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Sling)Spear \",\"color\":\"gray\"}"
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Spear)Trident (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Trident)War \",\"color\":\"gray\"}"
+        - "{\"text\":\"Pick (Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"War Pick)Warhammer (Stirring ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Warhammer)Whip \",\"color\":\"gray\"}"
+        - "{\"text\":\"(Stirring Dragon's Wrath \",\"color\":\"gray\"}"
+        - "{\"text\":\"Whip)Yklwa (Stirring Dragon's \",\"color\":\"gray\"}"
+        - '{"text":"Wrath Yklwa) ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

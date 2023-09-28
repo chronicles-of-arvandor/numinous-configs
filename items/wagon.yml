@@ -1,0 +1,27 @@
+item-type:
+  ==: NuminousItemType
+  id: wagon
+  name: Wagon
+  categories:
+    - VEHICLE_LAND
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: STRIPPED_DARK_OAK_LOG
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Wagon","color":"white"}'
+      lore:
+        - '{"text":" ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 400
+    unit: lb

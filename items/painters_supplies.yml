@@ -1,0 +1,75 @@
+item-type:
+  ==: NuminousItemType
+  id: painters_supplies
+  name: Painter's Supplies
+  categories:
+    - ARTISANS_TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: PAINTING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Painter's Supplies\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"These special tools include ","color":"gray"}'
+        - '{"text":"the items needed to pursue a ","color":"gray"}'
+        - '{"text":"craft or trade. Proficiency ","color":"gray"}'
+        - "{\"text\":\"with a set of artisan's tools \",\"color\":\"gray\"}"
+        - '{"text":"lets you add your proficiency ","color":"gray"}'
+        - '{"text":"bonus to any ability checks ","color":"gray"}'
+        - '{"text":"you make using the tools in ","color":"gray"}'
+        - '{"text":"your craft. Each type of ","color":"gray"}'
+        - "{\"text\":\"artisan's tools requires a \",\"color\":\"gray\"}"
+        - '{"text":"separate ","color":"gray"}'
+        - '{"text":"proficiency.Proficiency with ","color":"gray"}'
+        - "{\"text\":\"painter's supplies represents \",\"color\":\"gray\"}"
+        - '{"text":"your ability to paint and ","color":"gray"}'
+        - '{"text":"draw. You also acquire an ","color":"gray"}'
+        - '{"text":"understanding of art history, ","color":"gray"}'
+        - '{"text":"which can aid you in examining ","color":"gray"}'
+        - '{"text":"works of art. Components. ","color":"gray"}'
+        - "{\"text\":\"Painter's supplies include an \",\"color\":\"gray\"}"
+        - '{"text":"easel, canvas, paints, ","color":"gray"}'
+        - '{"text":"brushes, charcoal sticks, and ","color":"gray"}'
+        - '{"text":"a palette. Arcana, History, ","color":"gray"}'
+        - '{"text":"Religion. Your expertise aids ","color":"gray"}'
+        - '{"text":"you in uncovering lore of any ","color":"gray"}'
+        - '{"text":"sort that is attached to a ","color":"gray"}'
+        - '{"text":"work of art, such as the ","color":"gray"}'
+        - '{"text":"magical properties of a ","color":"gray"}'
+        - '{"text":"painting or the origins of a ","color":"gray"}'
+        - '{"text":"strange mural found in a ","color":"gray"}'
+        - '{"text":"dungeon. Investigation, ","color":"gray"}'
+        - '{"text":"Perception. When you inspect a ","color":"gray"}'
+        - '{"text":"painting or a similar work of ","color":"gray"}'
+        - '{"text":"visual art, your knowledge of ","color":"gray"}'
+        - '{"text":"the practices behind creating ","color":"gray"}'
+        - '{"text":"it can grant you additional ","color":"gray"}'
+        - '{"text":"insight. Painting and Drawing. ","color":"gray"}'
+        - '{"text":"As part of a short or long ","color":"gray"}'
+        - '{"text":"rest, you can produce a simple ","color":"gray"}'
+        - '{"text":"work of art. Although your ","color":"gray"}'
+        - '{"text":"work might lack precision, you ","color":"gray"}'
+        - '{"text":"can capture an image or a ","color":"gray"}'
+        - '{"text":"scene, or make a quick copy of ","color":"gray"}'
+        - '{"text":"a piece of art you ","color":"gray"}'
+        - "{\"text\":\"saw.Painter's \",\"color\":\"gray\"}"
+        - '{"text":"SuppliesActivityDCPaint an ","color":"gray"}'
+        - '{"text":"accurate portrait10Create a ","color":"gray"}'
+        - '{"text":"painting with a hidden ","color":"gray"}'
+        - '{"text":"message20See the Tool ","color":"gray"}'
+        - '{"text":"Proficiencies entry for more ","color":"gray"}'
+        - '{"text":"information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 5
+    unit: lb

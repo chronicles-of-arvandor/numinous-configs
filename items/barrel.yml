@@ -1,0 +1,29 @@
+item-type:
+  ==: NuminousItemType
+  id: barrel
+  name: Barrel
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: BARREL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Barrel","color":"white"}'
+      lore:
+        - '{"text":"A barrel can hold 40 gallons ","color":"gray"}'
+        - '{"text":"of liquid or 4 cubic feet of ","color":"gray"}'
+        - '{"text":"solids. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 70
+    unit: lb

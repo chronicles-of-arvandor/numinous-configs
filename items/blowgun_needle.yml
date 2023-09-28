@@ -1,0 +1,27 @@
+item-type:
+  ==: NuminousItemType
+  id: blowgun_needle
+  name: Blowgun Needle
+  categories:
+    - AMMUNITION
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: ARROW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Blowgun Needle","color":"white"}'
+      lore:
+        - '{"text":" ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0.32
+    unit: oz

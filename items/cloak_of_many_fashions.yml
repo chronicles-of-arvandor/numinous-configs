@@ -1,0 +1,38 @@
+item-type:
+  ==: NuminousItemType
+  id: cloak_of_many_fashions
+  name: Cloak of Many Fashions
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Cloak of Many Fashions","color":"white"}'
+      lore:
+        - '{"text":"While wearing this cloak, you ","color":"gray"}'
+        - '{"text":"can use a bonus action to ","color":"gray"}'
+        - '{"text":"change the style, color, and ","color":"gray"}'
+        - '{"text":"apparent quality of the ","color":"gray"}'
+        - "{\"text\":\"garment. The cloak's weight \",\"color\":\"gray\"}"
+        - "{\"text\":\"doesn't change. Regardless of \",\"color\":\"gray\"}"
+        - '{"text":"its appearance, the cloak ","color":"gray"}'
+        - "{\"text\":\"can't be anything but a cloak. \",\"color\":\"gray\"}"
+        - '{"text":"Although it can duplicate the ","color":"gray"}'
+        - '{"text":"appearance of other magic ","color":"gray"}'
+        - "{\"text\":\"cloaks, it doesn't gain their \",\"color\":\"gray\"}"
+        - '{"text":"magical properties. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

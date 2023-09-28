@@ -1,0 +1,62 @@
+item-type:
+  ==: NuminousItemType
+  id: atlas_of_endless_horizons
+  name: Atlas of Endless Horizons
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Atlas of Endless Horizons","color":"white"}'
+      lore:
+        - '{"text":"This thick book is bound in ","color":"gray"}'
+        - '{"text":"dark leather, crisscrossed ","color":"gray"}'
+        - '{"text":"with inlaid silver lines ","color":"gray"}'
+        - '{"text":"suggesting a map or chart. ","color":"gray"}'
+        - '{"text":"When found, the book contains ","color":"gray"}'
+        - '{"text":"the following spells, which ","color":"gray"}'
+        - '{"text":"are wizard spells for you ","color":"gray"}'
+        - '{"text":"while you are attuned to the ","color":"gray"}'
+        - '{"text":"book: arcane gate, dimension ","color":"gray"}'
+        - '{"text":"door, gate, misty step, plane ","color":"gray"}'
+        - '{"text":"shift, teleportation circle, ","color":"gray"}'
+        - '{"text":"and word of recall. It ","color":"gray"}'
+        - '{"text":"functions as a spellbook for ","color":"gray"}'
+        - '{"text":"you.While you are holding the ","color":"gray"}'
+        - '{"text":"book, you can use it as a ","color":"gray"}'
+        - '{"text":"spellcasting focus for your ","color":"gray"}'
+        - '{"text":"wizard spells.The book has 3 ","color":"gray"}'
+        - '{"text":"charges, and it regains 1d3 ","color":"gray"}'
+        - '{"text":"expended charges daily at ","color":"gray"}'
+        - '{"text":"dawn. You can use the charges ","color":"gray"}'
+        - '{"text":"in the following ways while ","color":"gray"}'
+        - '{"text":"holding it:If you spend 1 ","color":"gray"}'
+        - '{"text":"minute studying the book, you ","color":"gray"}'
+        - '{"text":"can expend 1 charge to replace ","color":"gray"}'
+        - '{"text":"one of your prepared wizard ","color":"gray"}'
+        - '{"text":"spells with a different spell ","color":"gray"}'
+        - '{"text":"in the book. The new spell ","color":"gray"}'
+        - '{"text":"must be of the conjuration ","color":"gray"}'
+        - '{"text":"school.When you are hit by an ","color":"gray"}'
+        - '{"text":"attack, you can use your ","color":"gray"}'
+        - '{"text":"reaction to expend 1 charge to ","color":"gray"}'
+        - '{"text":"teleport up to 10 feet to an ","color":"gray"}'
+        - '{"text":"unoccupied space you can see. ","color":"gray"}'
+        - '{"text":"If your new position is out of ","color":"gray"}'
+        - '{"text":"range of the attack, it misses ","color":"gray"}'
+        - '{"text":"you. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 3
+    unit: lb

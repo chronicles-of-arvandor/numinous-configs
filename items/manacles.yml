@@ -1,0 +1,41 @@
+item-type:
+  ==: NuminousItemType
+  id: manacles
+  name: Manacles
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Manacles","color":"white"}'
+      lore:
+        - '{"text":"These metal restraints can ","color":"gray"}'
+        - '{"text":"bind a Small or Medium ","color":"gray"}'
+        - '{"text":"creature. Escaping the ","color":"gray"}'
+        - '{"text":"manacles requires a successful ","color":"gray"}'
+        - '{"text":"DC 20 Dexterity check. ","color":"gray"}'
+        - '{"text":"Breaking them requires a ","color":"gray"}'
+        - '{"text":"successful DC 20 Strength ","color":"gray"}'
+        - '{"text":"check. Each set of manacles ","color":"gray"}'
+        - '{"text":"comes with one key. Without ","color":"gray"}'
+        - '{"text":"the key, a creature proficient ","color":"gray"}'
+        - "{\"text\":\"with thieves' tools can pick \",\"color\":\"gray\"}"
+        - "{\"text\":\"the manacles' lock with a \",\"color\":\"gray\"}"
+        - '{"text":"successful DC 15 Dexterity ","color":"gray"}'
+        - '{"text":"check. Manacles have 15 hit ","color":"gray"}'
+        - '{"text":"points. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 6
+    unit: lb

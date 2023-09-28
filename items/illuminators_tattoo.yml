@@ -1,0 +1,62 @@
+item-type:
+  ==: NuminousItemType
+  id: illuminators_tattoo
+  name: Illuminator's Tattoo
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: INK_SAC
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Illuminator's Tattoo\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"Produced by a special needle, ","color":"gray"}'
+        - '{"text":"this magic tattoo features ","color":"gray"}'
+        - '{"text":"beautiful calligraphy, images ","color":"gray"}'
+        - '{"text":"of writing implements, and the ","color":"gray"}'
+        - '{"text":"like. Tattoo Attunement. To ","color":"gray"}'
+        - '{"text":"attune to this item, you hold ","color":"gray"}'
+        - '{"text":"the needle to your skin where ","color":"gray"}'
+        - '{"text":"you want the tattoo to appear, ","color":"gray"}'
+        - '{"text":"pressing the needle there ","color":"gray"}'
+        - '{"text":"throughout the attunement ","color":"gray"}'
+        - '{"text":"process. When the attunement ","color":"gray"}'
+        - '{"text":"is complete, the needle turns ","color":"gray"}'
+        - '{"text":"into the ink that becomes the ","color":"gray"}'
+        - '{"text":"tattoo, which appears on the ","color":"gray"}'
+        - '{"text":"skin.If your attunement to the ","color":"gray"}'
+        - '{"text":"tattoo ends, the tattoo ","color":"gray"}'
+        - '{"text":"vanishes, and the needle ","color":"gray"}'
+        - '{"text":"reappears in your space. ","color":"gray"}'
+        - '{"text":"Magical Scribing. While this ","color":"gray"}'
+        - '{"text":"tattoo is on your skin, you ","color":"gray"}'
+        - '{"text":"can write with your fingertip ","color":"gray"}'
+        - '{"text":"as if it were an ink pen that ","color":"gray"}'
+        - '{"text":"never runs out of ink.As an ","color":"gray"}'
+        - '{"text":"action, you can touch a piece ","color":"gray"}'
+        - '{"text":"of writing up to one page in ","color":"gray"}'
+        - "{\"text\":\"length and speak a creature's \",\"color\":\"gray\"}"
+        - '{"text":"name. The writing becomes ","color":"gray"}'
+        - '{"text":"invisible to everyone other ","color":"gray"}'
+        - '{"text":"than you and the named ","color":"gray"}'
+        - '{"text":"creature for the next 24 ","color":"gray"}'
+        - '{"text":"hours. Either of you can ","color":"gray"}'
+        - '{"text":"dismiss the invisibility by ","color":"gray"}'
+        - '{"text":"touching the script (no action ","color":"gray"}'
+        - '{"text":"required). Once used, this ","color":"gray"}'
+        - "{\"text\":\"action can't be used again \",\"color\":\"gray\"}"
+        - '{"text":"until the next dawn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

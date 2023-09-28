@@ -1,0 +1,56 @@
+item-type:
+  ==: NuminousItemType
+  id: heart_weavers_primer
+  name: Heart Weaver's Primer
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: WRITTEN_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Heart Weaver's Primer\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"This pristine book smells ","color":"gray"}'
+        - '{"text":"faintly of a random scent you ","color":"gray"}'
+        - '{"text":"find pleasing. When found, the ","color":"gray"}'
+        - '{"text":"book contains the following ","color":"gray"}'
+        - '{"text":"spells: antipathy/sympathy, ","color":"gray"}'
+        - '{"text":"charm person, dominate person, ","color":"gray"}'
+        - '{"text":"enthrall, hypnotic pattern, ","color":"gray"}'
+        - '{"text":"modify memory, and suggestion. ","color":"gray"}'
+        - '{"text":"It functions as a spellbook ","color":"gray"}'
+        - '{"text":"for you.While you are holding ","color":"gray"}'
+        - '{"text":"the book, you can use it as a ","color":"gray"}'
+        - '{"text":"spellcasting focus for your ","color":"gray"}'
+        - '{"text":"wizard spells.The book has 3 ","color":"gray"}'
+        - '{"text":"charges, and it regains 1d3 ","color":"gray"}'
+        - '{"text":"expended charges daily at ","color":"gray"}'
+        - '{"text":"dawn. You can use the charges ","color":"gray"}'
+        - '{"text":"in the following ways while ","color":"gray"}'
+        - '{"text":"holding it:If you spend 1 ","color":"gray"}'
+        - '{"text":"minute studying the book, you ","color":"gray"}'
+        - '{"text":"can expend 1 charge to replace ","color":"gray"}'
+        - '{"text":"one of your prepared wizard ","color":"gray"}'
+        - '{"text":"spells with a different spell ","color":"gray"}'
+        - '{"text":"in the book. The new spell ","color":"gray"}'
+        - '{"text":"must be of the enchantment ","color":"gray"}'
+        - '{"text":"school.When you cast an ","color":"gray"}'
+        - '{"text":"enchantment spell, you can ","color":"gray"}'
+        - '{"text":"expend 1 charge to impose ","color":"gray"}'
+        - '{"text":"disadvantage on the first ","color":"gray"}'
+        - '{"text":"saving throw one target makes ","color":"gray"}'
+        - '{"text":"against the spell. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 3
+    unit: lb

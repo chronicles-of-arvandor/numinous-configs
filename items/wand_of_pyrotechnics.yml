@@ -1,0 +1,45 @@
+item-type:
+  ==: NuminousItemType
+  id: wand_of_pyrotechnics
+  name: Wand of Pyrotechnics
+  categories:
+    - WAND
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: REDSTONE_TORCH
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Wand of Pyrotechnics","color":"white"}'
+      lore:
+        - '{"text":"This wand has 7 charges. While ","color":"gray"}'
+        - '{"text":"holding it, you can use an ","color":"gray"}'
+        - '{"text":"action to expend 1 of its ","color":"gray"}'
+        - '{"text":"charges and create a harmless ","color":"gray"}'
+        - '{"text":"burst of multicolored light at ","color":"gray"}'
+        - '{"text":"a point you can see up to 60 ","color":"gray"}'
+        - '{"text":"feet away. The burst of light ","color":"gray"}'
+        - '{"text":"is accompanied by a crackling ","color":"gray"}'
+        - '{"text":"noise that can be heard up to ","color":"gray"}'
+        - '{"text":"300 feet away. The light is as ","color":"gray"}'
+        - '{"text":"bright as a torch flame but ","color":"gray"}'
+        - '{"text":"lasts only a second.The wand ","color":"gray"}'
+        - '{"text":"regains 1d6 + 1 expended ","color":"gray"}'
+        - '{"text":"charges daily at dawn. If you ","color":"gray"}'
+        - "{\"text\":\"expend the wand's last charge, \",\"color\":\"gray\"}"
+        - '{"text":"roll a d20. On a 1, the wand ","color":"gray"}'
+        - '{"text":"erupts in a harmless ","color":"gray"}'
+        - '{"text":"pyrotechnic display and is ","color":"gray"}'
+        - '{"text":"destroyed. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

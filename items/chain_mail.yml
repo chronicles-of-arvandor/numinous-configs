@@ -1,0 +1,38 @@
+item-type:
+  ==: NuminousItemType
+  id: chain_mail
+  name: Chain Mail
+  categories:
+    - HEAVY_ARMOUR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: CHAINMAIL_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Chain Mail","color":"white"}'
+      lore:
+        - '{"text":"Made of interlocking metal ","color":"gray"}'
+        - '{"text":"rings, chain mail includes a ","color":"gray"}'
+        - '{"text":"layer of quilted fabric worn ","color":"gray"}'
+        - '{"text":"underneath the mail to prevent ","color":"gray"}'
+        - '{"text":"chafing and to cushion the ","color":"gray"}'
+        - '{"text":"impact of blows. The suit ","color":"gray"}'
+        - '{"text":"includes gauntlets.The wearer ","color":"gray"}'
+        - '{"text":"has disadvantage on Dexterity ","color":"gray"}'
+        - '{"text":"(Stealth) checks.If the wearer ","color":"gray"}'
+        - '{"text":"has a Strength score lower ","color":"gray"}'
+        - '{"text":"than 13, their speed is ","color":"gray"}'
+        - '{"text":"reduced by 10 feet. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 55
+    unit: lb

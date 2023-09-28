@@ -1,0 +1,39 @@
+item-type:
+  ==: NuminousItemType
+  id: scimitar
+  name: Scimitar
+  categories:
+    - POTION
+    - MARTIAL_WEAPON
+    - MELEE_WEAPON
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Scimitar","color":"white"}'
+      lore:
+        - '{"text":"Finesse. When making an attack ","color":"gray"}'
+        - '{"text":"with a finesse weapon, you use ","color":"gray"}'
+        - '{"text":"your choice of your Strength ","color":"gray"}'
+        - '{"text":"or Dexterity modifier for the ","color":"gray"}'
+        - '{"text":"attack and damage rolls. You ","color":"gray"}'
+        - '{"text":"must use the same modifier for ","color":"gray"}'
+        - '{"text":"both rolls. Light. A light ","color":"gray"}'
+        - '{"text":"weapon is small and easy to ","color":"gray"}'
+        - '{"text":"handle, making it ideal for ","color":"gray"}'
+        - '{"text":"use when fighting with two ","color":"gray"}'
+        - '{"text":"weapons. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 3
+    unit: lb

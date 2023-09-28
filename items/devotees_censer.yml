@@ -1,0 +1,47 @@
+item-type:
+  ==: NuminousItemType
+  id: devotees_censer
+  name: Devotee's Censer
+  categories:
+    - HEAVY_ARMOUR
+    - MARTIAL_WEAPON
+    - MELEE_WEAPON
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: STICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Devotee's Censer\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"The rounded head of this flail ","color":"gray"}'
+        - '{"text":"is perforated with tiny holes, ","color":"gray"}'
+        - '{"text":"arranged in symbols and ","color":"gray"}'
+        - '{"text":"patterns. The flail counts as ","color":"gray"}'
+        - '{"text":"a holy symbol for you. When ","color":"gray"}'
+        - '{"text":"you hit with an attack using ","color":"gray"}'
+        - '{"text":"this magic flail, the target ","color":"gray"}'
+        - '{"text":"takes an extra 1d8 radiant ","color":"gray"}'
+        - '{"text":"damage.As a bonus action, you ","color":"gray"}'
+        - '{"text":"can speak the command word to ","color":"gray"}'
+        - '{"text":"cause the flail to emanate a ","color":"gray"}'
+        - '{"text":"thin cloud of incense out to ","color":"gray"}'
+        - '{"text":"10 feet for 1 minute. At the ","color":"gray"}'
+        - '{"text":"start of each of your turns, ","color":"gray"}'
+        - '{"text":"you and any other creatures in ","color":"gray"}'
+        - '{"text":"the incense each regain 1d4 ","color":"gray"}'
+        - '{"text":"hit points. This property ","color":"gray"}'
+        - "{\"text\":\"can't be used again until the \",\"color\":\"gray\"}"
+        - '{"text":"next dawn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 2
+    unit: lb

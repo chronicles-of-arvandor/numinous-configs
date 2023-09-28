@@ -1,0 +1,39 @@
+item-type:
+  ==: NuminousItemType
+  id: scaled_ornament
+  name: Scaled Ornament
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Scaled Ornament","color":"white"}'
+      lore:
+        - '{"text":"This ornament can be jewelry, ","color":"gray"}'
+        - '{"text":"a cloak, or another wearable ","color":"gray"}'
+        - '{"text":"accessory. It appears to be ","color":"gray"}'
+        - "{\"text\":\"fashioned from a dragon's \",\"color\":\"gray\"}"
+        - '{"text":"scale, tooth, or claw, or it ","color":"gray"}'
+        - '{"text":"incorporates images in those ","color":"gray"}'
+        - '{"text":"shapes.Multiple variations of ","color":"gray"}'
+        - '{"text":"this item exist, as listed ","color":"gray"}'
+        - '{"text":"below:Slumbering Scaled ","color":"gray"}'
+        - '{"text":"OrnamentStirring Scaled ","color":"gray"}'
+        - '{"text":"OrnamentWakened Scaled ","color":"gray"}'
+        - '{"text":"OrnamentAscendant Scaled ","color":"gray"}'
+        - '{"text":"Ornament ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

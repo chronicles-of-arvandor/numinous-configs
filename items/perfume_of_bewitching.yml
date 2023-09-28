@@ -1,0 +1,39 @@
+item-type:
+  ==: NuminousItemType
+  id: perfume_of_bewitching
+  name: Perfume of Bewitching
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: HONEY_BOTTLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Perfume of Bewitching","color":"white"}'
+      lore:
+        - '{"text":"This tiny vial contains magic ","color":"gray"}'
+        - '{"text":"perfume, enough for one use. ","color":"gray"}'
+        - '{"text":"You can use an action to apply ","color":"gray"}'
+        - '{"text":"the perfume to yourself, and ","color":"gray"}'
+        - '{"text":"its effect lasts 1 hour. For ","color":"gray"}'
+        - '{"text":"the duration, you have ","color":"gray"}'
+        - '{"text":"advantage on all Charisma ","color":"gray"}'
+        - '{"text":"checks directed at humanoids ","color":"gray"}'
+        - '{"text":"of challenge rating 1 or ","color":"gray"}'
+        - '{"text":"lower. Those subjected to the ","color":"gray"}'
+        - "{\"text\":\"perfume's effect are not aware \",\"color\":\"gray\"}"
+        - "{\"text\":\"that they've been influenced \",\"color\":\"gray\"}"
+        - '{"text":"by magic. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

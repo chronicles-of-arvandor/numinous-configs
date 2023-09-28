@@ -1,0 +1,66 @@
+item-type:
+  ==: NuminousItemType
+  id: musical_instrument
+  name: Musical Instrument
+  categories:
+    - INSTRUMENT
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: JUKEBOX
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Musical Instrument","color":"white"}'
+      lore:
+        - '{"text":"If you have proficiency with a ","color":"gray"}'
+        - '{"text":"given musical instrument, you ","color":"gray"}'
+        - '{"text":"can add your proficiency bonus ","color":"gray"}'
+        - '{"text":"to any ability checks you make ","color":"gray"}'
+        - '{"text":"to play music with the ","color":"gray"}'
+        - '{"text":"instrument. A bard can use a ","color":"gray"}'
+        - '{"text":"musical instrument as a ","color":"gray"}'
+        - '{"text":"spellcasting focus. Each type ","color":"gray"}'
+        - '{"text":"of musical instrument requires ","color":"gray"}'
+        - '{"text":"a separate ","color":"gray"}'
+        - '{"text":"proficiency.Multiple ","color":"gray"}'
+        - '{"text":"variations of this item exist, ","color":"gray"}'
+        - '{"text":"as listed ","color":"gray"}'
+        - '{"text":"below:BagpipesDrumDulcimerFluteHornLuteLyrePan
+          ","color":"gray"}'
+        - '{"text":"FluteShawmViolSee the Tool ","color":"gray"}'
+        - '{"text":"Proficiencies entry for more ","color":"gray"}'
+        - '{"text":"information.Proficiency with a ","color":"gray"}'
+        - '{"text":"musical instrument indicates ","color":"gray"}'
+        - '{"text":"you are familiar with the ","color":"gray"}'
+        - '{"text":"techniques used to play it. ","color":"gray"}'
+        - '{"text":"You also have knowledge of ","color":"gray"}'
+        - '{"text":"some songs commonly performed ","color":"gray"}'
+        - '{"text":"with that instrument. History. ","color":"gray"}'
+        - '{"text":"Your expertise aids you in ","color":"gray"}'
+        - '{"text":"recalling lore related to your ","color":"gray"}'
+        - '{"text":"instrument. Performance. Your ","color":"gray"}'
+        - '{"text":"ability to put on a good show ","color":"gray"}'
+        - '{"text":"is improved when you ","color":"gray"}'
+        - '{"text":"incorporate an instrument into ","color":"gray"}'
+        - '{"text":"your act. Compose a Tune. As ","color":"gray"}'
+        - '{"text":"part of a long rest, you can ","color":"gray"}'
+        - '{"text":"compose a new tune and lyrics ","color":"gray"}'
+        - '{"text":"for your instrument. You might ","color":"gray"}'
+        - '{"text":"use this ability to impress a ","color":"gray"}'
+        - '{"text":"noble or spread scandalous ","color":"gray"}'
+        - '{"text":"rumors with a catchy ","color":"gray"}'
+        - '{"text":"tune.Musical ","color":"gray"}'
+        - '{"text":"InstrumentActivityDCIdentify a ","color":"gray"}'
+        - '{"text":"tune10Improvise a tune20 ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

@@ -1,0 +1,41 @@
+item-type:
+  ==: NuminousItemType
+  id: dragons_wrath_weapon
+  name: Dragon's Wrath Weapon
+  categories:
+    - VEHICLE_LAND
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Dragon's Wrath Weapon\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"This weapon is decorated with ","color":"gray"}'
+        - '{"text":"dragon heads, claws, wings, ","color":"gray"}'
+        - '{"text":"scales, or Draconic letters. ","color":"gray"}'
+        - "{\"text\":\"When it steeps in a dragon's \",\"color\":\"gray\"}"
+        - '{"text":"hoard, it absorbs the energy ","color":"gray"}'
+        - "{\"text\":\"of the dragon's breath weapon \",\"color\":\"gray\"}"
+        - '{"text":"and deals damage of that type ","color":"gray"}'
+        - '{"text":"with its special ","color":"gray"}'
+        - '{"text":"properties.Multiple variations ","color":"gray"}'
+        - '{"text":"of this item exist, as listed ","color":"gray"}'
+        - "{\"text\":\"below:Slumbering Dragon's \",\"color\":\"gray\"}"
+        - "{\"text\":\"Wrath WeaponStirring Dragon's \",\"color\":\"gray\"}"
+        - "{\"text\":\"Wrath WeaponWakened Dragon's \",\"color\":\"gray\"}"
+        - "{\"text\":\"Wrath WeaponAscendant Dragon's \",\"color\":\"gray\"}"
+        - '{"text":"Wrath Weapon ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

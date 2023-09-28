@@ -1,0 +1,89 @@
+item-type:
+  ==: NuminousItemType
+  id: carpenters_tools
+  name: Carpenter's Tools
+  categories:
+    - ARTISANS_TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: CRAFTING_TABLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Carpenter's Tools\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"These special tools include ","color":"gray"}'
+        - '{"text":"the items needed to pursue a ","color":"gray"}'
+        - '{"text":"craft or trade. Proficiency ","color":"gray"}'
+        - "{\"text\":\"with a set of artisan's tools \",\"color\":\"gray\"}"
+        - '{"text":"lets you add your proficiency ","color":"gray"}'
+        - '{"text":"bonus to any ability checks ","color":"gray"}'
+        - '{"text":"you make using the tools in ","color":"gray"}'
+        - '{"text":"your craft. Each type of ","color":"gray"}'
+        - "{\"text\":\"artisan's tools requires a \",\"color\":\"gray\"}"
+        - '{"text":"separate proficiency.Skill at ","color":"gray"}'
+        - '{"text":"carpentry enables a character ","color":"gray"}'
+        - '{"text":"to construct wooden ","color":"gray"}'
+        - '{"text":"structures. A carpenter can ","color":"gray"}'
+        - '{"text":"build a house, a shack, a ","color":"gray"}'
+        - '{"text":"wooden cabinet, or similar ","color":"gray"}'
+        - "{\"text\":\"items. Components. Carpenter's \",\"color\":\"gray\"}"
+        - '{"text":"tools include a saw, a hammer, ","color":"gray"}'
+        - '{"text":"nails, a hatchet, a square, a ","color":"gray"}'
+        - '{"text":"ruler, an adze, a plane, and a ","color":"gray"}'
+        - '{"text":"chisel. History. This tool ","color":"gray"}'
+        - '{"text":"proficiency aids you in ","color":"gray"}'
+        - '{"text":"identifying the use and the ","color":"gray"}'
+        - '{"text":"origin of wooden buildings and ","color":"gray"}'
+        - '{"text":"other large wooden objects. ","color":"gray"}'
+        - '{"text":"Investigation. You gain ","color":"gray"}'
+        - '{"text":"additional insight when ","color":"gray"}'
+        - '{"text":"inspecting areas within wooden ","color":"gray"}'
+        - '{"text":"structures, because you know ","color":"gray"}'
+        - '{"text":"tricks of construction that ","color":"gray"}'
+        - '{"text":"can conceal areas from ","color":"gray"}'
+        - '{"text":"discovery. Perception. You can ","color":"gray"}'
+        - '{"text":"spot irregularities in wooden ","color":"gray"}'
+        - '{"text":"walls or floors, making it ","color":"gray"}'
+        - '{"text":"easier to find trap doors and ","color":"gray"}'
+        - '{"text":"secret passages. Stealth. You ","color":"gray"}'
+        - '{"text":"can quickly assess the weak ","color":"gray"}'
+        - '{"text":"spots in a wooden floor, ","color":"gray"}'
+        - '{"text":"making it easier to avoid the ","color":"gray"}'
+        - '{"text":"places that creak and groan ","color":"gray"}'
+        - "{\"text\":\"when they're stepped on. \",\"color\":\"gray\"}"
+        - '{"text":"Fortify. With 1 minute of work ","color":"gray"}'
+        - '{"text":"and raw materials, you can ","color":"gray"}'
+        - '{"text":"make a door or window harder ","color":"gray"}'
+        - '{"text":"to force open. Increase the DC ","color":"gray"}'
+        - '{"text":"needed to open it by 5. ","color":"gray"}'
+        - '{"text":"Temporary Shelter. As part of ","color":"gray"}'
+        - '{"text":"a long rest, you can construct ","color":"gray"}'
+        - '{"text":"a lean-to or a similar shelter ","color":"gray"}'
+        - '{"text":"to keep your group dry and in ","color":"gray"}'
+        - '{"text":"the shade for the duration of ","color":"gray"}'
+        - '{"text":"the rest. Because it was ","color":"gray"}'
+        - '{"text":"fashioned quickly from ","color":"gray"}'
+        - '{"text":"whatever wood was available, ","color":"gray"}'
+        - '{"text":"the shelter collapses 1d3 days ","color":"gray"}'
+        - '{"text":"after being ","color":"gray"}'
+        - "{\"text\":\"assembled.Carpenter's \",\"color\":\"gray\"}"
+        - '{"text":"ToolsActivityDCBuild a simple ","color":"gray"}'
+        - '{"text":"wooden structure10Design a ","color":"gray"}'
+        - '{"text":"complex wooden structure15Find ","color":"gray"}'
+        - '{"text":"a weak point in a wooden ","color":"gray"}'
+        - '{"text":"wall15Pry apart a door20See ","color":"gray"}'
+        - '{"text":"the Tool Proficiencies entry ","color":"gray"}'
+        - '{"text":"for more information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 6
+    unit: lb

@@ -1,0 +1,58 @@
+item-type:
+  ==: NuminousItemType
+  id: flail_of_tiamat
+  name: Flail of Tiamat
+  categories:
+    - HEAVY_ARMOUR
+    - MARTIAL_WEAPON
+    - MELEE_WEAPON
+  rarity: LEGENDARY
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: STICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Flail of Tiamat","color":"white"}'
+      lore:
+        - '{"text":"This magic flail is made in ","color":"gray"}'
+        - '{"text":"the image of Tiamat, with five ","color":"gray"}'
+        - '{"text":"jagged heads shaped like the ","color":"gray"}'
+        - '{"text":"heads of five different ","color":"gray"}'
+        - '{"text":"chromatic dragons. You gain a ","color":"gray"}'
+        - '{"text":"+3 bonus to attack and damage ","color":"gray"}'
+        - '{"text":"rolls made with this flail. ","color":"gray"}'
+        - '{"text":"When you hit with an attack ","color":"gray"}'
+        - '{"text":"roll using it, the target ","color":"gray"}'
+        - '{"text":"takes an extra 5d4 damage of ","color":"gray"}'
+        - '{"text":"your choice of one of the ","color":"gray"}'
+        - '{"text":"following damage types: acid, ","color":"gray"}'
+        - '{"text":"cold, fire, lightning, or ","color":"gray"}'
+        - '{"text":"poison.While holding the ","color":"gray"}'
+        - '{"text":"flail, you can use an action ","color":"gray"}'
+        - '{"text":"and speak a command word to ","color":"gray"}'
+        - '{"text":"cause the heads to breathe ","color":"gray"}'
+        - '{"text":"multicolored flames in a ","color":"gray"}'
+        - '{"text":"90-foot cone. Each creature in ","color":"gray"}'
+        - '{"text":"that area must make a DC 18 ","color":"gray"}'
+        - '{"text":"Dexterity saving throw. On a ","color":"gray"}'
+        - '{"text":"failed save, it takes 14d6 ","color":"gray"}'
+        - '{"text":"damage of one of the following ","color":"gray"}'
+        - '{"text":"damage types (your choice): ","color":"gray"}'
+        - '{"text":"acid, cold, fire, lightning, ","color":"gray"}'
+        - '{"text":"or poison. On a successful ","color":"gray"}'
+        - '{"text":"save, it takes half as much ","color":"gray"}'
+        - '{"text":"damage. Once this action is ","color":"gray"}'
+        - "{\"text\":\"used, it can't be used again \",\"color\":\"gray\"}"
+        - '{"text":"until the next dawn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 2
+    unit: lb

@@ -1,0 +1,36 @@
+item-type:
+  ==: NuminousItemType
+  id: lock_of_trickery
+  name: Lock of Trickery
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: TNT_MINECART
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Lock of Trickery","color":"white"}'
+      lore:
+        - '{"text":"This lock appears to be an ","color":"gray"}'
+        - '{"text":"ordinary lock (of the type ","color":"gray"}'
+        - '{"text":"described in chapter 5 of the ","color":"gray"}'
+        - "{\"text\":\"Player's Handbook) and comes \",\"color\":\"gray\"}"
+        - '{"text":"with a single key. The ","color":"gray"}'
+        - '{"text":"tumblers in this lock ","color":"gray"}'
+        - '{"text":"magically adjust to thwart ","color":"gray"}'
+        - '{"text":"burglars. Dexterity checks ","color":"gray"}'
+        - '{"text":"made to pick the lock have ","color":"gray"}'
+        - '{"text":"disadvantage. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

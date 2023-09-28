@@ -1,0 +1,31 @@
+item-type:
+  ==: NuminousItemType
+  id: bedroll
+  name: Bedroll
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: RED_BED
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Bedroll","color":"white"}'
+      lore:
+        - '{"text":"A bedroll consists of bedding ","color":"gray"}'
+        - '{"text":"and a blanket thin enough to ","color":"gray"}'
+        - '{"text":"be rolled up and tied. In an ","color":"gray"}'
+        - '{"text":"emergency, it can double as a ","color":"gray"}'
+        - '{"text":"stretcher ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 7
+    unit: lb

@@ -1,0 +1,34 @@
+item-type:
+  ==: NuminousItemType
+  id: burglars_pack
+  name: Burglar's Pack
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Burglar's Pack\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"Includes:a backpacka bag of ","color":"gray"}'
+        - '{"text":"1,000 ball bearings10 feet of ","color":"gray"}'
+        - '{"text":"stringa bell5 candlesa ","color":"gray"}'
+        - '{"text":"crowbara hammer10 pitonsa ","color":"gray"}'
+        - '{"text":"hooded lantern2 flasks of oil5 ","color":"gray"}'
+        - '{"text":"days rationsa tinderboxa ","color":"gray"}'
+        - '{"text":"waterskin50 feet of hempen ","color":"gray"}'
+        - '{"text":"rope ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 44.5
+    unit: lb

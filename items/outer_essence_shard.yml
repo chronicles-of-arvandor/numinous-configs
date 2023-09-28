@@ -1,0 +1,50 @@
+item-type:
+  ==: NuminousItemType
+  id: outer_essence_shard
+  name: Outer Essence Shard
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: AMETHYST_SHARD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Outer Essence Shard","color":"white"}'
+      lore:
+        - '{"text":"This flickering crystal holds ","color":"gray"}'
+        - '{"text":"the essence of an Outer Plane. ","color":"gray"}'
+        - '{"text":"As an action, you can attach ","color":"gray"}'
+        - '{"text":"the shard to a Tiny object ","color":"gray"}'
+        - '{"text":"(such as a weapon or a piece ","color":"gray"}'
+        - '{"text":"of jewelry) or detach it. It ","color":"gray"}'
+        - '{"text":"falls off if your attunement ","color":"gray"}'
+        - '{"text":"to it ends. You can use the ","color":"gray"}'
+        - '{"text":"shard as a spellcasting focus ","color":"gray"}'
+        - '{"text":"while you hold or wear it.Roll ","color":"gray"}'
+        - '{"text":"a d4 and consult the Outer ","color":"gray"}'
+        - '{"text":"Essence Shards table to ","color":"gray"}'
+        - "{\"text\":\"determine the shard's essence \",\"color\":\"gray\"}"
+        - '{"text":"and property. When you use a ","color":"gray"}'
+        - '{"text":"Metamagic option on a spell ","color":"gray"}'
+        - '{"text":"while you are holding or ","color":"gray"}'
+        - '{"text":"wearing the shard, you can use ","color":"gray"}'
+        - '{"text":"that property.Outer Essence ","color":"gray"}'
+        - '{"text":"Shardsd4PropertyShard1LawfulOuter ","color":"gray"}'
+        - '{"text":"Essence Shard ","color":"gray"}'
+        - '{"text":"(Lawful)2ChaoticOuter Essence ","color":"gray"}'
+        - '{"text":"Shard (Chaotic)3GoodOuter ","color":"gray"}'
+        - '{"text":"Essence Shard (Good)4EvilOuter ","color":"gray"}'
+        - '{"text":"Essence Shard (Evil) ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

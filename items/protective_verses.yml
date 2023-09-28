@@ -1,0 +1,63 @@
+item-type:
+  ==: NuminousItemType
+  id: protective_verses
+  name: Protective Verses
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: WRITTEN_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Protective Verses","color":"white"}'
+      lore:
+        - '{"text":"This leather-bound spellbook ","color":"gray"}'
+        - '{"text":"is reinforced with iron and ","color":"gray"}'
+        - '{"text":"silver fittings and an iron ","color":"gray"}'
+        - '{"text":"lock (DC 20 to open). As an ","color":"gray"}'
+        - '{"text":"action, you can touch the ","color":"gray"}'
+        - "{\"text\":\"book's cover and cause it to \",\"color\":\"gray\"}"
+        - '{"text":"lock as if you cast arcane ","color":"gray"}'
+        - '{"text":"lock on it. When found, the ","color":"gray"}'
+        - '{"text":"book contains the following ","color":"gray"}'
+        - '{"text":"spells: arcane lock, dispel ","color":"gray"}'
+        - '{"text":"magic, globe of ","color":"gray"}'
+        - '{"text":"invulnerability, glyph of ","color":"gray"}'
+        - "{\"text\":\"warding, Mordenkainen's \",\"color\":\"gray\"}"
+        - '{"text":"private sanctum, protection ","color":"gray"}'
+        - '{"text":"from evil, and symbol. It ","color":"gray"}'
+        - '{"text":"functions as a spellbook for ","color":"gray"}'
+        - '{"text":"you.While you are holding the ","color":"gray"}'
+        - '{"text":"book, you can use it as a ","color":"gray"}'
+        - '{"text":"spellcasting focus for your ","color":"gray"}'
+        - '{"text":"wizard spells.The book has 3 ","color":"gray"}'
+        - '{"text":"charges, and it regains 1d3 ","color":"gray"}'
+        - '{"text":"expended charges daily at ","color":"gray"}'
+        - '{"text":"dawn. You can use the charges ","color":"gray"}'
+        - '{"text":"in the following ways while ","color":"gray"}'
+        - '{"text":"holding it:If you spend 1 ","color":"gray"}'
+        - '{"text":"minute studying the book, you ","color":"gray"}'
+        - '{"text":"can expend 1 charge to replace ","color":"gray"}'
+        - '{"text":"one of your prepared wizard ","color":"gray"}'
+        - '{"text":"spells with a different spell ","color":"gray"}'
+        - '{"text":"in the book. The new spell ","color":"gray"}'
+        - '{"text":"must be of the abjuration ","color":"gray"}'
+        - '{"text":"school.When you cast an ","color":"gray"}'
+        - '{"text":"abjuration spell, you can ","color":"gray"}'
+        - '{"text":"expend 1 charge to grant a ","color":"gray"}'
+        - '{"text":"creature you can see within 30 ","color":"gray"}'
+        - '{"text":"feet of you 2d10 temporary hit ","color":"gray"}'
+        - '{"text":"points. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 3
+    unit: lb

@@ -1,0 +1,47 @@
+item-type:
+  ==: NuminousItemType
+  id: shadowfell_shard
+  name: Shadowfell Shard
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: ECHO_SHARD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Shadowfell Shard","color":"white"}'
+      lore:
+        - '{"text":"This dull, cold crystal sits ","color":"gray"}'
+        - '{"text":"heavy and leaden, saturated by ","color":"gray"}'
+        - "{\"text\":\"the Shadowfell's despair. As \",\"color\":\"gray\"}"
+        - '{"text":"an action, you can attach the ","color":"gray"}'
+        - '{"text":"shard to a Tiny object (such ","color":"gray"}'
+        - '{"text":"as a weapon or a piece of ","color":"gray"}'
+        - '{"text":"jewelry) or detach it. It ","color":"gray"}'
+        - '{"text":"falls off if your attunement ","color":"gray"}'
+        - '{"text":"to it ends. You can use the ","color":"gray"}'
+        - '{"text":"shard as a spellcasting focus ","color":"gray"}'
+        - '{"text":"while you hold or wear it.When ","color":"gray"}'
+        - '{"text":"you use a Metamagic option on ","color":"gray"}'
+        - '{"text":"a spell while you are holding ","color":"gray"}'
+        - '{"text":"or wearing the shard, you can ","color":"gray"}'
+        - '{"text":"momentarily curse one creature ","color":"gray"}'
+        - '{"text":"targeted by the spell; choose ","color":"gray"}'
+        - '{"text":"one ability score, and until ","color":"gray"}'
+        - '{"text":"the end of your next turn, the ","color":"gray"}'
+        - '{"text":"creature has disadvantage on ","color":"gray"}'
+        - '{"text":"ability checks and saving ","color":"gray"}'
+        - '{"text":"throws that use that ability. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

@@ -1,0 +1,32 @@
+item-type:
+  ==: NuminousItemType
+  id: diplomats_pack
+  name: Diplomat's Pack
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: CHEST
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Diplomat's Pack\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"Includes:a chest2 cases for ","color":"gray"}'
+        - '{"text":"maps and scrollsa set of fine ","color":"gray"}'
+        - '{"text":"clothesa bottle of inkan ink ","color":"gray"}'
+        - '{"text":"pena lamp2 flasks of oil5 ","color":"gray"}'
+        - '{"text":"sheets of papera vial of ","color":"gray"}'
+        - '{"text":"perfumesealing waxsoap ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 36
+    unit: lb

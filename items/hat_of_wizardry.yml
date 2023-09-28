@@ -1,0 +1,47 @@
+item-type:
+  ==: NuminousItemType
+  id: hat_of_wizardry
+  name: Hat of Wizardry
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: LEATHER_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Hat of Wizardry","color":"white"}'
+      lore:
+        - '{"text":"This antiquated, cone—shaped ","color":"gray"}'
+        - '{"text":"hat is adorned with gold ","color":"gray"}'
+        - '{"text":"crescent moons and stars. ","color":"gray"}'
+        - '{"text":"While you are wearing it, you ","color":"gray"}'
+        - '{"text":"gain the following ","color":"gray"}'
+        - '{"text":"benefits:You can use the hat ","color":"gray"}'
+        - '{"text":"as a spellcasting focus for ","color":"gray"}'
+        - '{"text":"your wizard spells.You can try ","color":"gray"}'
+        - '{"text":"to cast a cantrip that you ","color":"gray"}'
+        - "{\"text\":\"don't know. The cantrip must \",\"color\":\"gray\"}"
+        - '{"text":"be on the wizard spell list, ","color":"gray"}'
+        - '{"text":"and you must make a DC 10 ","color":"gray"}'
+        - '{"text":"Intelligence (Arcana) check. ","color":"gray"}'
+        - '{"text":"If the check succeeds, you ","color":"gray"}'
+        - '{"text":"cast the spell. If the check ","color":"gray"}'
+        - '{"text":"fails, so does the spell, and ","color":"gray"}'
+        - '{"text":"the action used to cast the ","color":"gray"}'
+        - '{"text":"spell is wasted. In either ","color":"gray"}'
+        - "{\"text\":\"case, you can't use this \",\"color\":\"gray\"}"
+        - '{"text":"property again until you ","color":"gray"}'
+        - '{"text":"finish a long rest. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

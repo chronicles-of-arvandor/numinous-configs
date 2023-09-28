@@ -1,0 +1,37 @@
+item-type:
+  ==: NuminousItemType
+  id: natures_mantle
+  name: Nature's Mantle
+  categories:
+    - WONDROUS_ITEM
+  rarity: UNCOMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Nature's Mantle\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"This cloak shifts color and ","color":"gray"}'
+        - '{"text":"texture to blend with the ","color":"gray"}'
+        - '{"text":"terrain surrounding you. While ","color":"gray"}'
+        - '{"text":"wearing the cloak, you can use ","color":"gray"}'
+        - '{"text":"it as a spellcasting focus for ","color":"gray"}'
+        - '{"text":"your druid and ranger ","color":"gray"}'
+        - '{"text":"spells.While you are in an ","color":"gray"}'
+        - '{"text":"area that is lightly obscured, ","color":"gray"}'
+        - '{"text":"you can Hide as a bonus action ","color":"gray"}'
+        - '{"text":"even if you are being directly ","color":"gray"}'
+        - '{"text":"observed. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 2
+    unit: lb

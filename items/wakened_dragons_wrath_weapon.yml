@@ -1,0 +1,151 @@
+item-type:
+  ==: NuminousItemType
+  id: wakened_dragons_wrath_weapon
+  name: Wakened Dragon's Wrath Weapon
+  categories:
+    - VEHICLE_LAND
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: DRAGON_WALL_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Wakened Dragon's Wrath Weapon\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"This weapon is decorated with ","color":"gray"}'
+        - '{"text":"dragon heads, claws, wings, ","color":"gray"}'
+        - '{"text":"scales, or Draconic letters. ","color":"gray"}'
+        - "{\"text\":\"When it steeps in a dragon's \",\"color\":\"gray\"}"
+        - '{"text":"hoard, it absorbs the energy ","color":"gray"}'
+        - "{\"text\":\"of the dragon's breath weapon \",\"color\":\"gray\"}"
+        - '{"text":"and deals damage of that type ","color":"gray"}'
+        - '{"text":"with its special ","color":"gray"}'
+        - '{"text":"properties.Whenever you roll a ","color":"gray"}'
+        - '{"text":"20 on your attack roll with ","color":"gray"}'
+        - '{"text":"this weapon, each creature of ","color":"gray"}'
+        - '{"text":"your choice within 5 feet of ","color":"gray"}'
+        - '{"text":"the target takes 5 damage of ","color":"gray"}'
+        - "{\"text\":\"the type dealt by the dragon's \",\"color\":\"gray\"}"
+        - '{"text":"breath weapon.You gain a +2 ","color":"gray"}'
+        - '{"text":"bonus to attack and damage ","color":"gray"}'
+        - '{"text":"rolls made using the weapon. ","color":"gray"}'
+        - '{"text":"On a hit, the weapon deals an ","color":"gray"}'
+        - '{"text":"extra 2d6 damage of the type ","color":"gray"}'
+        - "{\"text\":\"dealt by the dragon's breath \",\"color\":\"gray\"}"
+        - '{"text":"weapon.As an action, you can ","color":"gray"}'
+        - '{"text":"unleash a 30-foot cone of ","color":"gray"}'
+        - '{"text":"destructive energy from the ","color":"gray"}'
+        - '{"text":"weapon. Each creature in that ","color":"gray"}'
+        - '{"text":"area must make a DC 16 ","color":"gray"}'
+        - '{"text":"Dexterity saving throw, taking ","color":"gray"}'
+        - '{"text":"8d6 damage of the type dealt ","color":"gray"}'
+        - "{\"text\":\"by the dragon's breath weapon \",\"color\":\"gray\"}"
+        - '{"text":"on a failed save, or half as ","color":"gray"}'
+        - '{"text":"much damage on a successful ","color":"gray"}'
+        - '{"text":"one. Once this action is used, ","color":"gray"}'
+        - "{\"text\":\"it can't be used again until \",\"color\":\"gray\"}"
+        - '{"text":"the next dawn. Base items. ","color":"gray"}'
+        - '{"text":"This item variant can be ","color":"gray"}'
+        - '{"text":"applied to the following base ","color":"gray"}'
+        - '{"text":"items:Antimatter Rifle ","color":"gray"}'
+        - "{\"text\":\"(Wakened Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Antimatter Rifle)Automatic ","color":"gray"}'
+        - "{\"text\":\"Pistol (Wakened Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Automatic Pistol)Automatic ","color":"gray"}'
+        - "{\"text\":\"Rifle (Wakened Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Automatic Rifle)Battleaxe ","color":"gray"}'
+        - "{\"text\":\"(Wakened Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Battleaxe)Blowgun (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Blowgun)Club \",\"color\":\"gray\"}"
+        - "{\"text\":\"(Wakened Dragon's Wrath \",\"color\":\"gray\"}"
+        - "{\"text\":\"Club)Dagger (Wakened Dragon's \",\"color\":\"gray\"}"
+        - '{"text":"Wrath Dagger)Dart (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Dart)Double-Bladed Scimitar ","color":"gray"}'
+        - "{\"text\":\"(Wakened Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Double-Bladed Scimitar)Flail ","color":"gray"}'
+        - "{\"text\":\"(Wakened Dragon's Wrath \",\"color\":\"gray\"}"
+        - "{\"text\":\"Flail)Glaive (Wakened Dragon's \",\"color\":\"gray\"}"
+        - '{"text":"Wrath Glaive)Greataxe (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Greataxe)Greatclub (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Greatclub)Greatsword (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Greatsword)Halberd (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Halberd)Hand \",\"color\":\"gray\"}"
+        - "{\"text\":\"Crossbow (Wakened Dragon's \",\"color\":\"gray\"}"
+        - '{"text":"Wrath Hand Crossbow)Handaxe ","color":"gray"}'
+        - "{\"text\":\"(Wakened Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Handaxe)Heavy Crossbow ","color":"gray"}'
+        - "{\"text\":\"(Wakened Dragon's Wrath Heavy \",\"color\":\"gray\"}"
+        - '{"text":"Crossbow)Hooked Shortspear ","color":"gray"}'
+        - "{\"text\":\"(Wakened Dragon's Wrath Hooked \",\"color\":\"gray\"}"
+        - '{"text":"Shortspear)Hoopak (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Hoopak)Hunting \",\"color\":\"gray\"}"
+        - "{\"text\":\"Rifle (Wakened Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Hunting Rifle)Javelin (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Javelin)Lance \",\"color\":\"gray\"}"
+        - "{\"text\":\"(Wakened Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Lance)Laser Pistol (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Laser \",\"color\":\"gray\"}"
+        - '{"text":"Pistol)Laser Rifle (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Laser \",\"color\":\"gray\"}"
+        - '{"text":"Rifle)Light Crossbow (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Light \",\"color\":\"gray\"}"
+        - '{"text":"Crossbow)Light Hammer (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Light \",\"color\":\"gray\"}"
+        - '{"text":"Hammer)Light Repeating ","color":"gray"}'
+        - "{\"text\":\"Crossbow (Wakened Dragon's \",\"color\":\"gray\"}"
+        - '{"text":"Wrath Light Repeating ","color":"gray"}'
+        - '{"text":"Crossbow)Longbow (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Longbow)Longsword (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Longsword)Mace \",\"color\":\"gray\"}"
+        - "{\"text\":\"(Wakened Dragon's Wrath \",\"color\":\"gray\"}"
+        - "{\"text\":\"Mace)Maul (Wakened Dragon's \",\"color\":\"gray\"}"
+        - '{"text":"Wrath Maul)Morningstar ","color":"gray"}'
+        - "{\"text\":\"(Wakened Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Morningstar)Musket (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Musket)Net \",\"color\":\"gray\"}"
+        - "{\"text\":\"(Wakened Dragon's Wrath \",\"color\":\"gray\"}"
+        - "{\"text\":\"Net)Pike (Wakened Dragon's \",\"color\":\"gray\"}"
+        - '{"text":"Wrath Pike)Pistol (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Pistol)Quarterstaff (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Quarterstaff)Rapier (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Rapier)Revolver \",\"color\":\"gray\"}"
+        - "{\"text\":\"(Wakened Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Revolver)Scimitar (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Scimitar)Shortbow (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Shortbow)Shortsword (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Shortsword)Shotgun (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Shotgun)Sickle \",\"color\":\"gray\"}"
+        - "{\"text\":\"(Wakened Dragon's Wrath \",\"color\":\"gray\"}"
+        - "{\"text\":\"Sickle)Sling (Wakened Dragon's \",\"color\":\"gray\"}"
+        - '{"text":"Wrath Sling)Spear (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Spear)Trident \",\"color\":\"gray\"}"
+        - "{\"text\":\"(Wakened Dragon's Wrath \",\"color\":\"gray\"}"
+        - '{"text":"Trident)War Pick (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath War \",\"color\":\"gray\"}"
+        - '{"text":"Pick)Warhammer (Wakened ","color":"gray"}'
+        - "{\"text\":\"Dragon's Wrath Warhammer)Whip \",\"color\":\"gray\"}"
+        - "{\"text\":\"(Wakened Dragon's Wrath \",\"color\":\"gray\"}"
+        - "{\"text\":\"Whip)Yklwa (Wakened Dragon's \",\"color\":\"gray\"}"
+        - '{"text":"Wrath Yklwa) ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

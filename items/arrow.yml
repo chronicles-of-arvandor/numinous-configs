@@ -1,0 +1,31 @@
+item-type:
+  ==: NuminousItemType
+  id: arrow
+  name: Arrow
+  categories:
+    - AMMUNITION
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: ARROW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Arrow","color":"white"}'
+      lore:
+        - '{"text":"Ammunition for ranged weapons, ","color":"gray"}'
+        - '{"text":"like bows. Each time you ","color":"gray"}'
+        - '{"text":"attack with the weapon, you ","color":"gray"}'
+        - '{"text":"expend one piece of ","color":"gray"}'
+        - '{"text":"ammunition. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0.8
+    unit: oz

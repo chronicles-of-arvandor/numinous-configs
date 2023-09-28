@@ -1,0 +1,80 @@
+item-type:
+  ==: NuminousItemType
+  id: poisoners_kit
+  name: Poisoner's Kit
+  categories:
+    - TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: WRITABLE_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Poisoner's Kit\",\"color\":\"white\"}"
+      lore:
+        - "{\"text\":\"A poisoner's kit includes the \",\"color\":\"gray\"}"
+        - '{"text":"vials, chemicals, and other ","color":"gray"}'
+        - '{"text":"equipment necessary for the ","color":"gray"}'
+        - '{"text":"creation of poisons. ","color":"gray"}'
+        - '{"text":"Proficiency with this kit lets ","color":"gray"}'
+        - '{"text":"you add your proficiency bonus ","color":"gray"}'
+        - '{"text":"to any ability checks you make ","color":"gray"}'
+        - '{"text":"to craft or use ","color":"gray"}'
+        - '{"text":"poisons.Additionally, the ","color":"gray"}'
+        - '{"text":"Crafting and Harvesting Poison ","color":"gray"}'
+        - '{"text":"rules require the use of a ","color":"gray"}'
+        - "{\"text\":\"poisoner's kit.A poisoner's \",\"color\":\"gray\"}"
+        - '{"text":"kit is a favored resource for ","color":"gray"}'
+        - '{"text":"thieves, assassins, and others ","color":"gray"}'
+        - '{"text":"who engage in skulduggery. It ","color":"gray"}'
+        - '{"text":"allows you to apply poisons ","color":"gray"}'
+        - '{"text":"and create them from various ","color":"gray"}'
+        - '{"text":"materials. Your knowledge of ","color":"gray"}'
+        - '{"text":"poisons also helps you treat ","color":"gray"}'
+        - "{\"text\":\"them. Components. A poisoner's \",\"color\":\"gray\"}"
+        - '{"text":"kit includes glass vials, a ","color":"gray"}'
+        - '{"text":"mortar and pestle, chemicals, ","color":"gray"}'
+        - '{"text":"and a glass stirring rod. ","color":"gray"}'
+        - '{"text":"History. Your training with ","color":"gray"}'
+        - '{"text":"poisons can help you when you ","color":"gray"}'
+        - '{"text":"try to recall facts about ","color":"gray"}'
+        - '{"text":"infamous poisonings. ","color":"gray"}'
+        - '{"text":"Investigation, Perception. ","color":"gray"}'
+        - '{"text":"Your knowledge of poisons has ","color":"gray"}'
+        - '{"text":"taught you to handle those ","color":"gray"}'
+        - '{"text":"substances carefully, giving ","color":"gray"}'
+        - '{"text":"you an edge when you inspect ","color":"gray"}'
+        - '{"text":"poisoned objects or try to ","color":"gray"}'
+        - '{"text":"extract clues from events that ","color":"gray"}'
+        - '{"text":"involve poison. Medicine. When ","color":"gray"}'
+        - '{"text":"you treat the victim of a ","color":"gray"}'
+        - '{"text":"poison, your knowledge grants ","color":"gray"}'
+        - '{"text":"you added insight into how to ","color":"gray"}'
+        - '{"text":"provide the best care to your ","color":"gray"}'
+        - '{"text":"patient. Nature, Survival. ","color":"gray"}'
+        - '{"text":"Working with poisons enables ","color":"gray"}'
+        - '{"text":"you to acquire lore about ","color":"gray"}'
+        - '{"text":"which plants and animals are ","color":"gray"}'
+        - '{"text":"poisonous. Handle Poison. Your ","color":"gray"}'
+        - '{"text":"proficiency allows you to ","color":"gray"}'
+        - '{"text":"handle and apply a poison ","color":"gray"}'
+        - '{"text":"without risk of exposing ","color":"gray"}'
+        - '{"text":"yourself to its ","color":"gray"}'
+        - "{\"text\":\"effects.Poisoner's \",\"color\":\"gray\"}"
+        - '{"text":"ToolsActivityDCSpot a poisoned ","color":"gray"}'
+        - '{"text":"object10Determine the effects ","color":"gray"}'
+        - '{"text":"of a poison20See the Tool ","color":"gray"}'
+        - '{"text":"Proficiencies entry for more ","color":"gray"}'
+        - '{"text":"information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 2
+    unit: lb

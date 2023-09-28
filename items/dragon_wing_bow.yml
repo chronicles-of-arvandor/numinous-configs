@@ -1,0 +1,61 @@
+item-type:
+  ==: NuminousItemType
+  id: dragon_wing_bow
+  name: Dragon Wing Bow
+  categories:
+    - VEHICLE_LAND
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Dragon Wing Bow","color":"white"}'
+      lore:
+        - '{"text":"The limb tips of this magic ","color":"gray"}'
+        - "{\"text\":\"bow are shaped like a dragon's \",\"color\":\"gray\"}"
+        - '{"text":"wings, and the weapon is ","color":"gray"}'
+        - '{"text":"infused with the essence of a ","color":"gray"}'
+        - '{"text":"chromatic, gem, or metallic ","color":"gray"}'
+        - "{\"text\":\"dragon's breath. When you hit \",\"color\":\"gray\"}"
+        - '{"text":"with an attack roll using this ","color":"gray"}'
+        - '{"text":"magic bow, the target takes an ","color":"gray"}'
+        - '{"text":"extra 1d6 damage of the same ","color":"gray"}'
+        - '{"text":"type as the breath infused in ","color":"gray"}'
+        - '{"text":"the bow—acid, cold, fire, ","color":"gray"}'
+        - '{"text":"force, lightning, necrotic, ","color":"gray"}'
+        - '{"text":"poison, psychic, radiant, or ","color":"gray"}'
+        - '{"text":"thunder.If you load no ","color":"gray"}'
+        - '{"text":"ammunition in the weapon, it ","color":"gray"}'
+        - '{"text":"produces its own, ","color":"gray"}'
+        - '{"text":"automatically creating one ","color":"gray"}'
+        - '{"text":"piece of magic ammunition when ","color":"gray"}'
+        - '{"text":"you pull back the string. The ","color":"gray"}'
+        - '{"text":"ammunition created by the bow ","color":"gray"}'
+        - '{"text":"vanishes the instant after it ","color":"gray"}'
+        - '{"text":"hits or misses a target. Base ","color":"gray"}'
+        - '{"text":"items. This item variant can ","color":"gray"}'
+        - '{"text":"be applied to the following ","color":"gray"}'
+        - '{"text":"base items:Hand Crossbow ","color":"gray"}'
+        - '{"text":"(Dragon Wing Hand ","color":"gray"}'
+        - '{"text":"Crossbow)Heavy Crossbow ","color":"gray"}'
+        - '{"text":"(Dragon Wing Heavy ","color":"gray"}'
+        - '{"text":"Crossbow)Light Crossbow ","color":"gray"}'
+        - '{"text":"(Dragon Wing Light ","color":"gray"}'
+        - '{"text":"Crossbow)Light Repeating ","color":"gray"}'
+        - '{"text":"Crossbow (Dragon Wing Light ","color":"gray"}'
+        - '{"text":"Repeating Crossbow)Longbow ","color":"gray"}'
+        - '{"text":"(Dragon Wing Longbow)Shortbow ","color":"gray"}'
+        - '{"text":"(Dragon Wing Shortbow) ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

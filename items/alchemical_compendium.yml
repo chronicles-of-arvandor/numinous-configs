@@ -1,0 +1,68 @@
+item-type:
+  ==: NuminousItemType
+  id: alchemical_compendium
+  name: Alchemical Compendium
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Alchemical Compendium","color":"white"}'
+      lore:
+        - '{"text":"Acrid odors cling to this ","color":"gray"}'
+        - '{"text":"stained, heavy volume. The ","color":"gray"}'
+        - "{\"text\":\"book's metal fittings are \",\"color\":\"gray\"}"
+        - '{"text":"copper, iron, lead, silver, ","color":"gray"}'
+        - '{"text":"and gold, some frozen ","color":"gray"}'
+        - '{"text":"mid-transition from one metal ","color":"gray"}'
+        - '{"text":"to another. When found, the ","color":"gray"}'
+        - '{"text":"book contains the following ","color":"gray"}'
+        - '{"text":"spells: enlarge/reduce, ","color":"gray"}'
+        - '{"text":"feather fall, flesh to stone, ","color":"gray"}'
+        - '{"text":"gaseous form, magic weapon, ","color":"gray"}'
+        - '{"text":"and polymorph. It functions as ","color":"gray"}'
+        - '{"text":"a spellbook for you.While you ","color":"gray"}'
+        - '{"text":"are holding the book, you can ","color":"gray"}'
+        - '{"text":"use it as a spellcasting focus ","color":"gray"}'
+        - '{"text":"for your wizard spells.The ","color":"gray"}'
+        - '{"text":"book has 3 charges, and it ","color":"gray"}'
+        - '{"text":"regains 1d3 expended charges ","color":"gray"}'
+        - '{"text":"daily at dawn. You can use the ","color":"gray"}'
+        - '{"text":"charges in the following ways ","color":"gray"}'
+        - '{"text":"while holding it:If you spend ","color":"gray"}'
+        - '{"text":"1 minute studying the book, ","color":"gray"}'
+        - '{"text":"you can expend 1 charge to ","color":"gray"}'
+        - '{"text":"replace one of your prepared ","color":"gray"}'
+        - '{"text":"wizard spells with a different ","color":"gray"}'
+        - '{"text":"spell in the book. The new ","color":"gray"}'
+        - '{"text":"spell must be of the ","color":"gray"}'
+        - '{"text":"transmutation school.As an ","color":"gray"}'
+        - '{"text":"action, you can touch a ","color":"gray"}'
+        - "{\"text\":\"nonmagical object that isn't \",\"color\":\"gray\"}"
+        - '{"text":"being worn or carried and ","color":"gray"}'
+        - '{"text":"spend a number of charges to ","color":"gray"}'
+        - '{"text":"transform the target into ","color":"gray"}'
+        - '{"text":"another object. For 1 charge, ","color":"gray"}'
+        - '{"text":"the object can be no larger ","color":"gray"}'
+        - '{"text":"than 1 foot on a side. You can ","color":"gray"}'
+        - '{"text":"spend additional charges to ","color":"gray"}'
+        - '{"text":"increase the maximum ","color":"gray"}'
+        - '{"text":"dimensions by 2 feet per ","color":"gray"}'
+        - '{"text":"charge. The new object must ","color":"gray"}'
+        - '{"text":"have a gold value equal to or ","color":"gray"}'
+        - '{"text":"less than the original. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 3
+    unit: lb

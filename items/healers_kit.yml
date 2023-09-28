@@ -1,0 +1,35 @@
+item-type:
+  ==: NuminousItemType
+  id: healers_kit
+  name: Healer's Kit
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: LIME_DYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Healer's Kit\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"This kit is a leather pouch ","color":"gray"}'
+        - '{"text":"containing bandages, salves, ","color":"gray"}'
+        - '{"text":"and splints. The kit has ten ","color":"gray"}'
+        - '{"text":"uses. As an action, you can ","color":"gray"}'
+        - '{"text":"expend one use of the kit to ","color":"gray"}'
+        - '{"text":"stabilize a creature that has ","color":"gray"}'
+        - '{"text":"0 hit points, without needing ","color":"gray"}'
+        - '{"text":"to make a Wisdom (Medicine) ","color":"gray"}'
+        - '{"text":"check. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 3
+    unit: lb

@@ -1,0 +1,54 @@
+item-type:
+  ==: NuminousItemType
+  id: oil_flask
+  name: Oil (flask)
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: HONEY_BOTTLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Oil (flask)","color":"white"}'
+      lore:
+        - '{"text":"Oil usually comes in a clay ","color":"gray"}'
+        - '{"text":"flask that holds 1 pint. As an ","color":"gray"}'
+        - '{"text":"action, you can splash the oil ","color":"gray"}'
+        - '{"text":"in this flask onto a creature ","color":"gray"}'
+        - '{"text":"within 5 feet of you or throw ","color":"gray"}'
+        - '{"text":"it up to 20 feet, shattering ","color":"gray"}'
+        - '{"text":"it on impact. Make a ranged ","color":"gray"}'
+        - '{"text":"attack against a target ","color":"gray"}'
+        - '{"text":"creature or object, treating ","color":"gray"}'
+        - '{"text":"the oil as an improvised ","color":"gray"}'
+        - '{"text":"weapon. On a hit, the target ","color":"gray"}'
+        - '{"text":"is covered in oil. If the ","color":"gray"}'
+        - '{"text":"target takes any fire damage ","color":"gray"}'
+        - '{"text":"before the oil dries (after 1 ","color":"gray"}'
+        - '{"text":"minute), the target takes an ","color":"gray"}'
+        - '{"text":"additional 5 fire damage from ","color":"gray"}'
+        - '{"text":"the burning oil. You can also ","color":"gray"}'
+        - '{"text":"pour a flask of oil on the ","color":"gray"}'
+        - '{"text":"ground to cover a ","color":"gray"}'
+        - '{"text":"5-foot-square area, provided ","color":"gray"}'
+        - '{"text":"that the surface is level. If ","color":"gray"}'
+        - '{"text":"lit, the oil burns for 2 ","color":"gray"}'
+        - '{"text":"rounds and deals 5 fire damage ","color":"gray"}'
+        - '{"text":"to any creature that enters ","color":"gray"}'
+        - '{"text":"the area or ends its turn in ","color":"gray"}'
+        - '{"text":"the area. A creature can take ","color":"gray"}'
+        - '{"text":"this damage only once per ","color":"gray"}'
+        - '{"text":"turn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

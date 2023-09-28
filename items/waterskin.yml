@@ -1,0 +1,28 @@
+item-type:
+  ==: NuminousItemType
+  id: waterskin
+  name: Waterskin
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: INK_SAC
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Waterskin","color":"white"}'
+      lore:
+        - '{"text":"A waterskin can hold up to 4 ","color":"gray"}'
+        - '{"text":"pints of liquid. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 5
+    unit: lb

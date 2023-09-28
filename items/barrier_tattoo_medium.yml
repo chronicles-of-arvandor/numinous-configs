@@ -1,0 +1,51 @@
+item-type:
+  ==: NuminousItemType
+  id: barrier_tattoo_medium
+  name: Barrier Tattoo (Medium)
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: INK_SAC
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Barrier Tattoo (Medium)","color":"white"}'
+      lore:
+        - '{"text":"Produced by a special needle, ","color":"gray"}'
+        - '{"text":"this magic tattoo depicts ","color":"gray"}'
+        - '{"text":"protective imagery and uses ","color":"gray"}'
+        - '{"text":"ink that resembles liquid ","color":"gray"}'
+        - '{"text":"metal. Tattoo Attunement. To ","color":"gray"}'
+        - '{"text":"attune to this item, you hold ","color":"gray"}'
+        - '{"text":"the needle to your skin where ","color":"gray"}'
+        - '{"text":"you want the tattoo to appear, ","color":"gray"}'
+        - '{"text":"pressing the needle there ","color":"gray"}'
+        - '{"text":"throughout the attunement ","color":"gray"}'
+        - '{"text":"process. When the attunement ","color":"gray"}'
+        - '{"text":"is complete, the needle turns ","color":"gray"}'
+        - '{"text":"into the ink that becomes the ","color":"gray"}'
+        - '{"text":"tattoo, which appears on the ","color":"gray"}'
+        - '{"text":"skin.If your attunement to the ","color":"gray"}'
+        - '{"text":"tattoo ends, the tattoo ","color":"gray"}'
+        - '{"text":"vanishes, and the needle ","color":"gray"}'
+        - '{"text":"reappears in your space. ","color":"gray"}'
+        - "{\"text\":\"Protection. While you aren't \",\"color\":\"gray\"}"
+        - '{"text":"wearing armor, the tattoo ","color":"gray"}'
+        - '{"text":"grants you an Armor Class of ","color":"gray"}'
+        - '{"text":"15 + your Dexterity modifier ","color":"gray"}'
+        - '{"text":"(maximum of +2). You can use a ","color":"gray"}'
+        - '{"text":"shield and still gain this ","color":"gray"}'
+        - '{"text":"benefit. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

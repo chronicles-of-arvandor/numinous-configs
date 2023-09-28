@@ -1,0 +1,31 @@
+item-type:
+  ==: NuminousItemType
+  id: spellbook
+  name: Spellbook
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Spellbook","color":"white"}'
+      lore:
+        - '{"text":"Essential for wizards, a ","color":"gray"}'
+        - '{"text":"spellbook is a leather-bound ","color":"gray"}'
+        - '{"text":"tome with 100 blank vellum ","color":"gray"}'
+        - '{"text":"pages suitable for recording ","color":"gray"}'
+        - '{"text":"spells. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 3
+    unit: lb

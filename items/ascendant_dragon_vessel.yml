@@ -1,0 +1,49 @@
+item-type:
+  ==: NuminousItemType
+  id: ascendant_dragon_vessel
+  name: Ascendant Dragon Vessel
+  categories:
+    - WONDROUS_ITEM
+  rarity: LEGENDARY
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Ascendant Dragon Vessel","color":"white"}'
+      lore:
+        - '{"text":"This vessel can be a potion ","color":"gray"}'
+        - '{"text":"bottle, drinking horn, or ","color":"gray"}'
+        - '{"text":"other container meant to hold ","color":"gray"}'
+        - '{"text":"a liquid.As a bonus action, if ","color":"gray"}'
+        - '{"text":"the vessel is empty, you can ","color":"gray"}'
+        - '{"text":"speak the command word to fill ","color":"gray"}'
+        - '{"text":"the vessel with one of the ","color":"gray"}'
+        - '{"text":"following (your choice): ale, ","color":"gray"}'
+        - '{"text":"olive oil, mead, wine, ","color":"gray"}'
+        - '{"text":"whiskey, a potion of healing, ","color":"gray"}'
+        - '{"text":"a potion of greater healing, a ","color":"gray"}'
+        - '{"text":"potion of superior healing, a ","color":"gray"}'
+        - '{"text":"potion of supreme healing, a ","color":"gray"}'
+        - '{"text":"potion of climbing, a potion ","color":"gray"}'
+        - '{"text":"of fire breath, a potion of ","color":"gray"}'
+        - '{"text":"flying, or a potion of ","color":"gray"}'
+        - "{\"text\":\"dragon's majesty. Once this \",\"color\":\"gray\"}"
+        - "{\"text\":\"property is used, it can't be \",\"color\":\"gray\"}"
+        - '{"text":"used until the next dawn. A ","color":"gray"}'
+        - '{"text":"potion you create in this way ","color":"gray"}'
+        - '{"text":"loses its magical properties ","color":"gray"}'
+        - "{\"text\":\"if it isn't imbibed within 24 \",\"color\":\"gray\"}"
+        - '{"text":"hours. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

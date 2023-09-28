@@ -1,0 +1,29 @@
+item-type:
+  ==: NuminousItemType
+  id: chain_10_feet
+  name: Chain (10 feet)
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: STRING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Chain (10 feet)","color":"white"}'
+      lore:
+        - '{"text":"A chain has 10 hit points. It ","color":"gray"}'
+        - '{"text":"can be burst with a successful ","color":"gray"}'
+        - '{"text":"DC 20 Strength check. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 10
+    unit: lb

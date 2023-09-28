@@ -1,0 +1,29 @@
+item-type:
+  ==: NuminousItemType
+  id: agate
+  name: Agate
+  categories:
+    - CRAFTING_MATERIAL
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: NETHER_GOLD_ORE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Agate","color":"white"}'
+      lore:
+        - '{"text":"A form of chalcedony, part of ","color":"gray"}'
+        - '{"text":"a large family of gems and ","color":"gray"}'
+        - '{"text":"minerals. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

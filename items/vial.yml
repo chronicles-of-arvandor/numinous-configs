@@ -1,0 +1,28 @@
+item-type:
+  ==: NuminousItemType
+  id: vial
+  name: Vial
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Vial","color":"white"}'
+      lore:
+        - '{"text":"A vial can hold up to 4 ounces ","color":"gray"}'
+        - '{"text":"of liquid. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

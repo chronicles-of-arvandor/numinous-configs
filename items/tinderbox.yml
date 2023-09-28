@@ -1,0 +1,35 @@
+item-type:
+  ==: NuminousItemType
+  id: tinderbox
+  name: Tinderbox
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: FLINT_AND_STEEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Tinderbox","color":"white"}'
+      lore:
+        - '{"text":"This small container holds ","color":"gray"}'
+        - '{"text":"flint, fire steel, and tinder ","color":"gray"}'
+        - '{"text":"(usually dry cloth soaked in ","color":"gray"}'
+        - '{"text":"light oil) used to kindle a ","color":"gray"}'
+        - '{"text":"fire. Using it to light a ","color":"gray"}'
+        - '{"text":"torch—or anything else with ","color":"gray"}'
+        - '{"text":"abundant, exposed fuel—takes ","color":"gray"}'
+        - '{"text":"an action. Lighting any other ","color":"gray"}'
+        - '{"text":"fire takes 1 minute. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

@@ -1,0 +1,39 @@
+item-type:
+  ==: NuminousItemType
+  id: 1_arcane_grimoire
+  name: +1 Arcane Grimoire
+  categories:
+    - WONDROUS_ITEM
+  rarity: UNCOMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"+1 Arcane Grimoire","color":"white"}'
+      lore:
+        - '{"text":"While you are holding this ","color":"gray"}'
+        - '{"text":"leather-bound book, you can ","color":"gray"}'
+        - '{"text":"use it as a spellcasting focus ","color":"gray"}'
+        - '{"text":"for your wizard spells, and ","color":"gray"}'
+        - '{"text":"you gain a +1 bonus to spell ","color":"gray"}'
+        - '{"text":"attack rolls and to the saving ","color":"gray"}'
+        - '{"text":"throw DCs of your wizard ","color":"gray"}'
+        - '{"text":"spells.You can use this book ","color":"gray"}'
+        - '{"text":"as a spellbook. In addition, ","color":"gray"}'
+        - '{"text":"when you use your Arcane ","color":"gray"}'
+        - '{"text":"Recovery feature, you can ","color":"gray"}'
+        - '{"text":"increase the number of spell ","color":"gray"}'
+        - '{"text":"slot levels you regain by 1. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 3
+    unit: lb

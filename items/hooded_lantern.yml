@@ -1,0 +1,35 @@
+item-type:
+  ==: NuminousItemType
+  id: hooded_lantern
+  name: Hooded Lantern
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: LANTERN
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Hooded Lantern","color":"white"}'
+      lore:
+        - '{"text":"A hooded lantern casts bright ","color":"gray"}'
+        - '{"text":"light in a 30-foot radius and ","color":"gray"}'
+        - '{"text":"dim light for an additional 30 ","color":"gray"}'
+        - '{"text":"feet. Once lit, it burns for 6 ","color":"gray"}'
+        - '{"text":"hours on a flask (1 pint) of ","color":"gray"}'
+        - '{"text":"oil. As an action, you can ","color":"gray"}'
+        - '{"text":"lower the hood, reducing the ","color":"gray"}'
+        - '{"text":"light to dim light in a 5-foot ","color":"gray"}'
+        - '{"text":"radius. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 2
+    unit: lb

@@ -1,0 +1,43 @@
+item-type:
+  ==: NuminousItemType
+  id: ruby_of_the_war_mage
+  name: Ruby of the War Mage
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: REDSTONE_BLOCK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Ruby of the War Mage","color":"white"}'
+      lore:
+        - '{"text":"Etched with eldritch runes, ","color":"gray"}'
+        - '{"text":"this 1-inch-diameter ruby ","color":"gray"}'
+        - '{"text":"allows you to use a simple or ","color":"gray"}'
+        - '{"text":"martial weapon as a ","color":"gray"}'
+        - '{"text":"spellcasting focus for your ","color":"gray"}'
+        - '{"text":"spells. For this property to ","color":"gray"}'
+        - '{"text":"work, you must attach the ruby ","color":"gray"}'
+        - '{"text":"to the weapon by pressing the ","color":"gray"}'
+        - '{"text":"ruby against it for at least ","color":"gray"}'
+        - '{"text":"10 minutes. Thereafter, the ","color":"gray"}'
+        - "{\"text\":\"ruby can't be removed unless \",\"color\":\"gray\"}"
+        - '{"text":"you detach it as an action or ","color":"gray"}'
+        - '{"text":"the weapon is destroyed. Not ","color":"gray"}'
+        - '{"text":"even an antimagic field causes ","color":"gray"}'
+        - '{"text":"it to fall off. The ruby does ","color":"gray"}'
+        - '{"text":"fall off the weapon if your ","color":"gray"}'
+        - '{"text":"attunement to the ruby ends. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

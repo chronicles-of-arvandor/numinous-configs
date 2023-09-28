@@ -1,0 +1,32 @@
+item-type:
+  ==: NuminousItemType
+  id: military_saddle
+  name: Military Saddle
+  categories:
+    - TACK_AND_HARNESS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: SADDLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Military Saddle","color":"white"}'
+      lore:
+        - '{"text":"A military saddle braces the ","color":"gray"}'
+        - '{"text":"rider, helping you keep your ","color":"gray"}'
+        - '{"text":"seat on an active mount in ","color":"gray"}'
+        - '{"text":"battle. It gives you advantage ","color":"gray"}'
+        - '{"text":"on any check you make to ","color":"gray"}'
+        - '{"text":"remain mounted. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 30
+    unit: lb

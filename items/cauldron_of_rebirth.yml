@@ -1,0 +1,58 @@
+item-type:
+  ==: NuminousItemType
+  id: cauldron_of_rebirth
+  name: Cauldron of Rebirth
+  categories:
+    - WONDROUS_ITEM
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: CAULDRON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Cauldron of Rebirth","color":"white"}'
+      lore:
+        - '{"text":"This Tiny pot bears relief ","color":"gray"}'
+        - '{"text":"scenes of heroes on its cast ","color":"gray"}'
+        - '{"text":"iron sides. You can use the ","color":"gray"}'
+        - '{"text":"cauldron as a spellcasting ","color":"gray"}'
+        - '{"text":"focus for your spells, and it ","color":"gray"}'
+        - '{"text":"functions as a suitable ","color":"gray"}'
+        - '{"text":"component for the scrying ","color":"gray"}'
+        - '{"text":"spell. When you finish a long ","color":"gray"}'
+        - '{"text":"rest, you can use the cauldron ","color":"gray"}'
+        - '{"text":"to create a potion of greater ","color":"gray"}'
+        - '{"text":"healing. The potion lasts for ","color":"gray"}'
+        - '{"text":"24 hours, then loses its magic ","color":"gray"}'
+        - '{"text":"if not consumed.As an action, ","color":"gray"}'
+        - '{"text":"you can cause the cauldron to ","color":"gray"}'
+        - '{"text":"grow large enough for a Medium ","color":"gray"}'
+        - '{"text":"creature to crouch within. You ","color":"gray"}'
+        - '{"text":"can revert the cauldron to its ","color":"gray"}'
+        - '{"text":"normal size as an action, ","color":"gray"}'
+        - '{"text":"harmlessly shunting anything ","color":"gray"}'
+        - "{\"text\":\"that can't fit inside to the \",\"color\":\"gray\"}"
+        - '{"text":"nearest unoccupied space.If ","color":"gray"}'
+        - '{"text":"you place the corpse of a ","color":"gray"}'
+        - '{"text":"humanoid into the cauldron and ","color":"gray"}'
+        - '{"text":"cover the corpse with 200 ","color":"gray"}'
+        - '{"text":"pounds of salt (which costs 10 ","color":"gray"}'
+        - '{"text":"gp) for at least 8 hours, the ","color":"gray"}'
+        - '{"text":"salt is consumed and the ","color":"gray"}'
+        - '{"text":"creature returns to life as if ","color":"gray"}'
+        - '{"text":"by raise dead at the next ","color":"gray"}'
+        - '{"text":"dawn. Once used, this property ","color":"gray"}'
+        - "{\"text\":\"can't be used again for 7 \",\"color\":\"gray\"}"
+        - '{"text":"days. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

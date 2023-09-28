@@ -1,0 +1,34 @@
+item-type:
+  ==: NuminousItemType
+  id: pole_of_angling
+  name: Pole of Angling
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: FISHING_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Pole of Angling","color":"white"}'
+      lore:
+        - '{"text":"While holding this 10-foot ","color":"gray"}'
+        - '{"text":"pole, you can speak a command ","color":"gray"}'
+        - '{"text":"word and transform it into a ","color":"gray"}'
+        - '{"text":"fishing pole with a hook, a ","color":"gray"}'
+        - '{"text":"line, and a reel. Speaking the ","color":"gray"}'
+        - '{"text":"command word again changes the ","color":"gray"}'
+        - '{"text":"fishing pole back into a ","color":"gray"}'
+        - '{"text":"normal 10-foot pole. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

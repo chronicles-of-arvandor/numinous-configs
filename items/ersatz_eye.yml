@@ -1,0 +1,35 @@
+item-type:
+  ==: NuminousItemType
+  id: ersatz_eye
+  name: Ersatz Eye
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: ENDER_EYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Ersatz Eye","color":"white"}'
+      lore:
+        - '{"text":"This artificial eye replaces a ","color":"gray"}'
+        - '{"text":"real one that was lost or ","color":"gray"}'
+        - '{"text":"removed. While the ersatz eye ","color":"gray"}'
+        - '{"text":"is embedded in your eye ","color":"gray"}'
+        - "{\"text\":\"socket, it can't be removed by \",\"color\":\"gray\"}"
+        - '{"text":"anyone other than you, and you ","color":"gray"}'
+        - '{"text":"can see through the tiny orb ","color":"gray"}'
+        - '{"text":"as though it were a normal ","color":"gray"}'
+        - '{"text":"eye. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

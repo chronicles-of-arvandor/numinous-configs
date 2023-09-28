@@ -1,0 +1,51 @@
+item-type:
+  ==: NuminousItemType
+  id: lifewell_tattoo
+  name: Lifewell Tattoo
+  categories:
+    - WONDROUS_ITEM
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: INK_SAC
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Lifewell Tattoo","color":"white"}'
+      lore:
+        - '{"text":"Produced by a special needle, ","color":"gray"}'
+        - '{"text":"this magic tattoo features ","color":"gray"}'
+        - '{"text":"symbols of life and rebirth. ","color":"gray"}'
+        - '{"text":"Tattoo Attunement. To attune ","color":"gray"}'
+        - '{"text":"to this item, you hold the ","color":"gray"}'
+        - '{"text":"needle to your skin where you ","color":"gray"}'
+        - '{"text":"want the tattoo to appear, ","color":"gray"}'
+        - '{"text":"pressing the needle there ","color":"gray"}'
+        - '{"text":"throughout the attunement ","color":"gray"}'
+        - '{"text":"process. When the attunement ","color":"gray"}'
+        - '{"text":"is complete, the needle turns ","color":"gray"}'
+        - '{"text":"into the ink that becomes the ","color":"gray"}'
+        - '{"text":"tattoo, which appears on the ","color":"gray"}'
+        - '{"text":"skin.If your attunement to the ","color":"gray"}'
+        - '{"text":"tattoo ends, the tattoo ","color":"gray"}'
+        - '{"text":"vanishes, and the needle ","color":"gray"}'
+        - '{"text":"reappears in your space. ","color":"gray"}'
+        - '{"text":"Necrotic Resistance. You have ","color":"gray"}'
+        - '{"text":"resistance to necrotic damage. ","color":"gray"}'
+        - '{"text":"Life Ward. When you would be ","color":"gray"}'
+        - '{"text":"reduced to 0 hit points, you ","color":"gray"}'
+        - '{"text":"drop to 1 hit point instead. ","color":"gray"}'
+        - "{\"text\":\"Once used, this property can't \",\"color\":\"gray\"}"
+        - '{"text":"be used again until the next ","color":"gray"}'
+        - '{"text":"dawn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

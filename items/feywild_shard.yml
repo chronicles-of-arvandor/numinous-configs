@@ -1,0 +1,56 @@
+item-type:
+  ==: NuminousItemType
+  id: feywild_shard
+  name: Feywild Shard
+  categories:
+    - WONDROUS_ITEM
+  rarity: UNCOMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: QUARTZ
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Feywild Shard","color":"white"}'
+      lore:
+        - '{"text":"This warm crystal glints with ","color":"gray"}'
+        - '{"text":"the sunset colors of the ","color":"gray"}'
+        - '{"text":"Feywild sky and evokes ","color":"gray"}'
+        - '{"text":"whispers of emotional memory. ","color":"gray"}'
+        - '{"text":"As an action, you can attach ","color":"gray"}'
+        - '{"text":"the shard to a Tiny object ","color":"gray"}'
+        - '{"text":"(such as a weapon or a piece ","color":"gray"}'
+        - '{"text":"of jewelry) or detach it. It ","color":"gray"}'
+        - '{"text":"falls off if your attunement ","color":"gray"}'
+        - '{"text":"to it ends. You can use the ","color":"gray"}'
+        - '{"text":"shard as a spellcasting focus ","color":"gray"}'
+        - '{"text":"while you hold or wear it.When ","color":"gray"}'
+        - '{"text":"you use a Metamagic option on ","color":"gray"}'
+        - '{"text":"a spell while you are holding ","color":"gray"}'
+        - '{"text":"or wearing the shard, you can ","color":"gray"}'
+        - '{"text":"roll on the Wild Magic Surge ","color":"gray"}'
+        - "{\"text\":\"table in the Player's \",\"color\":\"gray\"}"
+        - '{"text":"Handbook. If the result is a ","color":"gray"}'
+        - '{"text":"spell, it is too wild to be ","color":"gray"}'
+        - '{"text":"affected by your Metamagic, ","color":"gray"}'
+        - '{"text":"and if it normally requires ","color":"gray"}'
+        - "{\"text\":\"concentration, it doesn't \",\"color\":\"gray\"}"
+        - '{"text":"require concentration in this ","color":"gray"}'
+        - '{"text":"case; the spell lasts for its ","color":"gray"}'
+        - "{\"text\":\"full duration.If you don't \",\"color\":\"gray\"}"
+        - '{"text":"have the Wild Magic Sorcerous ","color":"gray"}'
+        - '{"text":"Origin, once this property is ","color":"gray"}'
+        - '{"text":"used to roll on the Wild Magic ","color":"gray"}'
+        - "{\"text\":\"Surge table, it can't be used \",\"color\":\"gray\"}"
+        - '{"text":"again until the next dawn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

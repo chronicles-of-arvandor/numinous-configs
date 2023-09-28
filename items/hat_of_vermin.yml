@@ -1,0 +1,45 @@
+item-type:
+  ==: NuminousItemType
+  id: hat_of_vermin
+  name: Hat of Vermin
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: LEATHER_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Hat of Vermin","color":"white"}'
+      lore:
+        - '{"text":"This hat has 3 charges. While ","color":"gray"}'
+        - '{"text":"holding the hat, you can use ","color":"gray"}'
+        - '{"text":"an action to expend 1 of its ","color":"gray"}'
+        - '{"text":"charges and speak a command ","color":"gray"}'
+        - '{"text":"word that summons your choice ","color":"gray"}'
+        - '{"text":"of a bat, a frog, or a rat. ","color":"gray"}'
+        - '{"text":"The summoned creature ","color":"gray"}'
+        - '{"text":"magically appears in the hat ","color":"gray"}'
+        - '{"text":"and tries to get away from you ","color":"gray"}'
+        - '{"text":"as quickly as possible. The ","color":"gray"}'
+        - '{"text":"creature is neither friendly ","color":"gray"}'
+        - "{\"text\":\"nor hostile, and it isn't \",\"color\":\"gray\"}"
+        - '{"text":"under your control. It behaves ","color":"gray"}'
+        - '{"text":"as an ordinary creature of its ","color":"gray"}'
+        - '{"text":"kind and disappears after 1 ","color":"gray"}'
+        - '{"text":"hour or when it drops to 0 hit ","color":"gray"}'
+        - '{"text":"points. The hat regains all ","color":"gray"}'
+        - '{"text":"expended charges daily at ","color":"gray"}'
+        - '{"text":"dawn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

@@ -1,0 +1,56 @@
+item-type:
+  ==: NuminousItemType
+  id: staff_of_birdcalls
+  name: Staff of Birdcalls
+  categories:
+    - WAND
+    - POTION
+    - SIMPLE_WEAPON
+    - MELEE_WEAPON
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: STICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Staff of Birdcalls","color":"white"}'
+      lore:
+        - '{"text":"This wooden staff is decorated ","color":"gray"}'
+        - '{"text":"with bird carvings. It has 10 ","color":"gray"}'
+        - '{"text":"charges. While holding it, you ","color":"gray"}'
+        - '{"text":"can use an action to expend 1 ","color":"gray"}'
+        - '{"text":"charge from the staff and ","color":"gray"}'
+        - '{"text":"cause it to create one of the ","color":"gray"}'
+        - '{"text":"following sounds out to a ","color":"gray"}'
+        - "{\"text\":\"range of 60 feet: a finch's \",\"color\":\"gray\"}"
+        - "{\"text\":\"chirp, a raven's caw, a duck's \",\"color\":\"gray\"}"
+        - "{\"text\":\"quack, a chicken's cluck, a \",\"color\":\"gray\"}"
+        - "{\"text\":\"goose's honk, a loon's call, a \",\"color\":\"gray\"}"
+        - "{\"text\":\"turkey's gobble, a seagull's \",\"color\":\"gray\"}"
+        - "{\"text\":\"cry, an owl's hoot, or an \",\"color\":\"gray\"}"
+        - "{\"text\":\"eagle's shriek.The staff \",\"color\":\"gray\"}"
+        - '{"text":"regains 1d6 + 4 expended ","color":"gray"}'
+        - '{"text":"charges daily at dawn. If you ","color":"gray"}'
+        - '{"text":"expend the last charge, roll a ","color":"gray"}'
+        - '{"text":"d20. On a 1, the staff ","color":"gray"}'
+        - '{"text":"explodes in a harmless cloud ","color":"gray"}'
+        - '{"text":"of bird feathers and is lost ","color":"gray"}'
+        - '{"text":"forever. Versatile. This ","color":"gray"}'
+        - '{"text":"weapon can be used with one or ","color":"gray"}'
+        - '{"text":"two hands. A damage value in ","color":"gray"}'
+        - '{"text":"parentheses appears with the ","color":"gray"}'
+        - '{"text":"property—the damage when the ","color":"gray"}'
+        - '{"text":"weapon is used with two hands ","color":"gray"}'
+        - '{"text":"to make a melee attack. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 4
+    unit: lb

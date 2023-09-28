@@ -1,0 +1,84 @@
+item-type:
+  ==: NuminousItemType
+  id: gold_canary_figurine_of_wondrous_power
+  name: Gold Canary Figurine of Wondrous Power
+  categories:
+    - WONDROUS_ITEM
+  rarity: LEGENDARY
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: GOLD_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Gold Canary Figurine of Wondrous Power","color":"white"}'
+      lore:
+        - '{"text":"This gold statuette is carved ","color":"gray"}'
+        - '{"text":"in the likeness of a canary ","color":"gray"}'
+        - '{"text":"and is small enough to fit in ","color":"gray"}'
+        - '{"text":"a pocket. If you use an action ","color":"gray"}'
+        - '{"text":"to speak the command word and ","color":"gray"}'
+        - '{"text":"throw the figurine to a point ","color":"gray"}'
+        - '{"text":"on the ground within 60 feet ","color":"gray"}'
+        - '{"text":"of you, the figurine becomes a ","color":"gray"}'
+        - '{"text":"living creature in one of two ","color":"gray"}'
+        - '{"text":"forms (you choose). If there ","color":"gray"}'
+        - "{\"text\":\"isn't enough space for the \",\"color\":\"gray\"}"
+        - '{"text":"creature where it would ","color":"gray"}'
+        - "{\"text\":\"appear, the figurine doesn't \",\"color\":\"gray\"}"
+        - '{"text":"become a creature. The two ","color":"gray"}'
+        - '{"text":"forms are as follows: Giant ","color":"gray"}'
+        - '{"text":"Canary Form. The figurine ","color":"gray"}'
+        - '{"text":"becomes a giant canary for up ","color":"gray"}'
+        - '{"text":"to 8 hours and can be ridden ","color":"gray"}'
+        - '{"text":"as a mount. Once the figurine ","color":"gray"}'
+        - '{"text":"has become a giant canary, it ","color":"gray"}'
+        - "{\"text\":\"can't be used this way again \",\"color\":\"gray\"}"
+        - '{"text":"until the next dawn. Gold ","color":"gray"}'
+        - '{"text":"Dragon Form. While you are ","color":"gray"}'
+        - '{"text":"missing half or more of your ","color":"gray"}'
+        - '{"text":"hit points, you can speak a ","color":"gray"}'
+        - '{"text":"different command word and the ","color":"gray"}'
+        - '{"text":"figurine becomes an adult gold ","color":"gray"}'
+        - '{"text":"dragon (see its stat block in ","color":"gray"}'
+        - '{"text":"the Monster Manual) for up to ","color":"gray"}'
+        - "{\"text\":\"1 hour. The dragon can't use \",\"color\":\"gray\"}"
+        - '{"text":"any legendary actions or lair ","color":"gray"}'
+        - '{"text":"actions. Once the figurine has ","color":"gray"}'
+        - '{"text":"become an adult gold dragon, ","color":"gray"}'
+        - "{\"text\":\"it can't be used this way \",\"color\":\"gray\"}"
+        - '{"text":"again until 1 year has ","color":"gray"}'
+        - '{"text":"passed.In either form, the ","color":"gray"}'
+        - '{"text":"creature is friendly to you ","color":"gray"}'
+        - '{"text":"and your companions. It ","color":"gray"}'
+        - '{"text":"understands your languages and ","color":"gray"}'
+        - '{"text":"obeys your spoken commands. If ","color":"gray"}'
+        - '{"text":"you issue no commands, the ","color":"gray"}'
+        - '{"text":"creature defends itself but ","color":"gray"}'
+        - '{"text":"takes no other actions.The ","color":"gray"}'
+        - '{"text":"creature exists for a duration ","color":"gray"}'
+        - '{"text":"specific to each form. At the ","color":"gray"}'
+        - '{"text":"end of the duration, the ","color":"gray"}'
+        - '{"text":"creature reverts to its ","color":"gray"}'
+        - '{"text":"figurine form. It reverts to a ","color":"gray"}'
+        - '{"text":"figurine early if it drops to ","color":"gray"}'
+        - '{"text":"0 hit points or if you use an ","color":"gray"}'
+        - '{"text":"action to speak the command ","color":"gray"}'
+        - '{"text":"word again while touching it. ","color":"gray"}'
+        - '{"text":"When the creature becomes a ","color":"gray"}'
+        - '{"text":"figurine again, its property ","color":"gray"}'
+        - "{\"text\":\"can't be used again until a \",\"color\":\"gray\"}"
+        - '{"text":"certain amount of time has ","color":"gray"}'
+        - '{"text":"passed, as specified in the ","color":"gray"}'
+        - '{"text":"description. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

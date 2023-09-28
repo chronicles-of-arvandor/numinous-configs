@@ -1,0 +1,47 @@
+item-type:
+  ==: NuminousItemType
+  id: 2_bloodwell_vial
+  name: +2 Bloodwell Vial
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"+2 Bloodwell Vial","color":"white"}'
+      lore:
+        - '{"text":"To attune to this vial, you ","color":"gray"}'
+        - '{"text":"must place a few drops of your ","color":"gray"}'
+        - "{\"text\":\"blood into it. The vial can't \",\"color\":\"gray\"}"
+        - '{"text":"be opened while your ","color":"gray"}'
+        - '{"text":"attunement to it lasts. If ","color":"gray"}'
+        - '{"text":"your attunement to the vial ","color":"gray"}'
+        - '{"text":"ends, the contained blood ","color":"gray"}'
+        - '{"text":"turns to ash. You can use the ","color":"gray"}'
+        - '{"text":"vial as a spellcasting focus ","color":"gray"}'
+        - '{"text":"for your spells while wearing ","color":"gray"}'
+        - '{"text":"or holding it, and you gain a ","color":"gray"}'
+        - '{"text":"+2 bonus to spell attack rolls ","color":"gray"}'
+        - '{"text":"and to the saving throw DCs of ","color":"gray"}'
+        - '{"text":"your sorcerer spells.In ","color":"gray"}'
+        - '{"text":"addition, when you roll any ","color":"gray"}'
+        - '{"text":"Hit Dice to recover hit points ","color":"gray"}'
+        - '{"text":"while you are carrying the ","color":"gray"}'
+        - '{"text":"vial, you can regain 5 sorcery ","color":"gray"}'
+        - '{"text":"points. This property of the ","color":"gray"}'
+        - "{\"text\":\"vial can't be used again until \",\"color\":\"gray\"}"
+        - '{"text":"the next dawn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

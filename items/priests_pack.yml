@@ -1,0 +1,31 @@
+item-type:
+  ==: NuminousItemType
+  id: priests_pack
+  name: Priest's Pack
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: LEATHER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Priest's Pack\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"Includes: a backpack, blanket, ","color":"gray"}'
+        - '{"text":"10 candles, a tinderbox, an ","color":"gray"}'
+        - '{"text":"alms box, 2 blocks of incense, ","color":"gray"}'
+        - '{"text":"a censer, vestments, 2 days of ","color":"gray"}'
+        - '{"text":"rations and a waterskin. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 24
+    unit: lb

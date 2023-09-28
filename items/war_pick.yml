@@ -1,0 +1,34 @@
+item-type:
+  ==: NuminousItemType
+  id: war_pick
+  name: War Pick
+  categories:
+    - POTION
+    - MARTIAL_WEAPON
+    - MELEE_WEAPON
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"War Pick","color":"white"}'
+      lore:
+        - '{"text":"A common Dwarven weapon, the ","color":"gray"}'
+        - '{"text":"shaft ends in either one a ","color":"gray"}'
+        - '{"text":"pair of heavy piericing ","color":"gray"}'
+        - '{"text":"flukes, or a single long spike ","color":"gray"}'
+        - '{"text":"opposite a shorter, sometimes ","color":"gray"}'
+        - '{"text":"blunt counterweight ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 2
+    unit: lb

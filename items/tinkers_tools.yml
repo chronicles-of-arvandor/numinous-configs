@@ -1,0 +1,75 @@
+item-type:
+  ==: NuminousItemType
+  id: tinkers_tools
+  name: Tinker's Tools
+  categories:
+    - ARTISANS_TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: REPEATER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Tinker's Tools\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"These special tools include ","color":"gray"}'
+        - '{"text":"the items needed to pursue a ","color":"gray"}'
+        - '{"text":"craft or trade. Proficiency ","color":"gray"}'
+        - "{\"text\":\"with a set of artisan's tools \",\"color\":\"gray\"}"
+        - '{"text":"lets you add your proficiency ","color":"gray"}'
+        - '{"text":"bonus to any ability checks ","color":"gray"}'
+        - '{"text":"you make using the tools in ","color":"gray"}'
+        - '{"text":"your craft. Each type of ","color":"gray"}'
+        - "{\"text\":\"artisan's tools requires a \",\"color\":\"gray\"}"
+        - '{"text":"separate proficiency.A set of ","color":"gray"}'
+        - "{\"text\":\"tinker's tools is designed to \",\"color\":\"gray\"}"
+        - '{"text":"enable you to repair many ","color":"gray"}'
+        - '{"text":"mundane objects. Though you ","color":"gray"}'
+        - "{\"text\":\"can't manufacture much with \",\"color\":\"gray\"}"
+        - "{\"text\":\"tinker's tools, you can mend \",\"color\":\"gray\"}"
+        - '{"text":"torn clothes, sharpen a worn ","color":"gray"}'
+        - '{"text":"sword, and patch a tattered ","color":"gray"}'
+        - '{"text":"suit of chain mail. ","color":"gray"}'
+        - "{\"text\":\"Components. Tinker's tools \",\"color\":\"gray\"}"
+        - '{"text":"include a variety of hand ","color":"gray"}'
+        - '{"text":"tools, thread, needles, a ","color":"gray"}'
+        - '{"text":"whetstone, scraps of cloth and ","color":"gray"}'
+        - '{"text":"leather, and a small pot of ","color":"gray"}'
+        - '{"text":"glue. History. You can ","color":"gray"}'
+        - '{"text":"determine the age and origin ","color":"gray"}'
+        - '{"text":"of objects, even if you have ","color":"gray"}'
+        - '{"text":"only a few pieces remaining ","color":"gray"}'
+        - '{"text":"from the original. ","color":"gray"}'
+        - '{"text":"Investigation. When you ","color":"gray"}'
+        - '{"text":"inspect a damaged object, you ","color":"gray"}'
+        - '{"text":"gain knowledge of how it was ","color":"gray"}'
+        - '{"text":"damaged and how long ago. ","color":"gray"}'
+        - '{"text":"Repair. You can restore 10 hit ","color":"gray"}'
+        - '{"text":"points to a damaged object for ","color":"gray"}'
+        - '{"text":"each hour of work. For any ","color":"gray"}'
+        - '{"text":"object, you need access to the ","color":"gray"}'
+        - '{"text":"raw materials required to ","color":"gray"}'
+        - '{"text":"repair it. For metal objects, ","color":"gray"}'
+        - '{"text":"you need access to an open ","color":"gray"}'
+        - '{"text":"flame hot enough to make the ","color":"gray"}'
+        - "{\"text\":\"metal pliable.Tinker's \",\"color\":\"gray\"}"
+        - '{"text":"ToolsActivityDCTemporarily ","color":"gray"}'
+        - '{"text":"repair a disabled ","color":"gray"}'
+        - '{"text":"device10Repair an item in half ","color":"gray"}'
+        - '{"text":"the time15Improvise a ","color":"gray"}'
+        - '{"text":"temporary item using ","color":"gray"}'
+        - '{"text":"scraps20See the Tool ","color":"gray"}'
+        - '{"text":"Proficiencies entry for more ","color":"gray"}'
+        - '{"text":"information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 10
+    unit: lb

@@ -1,0 +1,37 @@
+item-type:
+  ==: NuminousItemType
+  id: horn_of_silent_alarm
+  name: Horn of Silent Alarm
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: GOAT_HORN
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Horn of Silent Alarm","color":"white"}'
+      lore:
+        - '{"text":"This horn has 4 charges. When ","color":"gray"}'
+        - '{"text":"you use an action to blow it, ","color":"gray"}'
+        - '{"text":"one creature of your choice ","color":"gray"}'
+        - "{\"text\":\"can hear the horn's blare, \",\"color\":\"gray\"}"
+        - '{"text":"provided the creature is ","color":"gray"}'
+        - '{"text":"within 600 feet of the horn ","color":"gray"}'
+        - '{"text":"and not deafened. No other ","color":"gray"}'
+        - '{"text":"creature hears sound coming ","color":"gray"}'
+        - '{"text":"from the horn. The horn ","color":"gray"}'
+        - '{"text":"regains 1d4 expended charges ","color":"gray"}'
+        - '{"text":"daily at dawn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

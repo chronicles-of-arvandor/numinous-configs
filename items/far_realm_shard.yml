@@ -1,0 +1,50 @@
+item-type:
+  ==: NuminousItemType
+  id: far_realm_shard
+  name: Far Realm Shard
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: AMETHYST_SHARD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Far Realm Shard","color":"white"}'
+      lore:
+        - '{"text":"This writhing crystal is ","color":"gray"}'
+        - '{"text":"steeped in the warped essence ","color":"gray"}'
+        - '{"text":"of the Far Realm. As an ","color":"gray"}'
+        - '{"text":"action, you can attach the ","color":"gray"}'
+        - '{"text":"shard to a Tiny object (such ","color":"gray"}'
+        - '{"text":"as a weapon or a piece of ","color":"gray"}'
+        - '{"text":"jewelry) or detach it. It ","color":"gray"}'
+        - '{"text":"falls off if your attunement ","color":"gray"}'
+        - '{"text":"to it ends. You can use the ","color":"gray"}'
+        - '{"text":"shard as a spellcasting focus ","color":"gray"}'
+        - '{"text":"while you hold or wear it.When ","color":"gray"}'
+        - '{"text":"you use a Metamagic option on ","color":"gray"}'
+        - '{"text":"a spell while you are holding ","color":"gray"}'
+        - '{"text":"or wearing the shard, you can ","color":"gray"}'
+        - '{"text":"cause a slimy tentacle to rip ","color":"gray"}'
+        - '{"text":"through the fabric of reality ","color":"gray"}'
+        - '{"text":"and strike one creature you ","color":"gray"}'
+        - '{"text":"can see within 30 feet of you. ","color":"gray"}'
+        - '{"text":"The creature must succeed on a ","color":"gray"}'
+        - '{"text":"Charisma saving throw against ","color":"gray"}'
+        - '{"text":"your spell save DC or take 3d6 ","color":"gray"}'
+        - '{"text":"psychic damage and become ","color":"gray"}'
+        - '{"text":"frightened of you until the ","color":"gray"}'
+        - '{"text":"start of your next turn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

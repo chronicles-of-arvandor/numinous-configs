@@ -1,0 +1,30 @@
+item-type:
+  ==: NuminousItemType
+  id: candle_of_the_deep
+  name: Candle of the Deep
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: END_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Candle of the Deep","color":"white"}'
+      lore:
+        - '{"text":"The flame of this candle is ","color":"gray"}'
+        - '{"text":"not extinguished when immersed ","color":"gray"}'
+        - '{"text":"in water. It gives off light ","color":"gray"}'
+        - '{"text":"and heat like a normal candle. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

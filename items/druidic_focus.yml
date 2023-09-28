@@ -1,0 +1,41 @@
+item-type:
+  ==: NuminousItemType
+  id: druidic_focus
+  name: Druidic Focus
+  categories:
+    - SPELLCASTING_FOCUS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: AZURE_BLUET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Druidic Focus","color":"white"}'
+      lore:
+        - '{"text":"A druidic focus might be a ","color":"gray"}'
+        - '{"text":"sprig of mistletoe or holly, a ","color":"gray"}'
+        - '{"text":"wand or scepter made of yew or ","color":"gray"}'
+        - '{"text":"another special wood, a staff ","color":"gray"}'
+        - '{"text":"drawn whole out of a living ","color":"gray"}'
+        - '{"text":"tree, or a totem object ","color":"gray"}'
+        - '{"text":"incorporating feathers, fur, ","color":"gray"}'
+        - '{"text":"bones, and teeth from sacred ","color":"gray"}'
+        - '{"text":"animals. A druid can use such ","color":"gray"}'
+        - '{"text":"an object as a spellcasting ","color":"gray"}'
+        - '{"text":"focus.Multiple variations of ","color":"gray"}'
+        - '{"text":"this item exist, as listed ","color":"gray"}'
+        - '{"text":"below:Sprig of ","color":"gray"}'
+        - '{"text":"mistletoeTotemWooden staffYew ","color":"gray"}'
+        - '{"text":"wand ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

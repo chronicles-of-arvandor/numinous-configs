@@ -1,0 +1,40 @@
+item-type:
+  ==: NuminousItemType
+  id: magnifying_glass
+  name: Magnifying Glass
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: SPYGLASS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Magnifying Glass","color":"white"}'
+      lore:
+        - '{"text":"This lens allows a closer look ","color":"gray"}'
+        - '{"text":"at small objects. It is also ","color":"gray"}'
+        - '{"text":"useful as a substitute for ","color":"gray"}'
+        - '{"text":"flint and steel when starting ","color":"gray"}'
+        - '{"text":"fires. Lighting a fire with a ","color":"gray"}'
+        - '{"text":"magnifying glass requires ","color":"gray"}'
+        - '{"text":"light as bright as sunlight to ","color":"gray"}'
+        - '{"text":"focus, tinder to ignite, and ","color":"gray"}'
+        - '{"text":"about 5 minutes for the fire ","color":"gray"}'
+        - '{"text":"to ignite. A magnifying glass ","color":"gray"}'
+        - '{"text":"grants advantage on any ","color":"gray"}'
+        - '{"text":"ability check made to appraise ","color":"gray"}'
+        - '{"text":"or inspect an item that is ","color":"gray"}'
+        - '{"text":"small or highly detailed. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

@@ -1,0 +1,86 @@
+item-type:
+  ==: NuminousItemType
+  id: absorbing_tattoo
+  name: Absorbing Tattoo
+  categories:
+    - WONDROUS_ITEM
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: INK_SAC
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Absorbing Tattoo","color":"white"}'
+      lore:
+        - '{"text":"Produced by a special needle, ","color":"gray"}'
+        - '{"text":"this magic tattoo features ","color":"gray"}'
+        - '{"text":"designs that emphasize one ","color":"gray"}'
+        - '{"text":"color. Tattoo Attunement. To ","color":"gray"}'
+        - '{"text":"attune to this item, you hold ","color":"gray"}'
+        - '{"text":"the needle to your skin where ","color":"gray"}'
+        - '{"text":"you want the tattoo to appear, ","color":"gray"}'
+        - '{"text":"pressing the needle there ","color":"gray"}'
+        - '{"text":"throughout the attunement ","color":"gray"}'
+        - '{"text":"process. When the attunement ","color":"gray"}'
+        - '{"text":"is complete, the needle turns ","color":"gray"}'
+        - '{"text":"into the ink that becomes the ","color":"gray"}'
+        - '{"text":"tattoo, which appears on the ","color":"gray"}'
+        - '{"text":"skin.If your attunement to the ","color":"gray"}'
+        - '{"text":"tattoo ends, the tattoo ","color":"gray"}'
+        - '{"text":"vanishes, and the needle ","color":"gray"}'
+        - '{"text":"reappears in your space. ","color":"gray"}'
+        - '{"text":"Damage Resistance. While the ","color":"gray"}'
+        - '{"text":"tattoo is on your skin, you ","color":"gray"}'
+        - '{"text":"have resistance to a type of ","color":"gray"}'
+        - '{"text":"damage associated with that ","color":"gray"}'
+        - '{"text":"color, as shown on the table ","color":"gray"}'
+        - '{"text":"below. The DM chooses the ","color":"gray"}'
+        - '{"text":"color or determines it ","color":"gray"}'
+        - '{"text":"randomly.Absorbing ","color":"gray"}'
+        - '{"text":"Tattood10ColorTattoo1GreenAcid ","color":"gray"}'
+        - '{"text":"Absorbing Tattoo2BlueCold ","color":"gray"}'
+        - '{"text":"Absorbing Tattoo3RedFire ","color":"gray"}'
+        - '{"text":"Absorbing Tattoo4WhiteForce ","color":"gray"}'
+        - '{"text":"Absorbing ","color":"gray"}'
+        - '{"text":"Tattoo5YellowLightning ","color":"gray"}'
+        - '{"text":"Absorbing Tattoo6BlackNecrotic ","color":"gray"}'
+        - '{"text":"Absorbing Tattoo7VioletPoison ","color":"gray"}'
+        - '{"text":"Absorbing Tattoo8SilverPsychic ","color":"gray"}'
+        - '{"text":"Absorbing Tattoo9GoldRadiant ","color":"gray"}'
+        - '{"text":"Absorbing ","color":"gray"}'
+        - '{"text":"Tattoo10OrangeThunder ","color":"gray"}'
+        - '{"text":"Absorbing Tattoo Damage ","color":"gray"}'
+        - '{"text":"Absorption. When you take ","color":"gray"}'
+        - '{"text":"damage of the chosen type, you ","color":"gray"}'
+        - '{"text":"can use your reaction to gain ","color":"gray"}'
+        - '{"text":"immunity against that instance ","color":"gray"}'
+        - '{"text":"of the damage, and you regain ","color":"gray"}'
+        - '{"text":"a number of hit points equal ","color":"gray"}'
+        - '{"text":"to half the damage you would ","color":"gray"}'
+        - '{"text":"have taken. Once this reaction ","color":"gray"}'
+        - "{\"text\":\"is used, it can't be used \",\"color\":\"gray\"}"
+        - '{"text":"again until the next ","color":"gray"}'
+        - '{"text":"dawn.Multiple variations of ","color":"gray"}'
+        - '{"text":"this item exist, as listed ","color":"gray"}'
+        - '{"text":"below:Acid Absorbing ","color":"gray"}'
+        - '{"text":"TattooCold Absorbing ","color":"gray"}'
+        - '{"text":"TattooFire Absorbing ","color":"gray"}'
+        - '{"text":"TattooForce Absorbing ","color":"gray"}'
+        - '{"text":"TattooLightning Absorbing ","color":"gray"}'
+        - '{"text":"TattooNecrotic Absorbing ","color":"gray"}'
+        - '{"text":"TattooPoison Absorbing ","color":"gray"}'
+        - '{"text":"TattooPsychic Absorbing ","color":"gray"}'
+        - '{"text":"TattooRadiant Absorbing ","color":"gray"}'
+        - '{"text":"TattooThunder Absorbing Tattoo ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

@@ -1,0 +1,40 @@
+item-type:
+  ==: NuminousItemType
+  id: plate_armor
+  name: Plate Armor
+  categories:
+    - HEAVY_ARMOUR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Plate Armor","color":"white"}'
+      lore:
+        - '{"text":"Plate consists of shaped, ","color":"gray"}'
+        - '{"text":"interlocking metal plates to ","color":"gray"}'
+        - '{"text":"cover the entire body. A suit ","color":"gray"}'
+        - '{"text":"of plate includes gauntlets, ","color":"gray"}'
+        - '{"text":"heavy leather boots, a visored ","color":"gray"}'
+        - '{"text":"helmet, and thick layers of ","color":"gray"}'
+        - '{"text":"padding underneath the armor. ","color":"gray"}'
+        - '{"text":"Buckles and straps distribute ","color":"gray"}'
+        - '{"text":"the weight over the body.The ","color":"gray"}'
+        - '{"text":"wearer has disadvantage on ","color":"gray"}'
+        - '{"text":"Dexterity (Stealth) checks.If ","color":"gray"}'
+        - '{"text":"the wearer has a Strength ","color":"gray"}'
+        - '{"text":"score lower than 15, their ","color":"gray"}'
+        - '{"text":"speed is reduced by 10 feet. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 65
+    unit: lb

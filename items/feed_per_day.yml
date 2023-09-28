@@ -1,0 +1,27 @@
+item-type:
+  ==: NuminousItemType
+  id: feed_per_day
+  name: Feed (per day)
+  categories:
+    - TACK_AND_HARNESS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: WHEAT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Feed (per day)","color":"white"}'
+      lore:
+        - '{"text":" ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 10
+    unit: lb

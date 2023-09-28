@@ -1,0 +1,44 @@
+item-type:
+  ==: NuminousItemType
+  id: holy_symbol
+  name: Holy Symbol
+  categories:
+    - SPELLCASTING_FOCUS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: NETHER_STAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Holy Symbol","color":"white"}'
+      lore:
+        - '{"text":"A holy symbol is a ","color":"gray"}'
+        - '{"text":"representation of a god or ","color":"gray"}'
+        - '{"text":"pantheon. It might be an ","color":"gray"}'
+        - '{"text":"amulet depicting a symbol ","color":"gray"}'
+        - '{"text":"representing a deity, the same ","color":"gray"}'
+        - '{"text":"symbol carefully engraved or ","color":"gray"}'
+        - '{"text":"inlaid as an emblem on a ","color":"gray"}'
+        - '{"text":"shield, or a tiny box holding ","color":"gray"}'
+        - '{"text":"a fragment of a sacred relic. ","color":"gray"}'
+        - '{"text":"A cleric or paladin can use a ","color":"gray"}'
+        - '{"text":"holy symbol as a spellcasting ","color":"gray"}'
+        - '{"text":"focus. To use the symbol in ","color":"gray"}'
+        - '{"text":"this way, the caster must hold ","color":"gray"}'
+        - '{"text":"it in hand, wear it visibly, ","color":"gray"}'
+        - '{"text":"or bear it on a ","color":"gray"}'
+        - '{"text":"shield.Multiple variations of ","color":"gray"}'
+        - '{"text":"this item exist, as listed ","color":"gray"}'
+        - '{"text":"below:AmuletEmblemReliquary ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

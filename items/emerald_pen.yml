@@ -1,0 +1,33 @@
+item-type:
+  ==: NuminousItemType
+  id: emerald_pen
+  name: Emerald Pen
+  categories:
+    - WONDROUS_ITEM
+  rarity: UNCOMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: FEATHER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Emerald Pen","color":"white"}'
+      lore:
+        - '{"text":"This pen is tipped with an ","color":"gray"}'
+        - '{"text":"emerald nib and requires no ","color":"gray"}'
+        - '{"text":"ink to write. While holding ","color":"gray"}'
+        - '{"text":"this pen, you can cast ","color":"gray"}'
+        - '{"text":"illusory script at will, ","color":"gray"}'
+        - '{"text":"requiring no material ","color":"gray"}'
+        - '{"text":"components. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

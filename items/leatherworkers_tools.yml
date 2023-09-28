@@ -1,0 +1,74 @@
+item-type:
+  ==: NuminousItemType
+  id: leatherworkers_tools
+  name: Leatherworker's Tools
+  categories:
+    - ARTISANS_TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: FLINT_AND_STEEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Leatherworker's Tools\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"These special tools include ","color":"gray"}'
+        - '{"text":"the items needed to pursue a ","color":"gray"}'
+        - '{"text":"craft or trade. Proficiency ","color":"gray"}'
+        - "{\"text\":\"with a set of artisan's tools \",\"color\":\"gray\"}"
+        - '{"text":"lets you add your proficiency ","color":"gray"}'
+        - '{"text":"bonus to any ability checks ","color":"gray"}'
+        - '{"text":"you make using the tools in ","color":"gray"}'
+        - '{"text":"your craft. Each type of ","color":"gray"}'
+        - "{\"text\":\"artisan's tools requires a \",\"color\":\"gray\"}"
+        - '{"text":"separate proficiency.Knowledge ","color":"gray"}'
+        - '{"text":"of leatherworking extends to ","color":"gray"}'
+        - '{"text":"lore concerning animal hides ","color":"gray"}'
+        - '{"text":"and their properties. It also ","color":"gray"}'
+        - '{"text":"confers knowledge of leather ","color":"gray"}'
+        - '{"text":"armor and similar goods. ","color":"gray"}'
+        - "{\"text\":\"Components. Leatherworker's \",\"color\":\"gray\"}"
+        - '{"text":"tools include a knife, a small ","color":"gray"}'
+        - '{"text":"mallet, an edger, a hole ","color":"gray"}'
+        - '{"text":"punch, thread, and leather ","color":"gray"}'
+        - '{"text":"scraps. Arcana. Your expertise ","color":"gray"}'
+        - '{"text":"in working with leather grants ","color":"gray"}'
+        - '{"text":"you added insight when you ","color":"gray"}'
+        - '{"text":"inspect magic items crafted ","color":"gray"}'
+        - '{"text":"from leather, such as boots ","color":"gray"}'
+        - '{"text":"and some cloaks. ","color":"gray"}'
+        - '{"text":"Investigation. You gain added ","color":"gray"}'
+        - '{"text":"insight when studying leather ","color":"gray"}'
+        - '{"text":"items or clues related to ","color":"gray"}'
+        - '{"text":"them, as you draw on your ","color":"gray"}'
+        - '{"text":"knowledge of leather to pick ","color":"gray"}'
+        - '{"text":"out details that others would ","color":"gray"}'
+        - '{"text":"overlook. Identify Hides. When ","color":"gray"}'
+        - '{"text":"looking at a hide or a leather ","color":"gray"}'
+        - '{"text":"item, you can determine the ","color":"gray"}'
+        - '{"text":"source of the leather and any ","color":"gray"}'
+        - '{"text":"special techniques used to ","color":"gray"}'
+        - '{"text":"treat it. For example, you can ","color":"gray"}'
+        - '{"text":"spot the difference between ","color":"gray"}'
+        - '{"text":"leather crafted using dwarven ","color":"gray"}'
+        - '{"text":"methods and leather crafted ","color":"gray"}'
+        - '{"text":"using halfling ","color":"gray"}'
+        - "{\"text\":\"methods.Leatherworker's \",\"color\":\"gray\"}"
+        - '{"text":"ToolsActivityDCModify a ","color":"gray"}'
+        - "{\"text\":\"leather item's \",\"color\":\"gray\"}"
+        - '{"text":"appearance10Determine a ","color":"gray"}'
+        - "{\"text\":\"leather item's history20See \",\"color\":\"gray\"}"
+        - '{"text":"the Tool Proficiencies entry ","color":"gray"}'
+        - '{"text":"for more information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 5
+    unit: lb

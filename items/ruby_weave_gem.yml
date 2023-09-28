@@ -1,0 +1,47 @@
+item-type:
+  ==: NuminousItemType
+  id: ruby_weave_gem
+  name: Ruby Weave Gem
+  categories:
+    - WONDROUS_ITEM
+  rarity: LEGENDARY
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: MAGMA_CREAM
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Ruby Weave Gem","color":"white"}'
+      lore:
+        - '{"text":"While you are holding this ","color":"gray"}'
+        - '{"text":"gem, you can use it as a ","color":"gray"}'
+        - '{"text":"spellcasting focus for your ","color":"gray"}'
+        - '{"text":"spells.The gem has 3 charges ","color":"gray"}'
+        - '{"text":"and regains all expended ","color":"gray"}'
+        - '{"text":"charges daily at dawn. When ","color":"gray"}'
+        - '{"text":"you cast a spell while holding ","color":"gray"}'
+        - '{"text":"this gem, you can expend up to ","color":"gray"}'
+        - '{"text":"3 charges to ignore the ","color":"gray"}'
+        - "{\"text\":\"spell's material components \",\"color\":\"gray\"}"
+        - '{"text":"with a gold piece cost, up to ","color":"gray"}'
+        - '{"text":"500 gp per charge ","color":"gray"}'
+        - '{"text":"expended.When you finish a ","color":"gray"}'
+        - '{"text":"long rest, choose a spell from ","color":"gray"}'
+        - '{"text":"any class list. The spell you ","color":"gray"}'
+        - '{"text":"choose must be of a level you ","color":"gray"}'
+        - '{"text":"can cast. You know the chosen ","color":"gray"}'
+        - '{"text":"spell and can cast it with ","color":"gray"}'
+        - '{"text":"your spell slots of the ","color":"gray"}'
+        - '{"text":"appropriate level until the ","color":"gray"}'
+        - '{"text":"end of your next long rest. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

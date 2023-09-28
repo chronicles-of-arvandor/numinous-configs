@@ -1,0 +1,105 @@
+item-type:
+  ==: NuminousItemType
+  id: adamantine_weapon
+  name: Adamantine Weapon
+  categories:
+    - VEHICLE_LAND
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Adamantine Weapon","color":"white"}'
+      lore:
+        - '{"text":"Melee weapons made of or ","color":"gray"}'
+        - '{"text":"coated with adamantine are ","color":"gray"}'
+        - '{"text":"unusually effective when used ","color":"gray"}'
+        - '{"text":"to break objects. Whenever an ","color":"gray"}'
+        - '{"text":"adamantine weapon hits an ","color":"gray"}'
+        - '{"text":"object, the hit is a critical ","color":"gray"}'
+        - '{"text":"hit.The adamantine version of ","color":"gray"}'
+        - '{"text":"a melee weapon costs 500 gp ","color":"gray"}'
+        - '{"text":"more than the normal version, ","color":"gray"}'
+        - '{"text":"whether the weapon is made of ","color":"gray"}'
+        - '{"text":"the metal or coated with it. ","color":"gray"}'
+        - '{"text":"Base items. This item variant ","color":"gray"}'
+        - '{"text":"can be applied to the ","color":"gray"}'
+        - '{"text":"following base ","color":"gray"}'
+        - '{"text":"items:Antimatter Rifle ","color":"gray"}'
+        - '{"text":"(Adamantine Antimatter ","color":"gray"}'
+        - '{"text":"Rifle)Automatic Pistol ","color":"gray"}'
+        - '{"text":"(Adamantine Automatic ","color":"gray"}'
+        - '{"text":"Pistol)Automatic Rifle ","color":"gray"}'
+        - '{"text":"(Adamantine Automatic ","color":"gray"}'
+        - '{"text":"Rifle)Battleaxe (Adamantine ","color":"gray"}'
+        - '{"text":"Battleaxe)Blowgun (Adamantine ","color":"gray"}'
+        - '{"text":"Blowgun)Club (Adamantine ","color":"gray"}'
+        - '{"text":"Club)Dagger (Adamantine ","color":"gray"}'
+        - '{"text":"Dagger)Dart (Adamantine ","color":"gray"}'
+        - '{"text":"Dart)Double-Bladed Scimitar ","color":"gray"}'
+        - '{"text":"(Adamantine Double-Bladed ","color":"gray"}'
+        - '{"text":"Scimitar)Flail (Adamantine ","color":"gray"}'
+        - '{"text":"Flail)Glaive (Adamantine ","color":"gray"}'
+        - '{"text":"Glaive)Greataxe (Adamantine ","color":"gray"}'
+        - '{"text":"Greataxe)Greatclub (Adamantine ","color":"gray"}'
+        - '{"text":"Greatclub)Greatsword ","color":"gray"}'
+        - '{"text":"(Adamantine Greatsword)Halberd ","color":"gray"}'
+        - '{"text":"(Adamantine Halberd)Hand ","color":"gray"}'
+        - '{"text":"Crossbow (Adamantine Hand ","color":"gray"}'
+        - '{"text":"Crossbow)Handaxe (Adamantine ","color":"gray"}'
+        - '{"text":"Handaxe)Heavy Crossbow ","color":"gray"}'
+        - '{"text":"(Adamantine Heavy ","color":"gray"}'
+        - '{"text":"Crossbow)Hooked Shortspear ","color":"gray"}'
+        - '{"text":"(Adamantine Hooked ","color":"gray"}'
+        - '{"text":"Shortspear)Hoopak (Adamantine ","color":"gray"}'
+        - '{"text":"Hoopak)Hunting Rifle ","color":"gray"}'
+        - '{"text":"(Adamantine Hunting ","color":"gray"}'
+        - '{"text":"Rifle)Javelin (Adamantine ","color":"gray"}'
+        - '{"text":"Javelin)Lance (Adamantine ","color":"gray"}'
+        - '{"text":"Lance)Laser Pistol (Adamantine ","color":"gray"}'
+        - '{"text":"Laser Pistol)Laser Rifle ","color":"gray"}'
+        - '{"text":"(Adamantine Laser Rifle)Light ","color":"gray"}'
+        - '{"text":"Crossbow (Adamantine Light ","color":"gray"}'
+        - '{"text":"Crossbow)Light Hammer ","color":"gray"}'
+        - '{"text":"(Adamantine Light Hammer)Light ","color":"gray"}'
+        - '{"text":"Repeating Crossbow (Adamantine ","color":"gray"}'
+        - '{"text":"Light Repeating ","color":"gray"}'
+        - '{"text":"Crossbow)Longbow (Adamantine ","color":"gray"}'
+        - '{"text":"Longbow)Longsword (Adamantine ","color":"gray"}'
+        - '{"text":"Longsword)Mace (Adamantine ","color":"gray"}'
+        - '{"text":"Mace)Maul (Adamantine ","color":"gray"}'
+        - '{"text":"Maul)Morningstar (Adamantine ","color":"gray"}'
+        - '{"text":"Morningstar)Musket (Adamantine ","color":"gray"}'
+        - '{"text":"Musket)Pike (Adamantine ","color":"gray"}'
+        - '{"text":"Pike)Pistol (Adamantine ","color":"gray"}'
+        - '{"text":"Pistol)Quarterstaff ","color":"gray"}'
+        - '{"text":"(Adamantine ","color":"gray"}'
+        - '{"text":"Quarterstaff)Rapier ","color":"gray"}'
+        - '{"text":"(Adamantine Rapier)Revolver ","color":"gray"}'
+        - '{"text":"(Adamantine Revolver)Scimitar ","color":"gray"}'
+        - '{"text":"(Adamantine Scimitar)Shortbow ","color":"gray"}'
+        - '{"text":"(Adamantine ","color":"gray"}'
+        - '{"text":"Shortbow)Shortsword ","color":"gray"}'
+        - '{"text":"(Adamantine Shortsword)Shotgun ","color":"gray"}'
+        - '{"text":"(Adamantine Shotgun)Sickle ","color":"gray"}'
+        - '{"text":"(Adamantine Sickle)Sling ","color":"gray"}'
+        - '{"text":"(Adamantine Sling)Spear ","color":"gray"}'
+        - '{"text":"(Adamantine Spear)Trident ","color":"gray"}'
+        - '{"text":"(Adamantine Trident)War Pick ","color":"gray"}'
+        - '{"text":"(Adamantine War Pick)Warhammer ","color":"gray"}'
+        - '{"text":"(Adamantine Warhammer)Whip ","color":"gray"}'
+        - '{"text":"(Adamantine Whip)Yklwa ","color":"gray"}'
+        - '{"text":"(Adamantine Yklwa) ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

@@ -1,0 +1,51 @@
+item-type:
+  ==: NuminousItemType
+  id: sapphire_buckler
+  name: Sapphire Buckler
+  categories:
+    - SHIELD
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: LAPIS_BLOCK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Sapphire Buckler","color":"white"}'
+      lore:
+        - '{"text":"This crystalline blue shield ","color":"gray"}'
+        - '{"text":"is fashioned from a sapphire ","color":"gray"}'
+        - "{\"text\":\"dragon's scale and is created \",\"color\":\"gray\"}"
+        - '{"text":"to aid in rooting out the ","color":"gray"}'
+        - '{"text":"influence of Aberrations. ","color":"gray"}'
+        - '{"text":"While wielding the shield, you ","color":"gray"}'
+        - '{"text":"have resistance to psychic and ","color":"gray"}'
+        - '{"text":"thunder damage. Also, when you ","color":"gray"}'
+        - '{"text":"take damage from a creature ","color":"gray"}'
+        - '{"text":"that is within 5 feet of you, ","color":"gray"}'
+        - '{"text":"you can use your reaction to ","color":"gray"}'
+        - '{"text":"deal 2d6 thunder damage to ","color":"gray"}'
+        - '{"text":"that creature.As an action, ","color":"gray"}'
+        - '{"text":"you can use the shield to help ","color":"gray"}'
+        - '{"text":"you locate Aberrations until ","color":"gray"}'
+        - '{"text":"the end of your next turn. If ","color":"gray"}'
+        - '{"text":"any Aberrations are within 1 ","color":"gray"}'
+        - '{"text":"mile of you, the shield emits ","color":"gray"}'
+        - '{"text":"a low humming tone for a ","color":"gray"}'
+        - '{"text":"moment, and you know the ","color":"gray"}'
+        - '{"text":"direction of all Aberrations ","color":"gray"}'
+        - '{"text":"within that range. Once this ","color":"gray"}'
+        - "{\"text\":\"property is used, it can't be \",\"color\":\"gray\"}"
+        - '{"text":"used again until the next ","color":"gray"}'
+        - '{"text":"dawn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 6
+    unit: lb

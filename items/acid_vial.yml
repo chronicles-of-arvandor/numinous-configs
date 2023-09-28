@@ -1,0 +1,37 @@
+item-type:
+  ==: NuminousItemType
+  id: acid_vial
+  name: Acid (vial)
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Acid (vial)","color":"white"}'
+      lore:
+        - '{"text":"As an action, you can splash ","color":"gray"}'
+        - '{"text":"the contents of this vial onto ","color":"gray"}'
+        - '{"text":"a creature within 5 feet of ","color":"gray"}'
+        - '{"text":"you or throw the vial up to 20 ","color":"gray"}'
+        - '{"text":"feet, shattering it on impact. ","color":"gray"}'
+        - '{"text":"In either case, make a ranged ","color":"gray"}'
+        - '{"text":"attack against a creature or ","color":"gray"}'
+        - '{"text":"object, treating the acid as ","color":"gray"}'
+        - '{"text":"an improvised weapon. On a ","color":"gray"}'
+        - '{"text":"hit, the target takes 2d6 acid ","color":"gray"}'
+        - '{"text":"damage. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

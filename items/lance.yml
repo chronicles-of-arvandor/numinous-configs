@@ -1,0 +1,39 @@
+item-type:
+  ==: NuminousItemType
+  id: lance
+  name: Lance
+  categories:
+    - POTION
+    - MARTIAL_WEAPON
+    - MELEE_WEAPON
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: TRIDENT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Lance","color":"white"}'
+      lore:
+        - '{"text":"Special. You have disadvantage ","color":"gray"}'
+        - '{"text":"when you use a lance to attack ","color":"gray"}'
+        - '{"text":"a target within 5 feet of you. ","color":"gray"}'
+        - '{"text":"Also, a lance requires two ","color":"gray"}'
+        - "{\"text\":\"hands to wield when you aren't \",\"color\":\"gray\"}"
+        - '{"text":"mounted. Reach. This weapon ","color":"gray"}'
+        - '{"text":"adds 5 feet to your reach when ","color":"gray"}'
+        - '{"text":"you attack with it. This ","color":"gray"}'
+        - '{"text":"property also determines your ","color":"gray"}'
+        - '{"text":"reach for opportunity attacks ","color":"gray"}'
+        - '{"text":"with a reach weapon. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 6
+    unit: lb

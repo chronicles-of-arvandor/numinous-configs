@@ -1,0 +1,45 @@
+item-type:
+  ==: NuminousItemType
+  id: holy_water_flask
+  name: Holy Water (flask)
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Holy Water (flask)","color":"white"}'
+      lore:
+        - '{"text":"As an action, you can splash ","color":"gray"}'
+        - '{"text":"the contents of this flask ","color":"gray"}'
+        - '{"text":"onto a creature within 5 feet ","color":"gray"}'
+        - '{"text":"of you or throw it up to 20 ","color":"gray"}'
+        - '{"text":"feet, shattering it on impact. ","color":"gray"}'
+        - '{"text":"In either case, make a ranged ","color":"gray"}'
+        - '{"text":"attack against a target ","color":"gray"}'
+        - '{"text":"creature, treating the holy ","color":"gray"}'
+        - '{"text":"water as an improvised weapon. ","color":"gray"}'
+        - '{"text":"If the target is a fiend or ","color":"gray"}'
+        - '{"text":"undead, it takes 2d6 radiant ","color":"gray"}'
+        - '{"text":"damage.A cleric or paladin may ","color":"gray"}'
+        - '{"text":"create holy water by ","color":"gray"}'
+        - '{"text":"performing a special ritual. ","color":"gray"}'
+        - '{"text":"The ritual takes 1 hour to ","color":"gray"}'
+        - '{"text":"perform, uses 25 gp worth of ","color":"gray"}'
+        - '{"text":"powdered silver, and requires ","color":"gray"}'
+        - '{"text":"the caster to expend a ","color":"gray"}'
+        - '{"text":"1st-level spell slot. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

@@ -1,0 +1,42 @@
+item-type:
+  ==: NuminousItemType
+  id: staff
+  name: Staff
+  categories:
+    - WAND
+    - POTION
+    - SPELLCASTING_FOCUS
+    - SIMPLE_WEAPON
+    - MELEE_WEAPON
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: STICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Staff","color":"white"}'
+      lore:
+        - '{"text":"Versatile. This weapon can be ","color":"gray"}'
+        - '{"text":"used with one or two hands. A ","color":"gray"}'
+        - '{"text":"damage value in parentheses ","color":"gray"}'
+        - '{"text":"appears with the property—the ","color":"gray"}'
+        - '{"text":"damage when the weapon is used ","color":"gray"}'
+        - '{"text":"with two hands to make a melee ","color":"gray"}'
+        - '{"text":"attack.An arcane focus is a ","color":"gray"}'
+        - '{"text":"special item designed to ","color":"gray"}'
+        - '{"text":"channel the power of arcane ","color":"gray"}'
+        - '{"text":"spells. A sorcerer, warlock, ","color":"gray"}'
+        - '{"text":"or wizard can use such an item ","color":"gray"}'
+        - '{"text":"as a spellcasting focus. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 4
+    unit: lb

@@ -1,0 +1,35 @@
+item-type:
+  ==: NuminousItemType
+  id: pouch
+  name: Pouch
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: RABBIT_HIDE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Pouch","color":"white"}'
+      lore:
+        - '{"text":"A cloth or leather pouch can ","color":"gray"}'
+        - '{"text":"hold up to 20 sling bullets or ","color":"gray"}'
+        - '{"text":"50 blowgun needles, among ","color":"gray"}'
+        - '{"text":"other things. A ","color":"gray"}'
+        - '{"text":"compartmentalized pouch for ","color":"gray"}'
+        - '{"text":"holding spell components is ","color":"gray"}'
+        - '{"text":"called a component pouch. A ","color":"gray"}'
+        - '{"text":"pouch can hold up to ⅕ cubic ","color":"gray"}'
+        - '{"text":"foot or 6 pounds of gear. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

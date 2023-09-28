@@ -1,0 +1,37 @@
+item-type:
+  ==: NuminousItemType
+  id: pipe_of_smoke_monsters
+  name: Pipe of Smoke Monsters
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: SUSPICIOUS_STEW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Pipe of Smoke Monsters","color":"white"}'
+      lore:
+        - '{"text":"While smoking this pipe, you ","color":"gray"}'
+        - '{"text":"can use an action to exhale a ","color":"gray"}'
+        - '{"text":"puff of smoke that takes the ","color":"gray"}'
+        - '{"text":"form of a single creature, ","color":"gray"}'
+        - '{"text":"such as a dragon, a flumph, or ","color":"gray"}'
+        - '{"text":"a froghemoth. The form must be ","color":"gray"}'
+        - '{"text":"small enough to fit in a ","color":"gray"}'
+        - '{"text":"1-foot cube and loses its ","color":"gray"}'
+        - '{"text":"shape after a few seconds, ","color":"gray"}'
+        - '{"text":"becoming an ordinary puff of ","color":"gray"}'
+        - '{"text":"smoke. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

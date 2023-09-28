@@ -1,0 +1,29 @@
+item-type:
+  ==: NuminousItemType
+  id: cloak_of_billowing
+  name: Cloak of Billowing
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Cloak of Billowing","color":"white"}'
+      lore:
+        - '{"text":"While wearing this cloak, you ","color":"gray"}'
+        - '{"text":"can use a bonus action to make ","color":"gray"}'
+        - '{"text":"it billow dramatically. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

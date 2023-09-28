@@ -1,0 +1,48 @@
+item-type:
+  ==: NuminousItemType
+  id: dark_shard_amulet
+  name: Dark Shard Amulet
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: AMETHYST_SHARD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Dark Shard Amulet","color":"white"}'
+      lore:
+        - '{"text":"This amulet is fashioned from ","color":"gray"}'
+        - '{"text":"a single shard of resilient ","color":"gray"}'
+        - '{"text":"extraplanar material ","color":"gray"}'
+        - '{"text":"originating from the realm of ","color":"gray"}'
+        - '{"text":"your warlock patron. While you ","color":"gray"}'
+        - '{"text":"are wearing it, you gain the ","color":"gray"}'
+        - '{"text":"following benefits:You can use ","color":"gray"}'
+        - '{"text":"the amulet as a spellcasting ","color":"gray"}'
+        - '{"text":"focus for your warlock ","color":"gray"}'
+        - '{"text":"spells.You can try to cast a ","color":"gray"}'
+        - "{\"text\":\"cantrip that you don't know. \",\"color\":\"gray\"}"
+        - '{"text":"The cantrip must be on the ","color":"gray"}'
+        - '{"text":"warlock spell list, and you ","color":"gray"}'
+        - '{"text":"must make a DC 10 Intelligence ","color":"gray"}'
+        - '{"text":"(Arcana) check. If the check ","color":"gray"}'
+        - '{"text":"succeeds, you cast the spell. ","color":"gray"}'
+        - '{"text":"If the check fails, so does ","color":"gray"}'
+        - '{"text":"the spell, and the action used ","color":"gray"}'
+        - '{"text":"to cast the spell is wasted. ","color":"gray"}'
+        - "{\"text\":\"In either case, you can't use \",\"color\":\"gray\"}"
+        - '{"text":"this property again until you ","color":"gray"}'
+        - '{"text":"finish a long rest. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

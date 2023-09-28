@@ -1,0 +1,44 @@
+item-type:
+  ==: NuminousItemType
+  id: stirring_dragon_vessel
+  name: Stirring Dragon Vessel
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Stirring Dragon Vessel","color":"white"}'
+      lore:
+        - '{"text":"This vessel can be a potion ","color":"gray"}'
+        - '{"text":"bottle, drinking horn, or ","color":"gray"}'
+        - '{"text":"other container meant to hold ","color":"gray"}'
+        - '{"text":"a liquid.As a bonus action, if ","color":"gray"}'
+        - '{"text":"the vessel is empty, you can ","color":"gray"}'
+        - '{"text":"speak the command word to fill ","color":"gray"}'
+        - '{"text":"the vessel with one of the ","color":"gray"}'
+        - '{"text":"following (your choice): ale, ","color":"gray"}'
+        - '{"text":"olive oil, mead, a potion of ","color":"gray"}'
+        - '{"text":"healing, a potion of greater ","color":"gray"}'
+        - '{"text":"healing, a potion of climbing, ","color":"gray"}'
+        - '{"text":"or a potion of fire breath. ","color":"gray"}'
+        - '{"text":"Once this property is used, it ","color":"gray"}'
+        - "{\"text\":\"can't be used until the next \",\"color\":\"gray\"}"
+        - '{"text":"dawn. A potion you create in ","color":"gray"}'
+        - '{"text":"this way loses its magical ","color":"gray"}'
+        - "{\"text\":\"properties if it isn't imbibed \",\"color\":\"gray\"}"
+        - '{"text":"within 24 hours. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

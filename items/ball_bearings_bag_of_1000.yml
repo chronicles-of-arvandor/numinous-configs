@@ -1,0 +1,37 @@
+item-type:
+  ==: NuminousItemType
+  id: ball_bearings_bag_of_1000
+  name: Ball Bearings (bag of 1,000)
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: PUMPKIN_SEEDS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Ball Bearings (bag of 1,000)","color":"white"}'
+      lore:
+        - '{"text":"As an action, you can spill ","color":"gray"}'
+        - '{"text":"these tiny metal balls from ","color":"gray"}'
+        - '{"text":"their pouch to cover a level ","color":"gray"}'
+        - '{"text":"area 10 feet square. A ","color":"gray"}'
+        - '{"text":"creature moving across the ","color":"gray"}'
+        - '{"text":"covered area must succeed on a ","color":"gray"}'
+        - '{"text":"DC 10 Dexterity saving throw ","color":"gray"}'
+        - '{"text":"or fall prone. A creature ","color":"gray"}'
+        - '{"text":"moving through the area at ","color":"gray"}'
+        - "{\"text\":\"half speed doesn't need to \",\"color\":\"gray\"}"
+        - '{"text":"make the saving throw. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 2
+    unit: lb

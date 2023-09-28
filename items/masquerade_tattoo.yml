@@ -1,0 +1,61 @@
+item-type:
+  ==: NuminousItemType
+  id: masquerade_tattoo
+  name: Masquerade Tattoo
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: INK_SAC
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Masquerade Tattoo","color":"white"}'
+      lore:
+        - '{"text":"Produced by a special needle, ","color":"gray"}'
+        - '{"text":"this magic tattoo appears on ","color":"gray"}'
+        - '{"text":"your body as whatever you ","color":"gray"}'
+        - '{"text":"desire. Tattoo Attunement. To ","color":"gray"}'
+        - '{"text":"attune to this item, you hold ","color":"gray"}'
+        - '{"text":"the needle to your skin where ","color":"gray"}'
+        - '{"text":"you want the tattoo to appear, ","color":"gray"}'
+        - '{"text":"pressing the needle there ","color":"gray"}'
+        - '{"text":"throughout the attunement ","color":"gray"}'
+        - '{"text":"process. When the attunement ","color":"gray"}'
+        - '{"text":"is complete, the needle turns ","color":"gray"}'
+        - '{"text":"into the ink that becomes the ","color":"gray"}'
+        - '{"text":"tattoo, which appears on the ","color":"gray"}'
+        - '{"text":"skin.If your attunement to the ","color":"gray"}'
+        - '{"text":"tattoo ends, the tattoo ","color":"gray"}'
+        - '{"text":"vanishes, and the needle ","color":"gray"}'
+        - '{"text":"reappears in your space. Fluid ","color":"gray"}'
+        - '{"text":"Ink. As a bonus action, you ","color":"gray"}'
+        - '{"text":"can shape the tattoo into any ","color":"gray"}'
+        - '{"text":"color or pattern and move it ","color":"gray"}'
+        - '{"text":"to any area of your skin. ","color":"gray"}'
+        - '{"text":"Whatever form it takes, it is ","color":"gray"}'
+        - '{"text":"always obviously a tattoo. It ","color":"gray"}'
+        - '{"text":"can range in size from no ","color":"gray"}'
+        - '{"text":"smaller than a copper piece to ","color":"gray"}'
+        - '{"text":"an intricate work of art that ","color":"gray"}'
+        - '{"text":"covers all your skin. Disguise ","color":"gray"}'
+        - '{"text":"Self. As an action, you can ","color":"gray"}'
+        - '{"text":"use the tattoo to cast the ","color":"gray"}'
+        - '{"text":"disguise self spell (DC 13 to ","color":"gray"}'
+        - '{"text":"discern the disguise). Once ","color":"gray"}'
+        - '{"text":"the spell is cast from the ","color":"gray"}'
+        - "{\"text\":\"tattoo, it can't be cast from \",\"color\":\"gray\"}"
+        - '{"text":"the tattoo again until the ","color":"gray"}'
+        - '{"text":"next dawn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

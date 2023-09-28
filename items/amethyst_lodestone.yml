@@ -1,0 +1,58 @@
+item-type:
+  ==: NuminousItemType
+  id: amethyst_lodestone
+  name: Amethyst Lodestone
+  categories:
+    - WONDROUS_ITEM
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: AMETHYST_CLUSTER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Amethyst Lodestone","color":"white"}'
+      lore:
+        - '{"text":"This fist-sized chunk of ","color":"gray"}'
+        - '{"text":"amethyst is infused with an ","color":"gray"}'
+        - "{\"text\":\"amethyst dragon's ability to \",\"color\":\"gray\"}"
+        - '{"text":"bend gravitational forces. ","color":"gray"}'
+        - '{"text":"While you are carrying the ","color":"gray"}'
+        - '{"text":"lodestone, you have advantage ","color":"gray"}'
+        - '{"text":"on Strength saving throws.The ","color":"gray"}'
+        - '{"text":"lodestone has 6 charges for ","color":"gray"}'
+        - '{"text":"the following properties, ","color":"gray"}'
+        - '{"text":"which you can use while you ","color":"gray"}'
+        - '{"text":"are holding the stone. The ","color":"gray"}'
+        - '{"text":"stone regains 1d6 expended ","color":"gray"}'
+        - '{"text":"charges daily at dawn. Flight. ","color":"gray"}'
+        - '{"text":"As a bonus action, you can ","color":"gray"}'
+        - '{"text":"expend 1 charge to gain the ","color":"gray"}'
+        - '{"text":"power of flight for 10 ","color":"gray"}'
+        - '{"text":"minutes. For the duration, you ","color":"gray"}'
+        - '{"text":"gain a flying speed equal to ","color":"gray"}'
+        - '{"text":"your walking speed, and you ","color":"gray"}'
+        - '{"text":"can hover. Gravitational ","color":"gray"}'
+        - '{"text":"Thrust. As an action, you can ","color":"gray"}'
+        - '{"text":"expend 1 charge to focus ","color":"gray"}'
+        - '{"text":"gravity around a creature you ","color":"gray"}'
+        - '{"text":"can see within 60 feet of you. ","color":"gray"}'
+        - '{"text":"The target must succeed on a ","color":"gray"}'
+        - '{"text":"DC 18 Strength saving throw or ","color":"gray"}'
+        - '{"text":"be pushed up to 20 feet in a ","color":"gray"}'
+        - '{"text":"direction of your choice. ","color":"gray"}'
+        - '{"text":"Reverse Gravity. As an action, ","color":"gray"}'
+        - '{"text":"you can expend 3 charges to ","color":"gray"}'
+        - '{"text":"cast reverse gravity from the ","color":"gray"}'
+        - '{"text":"stone (save DC 18). ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

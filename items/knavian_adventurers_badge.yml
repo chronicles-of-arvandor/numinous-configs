@@ -1,0 +1,40 @@
+item-type:
+  ==: NuminousItemType
+  id: knavian_adventurers_badge
+  name: Knavian adventurer's badge
+  categories:
+    - TRADE_GOOD
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: COPPER_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Knavian adventurer's badge\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"This broach is a copper badge ","color":"gray"}'
+        - '{"text":"worn with age and patina that ","color":"gray"}'
+        - '{"text":"declares the bearer to be a ","color":"gray"}'
+        - "{\"text\":\"member of the 'adventurer's \",\"color\":\"gray\"}"
+        - "{\"text\":\"guild of Knave'. Nobody knows \",\"color\":\"gray\"}"
+        - '{"text":"where this settlement is nor ","color":"gray"}'
+        - '{"text":"have they heard of the guild ","color":"gray"}'
+        - '{"text":"itself.  Because the badges ","color":"gray"}'
+        - '{"text":"are common enough that they ","color":"gray"}'
+        - '{"text":"are regarded as valuable as ","color":"gray"}'
+        - '{"text":"the copper they were smelted ","color":"gray"}'
+        - '{"text":"from, a common tourist trap is ","color":"gray"}'
+        - '{"text":"to pawn the badges off for ","color":"gray"}'
+        - "{\"text\":\"more value than they're worth. \",\"color\":\"gray\"}"
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

@@ -1,0 +1,68 @@
+item-type:
+  ==: NuminousItemType
+  id: masons_tools
+  name: Mason's Tools
+  categories:
+    - ARTISANS_TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Mason's Tools\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"These special tools include ","color":"gray"}'
+        - '{"text":"the items needed to pursue a ","color":"gray"}'
+        - '{"text":"craft or trade. Proficiency ","color":"gray"}'
+        - "{\"text\":\"with a set of artisan's tools \",\"color\":\"gray\"}"
+        - '{"text":"lets you add your proficiency ","color":"gray"}'
+        - '{"text":"bonus to any ability checks ","color":"gray"}'
+        - '{"text":"you make using the tools in ","color":"gray"}'
+        - '{"text":"your craft. Each type of ","color":"gray"}'
+        - "{\"text\":\"artisan's tools requires a \",\"color\":\"gray\"}"
+        - "{\"text\":\"separate proficiency.Mason's \",\"color\":\"gray\"}"
+        - '{"text":"tools allow you to craft stone ","color":"gray"}'
+        - '{"text":"structures, including walls ","color":"gray"}'
+        - '{"text":"and buildings crafted from ","color":"gray"}'
+        - "{\"text\":\"brick. Components. Mason's \",\"color\":\"gray\"}"
+        - '{"text":"tools consist of a trowel, a ","color":"gray"}'
+        - '{"text":"hammer, a chisel, brushes, and ","color":"gray"}'
+        - '{"text":"a square. History. Your ","color":"gray"}'
+        - '{"text":"expertise aids you in ","color":"gray"}'
+        - "{\"text\":\"identifying a stone building's \",\"color\":\"gray\"}"
+        - '{"text":"date of construction and ","color":"gray"}'
+        - '{"text":"purpose, along with insight ","color":"gray"}'
+        - '{"text":"into who might have built it. ","color":"gray"}'
+        - '{"text":"Investigation. You gain ","color":"gray"}'
+        - '{"text":"additional insight when ","color":"gray"}'
+        - '{"text":"inspecting areas within stone ","color":"gray"}'
+        - '{"text":"structures. Perception. You ","color":"gray"}'
+        - '{"text":"can spot irregularities in ","color":"gray"}'
+        - '{"text":"stone walls or floors, making ","color":"gray"}'
+        - '{"text":"it easier to find trap doors ","color":"gray"}'
+        - '{"text":"and secret passages. ","color":"gray"}'
+        - '{"text":"Demolition. Your knowledge of ","color":"gray"}'
+        - '{"text":"masonry allows you to spot ","color":"gray"}'
+        - '{"text":"weak points in brick walls. ","color":"gray"}'
+        - '{"text":"You deal double damage to such ","color":"gray"}'
+        - '{"text":"structures with your weapon ","color":"gray"}'
+        - "{\"text\":\"attacks.Mason's \",\"color\":\"gray\"}"
+        - '{"text":"ToolsActivityDCChisel a small ","color":"gray"}'
+        - '{"text":"hole in a stone wall10Find a ","color":"gray"}'
+        - '{"text":"weak point in a stone ","color":"gray"}'
+        - '{"text":"wall15See the Tool ","color":"gray"}'
+        - '{"text":"Proficiencies entry for more ","color":"gray"}'
+        - '{"text":"information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 8
+    unit: lb

@@ -1,0 +1,81 @@
+item-type:
+  ==: NuminousItemType
+  id: brewers_supplies
+  name: Brewer's Supplies
+  categories:
+    - ARTISANS_TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: BREWING_STAND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Brewer's Supplies\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"These special tools include ","color":"gray"}'
+        - '{"text":"the items needed to pursue a ","color":"gray"}'
+        - '{"text":"craft or trade. Proficiency ","color":"gray"}'
+        - "{\"text\":\"with a set of artisan's tools \",\"color\":\"gray\"}"
+        - '{"text":"lets you add your proficiency ","color":"gray"}'
+        - '{"text":"bonus to any ability checks ","color":"gray"}'
+        - '{"text":"you make using the tools in ","color":"gray"}'
+        - '{"text":"your craft. Each type of ","color":"gray"}'
+        - "{\"text\":\"artisan's tools requires a \",\"color\":\"gray\"}"
+        - '{"text":"separate proficiency.Brewing ","color":"gray"}'
+        - '{"text":"is the art of producing beer. ","color":"gray"}'
+        - '{"text":"Not only does beer serve as an ","color":"gray"}'
+        - '{"text":"alcoholic beverage, but the ","color":"gray"}'
+        - '{"text":"process of brewing purifies ","color":"gray"}'
+        - '{"text":"water. Crafting beer takes ","color":"gray"}'
+        - '{"text":"weeks of fermentation, but ","color":"gray"}'
+        - '{"text":"only a few hours of work. ","color":"gray"}'
+        - "{\"text\":\"Components. Brewer's supplies \",\"color\":\"gray\"}"
+        - '{"text":"include a large glass jug, a ","color":"gray"}'
+        - '{"text":"quantity of hops, a siphon, ","color":"gray"}'
+        - '{"text":"and several feet of tubing. ","color":"gray"}'
+        - '{"text":"History. Proficiency with ","color":"gray"}'
+        - "{\"text\":\"brewer's supplies gives you \",\"color\":\"gray\"}"
+        - '{"text":"additional insight on ","color":"gray"}'
+        - '{"text":"Intelligence (History) checks ","color":"gray"}'
+        - '{"text":"concerning events that involve ","color":"gray"}'
+        - '{"text":"alcohol as a significant ","color":"gray"}'
+        - '{"text":"element. Medicine. This tool ","color":"gray"}'
+        - '{"text":"proficiency grants additional ","color":"gray"}'
+        - '{"text":"insight when you treat anyone ","color":"gray"}'
+        - '{"text":"suffering from alcohol ","color":"gray"}'
+        - '{"text":"poisoning or when you can use ","color":"gray"}'
+        - '{"text":"alcohol to dull pain. ","color":"gray"}'
+        - '{"text":"Persuasion. A stiff drink can ","color":"gray"}'
+        - '{"text":"help soften the hardest heart. ","color":"gray"}'
+        - "{\"text\":\"Your proficiency with brewer's \",\"color\":\"gray\"}"
+        - '{"text":"supplies can help you ply ","color":"gray"}'
+        - '{"text":"someone with drink, giving ","color":"gray"}'
+        - '{"text":"them just enough alcohol to ","color":"gray"}'
+        - '{"text":"mellow their mood. Potable ","color":"gray"}'
+        - '{"text":"Water. Your knowledge of ","color":"gray"}'
+        - '{"text":"brewing enables you to purify ","color":"gray"}'
+        - '{"text":"water that would otherwise be ","color":"gray"}'
+        - '{"text":"undrinkable. As part of a long ","color":"gray"}'
+        - '{"text":"rest, you can purify up to 6 ","color":"gray"}'
+        - '{"text":"gallons of water, or 1 gallon ","color":"gray"}'
+        - '{"text":"as part of a short ","color":"gray"}'
+        - "{\"text\":\"rest.Brewer's \",\"color\":\"gray\"}"
+        - '{"text":"SuppliesActivityDCDetect ","color":"gray"}'
+        - '{"text":"poison or impurities in a ","color":"gray"}'
+        - '{"text":"drink10Identify ","color":"gray"}'
+        - '{"text":"alcohol15Ignore effects of ","color":"gray"}'
+        - '{"text":"alcohol20See the Tool ","color":"gray"}'
+        - '{"text":"Proficiencies entry for more ","color":"gray"}'
+        - '{"text":"information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 9
+    unit: lb

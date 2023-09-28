@@ -1,0 +1,38 @@
+item-type:
+  ==: NuminousItemType
+  id: climbers_kit
+  name: Climber's Kit
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: STRING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Climber's Kit\",\"color\":\"white\"}"
+      lore:
+        - "{\"text\":\"A climber's kit includes \",\"color\":\"gray\"}"
+        - '{"text":"special pitons, boot tips, ","color":"gray"}'
+        - '{"text":"gloves, and a harness. You can ","color":"gray"}'
+        - "{\"text\":\"use the climber's kit as an \",\"color\":\"gray\"}"
+        - '{"text":"action to anchor yourself; ","color":"gray"}'
+        - "{\"text\":\"when you do, you can't fall \",\"color\":\"gray\"}"
+        - '{"text":"more than 25 feet from the ","color":"gray"}'
+        - '{"text":"point where you anchored ","color":"gray"}'
+        - "{\"text\":\"yourself, and you can't climb \",\"color\":\"gray\"}"
+        - '{"text":"more than 25 feet away from ","color":"gray"}'
+        - '{"text":"that point without undoing the ","color":"gray"}'
+        - '{"text":"anchor. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 12
+    unit: lb

@@ -1,0 +1,91 @@
+item-type:
+  ==: NuminousItemType
+  id: disguise_kit
+  name: Disguise Kit
+  categories:
+    - TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: LEATHER_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Disguise Kit","color":"white"}'
+      lore:
+        - '{"text":"This pouch of cosmetics, hair ","color":"gray"}'
+        - '{"text":"dye, and small props lets you ","color":"gray"}'
+        - '{"text":"create disguises that change ","color":"gray"}'
+        - '{"text":"your physical appearance. ","color":"gray"}'
+        - '{"text":"Proficiency with this kit lets ","color":"gray"}'
+        - '{"text":"you add your proficiency bonus ","color":"gray"}'
+        - '{"text":"to any ability checks you make ","color":"gray"}'
+        - '{"text":"to create a visual ","color":"gray"}'
+        - '{"text":"disguise.The perfect tool for ","color":"gray"}'
+        - '{"text":"anyone who wants to engage in ","color":"gray"}'
+        - '{"text":"trickery, a disguise kit ","color":"gray"}'
+        - '{"text":"enables its owner to adopt a ","color":"gray"}'
+        - '{"text":"false identity. Components. A ","color":"gray"}'
+        - '{"text":"disguise kit includes ","color":"gray"}'
+        - '{"text":"cosmetics, hair dye, small ","color":"gray"}'
+        - '{"text":"props, and a few pieces of ","color":"gray"}'
+        - '{"text":"clothing. Deception. In ","color":"gray"}'
+        - '{"text":"certain cases, a disguise can ","color":"gray"}'
+        - '{"text":"improve your ability to weave ","color":"gray"}'
+        - '{"text":"convincing lies. Intimidation. ","color":"gray"}'
+        - '{"text":"The right disguise can make ","color":"gray"}'
+        - '{"text":"you look more fearsome, ","color":"gray"}'
+        - '{"text":"whether you want to scare ","color":"gray"}'
+        - '{"text":"someone away by posing as a ","color":"gray"}'
+        - '{"text":"plague victim or intimidate a ","color":"gray"}'
+        - '{"text":"gang of thugs by taking the ","color":"gray"}'
+        - '{"text":"appearance of a bully. ","color":"gray"}'
+        - '{"text":"Performance. A cunning ","color":"gray"}'
+        - '{"text":"disguise can enhance an ","color":"gray"}'
+        - "{\"text\":\"audience's enjoyment of a \",\"color\":\"gray\"}"
+        - '{"text":"performance, provided the ","color":"gray"}'
+        - '{"text":"disguise is properly designed ","color":"gray"}'
+        - '{"text":"to evoke the desired reaction. ","color":"gray"}'
+        - '{"text":"Persuasion. Folk tend to trust ","color":"gray"}'
+        - '{"text":"a person in uniform. If you ","color":"gray"}'
+        - '{"text":"disguise yourself as an ","color":"gray"}'
+        - '{"text":"authority figure, your efforts ","color":"gray"}'
+        - '{"text":"to persuade others are often ","color":"gray"}'
+        - '{"text":"more effective. Create ","color":"gray"}'
+        - '{"text":"Disguise. As part of a long ","color":"gray"}'
+        - '{"text":"rest, you can create a ","color":"gray"}'
+        - '{"text":"disguise. It takes you 1 ","color":"gray"}'
+        - '{"text":"minute to don such a disguise ","color":"gray"}'
+        - '{"text":"once you have created it. You ","color":"gray"}'
+        - '{"text":"can carry only one such ","color":"gray"}'
+        - '{"text":"disguise on you at a time ","color":"gray"}'
+        - '{"text":"without drawing undue ","color":"gray"}'
+        - '{"text":"attention, unless you have a ","color":"gray"}'
+        - '{"text":"bag of holding or a similar ","color":"gray"}'
+        - '{"text":"method to keep them hidden. ","color":"gray"}'
+        - '{"text":"Each disguise weighs 1 ","color":"gray"}'
+        - '{"text":"pound.At other times, it takes ","color":"gray"}'
+        - '{"text":"10 minutes to craft a disguise ","color":"gray"}'
+        - '{"text":"that involves moderate changes ","color":"gray"}'
+        - '{"text":"to your appearance, and 30 ","color":"gray"}'
+        - '{"text":"minutes for one that requires ","color":"gray"}'
+        - '{"text":"more extensive ","color":"gray"}'
+        - '{"text":"changes.Disguise ","color":"gray"}'
+        - '{"text":"KitActivityDCCover injuries or ","color":"gray"}'
+        - '{"text":"distinguishing marks10Spot a ","color":"gray"}'
+        - '{"text":"disguise being used by someone ","color":"gray"}'
+        - "{\"text\":\"else15Copy a humanoid's \",\"color\":\"gray\"}"
+        - '{"text":"appearance20See the Tool ","color":"gray"}'
+        - '{"text":"Proficiencies entry for more ","color":"gray"}'
+        - '{"text":"information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 3
+    unit: lb

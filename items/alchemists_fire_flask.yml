@@ -1,0 +1,42 @@
+item-type:
+  ==: NuminousItemType
+  id: alchemists_fire_flask
+  name: Alchemist's Fire (flask)
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: FIRE_CHARGE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Alchemist's Fire (flask)\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"This sticky, adhesive fluid ","color":"gray"}'
+        - '{"text":"ignites when exposed to air. ","color":"gray"}'
+        - '{"text":"As an action, you can throw ","color":"gray"}'
+        - '{"text":"this flask up to 20 feet, ","color":"gray"}'
+        - '{"text":"shattering it on impact. Make ","color":"gray"}'
+        - '{"text":"a ranged attack against a ","color":"gray"}'
+        - '{"text":"creature or object, treating ","color":"gray"}'
+        - "{\"text\":\"the alchemist's fire as an \",\"color\":\"gray\"}"
+        - '{"text":"improvised weapon. On a hit, ","color":"gray"}'
+        - '{"text":"the target takes 1d4 fire ","color":"gray"}'
+        - '{"text":"damage at the start of each of ","color":"gray"}'
+        - '{"text":"its turns. A creature can end ","color":"gray"}'
+        - '{"text":"this damage by using its ","color":"gray"}'
+        - '{"text":"action to make a DC 10 ","color":"gray"}'
+        - '{"text":"Dexterity check to extinguish ","color":"gray"}'
+        - '{"text":"the flames. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

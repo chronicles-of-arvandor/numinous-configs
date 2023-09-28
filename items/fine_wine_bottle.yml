@@ -1,0 +1,29 @@
+item-type:
+  ==: NuminousItemType
+  id: fine_wine_bottle
+  name: Fine Wine (Bottle)
+  categories:
+    - FOOD_AND_DRINK
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Fine Wine (Bottle)","color":"white"}'
+      lore:
+        - '{"text":"Any type of fine wine ","color":"gray"}'
+        - '{"text":"contained within a glass ","color":"gray"}'
+        - '{"text":"bottle. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 3
+    unit: lb

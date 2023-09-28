@@ -1,0 +1,38 @@
+item-type:
+  ==: NuminousItemType
+  id: rope_of_mending
+  name: Rope of Mending
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: LEAD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Rope of Mending","color":"white"}'
+      lore:
+        - '{"text":"You can cut this 50-foot coil ","color":"gray"}'
+        - '{"text":"of hempen rope into any number ","color":"gray"}'
+        - '{"text":"of smaller pieces, and then ","color":"gray"}'
+        - '{"text":"use an action to speak a ","color":"gray"}'
+        - '{"text":"command word and cause the ","color":"gray"}'
+        - '{"text":"pieces to knit back together. ","color":"gray"}'
+        - '{"text":"The pieces must be in contact ","color":"gray"}'
+        - '{"text":"with each other and not ","color":"gray"}'
+        - '{"text":"otherwise in use. A rope of ","color":"gray"}'
+        - '{"text":"mending is forever shortened ","color":"gray"}'
+        - '{"text":"if a section of it is lost or ","color":"gray"}'
+        - '{"text":"destroyed. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

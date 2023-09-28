@@ -1,0 +1,29 @@
+item-type:
+  ==: NuminousItemType
+  id: iron_armour_parts
+  name: Iron Armour Parts
+  categories:
+    - CRAFTING_MATERIAL
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_BARS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Iron Armour Parts","color":"white"}'
+      lore:
+        - '{"text":"Parts of a piece of armour, ","color":"gray"}'
+        - '{"text":"ready for adjustment and ","color":"gray"}'
+        - '{"text":"assembly. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 15
+    unit: lb

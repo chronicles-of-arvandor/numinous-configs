@@ -1,0 +1,69 @@
+item-type:
+  ==: NuminousItemType
+  id: astromancy_archive
+  name: Astromancy Archive
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: ENDER_PEARL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Astromancy Archive","color":"white"}'
+      lore:
+        - '{"text":"This brass disc of ","color":"gray"}'
+        - '{"text":"articulated, concentric rings ","color":"gray"}'
+        - '{"text":"unfolds into an armillary ","color":"gray"}'
+        - '{"text":"sphere. As a bonus action, you ","color":"gray"}'
+        - '{"text":"can unfold it into the sphere ","color":"gray"}'
+        - '{"text":"or back into a disc. When ","color":"gray"}'
+        - '{"text":"found, it contains the ","color":"gray"}'
+        - '{"text":"following spells, which are ","color":"gray"}'
+        - '{"text":"wizard spells for you while ","color":"gray"}'
+        - '{"text":"you are attuned to it: augury, ","color":"gray"}'
+        - '{"text":"divination, find the path, ","color":"gray"}'
+        - '{"text":"foresight, locate creature, ","color":"gray"}'
+        - '{"text":"and locate object. It ","color":"gray"}'
+        - '{"text":"functions as a spellbook for ","color":"gray"}'
+        - '{"text":"you, with spells encoded on ","color":"gray"}'
+        - '{"text":"the rings.While you are ","color":"gray"}'
+        - '{"text":"holding the archive, you can ","color":"gray"}'
+        - '{"text":"use it as a spellcasting focus ","color":"gray"}'
+        - '{"text":"for your wizard spells.The ","color":"gray"}'
+        - '{"text":"archive has 3 charges, and it ","color":"gray"}'
+        - '{"text":"regains 1d3 expended charges ","color":"gray"}'
+        - '{"text":"daily at dawn. You can use the ","color":"gray"}'
+        - '{"text":"charges in the following ways ","color":"gray"}'
+        - '{"text":"while holding it:If you spend ","color":"gray"}'
+        - '{"text":"1 minute studying the archive, ","color":"gray"}'
+        - '{"text":"you can expend 1 charge to ","color":"gray"}'
+        - '{"text":"replace one of your prepared ","color":"gray"}'
+        - '{"text":"wizard spells with a different ","color":"gray"}'
+        - '{"text":"spell in the archive. The new ","color":"gray"}'
+        - '{"text":"spell must be of the ","color":"gray"}'
+        - '{"text":"divination school.When a ","color":"gray"}'
+        - '{"text":"creature you can see within 30 ","color":"gray"}'
+        - '{"text":"feet of you makes an attack ","color":"gray"}'
+        - '{"text":"roll, an ability check, or a ","color":"gray"}'
+        - '{"text":"saving throw, you can use your ","color":"gray"}'
+        - '{"text":"reaction to expend 1 charge ","color":"gray"}'
+        - '{"text":"and force the creature to roll ","color":"gray"}'
+        - '{"text":"a d4 and apply the number ","color":"gray"}'
+        - '{"text":"rolled as a bonus or penalty ","color":"gray"}'
+        - '{"text":"(your choice) to the original ","color":"gray"}'
+        - '{"text":"roll. You can do this after ","color":"gray"}'
+        - '{"text":"you see the roll but before ","color":"gray"}'
+        - '{"text":"its effects are applied. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 3
+    unit: lb

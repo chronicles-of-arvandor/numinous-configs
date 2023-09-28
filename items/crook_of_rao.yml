@@ -1,0 +1,168 @@
+item-type:
+  ==: NuminousItemType
+  id: crook_of_rao
+  name: Crook of Rao
+  categories:
+    - WONDROUS_ITEM
+  rarity: UNIQUE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_HOE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Crook of Rao","color":"white"}'
+      lore:
+        - '{"text":"Ages ago, the serene god Rao ","color":"gray"}'
+        - '{"text":"created a tool to shield his ","color":"gray"}'
+        - '{"text":"fledgling faithful against the ","color":"gray"}'
+        - '{"text":"evils of the Lower Planes. ","color":"gray"}'
+        - '{"text":"Yet, as eons passed, mortals ","color":"gray"}'
+        - '{"text":"developed their own methods of ","color":"gray"}'
+        - '{"text":"dealing with existential ","color":"gray"}'
+        - '{"text":"threats, and the crook was ","color":"gray"}'
+        - '{"text":"largely forgotten. In recent ","color":"gray"}'
+        - '{"text":"ages, though, the Crook of Rao ","color":"gray"}'
+        - '{"text":"was rediscovered and leveraged ","color":"gray"}'
+        - '{"text":"against the rising power of ","color":"gray"}'
+        - '{"text":"the Witch Queen Iggwilv (one ","color":"gray"}'
+        - '{"text":"of the names of the wizard ","color":"gray"}'
+        - '{"text":"Tasha). Although she was ","color":"gray"}'
+        - '{"text":"defeated, Iggwilv managed to ","color":"gray"}'
+        - '{"text":"damage the crook during the ","color":"gray"}'
+        - '{"text":"battle, infecting it with an ","color":"gray"}'
+        - '{"text":"insidious curse-and the ","color":"gray"}'
+        - '{"text":"potential for future victory. ","color":"gray"}'
+        - '{"text":"In the aftermath, the crook ","color":"gray"}'
+        - '{"text":"was again lost. Occasionally ","color":"gray"}'
+        - '{"text":"it reappears, but the famed ","color":"gray"}'
+        - '{"text":"artifact is not what it was. ","color":"gray"}'
+        - "{\"text\":\"Whether or not the artifact's \",\"color\":\"gray\"}"
+        - '{"text":"bearers realize its full ","color":"gray"}'
+        - '{"text":"threat, few risk using the ","color":"gray"}'
+        - '{"text":"Crook of Rao -potentially for ","color":"gray"}'
+        - '{"text":"the final time. Random ","color":"gray"}'
+        - '{"text":"Properties. The artifact has ","color":"gray"}'
+        - '{"text":"the following random ","color":"gray"}'
+        - '{"text":"properties, which you can ","color":"gray"}'
+        - '{"text":"determine by rolling on the ","color":"gray"}'
+        - '{"text":"tables in the \"Artifacts\" ","color":"gray"}'
+        - '{"text":"section of the Dungeon ","color":"gray"}'
+        - "{\"text\":\"Master's Guide:2 minor \",\"color\":\"gray\"}"
+        - '{"text":"beneficial properties1 major ","color":"gray"}'
+        - '{"text":"beneficial property1 minor ","color":"gray"}'
+        - '{"text":"detrimental property Spells. ","color":"gray"}'
+        - '{"text":"The crook has 6 charges. While ","color":"gray"}'
+        - '{"text":"holding it, you can use an ","color":"gray"}'
+        - '{"text":"action to expend 1 or more of ","color":"gray"}'
+        - '{"text":"its charges to cast one of the ","color":"gray"}'
+        - '{"text":"following spells (save DC 18) ","color":"gray"}'
+        - '{"text":"from it: aura of life (2 ","color":"gray"}'
+        - '{"text":"charges), aura of purity (2 ","color":"gray"}'
+        - '{"text":"charges), banishment (1 ","color":"gray"}'
+        - '{"text":"charge), beacon of hope (1 ","color":"gray"}'
+        - '{"text":"charge), mass cure wounds (3 ","color":"gray"}'
+        - '{"text":"charges). The crook regains ","color":"gray"}'
+        - '{"text":"1d6 expended charges daily at ","color":"gray"}'
+        - '{"text":"dawn. Absolute Banishment. ","color":"gray"}'
+        - '{"text":"While you are attuned to the ","color":"gray"}'
+        - '{"text":"crook and holding it, you can ","color":"gray"}'
+        - '{"text":"spend 10 minutes to banish all ","color":"gray"}'
+        - '{"text":"but the mightiest fiends ","color":"gray"}'
+        - '{"text":"within 1 mile of you. Any ","color":"gray"}'
+        - '{"text":"fiend with a challenge rating ","color":"gray"}'
+        - '{"text":"of 19 or higher is unaffected. ","color":"gray"}'
+        - '{"text":"Each banished fiend is sent ","color":"gray"}'
+        - '{"text":"back to its home plane and ","color":"gray"}'
+        - "{\"text\":\"can't return to the plane the \",\"color\":\"gray\"}"
+        - '{"text":"Crook of Rao banished it from ","color":"gray"}'
+        - '{"text":"for 100 years. Failing Matrix. ","color":"gray"}'
+        - "{\"text\":\"Whenever the Crook of Rao's \",\"color\":\"gray\"}"
+        - '{"text":"Absolute Banishment property ","color":"gray"}'
+        - '{"text":"is used, or when its last ","color":"gray"}'
+        - '{"text":"charge is expended, roll on ","color":"gray"}'
+        - '{"text":"the Extraplanar Reversal ","color":"gray"}'
+        - '{"text":"table. Any creatures conjured ","color":"gray"}'
+        - '{"text":"as a result of this effect ","color":"gray"}'
+        - '{"text":"appear in random unoccupied ","color":"gray"}'
+        - '{"text":"spaces within 60 feet of you ","color":"gray"}'
+        - '{"text":"and are not under your ","color":"gray"}'
+        - "{\"text\":\"control. Iggwilv's Curse. When \",\"color\":\"gray\"}"
+        - '{"text":"the Crook was last used ","color":"gray"}'
+        - '{"text":"against Iggwilv, the Witch ","color":"gray"}'
+        - '{"text":"Queen lashed out at the ","color":"gray"}'
+        - '{"text":"artifact, infecting its ","color":"gray"}'
+        - '{"text":"magical matrix. Over the ","color":"gray"}'
+        - '{"text":"years, this curse has spread ","color":"gray"}'
+        - '{"text":"within the crook, threatening ","color":"gray"}'
+        - '{"text":"to violently pervert its ","color":"gray"}'
+        - '{"text":"ancient magic. If this occurs, ","color":"gray"}'
+        - '{"text":"the Crook of Rao, as it is ","color":"gray"}'
+        - '{"text":"currently known, is destroyed, ","color":"gray"}'
+        - '{"text":"its magical matrix inverting ","color":"gray"}'
+        - '{"text":"and exploding into a ","color":"gray"}'
+        - '{"text":"50-foot-diameter portal. This ","color":"gray"}'
+        - '{"text":"portal functions as a ","color":"gray"}'
+        - '{"text":"permanent gate spell cast by ","color":"gray"}'
+        - '{"text":"Iggwilv. The gate then, once ","color":"gray"}'
+        - '{"text":"per round on initiative count ","color":"gray"}'
+        - "{\"text\":\"20, audibly speaks a fiend's \",\"color\":\"gray\"}"
+        - "{\"text\":\"name in Iggwilv's voice, doing \",\"color\":\"gray\"}"
+        - '{"text":"so until the gate calls on ","color":"gray"}'
+        - '{"text":"every fiend ever banished by ","color":"gray"}'
+        - '{"text":"the Crook of Rao. If the fiend ","color":"gray"}'
+        - '{"text":"still exists, it is drawn ","color":"gray"}'
+        - '{"text":"through the gate. This process ","color":"gray"}'
+        - '{"text":"takes eighteen years to ","color":"gray"}'
+        - '{"text":"complete, at the end of which ","color":"gray"}'
+        - '{"text":"the gate becomes a permanent ","color":"gray"}'
+        - '{"text":"portal to Pazunia, the first ","color":"gray"}'
+        - '{"text":"layer of the Abyss.Extraplanar ","color":"gray"}'
+        - '{"text":"Reversald100Effect1-25A portal ","color":"gray"}'
+        - '{"text":"to a random plane opens. The ","color":"gray"}'
+        - '{"text":"portal closes after 5 ","color":"gray"}'
+        - '{"text":"minutes.26-452d4 imps and 2d4 ","color":"gray"}'
+        - '{"text":"quasits appear.46-601d8 ","color":"gray"}'
+        - '{"text":"succubi/incubi ","color":"gray"}'
+        - '{"text":"appear.61-701d10 barbed devils ","color":"gray"}'
+        - '{"text":"and 1d10 vrocks appear.71-801 ","color":"gray"}'
+        - '{"text":"arcanaloth, 1 night hag, and 1 ","color":"gray"}'
+        - '{"text":"rakshasa appear.81-851 ice ","color":"gray"}'
+        - '{"text":"devil and 1 marilith ","color":"gray"}'
+        - '{"text":"appear.86-901 balor and 1 pit ","color":"gray"}'
+        - "{\"text\":\"fiend appear. At the DM's \",\"color\":\"gray\"}"
+        - '{"text":"discretion, a portal opens ","color":"gray"}'
+        - '{"text":"into the presence of an ","color":"gray"}'
+        - '{"text":"archdevil or demon lord ","color":"gray"}'
+        - '{"text":"instead, then closes after 5 ","color":"gray"}'
+        - "{\"text\":\"minutes.91-00Iggwilv's Curse \",\"color\":\"gray\"}"
+        - "{\"text\":\"(see the Iggwilv's Curse \",\"color\":\"gray\"}"
+        - '{"text":"property). Destroying or ","color":"gray"}'
+        - '{"text":"Repairing the Crook. The Crook ","color":"gray"}'
+        - '{"text":"of Rao can either be destroyed ","color":"gray"}'
+        - '{"text":"or repaired by journeying to ","color":"gray"}'
+        - '{"text":"Mount Celestia and obtaining a ","color":"gray"}'
+        - '{"text":"tear from the eternally serene ","color":"gray"}'
+        - '{"text":"god Rao. One way to make the ","color":"gray"}'
+        - '{"text":"emotionless god cry would be ","color":"gray"}'
+        - '{"text":"to reunite Rao with the spirit ","color":"gray"}'
+        - '{"text":"of his first worshiper who ","color":"gray"}'
+        - '{"text":"sought revelations beyond the ","color":"gray"}'
+        - '{"text":"multiverse long ago. The Crook ","color":"gray"}'
+        - '{"text":"dissolves if immersed in the ","color":"gray"}'
+        - "{\"text\":\"god's tear for a year and a \",\"color\":\"gray\"}"
+        - '{"text":"day. If washed in the tear ","color":"gray"}'
+        - '{"text":"daily for 30 days, the Crook ","color":"gray"}'
+        - '{"text":"loses its Failing Matrix ","color":"gray"}'
+        - '{"text":"property. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

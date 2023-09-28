@@ -1,0 +1,71 @@
+item-type:
+  ==: NuminousItemType
+  id: revelers_concertina
+  name: Reveler's Concertina
+  categories:
+    - WONDROUS_ITEM
+    - INSTRUMENT
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: JUKEBOX
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Reveler's Concertina\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"While holding this concertina, ","color":"gray"}'
+        - '{"text":"you gain a +2 bonus to the ","color":"gray"}'
+        - '{"text":"saving throw DC of your bard ","color":"gray"}'
+        - '{"text":"spells.As an action, you can ","color":"gray"}'
+        - '{"text":"use the concertina to cast ","color":"gray"}'
+        - "{\"text\":\"Otto's irresistible dance from \",\"color\":\"gray\"}"
+        - '{"text":"the item. This property of the ","color":"gray"}'
+        - "{\"text\":\"concertina can't be used again \",\"color\":\"gray\"}"
+        - '{"text":"until the next dawn.If you ","color":"gray"}'
+        - '{"text":"have proficiency with a given ","color":"gray"}'
+        - '{"text":"musical instrument, you can ","color":"gray"}'
+        - '{"text":"add your proficiency bonus to ","color":"gray"}'
+        - '{"text":"any ability checks you make to ","color":"gray"}'
+        - '{"text":"play music with the ","color":"gray"}'
+        - '{"text":"instrument. A bard can use a ","color":"gray"}'
+        - '{"text":"musical instrument as a ","color":"gray"}'
+        - '{"text":"spellcasting focus. Each type ","color":"gray"}'
+        - '{"text":"of musical instrument requires ","color":"gray"}'
+        - '{"text":"a separate proficiency.See the ","color":"gray"}'
+        - '{"text":"Tool Proficiencies entry for ","color":"gray"}'
+        - '{"text":"more information.Proficiency ","color":"gray"}'
+        - '{"text":"with a musical instrument ","color":"gray"}'
+        - '{"text":"indicates you are familiar ","color":"gray"}'
+        - '{"text":"with the techniques used to ","color":"gray"}'
+        - '{"text":"play it. You also have ","color":"gray"}'
+        - '{"text":"knowledge of some songs ","color":"gray"}'
+        - '{"text":"commonly performed with that ","color":"gray"}'
+        - '{"text":"instrument. History. Your ","color":"gray"}'
+        - '{"text":"expertise aids you in ","color":"gray"}'
+        - '{"text":"recalling lore related to your ","color":"gray"}'
+        - '{"text":"instrument. Performance. Your ","color":"gray"}'
+        - '{"text":"ability to put on a good show ","color":"gray"}'
+        - '{"text":"is improved when you ","color":"gray"}'
+        - '{"text":"incorporate an instrument into ","color":"gray"}'
+        - '{"text":"your act. Compose a Tune. As ","color":"gray"}'
+        - '{"text":"part of a long rest, you can ","color":"gray"}'
+        - '{"text":"compose a new tune and lyrics ","color":"gray"}'
+        - '{"text":"for your instrument. You might ","color":"gray"}'
+        - '{"text":"use this ability to impress a ","color":"gray"}'
+        - '{"text":"noble or spread scandalous ","color":"gray"}'
+        - '{"text":"rumors with a catchy ","color":"gray"}'
+        - '{"text":"tune.Musical ","color":"gray"}'
+        - '{"text":"InstrumentActivityDCIdentify a ","color":"gray"}'
+        - '{"text":"tune10Improvise a tune20 ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

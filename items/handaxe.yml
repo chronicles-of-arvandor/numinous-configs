@@ -1,0 +1,48 @@
+item-type:
+  ==: NuminousItemType
+  id: handaxe
+  name: Handaxe
+  categories:
+    - POTION
+    - SIMPLE_WEAPON
+    - MELEE_WEAPON
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Handaxe","color":"white"}'
+      lore:
+        - '{"text":"Light. A light weapon is small ","color":"gray"}'
+        - '{"text":"and easy to handle, making it ","color":"gray"}'
+        - '{"text":"ideal for use when fighting ","color":"gray"}'
+        - '{"text":"with two weapons. Thrown. If a ","color":"gray"}'
+        - '{"text":"weapon has the thrown ","color":"gray"}'
+        - '{"text":"property, you can throw the ","color":"gray"}'
+        - '{"text":"weapon to make a ranged ","color":"gray"}'
+        - '{"text":"attack. If the weapon is a ","color":"gray"}'
+        - '{"text":"melee weapon, you use the same ","color":"gray"}'
+        - '{"text":"ability modifier for that ","color":"gray"}'
+        - '{"text":"attack roll and damage roll ","color":"gray"}'
+        - '{"text":"that you would use for a melee ","color":"gray"}'
+        - '{"text":"attack with the weapon. For ","color":"gray"}'
+        - '{"text":"example, if you throw a ","color":"gray"}'
+        - '{"text":"handaxe, you use your ","color":"gray"}'
+        - '{"text":"Strength, but if you throw a ","color":"gray"}'
+        - '{"text":"dagger, you can use either ","color":"gray"}'
+        - '{"text":"your Strength or your ","color":"gray"}'
+        - '{"text":"Dexterity, since the dagger ","color":"gray"}'
+        - '{"text":"has the finesse property. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 2
+    unit: lb

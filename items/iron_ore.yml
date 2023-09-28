@@ -1,0 +1,46 @@
+item-type:
+  ==: NuminousItemType
+  id: iron_ore
+  name: Iron ore
+  categories:
+    - TRADE_GOOD
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_ORE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Iron ore","color":"white"}'
+      lore:
+        - '{"text":"Most wealth is not in coins. ","color":"gray"}'
+        - '{"text":"It is measured in livestock, ","color":"gray"}'
+        - '{"text":"grain, land, rights to collect ","color":"gray"}'
+        - '{"text":"taxes, or rights to resources ","color":"gray"}'
+        - '{"text":"(such as a mine or a ","color":"gray"}'
+        - '{"text":"forest).Guilds, nobles, and ","color":"gray"}'
+        - '{"text":"royalty regulate trade. ","color":"gray"}'
+        - '{"text":"Chartered companies are ","color":"gray"}'
+        - '{"text":"granted rights to conduct ","color":"gray"}'
+        - '{"text":"trade along certain routes, to ","color":"gray"}'
+        - '{"text":"send merchant ships to various ","color":"gray"}'
+        - '{"text":"ports, or to buy or sell ","color":"gray"}'
+        - '{"text":"specific goods. Guilds set ","color":"gray"}'
+        - '{"text":"prices for the goods or ","color":"gray"}'
+        - '{"text":"services that they control, ","color":"gray"}'
+        - '{"text":"and determine who may or may ","color":"gray"}'
+        - '{"text":"not offer those goods and ","color":"gray"}'
+        - '{"text":"services. Merchants commonly ","color":"gray"}'
+        - '{"text":"exchange trade goods without ","color":"gray"}'
+        - '{"text":"using currency. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

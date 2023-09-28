@@ -1,0 +1,28 @@
+item-type:
+  ==: NuminousItemType
+  id: mimic_adhesive
+  name: Mimic Adhesive
+  categories:
+    - CRAFTING_MATERIAL
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: COBWEB
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Mimic Adhesive","color":"white"}'
+      lore:
+        - '{"text":"Four ounces of adhesive ","color":"gray"}'
+        - '{"text":"harvested from a mimic. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1.25
+    unit: lb

@@ -1,0 +1,41 @@
+item-type:
+  ==: NuminousItemType
+  id: 3_amulet_of_the_devout
+  name: +3 Amulet of the Devout
+  categories:
+    - WONDROUS_ITEM
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: EMERALD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"+3 Amulet of the Devout","color":"white"}'
+      lore:
+        - '{"text":"This amulet bears the symbol ","color":"gray"}'
+        - '{"text":"of a deity inlaid with ","color":"gray"}'
+        - '{"text":"precious stones or metals. ","color":"gray"}'
+        - '{"text":"While you wear the holy ","color":"gray"}'
+        - '{"text":"symbol, you gain a +3 bonus to ","color":"gray"}'
+        - '{"text":"spell attack rolls and the ","color":"gray"}'
+        - '{"text":"saving throw DCs of your ","color":"gray"}'
+        - '{"text":"spells.While you wear this ","color":"gray"}'
+        - '{"text":"amulet, you can use your ","color":"gray"}'
+        - '{"text":"Channel Divinity feature ","color":"gray"}'
+        - '{"text":"without expending one of the ","color":"gray"}'
+        - "{\"text\":\"feature's uses. Once this \",\"color\":\"gray\"}"
+        - "{\"text\":\"property is used, it can't be \",\"color\":\"gray\"}"
+        - '{"text":"used again until the next ","color":"gray"}'
+        - '{"text":"dawn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

@@ -1,0 +1,31 @@
+item-type:
+  ==: NuminousItemType
+  id: signet_ring
+  name: Signet Ring
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: GOLDEN_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Signet Ring","color":"white"}'
+      lore:
+        - '{"text":"A well-made ring, adorned with ","color":"gray"}'
+        - '{"text":"a prominent insignia, often ","color":"gray"}'
+        - '{"text":"used as a seal, or a method of ","color":"gray"}'
+        - '{"text":"recognition for those of a ","color":"gray"}'
+        - '{"text":"certain group ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

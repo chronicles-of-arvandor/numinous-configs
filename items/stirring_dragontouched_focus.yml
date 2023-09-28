@@ -1,0 +1,60 @@
+item-type:
+  ==: NuminousItemType
+  id: stirring_dragontouched_focus
+  name: Stirring Dragon-Touched Focus
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: NETHER_STAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Stirring Dragon-Touched Focus","color":"white"}'
+      lore:
+        - '{"text":"This wondrous item can be a ","color":"gray"}'
+        - '{"text":"scepter, an orb, an amulet, a ","color":"gray"}'
+        - '{"text":"crystal, or another finely ","color":"gray"}'
+        - '{"text":"crafted object. It typically ","color":"gray"}'
+        - '{"text":"incorporates imagery of ","color":"gray"}'
+        - "{\"text\":\"dragons' wings, claws, teeth, \",\"color\":\"gray\"}"
+        - '{"text":"or scales.You have advantage ","color":"gray"}'
+        - '{"text":"on initiative rolls. While you ","color":"gray"}'
+        - '{"text":"are holding the focus, it can ","color":"gray"}'
+        - '{"text":"function as a spellcasting ","color":"gray"}'
+        - '{"text":"focus for all your spells.The ","color":"gray"}'
+        - '{"text":"focus gains an additional ","color":"gray"}'
+        - '{"text":"property determined by the ","color":"gray"}'
+        - '{"text":"family of the dragon in whose ","color":"gray"}'
+        - '{"text":"hoard it became ","color":"gray"}'
+        - '{"text":"Stirring:Chromatic. Whenever ","color":"gray"}'
+        - '{"text":"you use a spell slot to cast a ","color":"gray"}'
+        - '{"text":"spell that deals acid, cold, ","color":"gray"}'
+        - '{"text":"fire, lightning, or poison ","color":"gray"}'
+        - '{"text":"damage, roll a d6, and you ","color":"gray"}'
+        - '{"text":"gain a bonus equal to the ","color":"gray"}'
+        - '{"text":"number rolled to one of the ","color":"gray"}'
+        - "{\"text\":\"spell's damage rolls.Gem. \",\"color\":\"gray\"}"
+        - '{"text":"Whenever you use a spell slot ","color":"gray"}'
+        - '{"text":"to cast a spell, you can ","color":"gray"}'
+        - '{"text":"immediately teleport to an ","color":"gray"}'
+        - '{"text":"unoccupied space you can see ","color":"gray"}'
+        - '{"text":"within 15 feet of ","color":"gray"}'
+        - '{"text":"you.Metallic. When a creature ","color":"gray"}'
+        - '{"text":"you can see within 30 feet of ","color":"gray"}'
+        - '{"text":"you makes a saving throw, you ","color":"gray"}'
+        - '{"text":"can use your reaction to give ","color":"gray"}'
+        - '{"text":"that creature advantage on the ","color":"gray"}'
+        - '{"text":"saving throw. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

@@ -1,0 +1,89 @@
+item-type:
+  ==: NuminousItemType
+  id: cartographers_tools
+  name: Cartographer's Tools
+  categories:
+    - ARTISANS_TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: FEATHER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Cartographer's Tools\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"These special tools include ","color":"gray"}'
+        - '{"text":"the items needed to pursue a ","color":"gray"}'
+        - '{"text":"craft or trade. Proficiency ","color":"gray"}'
+        - "{\"text\":\"with a set of artisan's tools \",\"color\":\"gray\"}"
+        - '{"text":"lets you add your proficiency ","color":"gray"}'
+        - '{"text":"bonus to any ability checks ","color":"gray"}'
+        - '{"text":"you make using the tools in ","color":"gray"}'
+        - '{"text":"your craft. Each type of ","color":"gray"}'
+        - "{\"text\":\"artisan's tools requires a \",\"color\":\"gray\"}"
+        - '{"text":"separate proficiency.Using ","color":"gray"}'
+        - "{\"text\":\"cartographer's tools, you can \",\"color\":\"gray\"}"
+        - '{"text":"create accurate maps to make ","color":"gray"}'
+        - '{"text":"travel easier for yourself and ","color":"gray"}'
+        - '{"text":"those who come after you. ","color":"gray"}'
+        - '{"text":"These maps can range from ","color":"gray"}'
+        - '{"text":"large-scale depictions of ","color":"gray"}'
+        - '{"text":"mountain ranges to diagrams ","color":"gray"}'
+        - '{"text":"that show the layout of a ","color":"gray"}'
+        - '{"text":"dungeon level. Components. ","color":"gray"}'
+        - "{\"text\":\"Cartographer's tools consist \",\"color\":\"gray\"}"
+        - '{"text":"of a quill, ink, parchment, a ","color":"gray"}'
+        - '{"text":"pair of compasses, calipers, ","color":"gray"}'
+        - '{"text":"and a ruler. Arcana, History, ","color":"gray"}'
+        - '{"text":"Religion. You can use your ","color":"gray"}'
+        - '{"text":"knowledge of maps and ","color":"gray"}'
+        - '{"text":"locations to unearth more ","color":"gray"}'
+        - '{"text":"detailed information when you ","color":"gray"}'
+        - '{"text":"use these skills. For ","color":"gray"}'
+        - '{"text":"instance, you might spot ","color":"gray"}'
+        - '{"text":"hidden messages in a map, ","color":"gray"}'
+        - '{"text":"identify when the map was made ","color":"gray"}'
+        - '{"text":"to determine if geographical ","color":"gray"}'
+        - '{"text":"features have changed since ","color":"gray"}'
+        - '{"text":"then, and so forth. Nature. ","color":"gray"}'
+        - '{"text":"Your familiarity with physical ","color":"gray"}'
+        - '{"text":"geography makes it easier for ","color":"gray"}'
+        - '{"text":"you to answer questions or ","color":"gray"}'
+        - '{"text":"solve issues relating to the ","color":"gray"}'
+        - '{"text":"terrain around you. Survival. ","color":"gray"}'
+        - '{"text":"Your understanding of ","color":"gray"}'
+        - '{"text":"geography makes it easier to ","color":"gray"}'
+        - '{"text":"find paths to civilization, to ","color":"gray"}'
+        - '{"text":"predict areas where villages ","color":"gray"}'
+        - '{"text":"or towns might be found, and ","color":"gray"}'
+        - '{"text":"to avoid becoming lost. You ","color":"gray"}'
+        - '{"text":"have studied so many maps that ","color":"gray"}'
+        - '{"text":"common patterns, such as how ","color":"gray"}'
+        - '{"text":"trade routes evolve and where ","color":"gray"}'
+        - '{"text":"settlements arise in relation ","color":"gray"}'
+        - '{"text":"to geographic locations, are ","color":"gray"}'
+        - '{"text":"familiar to you. Craft a Map. ","color":"gray"}'
+        - '{"text":"While traveling, you can draw ","color":"gray"}'
+        - '{"text":"a map as you go in addition to ","color":"gray"}'
+        - '{"text":"engaging in other ","color":"gray"}'
+        - "{\"text\":\"activity.Cartographer's \",\"color\":\"gray\"}"
+        - '{"text":"ToolsActivityDCDetermine a ","color":"gray"}'
+        - "{\"text\":\"map's age and origin10Estimate \",\"color\":\"gray\"}"
+        - '{"text":"direction and distance to a ","color":"gray"}'
+        - '{"text":"landmark15Discern that a map ","color":"gray"}'
+        - '{"text":"is fake15Fill in a missing ","color":"gray"}'
+        - '{"text":"part of a map20See the Tool ","color":"gray"}'
+        - '{"text":"Proficiencies entry for more ","color":"gray"}'
+        - '{"text":"information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 6
+    unit: lb

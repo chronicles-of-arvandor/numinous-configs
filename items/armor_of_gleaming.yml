@@ -1,0 +1,44 @@
+item-type:
+  ==: NuminousItemType
+  id: armor_of_gleaming
+  name: Armor of Gleaming
+  categories:
+    - VEHICLE_LAND
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Armor of Gleaming","color":"white"}'
+      lore:
+        - '{"text":"This armor never gets dirty. ","color":"gray"}'
+        - '{"text":"Base items. This item variant ","color":"gray"}'
+        - '{"text":"can be applied to the ","color":"gray"}'
+        - '{"text":"following base ","color":"gray"}'
+        - '{"text":"items:Breastplate (Breastplate ","color":"gray"}'
+        - '{"text":"of Gleaming)Chain Mail (Chain ","color":"gray"}'
+        - '{"text":"Mail of Gleaming)Chain Shirt ","color":"gray"}'
+        - '{"text":"(Chain Shirt of Gleaming)Half ","color":"gray"}'
+        - '{"text":"Plate Armor (Half Plate Armor ","color":"gray"}'
+        - '{"text":"of Gleaming)Hide Armor (Hide ","color":"gray"}'
+        - '{"text":"Armor of Gleaming)Plate Armor ","color":"gray"}'
+        - '{"text":"(Plate Armor of Gleaming)Ring ","color":"gray"}'
+        - '{"text":"Mail (Ring Mail of ","color":"gray"}'
+        - '{"text":"Gleaming)Scale Mail (Scale ","color":"gray"}'
+        - '{"text":"Mail of Gleaming)Spiked Armor ","color":"gray"}'
+        - '{"text":"(Spiked Armor of ","color":"gray"}'
+        - '{"text":"Gleaming)Splint Armor (Splint ","color":"gray"}'
+        - '{"text":"Armor of Gleaming) ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

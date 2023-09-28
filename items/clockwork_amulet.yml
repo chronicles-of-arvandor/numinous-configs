@@ -1,0 +1,41 @@
+item-type:
+  ==: NuminousItemType
+  id: clockwork_amulet
+  name: Clockwork Amulet
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: COPPER_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Clockwork Amulet","color":"white"}'
+      lore:
+        - '{"text":"This copper amulet contains ","color":"gray"}'
+        - '{"text":"tiny interlocking gears and is ","color":"gray"}'
+        - '{"text":"powered by magic from ","color":"gray"}'
+        - '{"text":"Mechanus, a plane of clockwork ","color":"gray"}'
+        - '{"text":"predictability. A creature ","color":"gray"}'
+        - '{"text":"that puts an ear to the amulet ","color":"gray"}'
+        - '{"text":"can hear faint ticking and ","color":"gray"}'
+        - '{"text":"whirring noises coming from ","color":"gray"}'
+        - '{"text":"within.When you make an attack ","color":"gray"}'
+        - '{"text":"roll while wearing the amulet, ","color":"gray"}'
+        - '{"text":"you can forgo rolling the d20 ","color":"gray"}'
+        - '{"text":"to get a 10 on the die. Once ","color":"gray"}'
+        - "{\"text\":\"used, this property can't be \",\"color\":\"gray\"}"
+        - '{"text":"used again until the next ","color":"gray"}'
+        - '{"text":"dawn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

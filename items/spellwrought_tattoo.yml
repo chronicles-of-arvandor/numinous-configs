@@ -1,0 +1,35 @@
+item-type:
+  ==: NuminousItemType
+  id: spellwrought_tattoo
+  name: Spellwrought Tattoo
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: INK_SAC
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Spellwrought Tattoo","color":"white"}'
+      lore:
+        - '{"text":"Multiple variations of this ","color":"gray"}'
+        - '{"text":"item exist, as listed ","color":"gray"}'
+        - '{"text":"below:Spellwrought Tattoo ","color":"gray"}'
+        - '{"text":"(Cantrip)Spellwrought Tattoo ","color":"gray"}'
+        - '{"text":"(1st Level)Spellwrought Tattoo ","color":"gray"}'
+        - '{"text":"(2nd Level)Spellwrought Tattoo ","color":"gray"}'
+        - '{"text":"(3rd Level)Spellwrought Tattoo ","color":"gray"}'
+        - '{"text":"(4th Level)Spellwrought Tattoo ","color":"gray"}'
+        - '{"text":"(5th Level) ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

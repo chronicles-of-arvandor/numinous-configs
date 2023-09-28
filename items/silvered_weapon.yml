@@ -1,0 +1,103 @@
+item-type:
+  ==: NuminousItemType
+  id: silvered_weapon
+  name: Silvered Weapon
+  categories:
+    - VEHICLE_LAND
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_BLOCK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Silvered Weapon","color":"white"}'
+      lore:
+        - '{"text":"Some monsters that have ","color":"gray"}'
+        - '{"text":"immunity or resistance to ","color":"gray"}'
+        - '{"text":"nonmagical weapons are ","color":"gray"}'
+        - '{"text":"susceptible to silver weapons, ","color":"gray"}'
+        - '{"text":"so cautious adventurers invest ","color":"gray"}'
+        - '{"text":"extra coin to plate their ","color":"gray"}'
+        - '{"text":"weapons with silver. You can ","color":"gray"}'
+        - '{"text":"silver a single weapon for 100 ","color":"gray"}'
+        - '{"text":"gp. This cost represents not ","color":"gray"}'
+        - '{"text":"only the price of the silver, ","color":"gray"}'
+        - '{"text":"but the time and expertise ","color":"gray"}'
+        - '{"text":"needed to add silver to the ","color":"gray"}'
+        - '{"text":"weapon without making it less ","color":"gray"}'
+        - '{"text":"effective. Base items. This ","color":"gray"}'
+        - '{"text":"item variant can be applied to ","color":"gray"}'
+        - '{"text":"the following base ","color":"gray"}'
+        - '{"text":"items:Antimatter Rifle ","color":"gray"}'
+        - '{"text":"(Silvered Antimatter ","color":"gray"}'
+        - '{"text":"Rifle)Automatic Pistol ","color":"gray"}'
+        - '{"text":"(Silvered Automatic ","color":"gray"}'
+        - '{"text":"Pistol)Automatic Rifle ","color":"gray"}'
+        - '{"text":"(Silvered Automatic ","color":"gray"}'
+        - '{"text":"Rifle)Battleaxe (Silvered ","color":"gray"}'
+        - '{"text":"Battleaxe)Blowgun (Silvered ","color":"gray"}'
+        - '{"text":"Blowgun)Club (Silvered ","color":"gray"}'
+        - '{"text":"Club)Dagger (Silvered ","color":"gray"}'
+        - '{"text":"Dagger)Dart (Silvered ","color":"gray"}'
+        - '{"text":"Dart)Double-Bladed Scimitar ","color":"gray"}'
+        - '{"text":"(Silvered Double-Bladed ","color":"gray"}'
+        - '{"text":"Scimitar)Flail (Silvered ","color":"gray"}'
+        - '{"text":"Flail)Glaive (Silvered ","color":"gray"}'
+        - '{"text":"Glaive)Greataxe (Silvered ","color":"gray"}'
+        - '{"text":"Greataxe)Greatclub (Silvered ","color":"gray"}'
+        - '{"text":"Greatclub)Greatsword (Silvered ","color":"gray"}'
+        - '{"text":"Greatsword)Halberd (Silvered ","color":"gray"}'
+        - '{"text":"Halberd)Hand Crossbow ","color":"gray"}'
+        - '{"text":"(Silvered Hand ","color":"gray"}'
+        - '{"text":"Crossbow)Handaxe (Silvered ","color":"gray"}'
+        - '{"text":"Handaxe)Heavy Crossbow ","color":"gray"}'
+        - '{"text":"(Silvered Heavy ","color":"gray"}'
+        - '{"text":"Crossbow)Hooked Shortspear ","color":"gray"}'
+        - '{"text":"(Silvered Hooked ","color":"gray"}'
+        - '{"text":"Shortspear)Hoopak (Silvered ","color":"gray"}'
+        - '{"text":"Hoopak)Hunting Rifle (Silvered ","color":"gray"}'
+        - '{"text":"Hunting Rifle)Javelin ","color":"gray"}'
+        - '{"text":"(Silvered Javelin)Lance ","color":"gray"}'
+        - '{"text":"(Silvered Lance)Laser Pistol ","color":"gray"}'
+        - '{"text":"(Silvered Laser Pistol)Laser ","color":"gray"}'
+        - '{"text":"Rifle (Silvered Laser ","color":"gray"}'
+        - '{"text":"Rifle)Light Crossbow (Silvered ","color":"gray"}'
+        - '{"text":"Light Crossbow)Light Hammer ","color":"gray"}'
+        - '{"text":"(Silvered Light Hammer)Light ","color":"gray"}'
+        - '{"text":"Repeating Crossbow (Silvered ","color":"gray"}'
+        - '{"text":"Light Repeating ","color":"gray"}'
+        - '{"text":"Crossbow)Longbow (Silvered ","color":"gray"}'
+        - '{"text":"Longbow)Longsword (Silvered ","color":"gray"}'
+        - '{"text":"Longsword)Mace (Silvered ","color":"gray"}'
+        - '{"text":"Mace)Maul (Silvered ","color":"gray"}'
+        - '{"text":"Maul)Morningstar (Silvered ","color":"gray"}'
+        - '{"text":"Morningstar)Musket (Silvered ","color":"gray"}'
+        - '{"text":"Musket)Pike (Silvered ","color":"gray"}'
+        - '{"text":"Pike)Pistol (Silvered ","color":"gray"}'
+        - '{"text":"Pistol)Quarterstaff (Silvered ","color":"gray"}'
+        - '{"text":"Quarterstaff)Rapier (Silvered ","color":"gray"}'
+        - '{"text":"Rapier)Revolver (Silvered ","color":"gray"}'
+        - '{"text":"Revolver)Scimitar (Silvered ","color":"gray"}'
+        - '{"text":"Scimitar)Shortbow (Silvered ","color":"gray"}'
+        - '{"text":"Shortbow)Shortsword (Silvered ","color":"gray"}'
+        - '{"text":"Shortsword)Shotgun (Silvered ","color":"gray"}'
+        - '{"text":"Shotgun)Sickle (Silvered ","color":"gray"}'
+        - '{"text":"Sickle)Sling (Silvered ","color":"gray"}'
+        - '{"text":"Sling)Spear (Silvered ","color":"gray"}'
+        - '{"text":"Spear)Trident (Silvered ","color":"gray"}'
+        - '{"text":"Trident)War Pick (Silvered War ","color":"gray"}'
+        - '{"text":"Pick)Warhammer (Silvered ","color":"gray"}'
+        - '{"text":"Warhammer)Whip (Silvered ","color":"gray"}'
+        - '{"text":"Whip)Yklwa (Silvered Yklwa) ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

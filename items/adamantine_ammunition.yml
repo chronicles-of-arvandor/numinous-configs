@@ -1,0 +1,51 @@
+item-type:
+  ==: NuminousItemType
+  id: adamantine_ammunition
+  name: Adamantine Ammunition
+  categories:
+    - AMMUNITION
+    - VEHICLE_LAND
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: NETHERITE_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Adamantine Ammunition","color":"white"}'
+      lore:
+        - '{"text":"Ammunition made of or coated ","color":"gray"}'
+        - '{"text":"with adamantine is unusually ","color":"gray"}'
+        - '{"text":"effective when used to break ","color":"gray"}'
+        - '{"text":"objects. Whenever a piece of ","color":"gray"}'
+        - '{"text":"adamantine ammunition hits an ","color":"gray"}'
+        - '{"text":"object, the hit is a critical ","color":"gray"}'
+        - '{"text":"hit.The adamantine version of ","color":"gray"}'
+        - '{"text":"ten pieces of ammunition costs ","color":"gray"}'
+        - '{"text":"500 gp more than the normal ","color":"gray"}'
+        - '{"text":"version, whether the ","color":"gray"}'
+        - '{"text":"ammunition is made of the ","color":"gray"}'
+        - '{"text":"metal or coated with it. Base ","color":"gray"}'
+        - '{"text":"items. This item variant can ","color":"gray"}'
+        - '{"text":"be applied to the following ","color":"gray"}'
+        - '{"text":"base items:Arrow (Adamantine ","color":"gray"}'
+        - '{"text":"Arrow)Blowgun Needle ","color":"gray"}'
+        - '{"text":"(Adamantine Blowgun ","color":"gray"}'
+        - '{"text":"Needle)Crossbow Bolt ","color":"gray"}'
+        - '{"text":"(Adamantine Crossbow ","color":"gray"}'
+        - '{"text":"Bolt)Modern Bullet (Adamantine ","color":"gray"}'
+        - '{"text":"Modern Bullet)Renaissance ","color":"gray"}'
+        - '{"text":"Bullet (Adamantine Renaissance ","color":"gray"}'
+        - '{"text":"Bullet)Sling Bullet ","color":"gray"}'
+        - '{"text":"(Adamantine Sling Bullet) ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

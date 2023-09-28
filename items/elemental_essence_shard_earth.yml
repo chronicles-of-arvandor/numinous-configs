@@ -1,0 +1,45 @@
+item-type:
+  ==: NuminousItemType
+  id: elemental_essence_shard_earth
+  name: Elemental Essence Shard (Earth)
+  categories:
+    - WONDROUS_ITEM
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: QUARTZ
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Elemental Essence Shard (Earth)","color":"white"}'
+      lore:
+        - '{"text":"This crackling crystal ","color":"gray"}'
+        - '{"text":"contains the essence of an ","color":"gray"}'
+        - '{"text":"elemental plane. As an action, ","color":"gray"}'
+        - '{"text":"you can attach the shard to a ","color":"gray"}'
+        - '{"text":"Tiny object (such as a weapon ","color":"gray"}'
+        - '{"text":"or a piece of jewelry) or ","color":"gray"}'
+        - '{"text":"detach it. It falls off if ","color":"gray"}'
+        - '{"text":"your attunement to it ends. ","color":"gray"}'
+        - '{"text":"You can use the shard as a ","color":"gray"}'
+        - '{"text":"spellcasting focus while you ","color":"gray"}'
+        - '{"text":"hold or wear it.When you use a ","color":"gray"}'
+        - '{"text":"Metamagic option on a spell ","color":"gray"}'
+        - '{"text":"while you are holding or ","color":"gray"}'
+        - '{"text":"wearing the shard, you can use ","color":"gray"}'
+        - '{"text":"the following property: ","color":"gray"}'
+        - '{"text":"Property. You gain resistance ","color":"gray"}'
+        - '{"text":"to a damage type of your ","color":"gray"}'
+        - '{"text":"choice until the start of your ","color":"gray"}'
+        - '{"text":"next turn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

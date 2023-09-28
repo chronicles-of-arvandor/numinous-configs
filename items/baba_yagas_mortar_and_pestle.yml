@@ -1,0 +1,170 @@
+item-type:
+  ==: NuminousItemType
+  id: baba_yagas_mortar_and_pestle
+  name: Baba Yaga's Mortar and Pestle
+  categories:
+    - WONDROUS_ITEM
+  rarity: UNIQUE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: BOWL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Baba Yaga's Mortar and Pestle\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"The creations of the immortal ","color":"gray"}'
+        - '{"text":"hag Baba Yaga defy the laws of ","color":"gray"}'
+        - '{"text":"mortal magic. Among the ","color":"gray"}'
+        - '{"text":"notorious implements that ","color":"gray"}'
+        - '{"text":"cement her legend on countless ","color":"gray"}'
+        - '{"text":"worlds are the artifacts that ","color":"gray"}'
+        - '{"text":"propel her through the planes: ","color":"gray"}'
+        - "{\"text\":\"Baba Yaga's Mortar and Pestle. \",\"color\":\"gray\"}"
+        - '{"text":"These signature tools of Baba ","color":"gray"}'
+        - '{"text":"Yaga are a single artifact for ","color":"gray"}'
+        - '{"text":"purposes of attunement. Should ","color":"gray"}'
+        - '{"text":"the two objects become ","color":"gray"}'
+        - '{"text":"separated, the pestle appears ","color":"gray"}'
+        - '{"text":"next to the mortar at the next ","color":"gray"}'
+        - '{"text":"dawn. Random Properties. This ","color":"gray"}'
+        - '{"text":"artifact has the following ","color":"gray"}'
+        - '{"text":"random properties, which you ","color":"gray"}'
+        - '{"text":"can determine by rolling on ","color":"gray"}'
+        - '{"text":"the tables in the \"Artifacts\" ","color":"gray"}'
+        - '{"text":"section of the Dungeon ","color":"gray"}'
+        - "{\"text\":\"Master's Guide:2 minor \",\"color\":\"gray\"}"
+        - '{"text":"beneficial properties1 major ","color":"gray"}'
+        - '{"text":"beneficial property1 minor ","color":"gray"}'
+        - '{"text":"detrimental property ","color":"gray"}'
+        - '{"text":"Properties of the Mortar. The ","color":"gray"}'
+        - '{"text":"mortar is a Tiny wooden bowl. ","color":"gray"}'
+        - '{"text":"However, the mortar increases ","color":"gray"}'
+        - '{"text":"in size to accommodate ","color":"gray"}'
+        - '{"text":"anything you place inside, ","color":"gray"}'
+        - "{\"text\":\"expanding-if there's enough \",\"color\":\"gray\"}"
+        - '{"text":"space-up to Large size, ","color":"gray"}'
+        - '{"text":"meaning it can hold even a ","color":"gray"}'
+        - '{"text":"Large creature. Properties of ","color":"gray"}'
+        - '{"text":"the Pestle. The pestle is a ","color":"gray"}'
+        - '{"text":"6-inch-long, worn wooden tool. ","color":"gray"}'
+        - '{"text":"Once during your turn while ","color":"gray"}'
+        - '{"text":"you are holding the pestle, ","color":"gray"}'
+        - '{"text":"you can extend it into a ","color":"gray"}'
+        - '{"text":"quarterstaff or shrink it back ","color":"gray"}'
+        - '{"text":"into a pestle (no action ","color":"gray"}'
+        - '{"text":"required). As a quarterstaff, ","color":"gray"}'
+        - '{"text":"the pestle is a magic weapon ","color":"gray"}'
+        - '{"text":"that grants a +3 bonus to ","color":"gray"}'
+        - '{"text":"attack and damage rolls made ","color":"gray"}'
+        - '{"text":"with it.The pestle has 12 ","color":"gray"}'
+        - '{"text":"charges. When you hit with a ","color":"gray"}'
+        - '{"text":"melee attack using the pestle, ","color":"gray"}'
+        - '{"text":"you can expend up to 3 of its ","color":"gray"}'
+        - '{"text":"charges to deal an extra 1d8 ","color":"gray"}'
+        - '{"text":"force damage for each charge ","color":"gray"}'
+        - '{"text":"expended. The pestle regains ","color":"gray"}'
+        - '{"text":"all expended charges daily at ","color":"gray"}'
+        - '{"text":"dawn. Perfect Tools. While ","color":"gray"}'
+        - '{"text":"holding the mortar and pestle, ","color":"gray"}'
+        - '{"text":"you can use your action to say ","color":"gray"}'
+        - '{"text":"the name of any nonmagical ","color":"gray"}'
+        - '{"text":"plant, mineral, or fluid and ","color":"gray"}'
+        - '{"text":"an amount of the material ","color":"gray"}'
+        - '{"text":"worth 10 gp or less. The ","color":"gray"}'
+        - '{"text":"mortar instantly fills with ","color":"gray"}'
+        - '{"text":"the desired amount of that ","color":"gray"}'
+        - '{"text":"material. Once you use this ","color":"gray"}'
+        - "{\"text\":\"action, you can't do so again \",\"color\":\"gray\"}"
+        - '{"text":"until you finish a short or ","color":"gray"}'
+        - '{"text":"long rest.You can also use the ","color":"gray"}'
+        - "{\"text\":\"artifact as alchemist's \",\"color\":\"gray\"}"
+        - "{\"text\":\"supplies, brewer's supplies, \",\"color\":\"gray\"}"
+        - "{\"text\":\"cook's utensils, an herbalism \",\"color\":\"gray\"}"
+        - "{\"text\":\"kit, and a poisoner's kit. You \",\"color\":\"gray\"}"
+        - '{"text":"have advantage on any check ","color":"gray"}'
+        - '{"text":"you make using the artifact as ","color":"gray"}'
+        - '{"text":"one of these tools. Primal ","color":"gray"}'
+        - '{"text":"Parts. As an action while the ","color":"gray"}'
+        - '{"text":"pestle and the mortar is ","color":"gray"}'
+        - '{"text":"within 5 feet of you, you can ","color":"gray"}'
+        - '{"text":"command the pestle to grind. ","color":"gray"}'
+        - '{"text":"For the next minute, or until ","color":"gray"}'
+        - '{"text":"you use your action to ","color":"gray"}'
+        - '{"text":"verbally command it to stop, ","color":"gray"}'
+        - '{"text":"the pestle moves on its own, ","color":"gray"}'
+        - '{"text":"grinding the contents of the ","color":"gray"}'
+        - '{"text":"mortar into a mush or fine ","color":"gray"}'
+        - "{\"text\":\"powder that's equally useful \",\"color\":\"gray\"}"
+        - '{"text":"for cooking or alchemy. At the ","color":"gray"}'
+        - '{"text":"start of each of your turns, ","color":"gray"}'
+        - '{"text":"whatever is in the mortar ","color":"gray"}'
+        - '{"text":"takes 4d10 force damage. If ","color":"gray"}'
+        - "{\"text\":\"this reduces the target's hit \",\"color\":\"gray\"}"
+        - '{"text":"points to 0, the target is ","color":"gray"}'
+        - '{"text":"reduced to powder, pulp, or ","color":"gray"}'
+        - '{"text":"paste, as appropriate. Only ","color":"gray"}'
+        - '{"text":"magic items are unaffected. If ","color":"gray"}'
+        - '{"text":"you wish, when the pestle ","color":"gray"}'
+        - '{"text":"stops, you can have the mortar ","color":"gray"}'
+        - '{"text":"separate its contents-like ","color":"gray"}'
+        - '{"text":"powdered bone, crushed herbs, ","color":"gray"}'
+        - '{"text":"pulped organs-into separate ","color":"gray"}'
+        - '{"text":"piles. Traverse the Night. If ","color":"gray"}'
+        - '{"text":"you are holding the pestle ","color":"gray"}'
+        - '{"text":"while you are inside the ","color":"gray"}'
+        - '{"text":"mortar, you can use your ","color":"gray"}'
+        - '{"text":"action to verbally command the ","color":"gray"}'
+        - '{"text":"mortar to travel to a specific ","color":"gray"}'
+        - "{\"text\":\"place or creature.You don't \",\"color\":\"gray\"}"
+        - '{"text":"need to know where your ","color":"gray"}'
+        - '{"text":"destination is, but it must be ","color":"gray"}'
+        - '{"text":"a specific destination-not ","color":"gray"}'
+        - '{"text":"just the nearest river or a ","color":"gray"}'
+        - "{\"text\":\"red dragon's lair. If the \",\"color\":\"gray\"}"
+        - '{"text":"stated destination is within ","color":"gray"}'
+        - '{"text":"1,000 miles of you, the mortar ","color":"gray"}'
+        - '{"text":"lifts into the air and ","color":"gray"}'
+        - '{"text":"vanishes. You and any ","color":"gray"}'
+        - '{"text":"creatures in the mortar travel ","color":"gray"}'
+        - '{"text":"through a dreamlike sky, with ","color":"gray"}'
+        - '{"text":"hazy reflections of the world ","color":"gray"}'
+        - '{"text":"passing by below. Creatures ","color":"gray"}'
+        - '{"text":"might see images of you ","color":"gray"}'
+        - '{"text":"streaking through the sky ","color":"gray"}'
+        - '{"text":"between your point of origin ","color":"gray"}'
+        - '{"text":"and the destination. You ","color":"gray"}'
+        - '{"text":"arrive at the location 1 hour ","color":"gray"}'
+        - '{"text":"later or, if it is night, 1 ","color":"gray"}'
+        - '{"text":"minute later. Bones Know Their ","color":"gray"}'
+        - '{"text":"Home. When you command the ","color":"gray"}'
+        - '{"text":"mortar to travel, you can ","color":"gray"}'
+        - '{"text":"instead throw out the dust or ","color":"gray"}'
+        - '{"text":"paste of something ground by ","color":"gray"}'
+        - '{"text":"the mortar and name a location ","color":"gray"}'
+        - '{"text":"on a different plane of ","color":"gray"}'
+        - '{"text":"existence or a different world ","color":"gray"}'
+        - '{"text":"on the Material Plane. If that ","color":"gray"}'
+        - '{"text":"material came from a creature ","color":"gray"}'
+        - '{"text":"native to the named plane or ","color":"gray"}'
+        - '{"text":"world, the mortar travels ","color":"gray"}'
+        - '{"text":"through an empty night sky to ","color":"gray"}'
+        - '{"text":"an unoccupied space at that ","color":"gray"}'
+        - '{"text":"destination, arriving in 1 ","color":"gray"}'
+        - '{"text":"minute. Destroying the Mortar ","color":"gray"}'
+        - '{"text":"and Pestle. The mortar and ","color":"gray"}'
+        - '{"text":"pestle are destroyed if they ","color":"gray"}'
+        - '{"text":"are crushed underfoot by the ","color":"gray"}'
+        - '{"text":"Dancing Hut of Baba Yaga or by ","color":"gray"}'
+        - '{"text":"Baba Yaga herself. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

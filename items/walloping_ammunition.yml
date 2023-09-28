@@ -1,0 +1,46 @@
+item-type:
+  ==: NuminousItemType
+  id: walloping_ammunition
+  name: Walloping Ammunition
+  categories:
+    - AMMUNITION
+    - VEHICLE_LAND
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: NETHERITE_SCRAP
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Walloping Ammunition","color":"white"}'
+      lore:
+        - '{"text":"This ammunition packs a ","color":"gray"}'
+        - '{"text":"wallop. A creature hit by the ","color":"gray"}'
+        - '{"text":"ammunition must succeed on a ","color":"gray"}'
+        - '{"text":"DC 10 Strength saving throw or ","color":"gray"}'
+        - '{"text":"be knocked prone. Base items. ","color":"gray"}'
+        - '{"text":"This item variant can be ","color":"gray"}'
+        - '{"text":"applied to the following base ","color":"gray"}'
+        - '{"text":"items:Arrow (Walloping ","color":"gray"}'
+        - '{"text":"Arrow)Blowgun Needle ","color":"gray"}'
+        - '{"text":"(Walloping Blowgun ","color":"gray"}'
+        - '{"text":"Needle)Crossbow Bolt ","color":"gray"}'
+        - '{"text":"(Walloping Crossbow ","color":"gray"}'
+        - '{"text":"Bolt)Energy Cell (Walloping ","color":"gray"}'
+        - '{"text":"Energy Cell)Modern Bullet ","color":"gray"}'
+        - '{"text":"(Walloping Modern ","color":"gray"}'
+        - '{"text":"Bullet)Renaissance Bullet ","color":"gray"}'
+        - '{"text":"(Walloping Renaissance ","color":"gray"}'
+        - '{"text":"Bullet)Sling Bullet (Walloping ","color":"gray"}'
+        - '{"text":"Sling Bullet) ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

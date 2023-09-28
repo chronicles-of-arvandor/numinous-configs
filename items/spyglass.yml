@@ -1,0 +1,29 @@
+item-type:
+  ==: NuminousItemType
+  id: spyglass
+  name: Spyglass
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: SPYGLASS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Spyglass","color":"white"}'
+      lore:
+        - '{"text":"Objects viewed through a ","color":"gray"}'
+        - '{"text":"spyglass are magnified to ","color":"gray"}'
+        - '{"text":"twice their size. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

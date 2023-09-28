@@ -1,0 +1,84 @@
+item-type:
+  ==: NuminousItemType
+  id: calligraphers_supplies
+  name: Calligrapher's Supplies
+  categories:
+    - ARTISANS_TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: FEATHER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Calligrapher's Supplies\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"These special tools include ","color":"gray"}'
+        - '{"text":"the items needed to pursue a ","color":"gray"}'
+        - '{"text":"craft or trade. Proficiency ","color":"gray"}'
+        - "{\"text\":\"with a set of artisan's tools \",\"color\":\"gray\"}"
+        - '{"text":"lets you add your proficiency ","color":"gray"}'
+        - '{"text":"bonus to any ability checks ","color":"gray"}'
+        - '{"text":"you make using the tools in ","color":"gray"}'
+        - '{"text":"your craft. Each type of ","color":"gray"}'
+        - "{\"text\":\"artisan's tools requires a \",\"color\":\"gray\"}"
+        - '{"text":"separate ","color":"gray"}'
+        - '{"text":"proficiency.Calligraphy treats ","color":"gray"}'
+        - '{"text":"writing as a delicate, ","color":"gray"}'
+        - '{"text":"beautiful art. Calligraphers ","color":"gray"}'
+        - '{"text":"produce text that is pleasing ","color":"gray"}'
+        - '{"text":"to the eye, using a style that ","color":"gray"}'
+        - '{"text":"is difficult to forge. Their ","color":"gray"}'
+        - '{"text":"supplies also give them some ","color":"gray"}'
+        - '{"text":"ability to examine scripts and ","color":"gray"}'
+        - '{"text":"determine if they are ","color":"gray"}'
+        - '{"text":"legitimate, since a ","color":"gray"}'
+        - "{\"text\":\"calligrapher's training \",\"color\":\"gray\"}"
+        - '{"text":"involves long hours of ","color":"gray"}'
+        - '{"text":"studying writing and ","color":"gray"}'
+        - '{"text":"attempting to replicate its ","color":"gray"}'
+        - '{"text":"style and design. Components. ","color":"gray"}'
+        - "{\"text\":\"Calligrapher's supplies \",\"color\":\"gray\"}"
+        - '{"text":"include ink, a dozen sheets of ","color":"gray"}'
+        - '{"text":"parchment, and three quills. ","color":"gray"}'
+        - '{"text":"Arcana. Although calligraphy ","color":"gray"}'
+        - '{"text":"is of little help in ","color":"gray"}'
+        - '{"text":"deciphering the content of ","color":"gray"}'
+        - '{"text":"magical writings, proficiency ","color":"gray"}'
+        - '{"text":"with these supplies can aid in ","color":"gray"}'
+        - '{"text":"identifying who wrote a script ","color":"gray"}'
+        - '{"text":"of a magical nature. History. ","color":"gray"}'
+        - '{"text":"This tool proficiency can ","color":"gray"}'
+        - '{"text":"augment the benefit of ","color":"gray"}'
+        - '{"text":"successful checks made to ","color":"gray"}'
+        - '{"text":"analyze or investigate ancient ","color":"gray"}'
+        - '{"text":"writings, scrolls, or other ","color":"gray"}'
+        - '{"text":"texts, including runes etched ","color":"gray"}'
+        - '{"text":"in stone or messages in ","color":"gray"}'
+        - '{"text":"frescoes or other displays. ","color":"gray"}'
+        - '{"text":"Decipher Treasure Map. This ","color":"gray"}'
+        - '{"text":"tool proficiency grants you ","color":"gray"}'
+        - '{"text":"expertise in examining maps. ","color":"gray"}'
+        - '{"text":"You can make an Intelligence ","color":"gray"}'
+        - "{\"text\":\"check to determine a map's \",\"color\":\"gray\"}"
+        - '{"text":"age, whether a map includes ","color":"gray"}'
+        - '{"text":"any hidden messages, or ","color":"gray"}'
+        - "{\"text\":\"similar facts.Calligrapher's \",\"color\":\"gray\"}"
+        - '{"text":"SuppliesActivityDCIdentify ","color":"gray"}'
+        - '{"text":"writer of nonmagical ","color":"gray"}'
+        - "{\"text\":\"script10Determine writer's \",\"color\":\"gray\"}"
+        - '{"text":"state of mind15Spot forged ","color":"gray"}'
+        - '{"text":"text15Forge a signature20See ","color":"gray"}'
+        - '{"text":"the Tool Proficiencies entry ","color":"gray"}'
+        - '{"text":"for more information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 5
+    unit: lb

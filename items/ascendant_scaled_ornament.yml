@@ -1,0 +1,58 @@
+item-type:
+  ==: NuminousItemType
+  id: ascendant_scaled_ornament
+  name: Ascendant Scaled Ornament
+  categories:
+    - WONDROUS_ITEM
+  rarity: LEGENDARY
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Ascendant Scaled Ornament","color":"white"}'
+      lore:
+        - '{"text":"This ornament can be jewelry, ","color":"gray"}'
+        - '{"text":"a cloak, or another wearable ","color":"gray"}'
+        - '{"text":"accessory. It appears to be ","color":"gray"}'
+        - "{\"text\":\"fashioned from a dragon's \",\"color\":\"gray\"}"
+        - '{"text":"scale, tooth, or claw, or it ","color":"gray"}'
+        - '{"text":"incorporates images in those ","color":"gray"}'
+        - '{"text":"shapes.You gain a +1 bonus to ","color":"gray"}'
+        - "{\"text\":\"AC, and you can't be charmed \",\"color\":\"gray\"}"
+        - '{"text":"or frightened. Moreover, each ","color":"gray"}'
+        - '{"text":"creature of your choice within ","color":"gray"}'
+        - '{"text":"30 feet of you has advantage ","color":"gray"}'
+        - '{"text":"on saving throws it makes to ","color":"gray"}'
+        - '{"text":"avoid being charmed or ","color":"gray"}'
+        - '{"text":"frightened or to end those ","color":"gray"}'
+        - '{"text":"conditions on itself.When you ","color":"gray"}'
+        - '{"text":"would take damage of the type ","color":"gray"}'
+        - '{"text":"dealt by the breath of the ","color":"gray"}'
+        - '{"text":"dragon in whose hoard the ","color":"gray"}'
+        - '{"text":"ornament became Wakened, you ","color":"gray"}'
+        - '{"text":"can use your reaction to take ","color":"gray"}'
+        - '{"text":"no damage instead, and you ","color":"gray"}'
+        - '{"text":"regain hit points equal to the ","color":"gray"}'
+        - '{"text":"damage you would have taken. ","color":"gray"}'
+        - '{"text":"Once this property is used, it ","color":"gray"}'
+        - "{\"text\":\"can't be used again until the \",\"color\":\"gray\"}"
+        - '{"text":"next dawn.While you are ","color":"gray"}'
+        - '{"text":"wearing the ornament, you gain ","color":"gray"}'
+        - '{"text":"a flying speed equal to your ","color":"gray"}'
+        - '{"text":"walking speed and can hover. ","color":"gray"}'
+        - '{"text":"While you are flying using ","color":"gray"}'
+        - '{"text":"this speed, spectral dragon ","color":"gray"}'
+        - '{"text":"wings appear on your back. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

@@ -1,0 +1,29 @@
+item-type:
+  ==: NuminousItemType
+  id: unbreakable_arrow
+  name: Unbreakable Arrow
+  categories:
+    - AMMUNITION
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: SPECTRAL_ARROW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Unbreakable Arrow","color":"white"}'
+      lore:
+        - "{\"text\":\"This arrow can't be broken, \",\"color\":\"gray\"}"
+        - '{"text":"except when it is within an ","color":"gray"}'
+        - '{"text":"antimagic field. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

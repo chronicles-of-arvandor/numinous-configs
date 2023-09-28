@@ -1,0 +1,70 @@
+item-type:
+  ==: NuminousItemType
+  id: topaz_annihilator
+  name: Topaz Annihilator
+  categories:
+    - WAND
+    - FIREARM
+  rarity: LEGENDARY
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Topaz Annihilator","color":"white"}'
+      lore:
+        - '{"text":"This magic ranged weapon ","color":"gray"}'
+        - '{"text":"resembles a musket, but in ","color":"gray"}'
+        - '{"text":"lieu of any ammunition, it ","color":"gray"}'
+        - '{"text":"holds a glowing yellow scale ","color":"gray"}'
+        - '{"text":"from a topaz dragon in its ","color":"gray"}'
+        - '{"text":"heart.The weapon has a normal ","color":"gray"}'
+        - '{"text":"range of 100 feet and a long ","color":"gray"}'
+        - '{"text":"range of 300 feet, and it has ","color":"gray"}'
+        - '{"text":"the two-handed property. It ","color":"gray"}'
+        - '{"text":"deals 2d6 necrotic damage on a ","color":"gray"}'
+        - '{"text":"hit. If this damage reduces a ","color":"gray"}'
+        - '{"text":"creature or object to 0 hit ","color":"gray"}'
+        - '{"text":"points, the target is reduced ","color":"gray"}'
+        - '{"text":"to dust. A creature reduced to ","color":"gray"}'
+        - '{"text":"dust can be restored to life ","color":"gray"}'
+        - '{"text":"only by a true resurrection or ","color":"gray"}'
+        - '{"text":"wish spell.While the weapon is ","color":"gray"}'
+        - '{"text":"on your person, you can use an ","color":"gray"}'
+        - '{"text":"action to cast the ","color":"gray"}'
+        - '{"text":"disintegrate spell (save DC ","color":"gray"}'
+        - '{"text":"18). Once this property is ","color":"gray"}'
+        - "{\"text\":\"used, it can't be used again \",\"color\":\"gray\"}"
+        - '{"text":"until the next dawn. Range. A ","color":"gray"}'
+        - '{"text":"weapon that can be used to ","color":"gray"}'
+        - '{"text":"make a ranged attack has a ","color":"gray"}'
+        - '{"text":"range shown in parentheses ","color":"gray"}'
+        - '{"text":"after the ammunition or thrown ","color":"gray"}'
+        - '{"text":"property. The range lists two ","color":"gray"}'
+        - '{"text":"numbers. The first is the ","color":"gray"}'
+        - "{\"text\":\"weapon's normal range in feet, \",\"color\":\"gray\"}"
+        - '{"text":"and the second indicates the ","color":"gray"}'
+        - "{\"text\":\"weapon's maximum range. When \",\"color\":\"gray\"}"
+        - '{"text":"attacking a target beyond ","color":"gray"}'
+        - '{"text":"normal range, you have ","color":"gray"}'
+        - '{"text":"disadvantage on the attack ","color":"gray"}'
+        - "{\"text\":\"roll. You can't attack a \",\"color\":\"gray\"}"
+        - "{\"text\":\"target beyond the weapon's \",\"color\":\"gray\"}"
+        - '{"text":"long range. Two-Handed. This ","color":"gray"}'
+        - '{"text":"weapon requires two hands to ","color":"gray"}'
+        - '{"text":"use. This property is relevant ","color":"gray"}'
+        - '{"text":"only when you attack with the ","color":"gray"}'
+        - '{"text":"weapon, not when you simply ","color":"gray"}'
+        - '{"text":"hold it. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

@@ -1,0 +1,65 @@
+item-type:
+  ==: NuminousItemType
+  id: jewelers_tools
+  name: Jeweler's Tools
+  categories:
+    - ARTISANS_TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Jeweler's Tools\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"These special tools include ","color":"gray"}'
+        - '{"text":"the items needed to pursue a ","color":"gray"}'
+        - '{"text":"craft or trade. Proficiency ","color":"gray"}'
+        - "{\"text\":\"with a set of artisan's tools \",\"color\":\"gray\"}"
+        - '{"text":"lets you add your proficiency ","color":"gray"}'
+        - '{"text":"bonus to any ability checks ","color":"gray"}'
+        - '{"text":"you make using the tools in ","color":"gray"}'
+        - '{"text":"your craft. Each type of ","color":"gray"}'
+        - "{\"text\":\"artisan's tools requires a \",\"color\":\"gray\"}"
+        - '{"text":"separate proficiency.Training ","color":"gray"}'
+        - "{\"text\":\"with jeweler's tools includes \",\"color\":\"gray\"}"
+        - '{"text":"the basic techniques needed to ","color":"gray"}'
+        - '{"text":"beautify gems. It also gives ","color":"gray"}'
+        - '{"text":"you expertise in identifying ","color":"gray"}'
+        - '{"text":"precious stones. Components. ","color":"gray"}'
+        - "{\"text\":\"Jeweler's tools consist of a \",\"color\":\"gray\"}"
+        - '{"text":"small saw and hammer, files, ","color":"gray"}'
+        - '{"text":"pliers, and tweezers. Arcana. ","color":"gray"}'
+        - "{\"text\":\"Proficiency with jeweler's \",\"color\":\"gray\"}"
+        - '{"text":"tools grants you knowledge ","color":"gray"}'
+        - '{"text":"about the reputed mystical ","color":"gray"}'
+        - '{"text":"uses of gems. This insight ","color":"gray"}'
+        - '{"text":"proves handy when you make ","color":"gray"}'
+        - '{"text":"Arcana checks related to gems ","color":"gray"}'
+        - '{"text":"or gem-encrusted items. ","color":"gray"}'
+        - '{"text":"Investigation. When you ","color":"gray"}'
+        - '{"text":"inspect jeweled objects, your ","color":"gray"}'
+        - "{\"text\":\"proficiency with jeweler's \",\"color\":\"gray\"}"
+        - '{"text":"tools aids you in picking out ","color":"gray"}'
+        - '{"text":"clues they might hold. ","color":"gray"}'
+        - '{"text":"Identify Gems. You can ","color":"gray"}'
+        - '{"text":"identify gems and determine ","color":"gray"}'
+        - '{"text":"their value at a ","color":"gray"}'
+        - "{\"text\":\"glance.Jeweler's \",\"color\":\"gray\"}"
+        - "{\"text\":\"ToolsActivityDCModify a gem's \",\"color\":\"gray\"}"
+        - "{\"text\":\"appearance15Determine a gem's \",\"color\":\"gray\"}"
+        - '{"text":"history20See the Tool ","color":"gray"}'
+        - '{"text":"Proficiencies entry for more ","color":"gray"}'
+        - '{"text":"information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 2
+    unit: lb

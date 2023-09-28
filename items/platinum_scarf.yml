@@ -1,0 +1,63 @@
+item-type:
+  ==: NuminousItemType
+  id: platinum_scarf
+  name: Platinum Scarf
+  categories:
+    - WONDROUS_ITEM
+  rarity: LEGENDARY
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: LIGHT_GRAY_DYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Platinum Scarf","color":"white"}'
+      lore:
+        - '{"text":"This scarf is made of sturdy ","color":"gray"}'
+        - '{"text":"cloth and covered in ","color":"gray"}'
+        - '{"text":"platinum-colored scales.As an ","color":"gray"}'
+        - '{"text":"action, you can pull a scale ","color":"gray"}'
+        - '{"text":"from the scarf and speak a ","color":"gray"}'
+        - '{"text":"command word. When you do so, ","color":"gray"}'
+        - '{"text":"choose one of the following ","color":"gray"}'
+        - '{"text":"effects: Breath of Life. The ","color":"gray"}'
+        - '{"text":"scale disappears, and you or a ","color":"gray"}'
+        - '{"text":"creature you touch regains ","color":"gray"}'
+        - '{"text":"10d4 hit points. Platinum ","color":"gray"}'
+        - '{"text":"Shield. For 1 hour or until ","color":"gray"}'
+        - '{"text":"you dismiss it (no action ","color":"gray"}'
+        - '{"text":"required), the scale becomes a ","color":"gray"}'
+        - '{"text":"+1 shield, which you or ","color":"gray"}'
+        - '{"text":"another creature can use. A ","color":"gray"}'
+        - '{"text":"creature wielding the shield ","color":"gray"}'
+        - '{"text":"has immunity to radiant ","color":"gray"}'
+        - '{"text":"damage. Radiant Hammer. For 1 ","color":"gray"}'
+        - '{"text":"hour or until you dismiss it ","color":"gray"}'
+        - '{"text":"(no action required), the ","color":"gray"}'
+        - '{"text":"scale becomes a magic light ","color":"gray"}'
+        - '{"text":"hammer, which you or another ","color":"gray"}'
+        - '{"text":"creature can use. The weapon ","color":"gray"}'
+        - '{"text":"deals 2d4 radiant damage, ","color":"gray"}'
+        - '{"text":"instead of the bludgeoning ","color":"gray"}'
+        - '{"text":"damage normal for a light ","color":"gray"}'
+        - '{"text":"hammer. It deals an extra 2d4 ","color":"gray"}'
+        - '{"text":"radiant damage to chromatic ","color":"gray"}'
+        - '{"text":"dragons.Once three scales have ","color":"gray"}'
+        - '{"text":"been pulled from the scarf, no ","color":"gray"}'
+        - '{"text":"more scales can be removed ","color":"gray"}'
+        - '{"text":"until the next dawn, when all ","color":"gray"}'
+        - '{"text":"the missing scales grow back. ","color":"gray"}'
+        - '{"text":"If you pull off a scale but ","color":"gray"}'
+        - "{\"text\":\"don't speak a command word, it \",\"color\":\"gray\"}"
+        - '{"text":"disappears after 1 minute. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

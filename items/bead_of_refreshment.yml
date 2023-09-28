@@ -1,0 +1,34 @@
+item-type:
+  ==: NuminousItemType
+  id: bead_of_refreshment
+  name: Bead of Refreshment
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: SLIME_BALL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Bead of Refreshment","color":"white"}'
+      lore:
+        - '{"text":"This spongy, flavorless, ","color":"gray"}'
+        - '{"text":"gelatinous bead dissolves in ","color":"gray"}'
+        - '{"text":"liquid, transforming up to a ","color":"gray"}'
+        - '{"text":"pint of the liquid into fresh, ","color":"gray"}'
+        - '{"text":"cold drinking water. The bead ","color":"gray"}'
+        - '{"text":"has no effect on magical ","color":"gray"}'
+        - '{"text":"liquids or harmful substances ","color":"gray"}'
+        - '{"text":"such as poison. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

@@ -1,0 +1,57 @@
+item-type:
+  ==: NuminousItemType
+  id: radiant_absorbing_tattoo
+  name: Radiant Absorbing Tattoo
+  categories:
+    - WONDROUS_ITEM
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: INK_SAC
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Radiant Absorbing Tattoo","color":"white"}'
+      lore:
+        - '{"text":"Produced by a special needle, ","color":"gray"}'
+        - '{"text":"this magic tattoo features ","color":"gray"}'
+        - '{"text":"designs that emphasize one ","color":"gray"}'
+        - '{"text":"color (gold). Tattoo ","color":"gray"}'
+        - '{"text":"Attunement. To attune to this ","color":"gray"}'
+        - '{"text":"item, you hold the needle to ","color":"gray"}'
+        - '{"text":"your skin where you want the ","color":"gray"}'
+        - '{"text":"tattoo to appear, pressing the ","color":"gray"}'
+        - '{"text":"needle there throughout the ","color":"gray"}'
+        - '{"text":"attunement process. When the ","color":"gray"}'
+        - '{"text":"attunement is complete, the ","color":"gray"}'
+        - '{"text":"needle turns into the ink that ","color":"gray"}'
+        - '{"text":"becomes the tattoo, which ","color":"gray"}'
+        - '{"text":"appears on the skin.If your ","color":"gray"}'
+        - '{"text":"attunement to the tattoo ends, ","color":"gray"}'
+        - '{"text":"the tattoo vanishes, and the ","color":"gray"}'
+        - '{"text":"needle reappears in your ","color":"gray"}'
+        - '{"text":"space. Damage Resistance. ","color":"gray"}'
+        - '{"text":"While the tattoo is on your ","color":"gray"}'
+        - '{"text":"skin, you have resistance to ","color":"gray"}'
+        - '{"text":"radiant damage. Damage ","color":"gray"}'
+        - '{"text":"Absorption. When you take ","color":"gray"}'
+        - '{"text":"radiant damage, you can use ","color":"gray"}'
+        - '{"text":"your reaction to gain immunity ","color":"gray"}'
+        - '{"text":"against that instance of the ","color":"gray"}'
+        - '{"text":"damage, and you regain a ","color":"gray"}'
+        - '{"text":"number of hit points equal to ","color":"gray"}'
+        - '{"text":"half the damage you would have ","color":"gray"}'
+        - '{"text":"taken. Once this reaction is ","color":"gray"}'
+        - "{\"text\":\"used, it can't be used again \",\"color\":\"gray\"}"
+        - '{"text":"until the next dawn. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

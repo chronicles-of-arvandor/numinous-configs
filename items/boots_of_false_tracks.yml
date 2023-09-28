@@ -1,0 +1,32 @@
+item-type:
+  ==: NuminousItemType
+  id: boots_of_false_tracks
+  name: Boots of False Tracks
+  categories:
+    - WONDROUS_ITEM
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Boots of False Tracks","color":"white"}'
+      lore:
+        - '{"text":"Only humanoids can wear these ","color":"gray"}'
+        - '{"text":"boots. While wearing the ","color":"gray"}'
+        - '{"text":"boots, you can choose to have ","color":"gray"}'
+        - '{"text":"them leave tracks like those ","color":"gray"}'
+        - '{"text":"of another kind of humanoid of ","color":"gray"}'
+        - '{"text":"your size. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

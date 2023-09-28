@@ -1,0 +1,41 @@
+item-type:
+  ==: NuminousItemType
+  id: greatsword
+  name: Greatsword
+  categories:
+    - POTION
+    - MARTIAL_WEAPON
+    - MELEE_WEAPON
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Greatsword","color":"white"}'
+      lore:
+        - '{"text":"Heavy. Creatures that are ","color":"gray"}'
+        - '{"text":"Small or Tiny have ","color":"gray"}'
+        - '{"text":"disadvantage on attack rolls ","color":"gray"}'
+        - '{"text":"with heavy weapons. A heavy ","color":"gray"}'
+        - "{\"text\":\"weapon's size and bulk make it \",\"color\":\"gray\"}"
+        - '{"text":"too large for a Small or Tiny ","color":"gray"}'
+        - '{"text":"creature to use effectively. ","color":"gray"}'
+        - '{"text":"Two-Handed. This weapon ","color":"gray"}'
+        - '{"text":"requires two hands to use. ","color":"gray"}'
+        - '{"text":"This property is relevant only ","color":"gray"}'
+        - '{"text":"when you attack with the ","color":"gray"}'
+        - '{"text":"weapon, not when you simply ","color":"gray"}'
+        - '{"text":"hold it. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 6
+    unit: lb

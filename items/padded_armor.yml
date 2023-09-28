@@ -1,0 +1,31 @@
+item-type:
+  ==: NuminousItemType
+  id: padded_armor
+  name: Padded Armor
+  categories:
+    - LIGHT_ARMOUR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: LEATHER_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Padded Armor","color":"white"}'
+      lore:
+        - '{"text":"Padded armor consists of ","color":"gray"}'
+        - '{"text":"quilted layers of cloth and ","color":"gray"}'
+        - '{"text":"batting.The wearer has ","color":"gray"}'
+        - '{"text":"disadvantage on Dexterity ","color":"gray"}'
+        - '{"text":"(Stealth) checks. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 8
+    unit: lb

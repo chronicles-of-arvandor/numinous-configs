@@ -1,0 +1,77 @@
+item-type:
+  ==: NuminousItemType
+  id: cooks_utensils
+  name: Cook's Utensils
+  categories:
+    - ARTISANS_TOOLS
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: WOODEN_SHOVEL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: "{\"text\":\"Cook's Utensils\",\"color\":\"white\"}"
+      lore:
+        - '{"text":"These special tools include ","color":"gray"}'
+        - '{"text":"the items needed to pursue a ","color":"gray"}'
+        - '{"text":"craft or trade. Proficiency ","color":"gray"}'
+        - "{\"text\":\"with a set of artisan's tools \",\"color\":\"gray\"}"
+        - '{"text":"lets you add your proficiency ","color":"gray"}'
+        - '{"text":"bonus to any ability checks ","color":"gray"}'
+        - '{"text":"you make using the tools in ","color":"gray"}'
+        - '{"text":"your craft. Each type of ","color":"gray"}'
+        - "{\"text\":\"artisan's tools requires a \",\"color\":\"gray\"}"
+        - '{"text":"separate ","color":"gray"}'
+        - '{"text":"proficiency.Adventuring is a ","color":"gray"}'
+        - '{"text":"hard life. With a cook along ","color":"gray"}'
+        - '{"text":"on the journey, your meals ","color":"gray"}'
+        - '{"text":"will be much better than the ","color":"gray"}'
+        - '{"text":"typical mix of hardtack and ","color":"gray"}'
+        - '{"text":"dried fruit. Components. ","color":"gray"}'
+        - "{\"text\":\"Cook's utensils include a \",\"color\":\"gray\"}"
+        - '{"text":"metal pot, knives, forks, a ","color":"gray"}'
+        - '{"text":"stirring spoon, and a ladle. ","color":"gray"}'
+        - '{"text":"History. Your knowledge of ","color":"gray"}'
+        - '{"text":"cooking techniques allows you ","color":"gray"}'
+        - '{"text":"to assess the social patterns ","color":"gray"}'
+        - "{\"text\":\"involved in a culture's eating \",\"color\":\"gray\"}"
+        - '{"text":"habits. Medicine. When ","color":"gray"}'
+        - '{"text":"administering treatment, you ","color":"gray"}'
+        - '{"text":"can transform medicine that is ","color":"gray"}'
+        - '{"text":"bitter or sour into a pleasing ","color":"gray"}'
+        - '{"text":"concoction. Survival. When ","color":"gray"}'
+        - '{"text":"foraging for food, you can ","color":"gray"}'
+        - '{"text":"make do with ingredients you ","color":"gray"}'
+        - '{"text":"scavenge that others would be ","color":"gray"}'
+        - '{"text":"unable to transform into ","color":"gray"}'
+        - '{"text":"nourishing meals. Prepare ","color":"gray"}'
+        - '{"text":"Meals. As part of a short ","color":"gray"}'
+        - '{"text":"rest, you can prepare a tasty ","color":"gray"}'
+        - '{"text":"meal that helps your ","color":"gray"}'
+        - '{"text":"companions regain their ","color":"gray"}'
+        - '{"text":"strength. You and up to five ","color":"gray"}'
+        - '{"text":"creatures of your choice ","color":"gray"}'
+        - '{"text":"regain 1 extra hit point per ","color":"gray"}'
+        - '{"text":"Hit Die spent during a short ","color":"gray"}'
+        - '{"text":"rest, provided you have access ","color":"gray"}'
+        - "{\"text\":\"to your cook's utensils and \",\"color\":\"gray\"}"
+        - "{\"text\":\"sufficient food.Cook's \",\"color\":\"gray\"}"
+        - '{"text":"UtensilsActivityDCCreate a ","color":"gray"}'
+        - '{"text":"typical meal10Duplicate a ","color":"gray"}'
+        - '{"text":"meal10Spot poison or ","color":"gray"}'
+        - '{"text":"impurities in food15Create a ","color":"gray"}'
+        - '{"text":"gourmet meal15See the Tool ","color":"gray"}'
+        - '{"text":"Proficiencies entry for more ","color":"gray"}'
+        - '{"text":"information. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 8
+    unit: lb

@@ -1,0 +1,40 @@
+item-type:
+  ==: NuminousItemType
+  id: caltrops_bag_of_20
+  name: Caltrops (bag of 20)
+  categories:
+    - ADVENTURING_GEAR
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: STONE_PRESSURE_PLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Caltrops (bag of 20)","color":"white"}'
+      lore:
+        - '{"text":"As an action, you can spread a ","color":"gray"}'
+        - '{"text":"single bag of caltrops to ","color":"gray"}'
+        - '{"text":"cover a 5-foot-square area. ","color":"gray"}'
+        - '{"text":"Any creature that enters the ","color":"gray"}'
+        - '{"text":"area must succeed on a DC 15 ","color":"gray"}'
+        - '{"text":"Dexterity saving throw or stop ","color":"gray"}'
+        - '{"text":"moving and take 1 piercing ","color":"gray"}'
+        - '{"text":"damage. Until the creature ","color":"gray"}'
+        - '{"text":"regains at least 1 hit point, ","color":"gray"}'
+        - '{"text":"its walking speed is reduced ","color":"gray"}'
+        - '{"text":"by 10 feet. A creature moving ","color":"gray"}'
+        - '{"text":"through the area at half speed ","color":"gray"}'
+        - "{\"text\":\"doesn't need to make the \",\"color\":\"gray\"}"
+        - '{"text":"saving throw. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 2
+    unit: lb
