@@ -22,6 +22,7 @@ item-type:
         - '{"text":"flukes, or a single long spike ","color":"gray"}'
         - '{"text":"opposite a shorter, sometimes ","color":"gray"}'
         - '{"text":"blunt counterweight ","color":"gray"}'
+        - '["",{"text":"This weapon deals ","color":"gray"},{"text":"1d10 piercing","color":"dark_red"}]'
   on-eat:
     - ==: Blocked
   on-interact-block:
