@@ -16,10 +16,13 @@ item-type:
       meta-type: UNSPECIFIC
       display-name: '{"text":"Club","color":"white"}'
       lore:
-        - '{"text":"Light. A light weapon is small ","color":"gray"}'
+        - '{"text":"Light","color":"aqua"}'      
+        - '{"text":"A light weapon is small ","color":"gray"}'
         - '{"text":"and easy to handle, making it ","color":"gray"}'
         - '{"text":"ideal for use when fighting ","color":"gray"}'
         - '{"text":"with two weapons. ","color":"gray"}'
+        - '["",{"text":"This weapon deals ","color":"gray"},{"text":"1d4 bludgeoning","color":"dark_red"}]'
+        
   on-eat:
     - ==: Blocked
   on-interact-block:
