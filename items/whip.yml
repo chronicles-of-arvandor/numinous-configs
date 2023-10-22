@@ -16,18 +16,8 @@ item-type:
       meta-type: UNSPECIFIC
       display-name: '{"text":"Whip","color":"white"}'
       lore:
-        - '{"text":"Finesse. When making an attack ","color":"gray"}'
-        - '{"text":"with a finesse weapon, you use ","color":"gray"}'
-        - '{"text":"your choice of your Strength ","color":"gray"}'
-        - '{"text":"or Dexterity modifier for the ","color":"gray"}'
-        - '{"text":"attack and damage rolls. You ","color":"gray"}'
-        - '{"text":"must use the same modifier for ","color":"gray"}'
-        - '{"text":"both rolls. Reach. This weapon ","color":"gray"}'
-        - '{"text":"adds 5 feet to your reach when ","color":"gray"}'
-        - '{"text":"you attack with it. This ","color":"gray"}'
-        - '{"text":"property also determines your ","color":"gray"}'
-        - '{"text":"reach for opportunity attacks ","color":"gray"}'
-        - '{"text":"with a reach weapon. ","color":"gray"}'
+        - '{"text":"Finesse, reach","color":"aqua"}'
+        - '["",{"text":"This weapon deals ","color":"gray"},{"text":"1d4 slashing","color":"dark_red"}]'
   on-eat:
     - ==: Blocked
   on-interact-block:
