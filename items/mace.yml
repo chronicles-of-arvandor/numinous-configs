@@ -16,7 +16,7 @@ item-type:
       meta-type: UNSPECIFIC
       display-name: '{"text":"Mace","color":"white"}'
       lore:
-        - '{"text":" ","color":"gray"}'
+        - '["",{"text":"This weapon deals ","color":"gray"},{"text":"1d6 bludgeoning","color":"dark_red"}]'
   on-eat:
     - ==: Blocked
   on-interact-block:
