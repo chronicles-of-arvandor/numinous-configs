@@ -16,24 +16,8 @@ item-type:
       meta-type: UNSPECIFIC
       display-name: '{"text":"Halberd","color":"white"}'
       lore:
-        - '{"text":"Heavy. Creatures that are ","color":"gray"}'
-        - '{"text":"Small or Tiny have ","color":"gray"}'
-        - '{"text":"disadvantage on attack rolls ","color":"gray"}'
-        - '{"text":"with heavy weapons. A heavy ","color":"gray"}'
-        - "{\"text\":\"weapon's size and bulk make it \",\"color\":\"gray\"}"
-        - '{"text":"too large for a Small or Tiny ","color":"gray"}'
-        - '{"text":"creature to use effectively. ","color":"gray"}'
-        - '{"text":"Reach. This weapon adds 5 feet ","color":"gray"}'
-        - '{"text":"to your reach when you attack ","color":"gray"}'
-        - '{"text":"with it. This property also ","color":"gray"}'
-        - '{"text":"determines your reach for ","color":"gray"}'
-        - '{"text":"opportunity attacks with a ","color":"gray"}'
-        - '{"text":"reach weapon. Two-Handed. This ","color":"gray"}'
-        - '{"text":"weapon requires two hands to ","color":"gray"}'
-        - '{"text":"use. This property is relevant ","color":"gray"}'
-        - '{"text":"only when you attack with the ","color":"gray"}'
-        - '{"text":"weapon, not when you simply ","color":"gray"}'
-        - '{"text":"hold it. ","color":"gray"}'
+        - '{"text":"Heavy, reach, two-handed","color":"aqua"}'
+        - '["",{"text":"This weapon deals ","color":"gray"},{"text":"1d10 slashing","color":"dark_red"}]'
   on-eat:
     - ==: Blocked
   on-interact-block:
