@@ -16,17 +16,8 @@ item-type:
       meta-type: UNSPECIFIC
       display-name: '{"text":"Lance","color":"white"}'
       lore:
-        - '{"text":"Special. You have disadvantage ","color":"gray"}'
-        - '{"text":"when you use a lance to attack ","color":"gray"}'
-        - '{"text":"a target within 5 feet of you. ","color":"gray"}'
-        - '{"text":"Also, a lance requires two ","color":"gray"}'
-        - "{\"text\":\"hands to wield when you aren't \",\"color\":\"gray\"}"
-        - '{"text":"mounted. Reach. This weapon ","color":"gray"}'
-        - '{"text":"adds 5 feet to your reach when ","color":"gray"}'
-        - '{"text":"you attack with it. This ","color":"gray"}'
-        - '{"text":"property also determines your ","color":"gray"}'
-        - '{"text":"reach for opportunity attacks ","color":"gray"}'
-        - '{"text":"with a reach weapon. ","color":"gray"}'
+        - '{"text":"Reach, special","color":"aqua"}'
+        - '["",{"text":"This weapon deals ","color":"gray"},{"text":"1d12 piercing","color":"dark_red"}]'
   on-eat:
     - ==: Blocked
   on-interact-block:
