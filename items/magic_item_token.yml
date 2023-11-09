@@ -3,6 +3,7 @@ item-type:
   id: magic_item_token
   name: Magic Item Token
   categories:
+    - TRADE_GOOD
   rarity: RARE
   minecraft-item:
     ==: org.bukkit.inventory.ItemStack
