@@ -11,7 +11,7 @@ item-type:
     type: PLAYER_HEAD
     meta:
       ==: ItemMeta
-      meta-type: UNSPECIFIC
+      meta-type: SKULL
       display-name: '{"text":"Backpack","color":"white"}'
       lore:
         - '{"text":"A backpack can hold one cubic ","color":"gray"}'
@@ -19,13 +19,21 @@ item-type:
         - '{"text":"can also strap items, such as ","color":"gray"}'
         - '{"text":"a bedroll or a coil of rope, ","color":"gray"}'
         - '{"text":"to the outside of a backpack. ","color":"gray"}'
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 04049c90-d3e9-4621-9caf-0000aaa46547
+        name: Head Database
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjMwOGJmNWNjM2U5ZGVjYWYwNzcwYzNmZGFkMWUwNDIxMjFjZjM5Y2MyNTA1YmJiODY2ZTE4YzZkMjNjY2QwYyJ9fX0=
   on-eat:
     - ==: Blocked
   on-interact-block:
-    - ==: Blocked
+    - ==: OpenInventory
   on-interact-air:
-    - ==: Blocked
+    - ==: OpenInventory
   weight:
     ==: Weight
     value: 5
     unit: lb
+  inventory-slots: 27
