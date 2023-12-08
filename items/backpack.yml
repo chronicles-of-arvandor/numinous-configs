@@ -29,8 +29,10 @@ item-type:
   on-eat:
     - ==: Blocked
   on-interact-block:
+    - ==: Blocked
     - ==: OpenInventory
   on-interact-air:
+    - ==: Blocked
     - ==: OpenInventory
   weight:
     ==: Weight
