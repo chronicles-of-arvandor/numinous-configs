@@ -14,8 +14,8 @@ item-type:
       meta-type: UNSPECIFIC
       display-name: '{"text":"Drum","color":"white"}'
       lore:
-        - {"text":"A percussion instrument consisting of a hollow shell or cylinder with a drumhead stretched","color":"aqua"}
-        - {"text":"over one or both ends that is beaten with the hands or with some implement.","color":"aqua"}
+        - '{"text":"A percussion instrument consisting of a hollow shell or cylinder with a drumhead stretched","color":"aqua"}'
+        - '{"text":"over one or both ends that is beaten with the hands or with some implement.","color":"aqua"}'
         - '{"text":"If you have proficiency with a ","color":"gray"}'
         - '{"text":"given musical instrument, you ","color":"gray"}'
         - '{"text":"can add your proficiency bonus ","color":"gray"}'
