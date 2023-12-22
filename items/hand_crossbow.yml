@@ -17,7 +17,8 @@ item-type:
       display-name: '{"text":"Hand Crossbow","color":"white"}'
       lore:
         - '{"text":"Ammunition (range 30/120), light, loading","color":"aqua"}'
-        - '["",{"text":"This weapon deals ","color":"gray"},{"text":"1d6 piercing","color":"dark_red"}]'
+        - '["",{"text":"This weapon deals ","color":"gray"},{"text":"1d6
+          piercing","color":"dark_red"}]'
   on-eat:
     - ==: Blocked
   on-interact-block:

@@ -17,7 +17,8 @@ item-type:
       display-name: '{"text":"Blowgun","color":"white"}'
       lore:
         - '{"text":"Ammunition (range 25/100), loading","color":"aqua"}'
-        - '["",{"text":"This weapon deals ","color":"gray"},{"text":"1 piercing","color":"dark_red"}]'
+        - '["",{"text":"This weapon deals ","color":"gray"},{"text":"1
+          piercing","color":"dark_red"}]'
   on-eat:
     - ==: Blocked
   on-interact-block:

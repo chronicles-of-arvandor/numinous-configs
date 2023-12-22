@@ -1,0 +1,29 @@
+item-type:
+  ==: NuminousItemType
+  id: essence_of_dittany
+  name: Essence of Dittany
+  categories:
+    - CRAFTING_MATERIAL
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: OAK_LEAVES
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Essence of Dittany","color":"white"}'
+      lore:
+        - '{"text":"A magical herb that promotes ","color":"gray"}'
+        - '{"text":"healing. It helps in repairing ","color":"gray"}'
+        - '{"text":"any damage caused by toxins. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb

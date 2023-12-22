@@ -14,7 +14,8 @@ item-type:
       meta-type: UNSPECIFIC
       display-name: '{"text":"Flute","color":"white"}'
       lore:
-        - '{"text":"A musical wind instrument consisting of a tube with a series of fingerholes or keys.","color":"aqua"}'
+        - '{"text":"A musical wind instrument consisting of a tube with a series
+          of fingerholes or keys.","color":"aqua"}'
         - '{"text":"If you have proficiency with a ","color":"gray"}'
         - '{"text":"given musical instrument, you ","color":"gray"}'
         - '{"text":"can add your proficiency bonus ","color":"gray"}'

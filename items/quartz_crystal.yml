@@ -1,0 +1,33 @@
+item-type:
+  ==: NuminousItemType
+  id: quartz_crystal
+  name: Quartz crystal
+  categories:
+    - CRAFTING_MATERIAL
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: QUARTZ
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Quartz crystal","color":"white"}'
+      lore:
+        - '{"text":"Commonly found in many ","color":"gray"}'
+        - '{"text":"regions, quartz is known for ","color":"gray"}'
+        - '{"text":"its versaility in magical ","color":"gray"}'
+        - '{"text":"practices. It can be used to ","color":"gray"}'
+        - '{"text":"channel, store or amplify ","color":"gray"}'
+        - '{"text":"energy, making it a good base ","color":"gray"}'
+        - '{"text":"for a variety of amulets. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 5
+    unit: lb

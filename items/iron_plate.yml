@@ -1,0 +1,29 @@
+item-type:
+  ==: NuminousItemType
+  id: iron_plate
+  name: Iron plate
+  categories:
+    - CRAFTING_MATERIAL
+  rarity: UNCOMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: IRON_BARS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Iron plate","color":"white"}'
+      lore:
+        - '{"text":"A refined plate of iron, ready ","color":"gray"}'
+        - '{"text":"for assembly into various iron ","color":"gray"}'
+        - '{"text":"goods ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 15
+    unit: lb

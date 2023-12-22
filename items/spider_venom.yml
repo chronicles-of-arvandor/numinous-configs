@@ -1,0 +1,31 @@
+item-type:
+  ==: NuminousItemType
+  id: spider_venom
+  name: Spider venom
+  categories:
+    - CRAFTING_MATERIAL
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: SPIDER_EYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Spider venom","color":"white"}'
+      lore:
+        - '{"text":"Extracted from common venomous ","color":"gray"}'
+        - "{\"text\":\"spiders. It's not as potent as \",\"color\":\"gray\"}"
+        - '{"text":"venom from more dangerous ","color":"gray"}'
+        - '{"text":"species, but still effective ","color":"gray"}'
+        - '{"text":"for a basic poison. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 1
+    unit: lb

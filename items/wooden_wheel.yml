@@ -1,0 +1,29 @@
+item-type:
+  ==: NuminousItemType
+  id: wooden_wheel
+  name: Wooden wheel
+  categories:
+    - CRAFTING_MATERIAL
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: MUSIC_DISC_13
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Wooden wheel","color":"white"}'
+      lore:
+        - '{"text":"A wheel for some kind of ","color":"gray"}'
+        - '{"text":"vehicle or machine made of ","color":"gray"}'
+        - '{"text":"wood. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 10
+    unit: lb

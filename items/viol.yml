@@ -14,7 +14,9 @@ item-type:
       meta-type: UNSPECIFIC
       display-name: '{"text":"Viol","color":"white"}'
       lore:
-        - '{"text":"It has a flat back, sloping shoulders, and a convex bow. These characteristics give it the soft, gentle tone for which it is known.","color":"aqua"}'
+        - '{"text":"It has a flat back, sloping shoulders, and a convex bow.
+          These characteristics give it the soft, gentle tone for which it is
+          known.","color":"aqua"}'
         - '{"text":"If you have proficiency with a ","color":"gray"}'
         - '{"text":"given musical instrument, you ","color":"gray"}'
         - '{"text":"can add your proficiency bonus ","color":"gray"}'

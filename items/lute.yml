@@ -14,7 +14,9 @@ item-type:
       meta-type: UNSPECIFIC
       display-name: '{"text":"Lute","color":"white"}'
       lore:
-        - '{"text":" It resembles a guitar but has a rounded back, a pear shape, courses (pairs) of strings and a long neck with a bent-back pegbox.","color":"aqua"}'
+        - '{"text":" It resembles a guitar but has a rounded back, a pear shape,
+          courses (pairs) of strings and a long neck with a bent-back
+          pegbox.","color":"aqua"}'
         - '{"text":"If you have proficiency with a ","color":"gray"}'
         - '{"text":"given musical instrument, you ","color":"gray"}'
         - '{"text":"can add your proficiency bonus ","color":"gray"}'

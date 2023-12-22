@@ -14,7 +14,9 @@ item-type:
       meta-type: UNSPECIFIC
       display-name: '{"text":"Horn","color":"white"}'
       lore:
-        - '{"text":"Often curved in various ways, with one narrow end into which the musician blows, and a wide end from which sound emerges.","color":"aqua"}'
+        - '{"text":"Often curved in various ways, with one narrow end into which
+          the musician blows, and a wide end from which sound
+          emerges.","color":"aqua"}'
         - '{"text":"If you have proficiency with a ","color":"gray"}'
         - '{"text":"given musical instrument, you ","color":"gray"}'
         - '{"text":"can add your proficiency bonus ","color":"gray"}'

@@ -16,8 +16,10 @@ item-type:
       meta-type: UNSPECIFIC
       display-name: '{"text":"Heavy Crossbow","color":"white"}'
       lore:
-        - '{"text":"Ammunition (range 100/400), heavy, loading, two-handed","color":"aqua"}'
-        - '["",{"text":"This weapon deals ","color":"gray"},{"text":"1d10 piercing","color":"dark_red"}]'
+        - '{"text":"Ammunition (range 100/400), heavy, loading,
+          two-handed","color":"aqua"}'
+        - '["",{"text":"This weapon deals ","color":"gray"},{"text":"1d10
+          piercing","color":"dark_red"}]'
   on-eat:
     - ==: Blocked
   on-interact-block:

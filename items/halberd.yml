@@ -17,7 +17,8 @@ item-type:
       display-name: '{"text":"Halberd","color":"white"}'
       lore:
         - '{"text":"Heavy, reach, two-handed","color":"aqua"}'
-        - '["",{"text":"This weapon deals ","color":"gray"},{"text":"1d10 slashing","color":"dark_red"}]'
+        - '["",{"text":"This weapon deals ","color":"gray"},{"text":"1d10
+          slashing","color":"dark_red"}]'
   on-eat:
     - ==: Blocked
   on-interact-block:

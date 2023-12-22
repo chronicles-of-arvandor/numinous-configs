@@ -1,0 +1,30 @@
+item-type:
+  ==: NuminousItemType
+  id: nightshade_berries
+  name: Nightshade Berries
+  categories:
+    - CRAFTING_MATERIAL
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: SWEET_BERRIES
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Nightshade Berries","color":"white"}'
+      lore:
+        - '{"text":"Commonly found in forested ","color":"gray"}'
+        - '{"text":"areas, these berries are toxic ","color":"gray"}'
+        - '{"text":"and can be used as the primary ","color":"gray"}'
+        - '{"text":"ingredient for a basic poison. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0.5
+    unit: oz

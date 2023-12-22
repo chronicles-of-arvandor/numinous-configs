@@ -14,7 +14,9 @@ item-type:
       meta-type: UNSPECIFIC
       display-name: '{"text":"Lyre","color":"white"}'
       lore:
-        - '{"text":"Consisting of a soundbox made typically from a turtle shell, with two curved arms connected by a yoke from which strings are stretched to the body.","color":"aqua"}'
+        - '{"text":"Consisting of a soundbox made typically from a turtle shell,
+          with two curved arms connected by a yoke from which strings are
+          stretched to the body.","color":"aqua"}'
         - '{"text":"If you have proficiency with a ","color":"gray"}'
         - '{"text":"given musical instrument, you ","color":"gray"}'
         - '{"text":"can add your proficiency bonus ","color":"gray"}'

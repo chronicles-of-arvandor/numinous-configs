@@ -3,7 +3,7 @@ item-type:
   id: lock
   name: Lock
   categories:
-  - ADVENTURING_GEAR
+    - ADVENTURING_GEAR
   rarity: COMMON
   minecraft-item:
     ==: org.bukkit.inventory.ItemStack
@@ -14,14 +14,14 @@ item-type:
       meta-type: UNSPECIFIC
       display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#99918A","text":"Lock"}],"text":""}'
       lore:
-      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"The
-        lock may be used on a chest or door to lock it."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"The
+          lock may be used on a chest or door to lock it."}],"text":""}'
   on-eat:
-  - ==: Blocked
+    - ==: Blocked
   on-interact-block: []
   on-interact-air:
-  - ==: Blocked
+    - ==: Blocked
   weight:
     ==: Weight
-    value: 1.0
+    value: 1
     unit: lb

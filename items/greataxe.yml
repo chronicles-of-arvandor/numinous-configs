@@ -17,7 +17,8 @@ item-type:
       display-name: '{"text":"Greataxe","color":"white"}'
       lore:
         - '{"text":"Heavy, two-handed","color":"red"}'
-        - '["",{"text":"This weapon deals ","color":"gray"},{"text":"1d12 slashing","color":"dark_red"}]'
+        - '["",{"text":"This weapon deals ","color":"gray"},{"text":"1d12
+          slashing","color":"dark_red"}]'
   on-eat:
     - ==: Blocked
   on-interact-block:

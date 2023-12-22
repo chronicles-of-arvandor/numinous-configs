@@ -14,7 +14,8 @@ item-type:
       meta-type: UNSPECIFIC
       display-name: '{"text":"Hand Drum","color":"white"}'
       lore:
-        - '{"text":"A double-headed skin drum fitted with handles along its side.","color":"aqua"}'
+        - '{"text":"A double-headed skin drum fitted with handles along its
+          side.","color":"aqua"}'
         - '{"text":"If you have proficiency ","color":"gray"}'
         - '{"text":"with a given musical ","color":"gray"}'
         - '{"text":"instrument, you can add your ","color":"gray"}'

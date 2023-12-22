@@ -1,0 +1,30 @@
+item-type:
+  ==: NuminousItemType
+  id: wooden_shaft
+  name: Wooden shaft
+  categories:
+    - CRAFTING_MATERIAL
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: STICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Wooden shaft","color":"white"}'
+      lore:
+        - '{"text":"A long, thin beam of wood, ","color":"gray"}'
+        - '{"text":"useful for creating an arrow ","color":"gray"}'
+        - '{"text":"or a spindle of some ","color":"gray"}'
+        - '{"text":"description. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 5
+    unit: lb

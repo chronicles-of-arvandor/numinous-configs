@@ -14,7 +14,8 @@ item-type:
       meta-type: UNSPECIFIC
       display-name: '{"text":"Dulcimer","color":"white"}'
       lore:
-        - '{"text":" a stringed instrument of trapezoidal shape played with light hammers held in the hands.","color":"aqua"}'
+        - '{"text":" a stringed instrument of trapezoidal shape played with
+          light hammers held in the hands.","color":"aqua"}'
         - '{"text":"If you have proficiency with a ","color":"gray"}'
         - '{"text":"given musical instrument, you ","color":"gray"}'
         - '{"text":"can add your proficiency bonus ","color":"gray"}'

@@ -14,7 +14,8 @@ item-type:
       meta-type: UNSPECIFIC
       display-name: '{"text":"Pan Flute","color":"white"}'
       lore:
-        - '{"text":"Consisting of multiple pipes of gradually increasing length.","color":"aqua"}'
+        - '{"text":"Consisting of multiple pipes of gradually increasing
+          length.","color":"aqua"}'
         - '{"text":"If you have proficiency with a ","color":"gray"}'
         - '{"text":"given musical instrument, you ","color":"gray"}'
         - '{"text":"can add your proficiency bonus ","color":"gray"}'

@@ -14,7 +14,8 @@ item-type:
       meta-type: UNSPECIFIC
       display-name: '{"text":"Bagpipes","color":"white"}'
       lore:
-        - '{"text":" A wind instrument that consists of two or more single or double-reed pipes.","color":"aqua"}'
+        - '{"text":" A wind instrument that consists of two or more single or
+          double-reed pipes.","color":"aqua"}'
         - '{"text":"If you have proficiency with a ","color":"gray"}'
         - '{"text":"given musical instrument, you ","color":"gray"}'
         - '{"text":"can add your proficiency bonus ","color":"gray"}'
