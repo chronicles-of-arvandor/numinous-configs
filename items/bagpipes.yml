@@ -20,6 +20,7 @@ item-type:
         - '{"text":"can add your proficiency bonus ","color":"gray"}'
         - '{"text":"to any ability checks you make ","color":"gray"}'
         - '{"text":"to play music with the instrument. ","color":"gray"}'
+  on-eat:
     - ==: Blocked
   on-interact-block:
     - ==: Blocked
