@@ -1,0 +1,26 @@
+recipe:
+  ==: NuminousRecipe
+  name: Entertainer's Pack
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: leather
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: costume_clothes
+      amount: 2
+    - ==: NuminousItemStack
+      item-type: disguise_kit
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: cotton_cloth_1_sq_yd
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: PLAYER_HEAD
+      amount: 1
+  required-profession-level:
+    '1278817a-a1f3-4c0a-951a-e148f70f3302': 10
+  experience: 5
+  stamina: 5
+  workstation: CRAFTING_TABLE
+  icon: PLAYER_HEAD

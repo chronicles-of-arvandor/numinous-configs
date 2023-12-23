@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Iron wheel
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 70
+  results:
+    - ==: NuminousItemStack
+      item-type: MUSIC_DISC_WAIT
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 7
+  experience: 10
+  stamina: 10
+  workstation: CRAFTING_TABLE
+  icon: MUSIC_DISC_WAIT

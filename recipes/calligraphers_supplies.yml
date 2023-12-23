@@ -1,0 +1,23 @@
+recipe:
+  ==: NuminousRecipe
+  name: Calligrapher's Supplies
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: leather
+      amount: 2
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 14
+    - ==: NuminousItemStack
+      item-type: paper_one_sheet
+      amount: 4
+  results:
+    - ==: NuminousItemStack
+      item-type: FEATHER
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 6
+  experience: 30
+  stamina: 30
+  workstation: CRAFTING_TABLE
+  icon: FEATHER

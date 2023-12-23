@@ -1,0 +1,26 @@
+recipe:
+  ==: NuminousRecipe
+  name: Explorer's Pack
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: leather
+      amount: 2
+    - ==: NuminousItemStack
+      item-type: cotton_cloth_1_sq_yd
+      amount: 3
+    - ==: NuminousItemStack
+      item-type: hempen_rope_50_feet
+      amount: 2
+    - ==: NuminousItemStack
+      item-type: rations_1_day
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: PLAYER_HEAD
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 6
+  experience: 25
+  stamina: 25
+  workstation: CRAFTING_TABLE
+  icon: PLAYER_HEAD

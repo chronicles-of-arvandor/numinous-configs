@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Tocken
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 40
+    - ==: NuminousItemStack
+      item-type: wood
+      amount: 30
+  results:
+    - ==: NuminousItemStack
+      item-type: BELL
+      amount: 1
+  required-profession-level:
+    '1278817a-a1f3-4c0a-951a-e148f70f3302': 7
+  experience: 10
+  stamina: 10
+  workstation: CRAFTING_TABLE
+  icon: BELL

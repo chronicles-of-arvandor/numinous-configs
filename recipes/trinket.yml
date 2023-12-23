@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Trinket
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 47
+    - ==: NuminousItemStack
+      item-type: agate
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: LAPIS_LAZULI
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 7
+  experience: 5
+  stamina: 5
+  workstation: CRAFTING_TABLE
+  icon: LAPIS_LAZULI

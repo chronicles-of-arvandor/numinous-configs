@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Sled
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: wood
+      amount: 77
+  results:
+    - ==: NuminousItemStack
+      item-type: SHIELD
+      amount: 1
+  required-profession-level:
+    '1278817a-a1f3-4c0a-951a-e148f70f3302': 8
+  experience: 50
+  stamina: 50
+  workstation: CRAFTING_TABLE
+  icon: SHIELD

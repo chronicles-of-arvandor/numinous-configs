@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Shortbow
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: wood
+      amount: 100
+    - ==: NuminousItemStack
+      item-type: hempen_rope_50_feet
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: BOW
+      amount: 1
+  required-profession-level:
+    '1278817a-a1f3-4c0a-951a-e148f70f3302': 8
+  experience: 44
+  stamina: 44
+  workstation: CRAFTING_TABLE
+  icon: BOW

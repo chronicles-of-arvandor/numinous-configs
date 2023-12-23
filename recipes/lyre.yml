@@ -1,0 +1,23 @@
+recipe:
+  ==: NuminousRecipe
+  name: Lyre
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: wooden_instrument_body
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: wooden_instrument_segment
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: hempen_rope_50_feet
+      amount: 12
+  results:
+    - ==: NuminousItemStack
+      item-type: JUKEBOX
+      amount: 1
+  required-profession-level:
+    '1278817a-a1f3-4c0a-951a-e148f70f3302': 9
+  experience: 32
+  stamina: 32
+  workstation: CRAFTING_TABLE
+  icon: JUKEBOX

@@ -1,0 +1,23 @@
+recipe:
+  ==: NuminousRecipe
+  name: Basic Poison (vial)
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: vial
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: nightshade_berries
+      amount: 10
+    - ==: NuminousItemStack
+      item-type: spider_venom
+      amount: 10
+  results:
+    - ==: NuminousItemStack
+      item-type: POTION
+      amount: 1
+  required-profession-level:
+    '8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d':10
+  experience: .nan
+  stamina: .nan
+  workstation: CRAFTING_TABLE
+  icon: POTION

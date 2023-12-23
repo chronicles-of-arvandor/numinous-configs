@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Ball Bearing
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: ball_bearings_bag_of_1000
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: PUMPKIN_SEEDS
+      amount: 1000
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 1
+  experience: 0
+  stamina: 0
+  workstation: CRAFTING_TABLE
+  icon: PUMPKIN_SEEDS

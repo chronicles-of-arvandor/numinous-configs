@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Trident
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: handle
+      amount: 8
+    - ==: NuminousItemStack
+      item-type: iron_spike
+      amount: 3
+  results:
+    - ==: NuminousItemStack
+      item-type: TRIDENT
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 4
+  experience: 10
+  stamina: 10
+  workstation: CRAFTING_TABLE
+  icon: TRIDENT

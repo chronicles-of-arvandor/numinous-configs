@@ -1,0 +1,23 @@
+recipe:
+  ==: NuminousRecipe
+  name: Ink (1-ounce bottle)
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: sap
+      amount: 4
+    - ==: NuminousItemStack
+      item-type: coperose
+      amount: 2
+    - ==: NuminousItemStack
+      item-type: waterskin
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: INK_SAC
+      amount: 1
+  required-profession-level:
+    '8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d':7
+  experience: 20
+  stamina: 20
+  workstation: CRAFTING_TABLE
+  icon: INK_SAC

@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Loaf of Bread
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: flour
+      amount: 5
+  results:
+    - ==: NuminousItemStack
+      item-type: BREAD
+      amount: 10
+  required-profession-level:
+    '8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d':1
+  experience: 2
+  stamina: 2
+  workstation: CRAFTING_TABLE
+  icon: BREAD

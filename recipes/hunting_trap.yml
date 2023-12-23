@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Hunting Trap
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 10
+    - ==: NuminousItemStack
+      item-type: iron_spikes_10
+      amount: 2
+  results:
+    - ==: NuminousItemStack
+      item-type: MUSIC_DISC_BLOCKS
+      amount: 1
+  required-profession-level:
+    '89c7c54f-58ce-44f4-b397-10abcbbc7f81': 8
+  experience: 10
+  stamina: 10
+  workstation: CRAFTING_TABLE
+  icon: MUSIC_DISC_BLOCKS

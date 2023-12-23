@@ -1,0 +1,23 @@
+recipe:
+  ==: NuminousRecipe
+  name: Carpenter's Tools
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 30
+    - ==: NuminousItemStack
+      item-type: wooden_shaft
+      amount: 10
+    - ==: NuminousItemStack
+      item-type: wood
+      amount: 8
+  results:
+    - ==: NuminousItemStack
+      item-type: CRAFTING_TABLE
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 5
+  experience: 3
+  stamina: 3
+  workstation: CRAFTING_TABLE
+  icon: CRAFTING_TABLE

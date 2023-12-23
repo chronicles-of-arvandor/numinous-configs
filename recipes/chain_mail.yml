@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Chain Mail
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 350
+  results:
+    - ==: NuminousItemStack
+      item-type: CHAINMAIL_CHESTPLATE
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 9
+  experience: 50
+  stamina: 50
+  workstation: CRAFTING_TABLE
+  icon: CHAINMAIL_CHESTPLATE

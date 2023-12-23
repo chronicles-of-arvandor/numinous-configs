@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Whetstone
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: stone
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: FLINT_AND_STEEL
+      amount: 10
+  required-profession-level:
+    '8d0132cb-825f-404a-a6b5-2d29f380e1fb': 1
+  experience: 1
+  stamina: 1
+  workstation: CRAFTING_TABLE
+  icon: FLINT_AND_STEEL

@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Two-Person Tent
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: canvas_1_sq_yd
+      amount: 18
+  results:
+    - ==: NuminousItemStack
+      item-type: GREEN_WOOL
+      amount: 1
+  required-profession-level:
+    '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 4
+  experience: 3
+  stamina: 3
+  workstation: CRAFTING_TABLE
+  icon: GREEN_WOOL

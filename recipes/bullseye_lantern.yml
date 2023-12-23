@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Bullseye Lantern
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 20
+    - ==: NuminousItemStack
+      item-type: glass
+      amount: 2
+  results:
+    - ==: NuminousItemStack
+      item-type: LANTERN
+      amount: 1
+  required-profession-level:
+    '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 8
+  experience: 45
+  stamina: 45
+  workstation: CRAFTING_TABLE
+  icon: LANTERN

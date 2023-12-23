@@ -1,0 +1,26 @@
+recipe:
+  ==: NuminousRecipe
+  name: Climber's Kit
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: iron_spike
+      amount: 10
+    - ==: NuminousItemStack
+      item-type: piton
+      amount: 2
+    - ==: NuminousItemStack
+      item-type: hempen_rope_50_feet
+      amount: 10
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 60
+  results:
+    - ==: NuminousItemStack
+      item-type: STRING
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 8
+  experience: 20
+  stamina: 20
+  workstation: CRAFTING_TABLE
+  icon: STRING

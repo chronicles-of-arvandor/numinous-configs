@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Paper (one sheet)
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: flax
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: wood_pulp
+      amount: 2
+  results:
+    - ==: NuminousItemStack
+      item-type: PAPER
+      amount: 2
+  required-profession-level:
+    '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 4
+  experience: 2
+  stamina: 2
+  workstation: CRAFTING_TABLE
+  icon: PAPER

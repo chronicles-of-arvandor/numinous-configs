@@ -1,0 +1,21 @@
+recipe:
+  ==: NuminousRecipe
+  name: Rations (1 day)
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: loaf_of_bread
+      amount: 5
+    - ==: NuminousItemStack
+      item-type: hunk_of_cheese
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: COOKED_BEEF
+      amount: 1
+  required-profession-level:
+    '89c7c54f-58ce-44f4-b397-10abcbbc7f81': 2
+    '60b85d6a-87d7-483f-9db6-2b2b67ce51b1': 2
+  experience: 5
+  stamina: 5
+  workstation: CRAFTING_TABLE
+  icon: COOKED_BEEF

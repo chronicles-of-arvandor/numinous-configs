@@ -1,0 +1,23 @@
+recipe:
+  ==: NuminousRecipe
+  name: Bagpipes
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: leather
+      amount: 9
+    - ==: NuminousItemStack
+      item-type: wood
+      amount: 12
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 2
+  results:
+    - ==: NuminousItemStack
+      item-type: LEATHER
+      amount: 1
+  required-profession-level:
+    '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 10
+  experience: 90
+  stamina: 90
+  workstation: CRAFTING_TABLE
+  icon: LEATHER

@@ -1,0 +1,26 @@
+recipe:
+  ==: NuminousRecipe
+  name: Forgery Kit
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: wood
+      amount: 14
+    - ==: NuminousItemStack
+      item-type: ink_pen
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: ink_1ounce_bottle
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: wax
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: PAPER
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 7
+  experience: 21
+  stamina: 21
+  workstation: CRAFTING_TABLE
+  icon: PAPER

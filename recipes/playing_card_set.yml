@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Playing Card Set
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: paper_one_sheet
+      amount: 2
+  results:
+    - ==: NuminousItemStack
+      item-type: BOOKSHELF
+      amount: 1
+  required-profession-level:
+    '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 2
+  experience: 2
+  stamina: 2
+  workstation: CRAFTING_TABLE
+  icon: BOOKSHELF

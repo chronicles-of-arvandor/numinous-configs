@@ -1,0 +1,26 @@
+recipe:
+  ==: NuminousRecipe
+  name: Jeweler's Tools
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 70
+    - ==: NuminousItemStack
+      item-type: hammer
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: blade
+      amount: 5
+    - ==: NuminousItemStack
+      item-type: handle
+      amount: 5
+  results:
+    - ==: NuminousItemStack
+      item-type: DIAMOND
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 8
+  experience: 25
+  stamina: 25
+  workstation: CRAFTING_TABLE
+  icon: DIAMOND

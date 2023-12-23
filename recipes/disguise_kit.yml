@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Disguise Kit
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: ink_1ounce_bottle
+      amount: 2
+    - ==: NuminousItemStack
+      item-type: wax
+      amount: 2
+  results:
+    - ==: NuminousItemStack
+      item-type: LEATHER_HELMET
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 8
+  experience: 40
+  stamina: 40
+  workstation: CRAFTING_TABLE
+  icon: LEATHER_HELMET

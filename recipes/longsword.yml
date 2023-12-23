@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Longsword
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: handle
+      amount: 5
+    - ==: NuminousItemStack
+      item-type: blade
+      amount: 10
+  results:
+    - ==: NuminousItemStack
+      item-type: IRON_SWORD
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 7
+  experience: 25
+  stamina: 25
+  workstation: CRAFTING_TABLE
+  icon: IRON_SWORD

@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Feed (per day)
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: wheat
+      amount: 4
+  results:
+    - ==: NuminousItemStack
+      item-type: WHEAT
+      amount: 2
+  required-profession-level:
+    '60b85d6a-87d7-483f-9db6-2b2b67ce51b1': 2
+  experience: 1
+  stamina: 1
+  workstation: CRAFTING_TABLE
+  icon: WHEAT

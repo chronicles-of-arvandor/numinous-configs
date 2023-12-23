@@ -1,0 +1,23 @@
+recipe:
+  ==: NuminousRecipe
+  name: Mason's Tools
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: hammer
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: wood
+      amount: 23
+    - ==: NuminousItemStack
+      item-type: stone
+      amount: 75
+  results:
+    - ==: NuminousItemStack
+      item-type: IRON_INGOT
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 5
+  experience: 8
+  stamina: 8
+  workstation: CRAFTING_TABLE
+  icon: IRON_INGOT

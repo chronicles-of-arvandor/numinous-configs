@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Abacus
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: wood
+      amount: 6
+  results:
+    - ==: NuminousItemStack
+      item-type: OAK_FENCE
+      amount: 1
+  required-profession-level:
+    '1278817a-a1f3-4c0a-951a-e148f70f3302': 4
+  experience: 11
+  stamina: 11
+  workstation: CRAFTING_TABLE
+  icon: OAK_FENCE

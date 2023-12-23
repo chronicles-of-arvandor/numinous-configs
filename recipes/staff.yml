@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Staff
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: wooden_shaft
+      amount: 210
+    - ==: NuminousItemStack
+      item-type: stick
+      amount: 5
+  results:
+    - ==: NuminousItemStack
+      item-type: STICK
+      amount: 1
+  required-profession-level:
+    '1278817a-a1f3-4c0a-951a-e148f70f3302': 5
+  experience: 10
+  stamina: 10
+  workstation: CRAFTING_TABLE
+  icon: STICK

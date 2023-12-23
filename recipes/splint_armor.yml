@@ -1,0 +1,23 @@
+recipe:
+  ==: NuminousRecipe
+  name: Splint Armor
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: leather
+      amount: 14
+    - ==: NuminousItemStack
+      item-type: iron_plate
+      amount: 6
+    - ==: NuminousItemStack
+      item-type: chain_shirt
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: IRON_CHESTPLATE
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 10
+  experience: 30
+  stamina: 30
+  workstation: CRAFTING_TABLE
+  icon: IRON_CHESTPLATE

@@ -1,0 +1,26 @@
+recipe:
+  ==: NuminousRecipe
+  name: Healer's Kit
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: leather
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: paper_one_sheet
+      amount: 2
+    - ==: NuminousItemStack
+      item-type: cotton_cloth_1_sq_yd
+      amount: 3
+    - ==: NuminousItemStack
+      item-type: wooden_shaft
+      amount: 5
+  results:
+    - ==: NuminousItemStack
+      item-type: LIME_DYE
+      amount: 1
+  required-profession-level:
+    '8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d':6
+  experience: 12
+  stamina: 12
+  workstation: CRAFTING_TABLE
+  icon: LIME_DYE

@@ -1,0 +1,26 @@
+recipe:
+  ==: NuminousRecipe
+  name: Poisoner's Kit
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: vial
+      amount: 15
+    - ==: NuminousItemStack
+      item-type: stone
+      amount: 2
+    - ==: NuminousItemStack
+      item-type: glass
+      amount: 10
+    - ==: NuminousItemStack
+      item-type: glass_bottle
+      amount: 10
+  results:
+    - ==: NuminousItemStack
+      item-type: WRITABLE_BOOK
+      amount: 1
+  required-profession-level:
+    '8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d':9
+  experience: 50
+  stamina: 50
+  workstation: CRAFTING_TABLE
+  icon: WRITABLE_BOOK

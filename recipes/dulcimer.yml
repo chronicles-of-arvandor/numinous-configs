@@ -1,0 +1,26 @@
+recipe:
+  ==: NuminousRecipe
+  name: Dulcimer
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: wooden_instrument_body
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: hempen_rope_50_feet
+      amount: 9
+    - ==: NuminousItemStack
+      item-type: wood
+      amount: 20
+    - ==: NuminousItemStack
+      item-type: wooden_shaft
+      amount: 20
+  results:
+    - ==: NuminousItemStack
+      item-type: NOTE_BLOCK
+      amount: 1
+  required-profession-level:
+    '1278817a-a1f3-4c0a-951a-e148f70f3302': 9
+  experience: 17
+  stamina: 17
+  workstation: CRAFTING_TABLE
+  icon: NOTE_BLOCK

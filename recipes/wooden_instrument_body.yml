@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Wooden Instrument Body
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: wooden_instrument_segment
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: wood
+      amount: 3
+  results:
+    - ==: NuminousItemStack
+      item-type: WOODEN_HOE
+      amount: 1
+  required-profession-level:
+    '1278817a-a1f3-4c0a-951a-e148f70f3302': 7
+  experience: 51
+  stamina: 51
+  workstation: CRAFTING_TABLE
+  icon: WOODEN_HOE

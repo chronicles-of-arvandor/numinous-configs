@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Javelin
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: wooden_shaft
+      amount: 17
+    - ==: NuminousItemStack
+      item-type: iron_spike
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: TRIDENT
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 1
+  experience: 1
+  stamina: 1
+  workstation: CRAFTING_TABLE
+  icon: TRIDENT

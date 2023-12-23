@@ -1,0 +1,26 @@
+recipe:
+  ==: NuminousRecipe
+  name: Alchemist's Fire (flask)
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: flask
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: wine_spirit
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: mimic_adhesive
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: flax
+      amount: 20
+  results:
+    - ==: NuminousItemStack
+      item-type: FIRE_CHARGE
+      amount: 1
+  required-profession-level:
+    '8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d':10
+  experience: 60
+  stamina: 60
+  workstation: CRAFTING_TABLE
+  icon: FIRE_CHARGE

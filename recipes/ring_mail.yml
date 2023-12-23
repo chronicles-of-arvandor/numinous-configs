@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Ring Mail
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 123
+  results:
+    - ==: NuminousItemStack
+      item-type: IRON_CHESTPLATE
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 8
+  experience: 60
+  stamina: 60
+  workstation: CRAFTING_TABLE
+  icon: IRON_CHESTPLATE

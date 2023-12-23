@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Iron Pot
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 7
+  results:
+    - ==: NuminousItemStack
+      item-type: CAULDRON
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 3
+  experience: 9
+  stamina: 9
+  workstation: CRAFTING_TABLE
+  icon: CAULDRON

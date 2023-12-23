@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Fishing Tackle
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: wooden_shaft
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: iron_spike
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: FISHING_ROD
+      amount: 1
+  required-profession-level:
+    '89c7c54f-58ce-44f4-b397-10abcbbc7f81': 4
+  experience: 12
+  stamina: 12
+  workstation: CRAFTING_TABLE
+  icon: FISHING_ROD

@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Traveler's Clothes
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: cotton_cloth_1_sq_yd
+      amount: 3
+  results:
+    - ==: NuminousItemStack
+      item-type: LEATHER_LEGGINGS
+      amount: 1
+  required-profession-level:
+    '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 4
+  experience: 7
+  stamina: 7
+  workstation: CRAFTING_TABLE
+  icon: LEATHER_LEGGINGS

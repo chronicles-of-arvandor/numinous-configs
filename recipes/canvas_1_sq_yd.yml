@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Canvas (1 sq. yd.)
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: cotton_cloth_1_sq_yd
+      amount: 2
+  results:
+    - ==: NuminousItemStack
+      item-type: WHITE_CARPET
+      amount: 10
+  required-profession-level:
+    '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 1
+  experience: 1
+  stamina: 1
+  workstation: CRAFTING_TABLE
+  icon: WHITE_CARPET

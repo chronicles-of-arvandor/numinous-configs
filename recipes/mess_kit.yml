@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Mess Kit
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 2
+  results:
+    - ==: NuminousItemStack
+      item-type: IRON_INGOT
+      amount: 4
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 1
+  experience: 7
+  stamina: 7
+  workstation: CRAFTING_TABLE
+  icon: IRON_INGOT

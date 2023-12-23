@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Wagon
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: wooden_wheel
+      amount: 4
+    - ==: NuminousItemStack
+      item-type: wood
+      amount: 110
+  results:
+    - ==: NuminousItemStack
+      item-type: STRIPPED_DARK_OAK_LOG
+      amount: 1
+  required-profession-level:
+    '1278817a-a1f3-4c0a-951a-e148f70f3302': 10
+  experience: 10
+  stamina: 10
+  workstation: CRAFTING_TABLE
+  icon: STRIPPED_DARK_OAK_LOG

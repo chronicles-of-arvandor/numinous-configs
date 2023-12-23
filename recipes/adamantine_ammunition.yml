@@ -1,0 +1,23 @@
+recipe:
+  ==: NuminousRecipe
+  name: Adamantine Ammunition
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: wood
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: adamantine_coated_projectile
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: adamantine
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: NETHERITE_INGOT
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 10
+  experience: .nan
+  stamina: .nan
+  workstation: CRAFTING_TABLE
+  icon: NETHERITE_INGOT

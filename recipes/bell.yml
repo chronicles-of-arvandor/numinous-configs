@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Bell
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: copper
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: BELL
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 2
+  experience: 8
+  stamina: 8
+  workstation: CRAFTING_TABLE
+  icon: BELL

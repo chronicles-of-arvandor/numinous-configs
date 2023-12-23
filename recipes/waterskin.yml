@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Waterskin
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: leather
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: INK_SAC
+      amount: 20
+  required-profession-level:
+    '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 1
+  experience: 40
+  stamina: 40
+  workstation: CRAFTING_TABLE
+  icon: INK_SAC

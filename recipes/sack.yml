@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Sack
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: hemp
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: RABBIT_HIDE
+      amount: 20
+  required-profession-level:
+    '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 1
+  experience: 2
+  stamina: 2
+  workstation: CRAFTING_TABLE
+  icon: RABBIT_HIDE

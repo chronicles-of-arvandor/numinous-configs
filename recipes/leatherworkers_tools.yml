@@ -1,0 +1,23 @@
+recipe:
+  ==: NuminousRecipe
+  name: Leatherworker's Tools
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: iron_spike
+      amount: 6
+    - ==: NuminousItemStack
+      item-type: blade
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: hempen_rope_50_feet
+      amount: 2
+  results:
+    - ==: NuminousItemStack
+      item-type: FLINT_AND_STEEL
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 4
+  experience: 20
+  stamina: 20
+  workstation: CRAFTING_TABLE
+  icon: FLINT_AND_STEEL

@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Robes
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: cotton_cloth_1_sq_yd
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: GOLDEN_CHESTPLATE
+      amount: 1
+  required-profession-level:
+    '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 2
+  experience: 8
+  stamina: 8
+  workstation: CRAFTING_TABLE
+  icon: GOLDEN_CHESTPLATE

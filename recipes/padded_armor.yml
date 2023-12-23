@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Padded Armor
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: leather
+      amount: 2
+  results:
+    - ==: NuminousItemStack
+      item-type: LEATHER_CHESTPLATE
+      amount: 1
+  required-profession-level:
+    '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 5
+  experience: 15
+  stamina: 15
+  workstation: CRAFTING_TABLE
+  icon: LEATHER_CHESTPLATE

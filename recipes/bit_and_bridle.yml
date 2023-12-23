@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Bit and bridle
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 10
+    - ==: NuminousItemStack
+      item-type: wooden_shaft
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: SADDLE
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 3
+  experience: 1
+  stamina: 1
+  workstation: CRAFTING_TABLE
+  icon: SADDLE

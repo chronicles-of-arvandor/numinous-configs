@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Portable Ram
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: wood
+      amount: 10
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 7
+  results:
+    - ==: NuminousItemStack
+      item-type: NETHERITE_SHOVEL
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 3
+  experience: 10
+  stamina: 10
+  workstation: CRAFTING_TABLE
+  icon: NETHERITE_SHOVEL

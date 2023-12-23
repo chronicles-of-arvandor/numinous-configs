@@ -1,0 +1,29 @@
+recipe:
+  ==: NuminousRecipe
+  name: Priest's Pack
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: backpack
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: blanket
+      amount: 5
+    - ==: NuminousItemStack
+      item-type: candle
+      amount: 150
+    - ==: NuminousItemStack
+      item-type: tinderbox
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: rations_1_day
+      amount: 10
+  results:
+    - ==: NuminousItemStack
+      item-type: LEATHER
+      amount: 1
+  required-profession-level:
+    '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 8
+  experience: 50
+  stamina: 50
+  workstation: CRAFTING_TABLE
+  icon: LEATHER

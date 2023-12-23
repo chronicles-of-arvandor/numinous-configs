@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Component Pouch
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: hempen_rope_50_feet
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: cotton_cloth_1_sq_yd
+      amount: 45
+  results:
+    - ==: NuminousItemStack
+      item-type: PLAYER_HEAD
+      amount: 1
+  required-profession-level:
+    '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 9
+  experience: 20
+  stamina: 20
+  workstation: CRAFTING_TABLE
+  icon: PLAYER_HEAD

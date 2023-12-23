@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Magnifying Glass
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 350
+    - ==: NuminousItemStack
+      item-type: glass
+      amount: 20
+  results:
+    - ==: NuminousItemStack
+      item-type: SPYGLASS
+      amount: 1
+  required-profession-level:
+    '8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d':10
+  experience: 100
+  stamina: 100
+  workstation: CRAFTING_TABLE
+  icon: SPYGLASS

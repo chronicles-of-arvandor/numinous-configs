@@ -1,0 +1,23 @@
+recipe:
+  ==: NuminousRecipe
+  name: Smith's Tools
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: handle
+      amount: 5
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 50
+    - ==: NuminousItemStack
+      item-type: blade
+      amount: 5
+  results:
+    - ==: NuminousItemStack
+      item-type: SMITHING_TABLE
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 7
+  experience: 29
+  stamina: 29
+  workstation: CRAFTING_TABLE
+  icon: SMITHING_TABLE

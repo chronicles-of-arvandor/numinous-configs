@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Manacles
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 10
+    - ==: NuminousItemStack
+      item-type: chain_10_feet
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: IRON_BOOTS
+      amount: 5
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 3
+  experience: 45
+  stamina: 45
+  workstation: CRAFTING_TABLE
+  icon: IRON_BOOTS

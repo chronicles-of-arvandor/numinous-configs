@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Pouch
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: leather
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: RABBIT_HIDE
+      amount: 5
+  required-profession-level:
+    '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 1
+  experience: 10
+  stamina: 10
+  workstation: CRAFTING_TABLE
+  icon: RABBIT_HIDE

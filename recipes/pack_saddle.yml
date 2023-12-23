@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Pack Saddle
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: leather
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: hempen_rope_50_feet
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: SADDLE
+      amount: 1
+  required-profession-level:
+    '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 5
+  experience: 27
+  stamina: 27
+  workstation: CRAFTING_TABLE
+  icon: SADDLE

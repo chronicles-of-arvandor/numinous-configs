@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Orb
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: glass
+      amount: 19
+  results:
+    - ==: NuminousItemStack
+      item-type: ENDER_PEARL
+      amount: 1
+  required-profession-level:
+    '8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d':7
+  experience: 15
+  stamina: 15
+  workstation: CRAFTING_TABLE
+  icon: ENDER_PEARL

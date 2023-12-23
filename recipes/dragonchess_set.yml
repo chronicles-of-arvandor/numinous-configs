@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Dragonchess Set
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: wood
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: bone
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: ITEM_FRAME
+      amount: 1
+  required-profession-level:
+    '1278817a-a1f3-4c0a-951a-e148f70f3302': 3
+  experience: 11
+  stamina: 11
+  workstation: CRAFTING_TABLE
+  icon: ITEM_FRAME

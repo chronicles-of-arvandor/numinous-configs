@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Fine Wine (Bottle)
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: glass_bottle
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: grapes
+      amount: 35
+  results:
+    - ==: NuminousItemStack
+      item-type: POTION
+      amount: 1
+  required-profession-level:
+    '8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d':7
+  experience: 90
+  stamina: 90
+  workstation: CRAFTING_TABLE
+  icon: POTION

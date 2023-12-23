@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Ale (barrel)
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: barrel
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: wheat
+      amount: 5
+  results:
+    - ==: NuminousItemStack
+      item-type: BARREL
+      amount: 1
+  required-profession-level:
+    '1278817a-a1f3-4c0a-951a-e148f70f3302': 1
+  experience: 35
+  stamina: 35
+  workstation: CRAFTING_TABLE
+  icon: BARREL

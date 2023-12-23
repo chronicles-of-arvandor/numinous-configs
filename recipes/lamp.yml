@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Lamp
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: oil_flask
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: LANTERN
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 1
+  experience: 4
+  stamina: 4
+  workstation: CRAFTING_TABLE
+  icon: LANTERN

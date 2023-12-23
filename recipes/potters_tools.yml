@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Potter's Tools
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: blade
+      amount: 5
+    - ==: NuminousItemStack
+      item-type: iron_ingot
+      amount: 20
+  results:
+    - ==: NuminousItemStack
+      item-type: SMITHING_TABLE
+      amount: 1
+  required-profession-level:
+    '96069643-8977-49ad-a793-b4440d0b3f2e': 5
+  experience: 10
+  stamina: 10
+  workstation: CRAFTING_TABLE
+  icon: SMITHING_TABLE
