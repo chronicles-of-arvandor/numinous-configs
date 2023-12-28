@@ -7,7 +7,7 @@ recipe:
       amount: 5
   results:
     - ==: NuminousItemStack
-      item-type: WOODEN_HOE
+      item-type: wooden_staff
       amount: 1
   required-profession-level:
     '1278817a-a1f3-4c0a-951a-e148f70f3302': 5

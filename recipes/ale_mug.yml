@@ -7,7 +7,7 @@ recipe:
       amount: 1
   results:
     - ==: NuminousItemStack
-      item-type: POTION
+      item-type: ale_mug
       amount: 5
   required-profession-level:
     '8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d': 3

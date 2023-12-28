@@ -10,7 +10,7 @@ recipe:
       amount: 1
   results:
     - ==: NuminousItemStack
-      item-type: SADDLE
+      item-type: military_saddle
       amount: 1
   required-profession-level:
     '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 9

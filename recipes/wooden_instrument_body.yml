@@ -10,7 +10,7 @@ recipe:
       amount: 3
   results:
     - ==: NuminousItemStack
-      item-type: WOODEN_HOE
+      item-type: wooden_instrument_body
       amount: 1
   required-profession-level:
     '1278817a-a1f3-4c0a-951a-e148f70f3302': 7

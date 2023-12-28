@@ -7,7 +7,7 @@ recipe:
       amount: 4
   results:
     - ==: NuminousItemStack
-      item-type: WHEAT
+      item-type: feed_per_day
       amount: 2
   required-profession-level:
     '60b85d6a-87d7-483f-9db6-2b2b67ce51b1': 2

@@ -13,7 +13,7 @@ recipe:
       amount: 75
   results:
     - ==: NuminousItemStack
-      item-type: IRON_INGOT
+      item-type: masons_tools
       amount: 1
   required-profession-level:
     '96069643-8977-49ad-a793-b4440d0b3f2e': 5

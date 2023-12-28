@@ -7,7 +7,7 @@ recipe:
       amount: 1
   results:
     - ==: NuminousItemStack
-      item-type: FLINT_AND_STEEL
+      item-type: whetstone
       amount: 10
   required-profession-level:
     '8d0132cb-825f-404a-a6b5-2d29f380e1fb': 1

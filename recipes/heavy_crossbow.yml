@@ -13,7 +13,7 @@ recipe:
       amount: 1
   results:
     - ==: NuminousItemStack
-      item-type: CROSSBOW
+      item-type: heavy_crossbow
       amount: 1
   required-profession-level:
     '1278817a-a1f3-4c0a-951a-e148f70f3302': 10

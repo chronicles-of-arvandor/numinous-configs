@@ -10,7 +10,7 @@ recipe:
       amount: 5
   results:
     - ==: NuminousItemStack
-      item-type: GOLDEN_BOOTS
+      item-type: signet_ring
       amount: 10
   required-profession-level:
     '96069643-8977-49ad-a793-b4440d0b3f2e': 4

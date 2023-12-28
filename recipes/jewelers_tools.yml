@@ -16,7 +16,7 @@ recipe:
       amount: 5
   results:
     - ==: NuminousItemStack
-      item-type: DIAMOND
+      item-type: jewelers_tools
       amount: 1
   required-profession-level:
     '96069643-8977-49ad-a793-b4440d0b3f2e': 8

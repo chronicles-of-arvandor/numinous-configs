@@ -7,7 +7,7 @@ recipe:
       amount: 17
   results:
     - ==: NuminousItemStack
-      item-type: GOAT_HORN
+      item-type: horn
       amount: 1
   required-profession-level:
     '89c7c54f-58ce-44f4-b397-10abcbbc7f81': 6

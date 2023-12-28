@@ -7,7 +7,7 @@ recipe:
       amount: 2
   results:
     - ==: NuminousItemStack
-      item-type: NETHERITE_SWORD
+      item-type: adamantine_blade
       amount: 1
   required-profession-level:
     '96069643-8977-49ad-a793-b4440d0b3f2e': 9

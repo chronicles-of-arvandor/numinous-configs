@@ -16,7 +16,7 @@ recipe:
       amount: 20
   results:
     - ==: NuminousItemStack
-      item-type: FIRE_CHARGE
+      item-type: alchemists_fire_flask
       amount: 1
   required-profession-level:
     '8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d': 10

@@ -7,7 +7,7 @@ recipe:
       amount: 21
   results:
     - ==: NuminousItemStack
-      item-type: STRING
+      item-type: linen_1_sq_yd
       amount: 1
   required-profession-level:
     '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 6

@@ -7,7 +7,7 @@ recipe:
       amount: 8
   results:
     - ==: NuminousItemStack
-      item-type: SLIME_BALL
+      item-type: wax
       amount: 2
   required-profession-level:
     '8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d': 1

@@ -7,7 +7,7 @@ recipe:
       amount: 4
   results:
     - ==: NuminousItemStack
-      item-type: SHULKER_BOX
+      item-type: map_or_scroll_case
       amount: 1
   required-profession-level:
     '1278817a-a1f3-4c0a-951a-e148f70f3302': 3
