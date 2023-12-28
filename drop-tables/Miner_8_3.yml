@@ -1,0 +1,16 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Miner_8_3
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: chalk_1_piece
+          amount: 10
+      chance: 55
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 45

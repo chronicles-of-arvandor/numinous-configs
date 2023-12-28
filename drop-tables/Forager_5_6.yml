@@ -1,0 +1,28 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Forager_5_6
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: cotton
+          amount: 2
+      chance: 50
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: feather
+          amount: 400
+      chance: 28
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: sprig_of_mistletoe
+          amount: 1
+      chance: 14
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 8

@@ -1,0 +1,28 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Hunter_5_1
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: milk
+          amount: 25
+      chance: 60
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: feather
+          amount: 1000
+      chance: 28
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: mimic_acid
+          amount: 1
+      chance: 7.5
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 4.5

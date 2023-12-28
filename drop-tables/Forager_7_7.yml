@@ -1,0 +1,34 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Forager_7_7
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: lavender
+          amount: 2
+      chance: 27
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: mint
+          amount: 2
+      chance: 27
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: rose_petal
+          amount: 2
+      chance: 27
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: ginger
+          amount: 1
+      chance: 15
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 4

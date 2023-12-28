@@ -1,0 +1,28 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Hunter_1_0
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: animal_hide
+          amount: 20
+      chance: 55
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: chunk_of_meat
+          amount: 5
+      chance: 37
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: scale
+          amount: 2
+      chance: 6.1
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 1.9000000000000057

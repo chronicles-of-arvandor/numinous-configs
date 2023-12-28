@@ -1,0 +1,22 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Forager_5_1
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: wood
+          amount: 1
+      chance: 78
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: dried_kelp
+          amount: 3
+      chance: 20
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 2

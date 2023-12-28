@@ -1,0 +1,16 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Forager_4_8
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: sap
+          amount: 1
+      chance: 25
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 75

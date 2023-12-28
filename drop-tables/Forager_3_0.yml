@@ -1,0 +1,22 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Forager_3_0
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: flax
+          amount: 2
+      chance: 81.5
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: essence_of_dittany
+          amount: 1
+      chance: 13
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 5.5

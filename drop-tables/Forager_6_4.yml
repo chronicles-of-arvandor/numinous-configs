@@ -1,0 +1,22 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Forager_6_4
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: stick
+          amount: 50
+      chance: 55
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nightshade_berries
+          amount: 1
+      chance: 37
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 8

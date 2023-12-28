@@ -1,0 +1,22 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Hunter_2_3
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: horsehair
+          amount: 1
+      chance: 55
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: lard
+          amount: 25
+      chance: 22
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 23

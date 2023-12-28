@@ -1,0 +1,52 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Miner_9_1
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: sand
+          amount: 6
+      chance: 65
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: copper
+          amount: 30
+      chance: 14
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: coperose
+          amount: 6
+      chance: 12.5
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: crystal
+          amount: 5
+      chance: 5.4
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: gold
+          amount: 6
+      chance: 0.95
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: mithral_ore
+          amount: 6
+      chance: 0.9
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: adamant_ore
+          amount: 6
+      chance: 0.82
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 0.4299999999999926

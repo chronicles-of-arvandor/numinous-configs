@@ -1,0 +1,22 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Forager_9_2
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: hemp
+          amount: 5
+      chance: 65
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: moonwater
+          amount: 1
+      chance: 33.33
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 1.6700000000000017

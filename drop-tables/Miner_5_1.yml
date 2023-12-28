@@ -1,0 +1,28 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Miner_5_1
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: sand
+          amount: 1
+      chance: 65
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: copper
+          amount: 5
+      chance: 14
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: coperose
+          amount: 1
+      chance: 12.5
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 8.5

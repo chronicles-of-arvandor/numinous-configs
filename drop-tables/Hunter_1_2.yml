@@ -1,0 +1,16 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Hunter_1_2
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: lard
+          amount: 5
+      chance: 22
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 78

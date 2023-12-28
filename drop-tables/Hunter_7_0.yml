@@ -1,0 +1,22 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Hunter_7_0
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: bone
+          amount: 2
+      chance: 60
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: chunk_of_meat
+          amount: 1
+      chance: 37
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 3

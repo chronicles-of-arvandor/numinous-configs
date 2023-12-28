@@ -1,0 +1,22 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Miner_2_0
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: iron_ore
+          amount: 5
+      chance: 61.1
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: quartz_crystal
+          amount: 1
+      chance: 27
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 11.900000000000006

@@ -1,0 +1,28 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Forager_9_0
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: flax
+          amount: 4
+      chance: 81.5
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: cloves
+          amount: 2
+      chance: 15
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: silk_1_sq_yd
+          amount: 5
+      chance: 1.9
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 1.5999999999999943

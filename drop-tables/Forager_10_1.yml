@@ -1,0 +1,22 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Forager_10_1
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: wood
+          amount: 5
+      chance: 78
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: cinnamon
+          amount: 3
+      chance: 21
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: nothing
+          amount: 1
+      chance: 1
