@@ -15,8 +15,5 @@ drop-table:
           amount: 3
       chance: 21
     - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: nothing
-          amount: 1
+      items: []
       chance: 1
