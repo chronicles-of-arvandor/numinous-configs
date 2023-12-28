@@ -10,7 +10,7 @@ recipe:
       item-type: POTION
       amount: 32
   required-profession-level:
-    '8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d':5
+    '8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d': 5
   experience: 32
   stamina: 32
   workstation: CRAFTING_TABLE
