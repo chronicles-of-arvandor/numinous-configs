@@ -5,27 +5,27 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: quartz_crystal
-          amount: 2
-      chance: 13.5
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: iron_ore
-          amount: 25
-      chance: 12.22
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
           item-type: chalk_1_piece
-          amount: 505
-      chance: 5.445544554455446
+          amount: 80
+      chance: 34.375
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: stone
-          amount: 130
-      chance: 4.230769230769231
+          amount: 30
+      chance: 18.333333333333336
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: iron_ore
+          amount: 20
+      chance: 15.275
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: quartz_crystal
+          amount: 2
+      chance: 13.5
     - ==: NuminousDropTableItem
       items: []
-      chance: 64.60368621477532
+      chance: 18.516666666666666

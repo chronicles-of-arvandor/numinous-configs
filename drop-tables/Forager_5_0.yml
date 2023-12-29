@@ -5,27 +5,9 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: grapes
-          amount: 100
-      chance: 32.5
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
           item-type: feather
-          amount: 1000
-      chance: 28
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: dried_kelp
-          amount: 5
-      chance: 20
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: nightshade_berries
-          amount: 2
-      chance: 18.5
+          amount: 56
+      chance: 99.99999999999996
     - ==: NuminousDropTableItem
       items: []
-      chance: 1
+      chance: 4.263256414560601e-14

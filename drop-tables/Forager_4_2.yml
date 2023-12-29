@@ -5,57 +5,27 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: rose_petal
-          amount: 10
-      chance: 13.5
+          item-type: grapes
+          amount: 120
+      chance: 32.5
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: essence_of_dittany
-          amount: 1
-      chance: 13
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: hemp
-          amount: 25
-      chance: 13
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: sap
-          amount: 2
-      chance: 12.5
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: heartroot_herb
-          amount: 1
-      chance: 12
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: cotton
-          amount: 25
-      chance: 10
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: stick
-          amount: 505
-      chance: 5.445544554455446
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: wheat
-          amount: 505
-      chance: 5.445544554455446
+          item-type: reed
+          amount: 6
+      chance: 20
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: salt
-          amount: 130
-      chance: 4.615384615384615
+          amount: 36
+      chance: 20
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: wood
+          amount: 8
+      chance: 19.5
     - ==: NuminousDropTableItem
       items: []
-      chance: 10.493526275704482
+      chance: 8

@@ -6,38 +6,8 @@ drop-table:
       items:
         - ==: NuminousItemStack
           item-type: feather
-          amount: 2000
-      chance: 28
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: chunk_of_meat
-          amount: 10
-      chance: 18.5
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: horsehair
-          amount: 10
-      chance: 11
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: scale
-          amount: 2
-      chance: 6.1
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: animal_hide
-          amount: 260
-      chance: 4.230769230769231
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: lard
-          amount: 260
-      chance: 4.230769230769231
+          amount: 56
+      chance: 99.99999999999996
     - ==: NuminousDropTableItem
       items: []
-      chance: 27.93846153846154
+      chance: 4.263256414560601e-14

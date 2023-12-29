@@ -5,45 +5,33 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: fish
+          item-type: grapes
+          amount: 200
+      chance: 32.5
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: pepper
           amount: 2
-      chance: 15
+      chance: 20
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: ginger
-          amount: 5
-      chance: 15
+          item-type: reed
+          amount: 10
+      chance: 20
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: sprig_of_mistletoe
-          amount: 5
-      chance: 14
+          item-type: salt
+          amount: 60
+      chance: 20
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: lavender
-          amount: 20
-      chance: 13.5
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: mint
-          amount: 20
-      chance: 13.5
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: rose_petal
-          amount: 20
-      chance: 13.5
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: essence_of_dittany
+          item-type: tea_leaf
           amount: 2
-      chance: 13
+      chance: 5.6
     - ==: NuminousDropTableItem
       items: []
-      chance: 2.5
+      chance: 1.9000000000000057

@@ -5,75 +5,33 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: copper
-          amount: 30
-      chance: 14
+          item-type: chalk_1_piece
+          amount: 80
+      chance: 34.375
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: quartz_crystal
-          amount: 12
-      chance: 13.5
+          item-type: stone
+          amount: 30
+      chance: 18.333333333333336
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: oil_flask
-          amount: 150
-      chance: 13
+          amount: 20
+      chance: 16.250000000000004
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: sand
-          amount: 30
-      chance: 13
+          amount: 4
+      chance: 16.250000000000004
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: coperose
-          amount: 6
-      chance: 12.5
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: iron_ore
-          amount: 150
-      chance: 12.22
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: silver
-          amount: 6
-      chance: 8
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: chalk_1_piece
-          amount: 3030
-      chance: 5.445544554455446
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: crystal
+          item-type: copper
           amount: 5
-      chance: 5.4
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: gold
-          amount: 6
-      chance: 0.95
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: mithral_ore
-          amount: 6
-      chance: 0.9
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: adamant_ore
-          amount: 6
-      chance: 0.82
+      chance: 14
     - ==: NuminousDropTableItem
       items: []
-      chance: 0.2644554455445416
+      chance: 0.7916666666666572

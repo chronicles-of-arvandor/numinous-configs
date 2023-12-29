@@ -5,45 +5,21 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: moonwater
-          amount: 6
-      chance: 16.665
+          item-type: stick
+          amount: 16
+      chance: 34.375
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: wood
-          amount: 25
-      chance: 15.6
+          item-type: wheat
+          amount: 16
+      chance: 34.375
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: lavender
-          amount: 30
-      chance: 13.5
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: mint
-          amount: 30
-      chance: 13.5
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: rose_petal
-          amount: 30
-      chance: 13.5
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: essence_of_dittany
-          amount: 3
-      chance: 13
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: hemp
-          amount: 75
-      chance: 13
+          item-type: dried_kelp
+          amount: 1
+      chance: 20
     - ==: NuminousDropTableItem
       items: []
-      chance: 1.2349999999999994
+      chance: 11.25

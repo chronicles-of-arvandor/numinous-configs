@@ -1,0 +1,13 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Forager_5_5
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: heartroot_herb
+          amount: 1
+      chance: 12
+    - ==: NuminousDropTableItem
+      items: []
+      chance: 88

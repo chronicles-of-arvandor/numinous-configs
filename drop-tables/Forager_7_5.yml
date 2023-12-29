@@ -1,0 +1,31 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Forager_7_5
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: rose_petal
+          amount: 10
+      chance: 13.5
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: essence_of_dittany
+          amount: 1
+      chance: 13
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: sap
+          amount: 2
+      chance: 12.5
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: heartroot_herb
+          amount: 1
+      chance: 12
+    - ==: NuminousDropTableItem
+      items: []
+      chance: 49
