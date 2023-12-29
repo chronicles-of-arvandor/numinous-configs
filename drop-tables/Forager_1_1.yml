@@ -5,15 +5,21 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: stick
-          amount: 50
-      chance: 55
+          item-type: rose_petal
+          amount: 2
+      chance: 13.5
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: nightshade_berries
-          amount: 1
-      chance: 37
+          item-type: stick
+          amount: 101
+      chance: 5.445544554455446
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: wheat
+          amount: 101
+      chance: 5.445544554455446
     - ==: NuminousDropTableItem
       items: []
-      chance: 8
+      chance: 75.60891089108911

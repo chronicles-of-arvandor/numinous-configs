@@ -5,18 +5,69 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: oil_flask
-          amount: 5
-      chance: 65
+          item-type: copper
+          amount: 30
+      chance: 14
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: quartz_crystal
-          amount: 1
-      chance: 27
+          amount: 12
+      chance: 13.5
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: oil_flask
+          amount: 150
+      chance: 13
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: sand
+          amount: 30
+      chance: 13
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: coperose
+          amount: 6
+      chance: 12.5
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: iron_ore
+          amount: 150
+      chance: 12.22
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: silver
-          amount: 1
+          amount: 6
       chance: 8
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: chalk_1_piece
+          amount: 3030
+      chance: 5.445544554455446
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: crystal
+          amount: 5
+      chance: 5.4
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: mithral_ore
+          amount: 6
+      chance: 0.9
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: adamant_ore
+          amount: 6
+      chance: 0.82
+    - ==: NuminousDropTableItem
+      items: []
+      chance: 1.2144554455445444

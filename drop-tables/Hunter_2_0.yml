@@ -5,15 +5,39 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: bone
-          amount: 2
-      chance: 60
+          item-type: feather
+          amount: 2000
+      chance: 28
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: chunk_of_meat
-          amount: 1
-      chance: 37
+          amount: 10
+      chance: 18.5
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: fish
+          amount: 2
+      chance: 15
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: bone
+          amount: 50
+      chance: 12
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: wool
+          amount: 10
+      chance: 12
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: milk
+          amount: 260
+      chance: 11.538461538461538
     - ==: NuminousDropTableItem
       items: []
-      chance: 3
+      chance: 2.961538461538467

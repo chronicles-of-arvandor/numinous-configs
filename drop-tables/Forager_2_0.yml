@@ -5,15 +5,39 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: wood
-          amount: 1
-      chance: 78
+          item-type: dried_kelp
+          amount: 15
+      chance: 20
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: dried_kelp
-          amount: 3
-      chance: 20
+          item-type: nightshade_berries
+          amount: 6
+      chance: 18.5
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: moonwater
+          amount: 6
+      chance: 16.665
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: wood
+          amount: 25
+      chance: 15.6
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: lavender
+          amount: 30
+      chance: 13.5
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: mint
+          amount: 30
+      chance: 13.5
     - ==: NuminousDropTableItem
       items: []
-      chance: 2
+      chance: 2.2349999999999994

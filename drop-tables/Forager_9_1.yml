@@ -5,15 +5,39 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: wood
-          amount: 5
-      chance: 78
+          item-type: pepper
+          amount: 6
+      chance: 20
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: cinnamon
-          amount: 3
-      chance: 21
+          item-type: reed
+          amount: 30
+      chance: 20
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: moonwater
+          amount: 12
+      chance: 16.665
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: wood
+          amount: 50
+      chance: 15.6
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: cloves
+          amount: 6
+      chance: 15
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: rice
+          amount: 6
+      chance: 12.5
     - ==: NuminousDropTableItem
       items: []
-      chance: 1
+      chance: 0.23499999999999943

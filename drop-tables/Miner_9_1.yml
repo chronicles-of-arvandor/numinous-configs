@@ -5,45 +5,15 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: sand
-          amount: 6
-      chance: 65
+          item-type: stone
+          amount: 130
+      chance: 4.230769230769231
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: copper
-          amount: 30
-      chance: 14
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: coperose
-          amount: 6
-      chance: 12.5
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: crystal
-          amount: 5
-      chance: 5.4
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: gold
-          amount: 6
-      chance: 0.95
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: mithral_ore
-          amount: 6
-      chance: 0.9
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: adamant_ore
-          amount: 6
-      chance: 0.82
+          item-type: agate
+          amount: 1
+      chance: 3.5
     - ==: NuminousDropTableItem
       items: []
-      chance: 0.4299999999999926
+      chance: 92.26923076923077

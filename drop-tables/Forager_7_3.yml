@@ -5,12 +5,51 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: salt
-          amount: 4
-      chance: 60
+          item-type: sap
+          amount: 2
+      chance: 12.5
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: reed
+          item-type: heartroot_herb
           amount: 1
-      chance: 40
+      chance: 12
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: cinnamon
+          amount: 2
+      chance: 10.5
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: cotton
+          amount: 25
+      chance: 10
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: flax
+          amount: 26
+      chance: 6.269230769230769
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: stick
+          amount: 505
+      chance: 5.445544554455446
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: wheat
+          amount: 505
+      chance: 5.445544554455446
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: salt
+          amount: 130
+      chance: 4.615384615384615
+    - ==: NuminousDropTableItem
+      items: []
+      chance: 33.22429550647372
