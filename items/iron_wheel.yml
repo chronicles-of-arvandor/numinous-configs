@@ -27,3 +27,4 @@ item-type:
     ==: Weight
     value: 50
     unit: lb
+  allow-log-entries: false

@@ -28,3 +28,4 @@ item-type:
     ==: Weight
     value: 0.5
     unit: oz
+  allow-log-entries: false

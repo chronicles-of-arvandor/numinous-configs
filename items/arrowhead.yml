@@ -26,3 +26,4 @@ item-type:
     ==: Weight
     value: 0.6
     unit: oz
+  allow-log-entries: false

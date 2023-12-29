@@ -28,3 +28,4 @@ item-type:
     ==: Weight
     value: 5
     unit: lb
+  allow-log-entries: false
