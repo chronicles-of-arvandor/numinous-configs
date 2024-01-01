@@ -1,61 +1,58 @@
 drop-table:
   ==: NuminousDropTable
-  id: Miner_10_1
+  id: Forager_1
   items:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: iron_ore
-          amount: 120
-      chance: 15.275
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: quartz_crystal
-          amount: 12
-      chance: 13.5
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: coperose
-          amount: 6
-      chance: 12.5
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: silver
-          amount: 6
+          item-type: dried_kelp
+          amount: 1
       chance: 8
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: crystal
-          amount: 5
-      chance: 5.4
+          item-type: lavender
+          amount: 1
+      chance: 9
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: agate
-          amount: 6
-      chance: 3.5
+          item-type: mint
+          amount: 1
+      chance: 9
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: gold
-          amount: 6
-      chance: 0.95
+          item-type: moonwater
+          amount: 1
+      chance: 6
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: mithral_ore
-          amount: 6
-      chance: 0.9
+          item-type: nightshade_berries
+          amount: 1
+      chance: 17.1
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: adamant_ore
-          amount: 6
-      chance: 0.82
+          item-type: rose_petal
+          amount: 1
+      chance: 9
     - ==: NuminousDropTableItem
-      items: []
-      chance: 39.155
+      items:
+        - ==: NuminousItemStack
+          item-type: stick
+          amount: 1
+      chance: 16.4
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: wheat
+          amount: 1
+      chance: 16.5
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: wood
+          amount: 1
+      chance: 9

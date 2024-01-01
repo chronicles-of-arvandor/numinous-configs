@@ -1,43 +1,40 @@
 drop-table:
   ==: NuminousDropTable
-  id: Hunter_9_1
+  id: Hunter_1
   items:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: bone
-          amount: 18
+          item-type: chunk_of_meat
+          amount: 1
       chance: 20
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: milk
-          amount: 96
-      chance: 18.750000000000007
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: chunk_of_meat
-          amount: 6
-      chance: 18.5
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
           item-type: animal_hide
-          amount: 36
-      chance: 18.333333333333336
+          amount: 1
+      chance: 6
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: lard
-          amount: 36
-      chance: 18.333333333333336
+          amount: 1
+      chance: 3
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: spider_venom
+          item-type: horsehair
           amount: 1
-      chance: 5
+      chance: 8.8
     - ==: NuminousDropTableItem
-      items: []
-      chance: 1.0833333333333144
+      items:
+        - ==: NuminousItemStack
+          item-type: scale
+          amount: 1
+      chance: 9.8
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: feather
+          amount: 1
+      chance: 52.4

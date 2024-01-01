@@ -1,25 +1,28 @@
 drop-table:
   ==: NuminousDropTable
-  id: Forager_1_0
+  id: Hunter_2
   items:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: stick
-          amount: 16
-      chance: 34.375
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: wheat
-          amount: 16
-      chance: 34.375
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: dried_kelp
+          item-type: bone
           amount: 1
-      chance: 20
+      chance: 39.5
     - ==: NuminousDropTableItem
-      items: []
-      chance: 11.25
+      items:
+        - ==: NuminousItemStack
+          item-type: fish
+          amount: 1
+      chance: 3.98
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: milk
+          amount: 1
+      chance: 21.22
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: wool
+          amount: 1
+      chance: 35.3

@@ -1,25 +1,28 @@
 drop-table:
   ==: NuminousDropTable
-  id: Forager_6_1
+  id: Forager_2
   items:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: stick
-          amount: 16
-      chance: 34.375
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: wheat
-          amount: 16
-      chance: 34.375
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: dried_kelp
+          item-type: cotton
           amount: 1
-      chance: 20
+      chance: 37.8
     - ==: NuminousDropTableItem
-      items: []
-      chance: 11.25
+      items:
+        - ==: NuminousItemStack
+          item-type: heartroot_herb
+          amount: 1
+      chance: 4.5
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: salt
+          amount: 1
+      chance: 45
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: sap
+          amount: 1
+      chance: 12.7
