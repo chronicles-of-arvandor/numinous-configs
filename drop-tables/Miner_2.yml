@@ -26,6 +26,3 @@ drop-table:
           item-type: quartz_crystal
           amount: 1
       chance: 23
-    - ==: NuminousDropTableItem
-      items: []
-      chance: 18.516666666666666
