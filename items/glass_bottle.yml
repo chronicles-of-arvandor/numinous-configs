@@ -26,3 +26,4 @@ item-type:
     ==: Weight
     value: 2
     unit: lb
+  allow-log-entries: false
