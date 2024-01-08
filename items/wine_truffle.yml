@@ -1,0 +1,33 @@
+item-type:
+  ==: NuminousItemType
+  id: wine_truffle
+  name: Wine truffle
+  categories:
+    - FOOD_AND_DRINK
+  rarity: POOR
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: BRICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Wine truffle","color":"white"}'
+      lore:
+        - '{"text":"An exquisite chocolate treat ","color":"gray"}'
+        - '{"text":"infused with the complex ","color":"gray"}'
+        - '{"text":"flavors of fine wine, creating ","color":"gray"}'
+        - '{"text":"a harmonious blend of rich ","color":"gray"}'
+        - '{"text":"cocoa and nuanced fruity ","color":"gray"}'
+        - '{"text":"notes. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb
+  allow-log-entries: false

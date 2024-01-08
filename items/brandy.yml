@@ -1,0 +1,33 @@
+item-type:
+  ==: NuminousItemType
+  id: brandy
+  name: Brandy
+  categories:
+    - FOOD_AND_DRINK
+  rarity: UNCOMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Brandy","color":"white"}'
+      lore:
+        - '{"text":"A distilled spirit made from ","color":"gray"}'
+        - '{"text":"fermented fruit juice, usually ","color":"gray"}'
+        - '{"text":"grapes, known for its rich, ","color":"gray"}'
+        - '{"text":"warming flavor and often ","color":"gray"}'
+        - '{"text":"enjoyed as a sipping liquor or ","color":"gray"}'
+        - '{"text":"used in cocktails. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb
+  allow-log-entries: false

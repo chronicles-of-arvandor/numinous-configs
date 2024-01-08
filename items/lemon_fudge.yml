@@ -1,0 +1,32 @@
+item-type:
+  ==: NuminousItemType
+  id: lemon_fudge
+  name: Lemon fudge
+  categories:
+    - FOOD_AND_DRINK
+  rarity: UNCOMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: YELLOW_DYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Lemon fudge","color":"white"}'
+      lore:
+        - '{"text":"A zesty and refreshing take on ","color":"gray"}'
+        - '{"text":"traditional fudge, combining ","color":"gray"}'
+        - '{"text":"creamy sweetness with the ","color":"gray"}'
+        - '{"text":"bright, citrusy notes of ","color":"gray"}'
+        - '{"text":"lemon. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb
+  allow-log-entries: false

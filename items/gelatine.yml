@@ -1,0 +1,34 @@
+item-type:
+  ==: NuminousItemType
+  id: gelatine
+  name: Gelatine
+  categories:
+    - CRAFTING_MATERIAL
+  rarity: UNCOMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: GLASS_PANE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Gelatine","color":"white"}'
+      lore:
+        - '{"text":"A versatile, translucent ","color":"gray"}'
+        - '{"text":"ingredient derived from ","color":"gray"}'
+        - '{"text":"collagen, used in cooking to ","color":"gray"}'
+        - '{"text":"create a range of textures, ","color":"gray"}'
+        - '{"text":"from jellies to marshmallows, ","color":"gray"}'
+        - '{"text":"with its ability to set and ","color":"gray"}'
+        - '{"text":"stabilize. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb
+  allow-log-entries: false

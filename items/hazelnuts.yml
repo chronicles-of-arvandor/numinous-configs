@@ -1,0 +1,32 @@
+item-type:
+  ==: NuminousItemType
+  id: hazelnuts
+  name: Hazelnuts
+  categories:
+    - FOOD_AND_DRINK
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: MELON_SEEDS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Hazelnuts","color":"white"}'
+      lore:
+        - '{"text":"Rich and aromatic nuts with a ","color":"gray"}'
+        - '{"text":"distinctive flavor, often ","color":"gray"}'
+        - '{"text":"roasted to enhance their ","color":"gray"}'
+        - '{"text":"taste, popular in baking, ","color":"gray"}'
+        - '{"text":"spreads, and as a snack. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb
+  allow-log-entries: false

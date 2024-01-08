@@ -1,0 +1,33 @@
+item-type:
+  ==: NuminousItemType
+  id: honey
+  name: Honey
+  categories:
+    - FOOD_AND_DRINK
+  rarity: UNCOMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: HONEY_BOTTLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Honey","color":"white"}'
+      lore:
+        - '{"text":"A golden, viscous liquid ","color":"gray"}'
+        - '{"text":"produced by bees, prized for ","color":"gray"}'
+        - '{"text":"its sweet, floral flavor and ","color":"gray"}'
+        - '{"text":"used as a natural sweetener in ","color":"gray"}'
+        - '{"text":"a variety of culinary ","color":"gray"}'
+        - '{"text":"applications. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb
+  allow-log-entries: false

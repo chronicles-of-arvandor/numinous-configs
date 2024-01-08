@@ -1,0 +1,33 @@
+item-type:
+  ==: NuminousItemType
+  id: almonds
+  name: Almonds
+  categories:
+    - FOOD_AND_DRINK
+  rarity: RARE
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: MELON_SEEDS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Almonds","color":"white"}'
+      lore:
+        - '{"text":"Nutritious, crunchy nuts with ","color":"gray"}'
+        - '{"text":"a mild, buttery flavor, widely ","color":"gray"}'
+        - '{"text":"used in various forms like ","color":"gray"}'
+        - '{"text":"whole, sliced, or ground, in ","color":"gray"}'
+        - '{"text":"cooking, baking, and as ","color":"gray"}'
+        - '{"text":"healthy snacks. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb
+  allow-log-entries: false

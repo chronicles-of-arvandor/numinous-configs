@@ -1,0 +1,32 @@
+item-type:
+  ==: NuminousItemType
+  id: catnip
+  name: Catnip
+  categories:
+    - FOOD_AND_DRINK
+  rarity: COMMON
+  minecraft-item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3337
+    type: OAK_LEAVES
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Catnip","color":"white"}'
+      lore:
+        - '{"text":"A fragrant herb known to ","color":"gray"}'
+        - '{"text":"induce playful behavior in ","color":"gray"}'
+        - '{"text":"cats, often used in pet toys ","color":"gray"}'
+        - '{"text":"and as a soothing herbal ","color":"gray"}'
+        - '{"text":"remedy for humans. ","color":"gray"}'
+  on-eat:
+    - ==: Blocked
+  on-interact-block:
+    - ==: Blocked
+  on-interact-air:
+    - ==: Blocked
+  weight:
+    ==: Weight
+    value: 0
+    unit: lb
+  allow-log-entries: false
