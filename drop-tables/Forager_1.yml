@@ -5,54 +5,66 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: dried_kelp
-          amount: 1
-      chance: 8
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: lavender
-          amount: 1
-      chance: 9
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: mint
-          amount: 1
-      chance: 9
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
           item-type: moonwater
           amount: 1
-      chance: 6
+      chance: 11
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: nightshade_berries
           amount: 1
-      chance: 17.1
+      chance: 11
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: dried_kelp
+          amount: 1
+      chance: 14
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: lavender
+          amount: 1
+      chance: 6
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: mint
+          amount: 1
+      chance: 6
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: rose_petal
           amount: 1
-      chance: 9
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: stick
-          amount: 1
-      chance: 16.4
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: wheat
-          amount: 1
-      chance: 16.5
+      chance: 6
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: wood
           amount: 1
-      chance: 9
+      chance: 6
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: strawberry
+          amount: 1
+      chance: 10
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: sugar
+          amount: 1
+      chance: 10
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: stick
+          amount: 1
+      chance: 10
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: wheat
+          amount: 1
+      chance: 10
