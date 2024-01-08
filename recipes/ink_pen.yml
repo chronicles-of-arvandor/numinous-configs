@@ -11,7 +11,7 @@ recipe:
       amount: 3
   required-profession-level:
     8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d: 1
-  experience: 0.9999999999
-  stamina: 0.9999999999
+  experience: 1
+  stamina: 1
   workstation: CRAFTING_TABLE
   icon: WRITABLE_BOOK
