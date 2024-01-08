@@ -16,7 +16,7 @@ recipe:
       item-type: navigators_tools
       amount: 1
   required-profession-level:
-    '96069643-8977-49ad-a793-b4440d0b3f2e': 8
+    96069643-8977-49ad-a793-b4440d0b3f2e: 8
   experience: 20
   stamina: 20
   workstation: CRAFTING_TABLE

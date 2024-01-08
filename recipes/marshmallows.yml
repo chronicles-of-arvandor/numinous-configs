@@ -1,0 +1,26 @@
+recipe:
+  ==: NuminousRecipe
+  name: Marshmallows
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: gelatine
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: sugar
+      amount: 3
+    - ==: NuminousItemStack
+      item-type: vanilla
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: flour
+      amount: 3
+  results:
+    - ==: NuminousItemStack
+      item-type: marshmallows
+      amount: 1
+  required-profession-level:
+    8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d: 3
+  experience: 7
+  stamina: 7
+  workstation: CRAFTING_TABLE
+  icon: SNOWBALL

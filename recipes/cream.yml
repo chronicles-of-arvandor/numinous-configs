@@ -1,0 +1,17 @@
+recipe:
+  ==: NuminousRecipe
+  name: Cream
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: milk
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: cream
+      amount: 1
+  required-profession-level:
+    8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d: 2
+  experience: 5
+  stamina: 5
+  workstation: CRAFTING_TABLE
+  icon: MILK_BUCKET

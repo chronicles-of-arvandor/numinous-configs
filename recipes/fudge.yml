@@ -1,0 +1,26 @@
+recipe:
+  ==: NuminousRecipe
+  name: Fudge
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: milk
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: sugar
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: butter
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: salt
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: fudge
+      amount: 1
+  required-profession-level:
+    8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d: 4
+  experience: 10
+  stamina: 10
+  workstation: CRAFTING_TABLE
+  icon: GOLD_INGOT

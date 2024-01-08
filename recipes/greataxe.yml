@@ -13,7 +13,7 @@ recipe:
       item-type: greataxe
       amount: 1
   required-profession-level:
-    '96069643-8977-49ad-a793-b4440d0b3f2e': 9
+    96069643-8977-49ad-a793-b4440d0b3f2e: 9
   experience: 18
   stamina: 18
   workstation: CRAFTING_TABLE

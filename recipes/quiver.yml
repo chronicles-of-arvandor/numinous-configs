@@ -13,7 +13,7 @@ recipe:
       item-type: quiver
       amount: 4
   required-profession-level:
-    '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 3
+    22e71a24-21e1-48d5-a1bd-db2c5f7d60b0: 3
   experience: 16
   stamina: 16
   workstation: CRAFTING_TABLE

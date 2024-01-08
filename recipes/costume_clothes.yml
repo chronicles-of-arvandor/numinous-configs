@@ -7,13 +7,13 @@ recipe:
       amount: 3
     - ==: NuminousItemStack
       item-type: agate
-      amount: 1
+      amount: 0.9999999999
   results:
     - ==: NuminousItemStack
       item-type: costume_clothes
       amount: 3
   required-profession-level:
-    '22e71a24-21e1-48d5-a1bd-db2c5f7d60b0': 6
+    22e71a24-21e1-48d5-a1bd-db2c5f7d60b0: 6
   experience: 45
   stamina: 45
   workstation: CRAFTING_TABLE

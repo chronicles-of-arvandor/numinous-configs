@@ -13,7 +13,7 @@ recipe:
       item-type: fishing_tackle
       amount: 1
   required-profession-level:
-    '89c7c54f-58ce-44f4-b397-10abcbbc7f81': 4
+    89c7c54f-58ce-44f4-b397-10abcbbc7f81: 4
   experience: 12
   stamina: 12
   workstation: CRAFTING_TABLE

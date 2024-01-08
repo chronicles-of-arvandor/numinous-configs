@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Candied apple
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: apple
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: sugar
+      amount: 3
+  results:
+    - ==: NuminousItemStack
+      item-type: candied_apple
+      amount: 1
+  required-profession-level:
+    8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d: 2
+  experience: 3
+  stamina: 3
+  workstation: CRAFTING_TABLE
+  icon: GOLDEN_APPLE

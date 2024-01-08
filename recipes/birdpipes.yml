@@ -13,7 +13,7 @@ recipe:
       item-type: birdpipes
       amount: 1
   required-profession-level:
-    '1278817a-a1f3-4c0a-951a-e148f70f3302': 8
+    1278817a-a1f3-4c0a-951a-e148f70f3302: 8
   experience: 40
   stamina: 40
   workstation: CRAFTING_TABLE

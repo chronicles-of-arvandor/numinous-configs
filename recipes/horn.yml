@@ -10,7 +10,7 @@ recipe:
       item-type: horn
       amount: 1
   required-profession-level:
-    '89c7c54f-58ce-44f4-b397-10abcbbc7f81': 6
+    89c7c54f-58ce-44f4-b397-10abcbbc7f81: 6
   experience: 15
   stamina: 15
   workstation: CRAFTING_TABLE

@@ -1,0 +1,29 @@
+recipe:
+  ==: NuminousRecipe
+  name: Liqueur truffle
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: dark_chocolate
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: cream
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: liqueur
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: cocoa_powder
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: sugar
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: liqueur_truffle
+      amount: 1
+  required-profession-level:
+    8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d: 10
+  experience: 30
+  stamina: 30
+  workstation: CRAFTING_TABLE
+  icon: BRICK

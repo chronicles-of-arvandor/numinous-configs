@@ -10,7 +10,7 @@ recipe:
       item-type: longhorn
       amount: 1
   required-profession-level:
-    '89c7c54f-58ce-44f4-b397-10abcbbc7f81': 9
+    89c7c54f-58ce-44f4-b397-10abcbbc7f81: 9
   experience: 50
   stamina: 50
   workstation: CRAFTING_TABLE

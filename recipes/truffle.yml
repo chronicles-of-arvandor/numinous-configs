@@ -1,0 +1,29 @@
+recipe:
+  ==: NuminousRecipe
+  name: Truffle
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: dark_chocolate
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: milk_chocolate
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: butter
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: cream
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: pistachios
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: truffle
+      amount: 1
+  required-profession-level:
+    8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d: 9
+  experience: 30
+  stamina: 30
+  workstation: CRAFTING_TABLE
+  icon: BRICK

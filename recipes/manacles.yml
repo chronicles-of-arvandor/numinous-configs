@@ -13,7 +13,7 @@ recipe:
       item-type: manacles
       amount: 5
   required-profession-level:
-    '96069643-8977-49ad-a793-b4440d0b3f2e': 3
+    96069643-8977-49ad-a793-b4440d0b3f2e: 3
   experience: 45
   stamina: 45
   workstation: CRAFTING_TABLE

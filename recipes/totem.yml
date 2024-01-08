@@ -10,7 +10,7 @@ recipe:
       item-type: totem
       amount: 1
   required-profession-level:
-    '1278817a-a1f3-4c0a-951a-e148f70f3302': 2
+    1278817a-a1f3-4c0a-951a-e148f70f3302: 2
   experience: 3
   stamina: 3
   workstation: CRAFTING_TABLE

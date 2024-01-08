@@ -13,7 +13,7 @@ recipe:
       item-type: longsword
       amount: 1
   required-profession-level:
-    '96069643-8977-49ad-a793-b4440d0b3f2e': 7
+    96069643-8977-49ad-a793-b4440d0b3f2e: 7
   experience: 25
   stamina: 25
   workstation: CRAFTING_TABLE

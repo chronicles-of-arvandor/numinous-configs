@@ -13,7 +13,7 @@ recipe:
       item-type: amulet
       amount: 1
   required-profession-level:
-    '96069643-8977-49ad-a793-b4440d0b3f2e': 5
+    96069643-8977-49ad-a793-b4440d0b3f2e: 5
   experience: 26
   stamina: 26
   workstation: CRAFTING_TABLE

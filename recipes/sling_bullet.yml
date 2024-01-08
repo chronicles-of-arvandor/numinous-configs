@@ -10,7 +10,7 @@ recipe:
       item-type: sling_bullet
       amount: 20
   required-profession-level:
-    '96069643-8977-49ad-a793-b4440d0b3f2e': 1
+    96069643-8977-49ad-a793-b4440d0b3f2e: 1
   experience: 0
   stamina: 0
   workstation: CRAFTING_TABLE

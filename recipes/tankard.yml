@@ -10,7 +10,7 @@ recipe:
       item-type: tankard
       amount: 20
   required-profession-level:
-    '1278817a-a1f3-4c0a-951a-e148f70f3302': 1
+    1278817a-a1f3-4c0a-951a-e148f70f3302: 1
   experience: 4
   stamina: 4
   workstation: CRAFTING_TABLE

@@ -1,0 +1,20 @@
+recipe:
+  ==: NuminousRecipe
+  name: Brandy
+  ingredients:
+    - ==: NuminousItemStack
+      item-type: fine_wine_bottle
+      amount: 1
+    - ==: NuminousItemStack
+      item-type: copper
+      amount: 1
+  results:
+    - ==: NuminousItemStack
+      item-type: brandy
+      amount: 1
+  required-profession-level:
+    8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d: 4
+  experience: 50
+  stamina: 50
+  workstation: CRAFTING_TABLE
+  icon: POTION

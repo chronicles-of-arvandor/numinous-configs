@@ -10,7 +10,7 @@ recipe:
       item-type: feed_per_day
       amount: 2
   required-profession-level:
-    '60b85d6a-87d7-483f-9db6-2b2b67ce51b1': 2
+    60b85d6a-87d7-483f-9db6-2b2b67ce51b1: 2
   experience: 1
   stamina: 1
   workstation: CRAFTING_TABLE
