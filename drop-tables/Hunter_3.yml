@@ -1,1 +1,28 @@
-
+drop-table:
+  ==: NuminousDropTable
+  id: Hunter_2
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: bone
+          amount: 1
+      chance: 6
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: fish
+          amount: 1
+      chance: 4
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: milk
+          amount: 1
+      chance: 19
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: wool
+          amount: 1
+      chance: 10
