@@ -1,0 +1,46 @@
+drop-table:
+  ==: NuminousDropTable
+  id: Miner_3
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: chalk_1_piece
+          amount: 1
+      chance: 11.79
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: stone
+          amount: 1
+      chance: 35.21
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: iron_ore
+          amount: 5
+      chance: 8
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: quartz_crystal
+          amount: 1
+      chance: 10
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: coperose
+          amount: 1
+      chance: 4
+        - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: oil_flask
+          amount: 1
+      chance: 9
+              - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: sand
+          amount: 1
+      chance: 22
