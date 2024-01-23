@@ -26,3 +26,39 @@ drop-table:
           item-type: wool
           amount: 1
       chance: 10
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: chunk_of_meat
+          amount: 1
+      chance: 12.9
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: animal_hide
+          amount: 1
+      chance: 10
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: lard
+          amount: 1
+      chance: 10
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: scale
+          amount: 1
+      chance: 1
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: knavian_adventurers_badge
+          amount: 1
+      chance: 16
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: tallow
+          amount: 1
+      chance: 11
