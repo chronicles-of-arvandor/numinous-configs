@@ -1,1 +1,64 @@
-
+drop-table:
+  ==: NuminousDropTable
+  id: Forager_3
+  items:
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: heartroot_herb
+          amount: 1
+      chance: 8
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: sap
+          amount: 1
+      chance: 0.1
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: grapes
+          amount: 1
+      chance: 18.9
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: flax
+          amount: 1
+      chance: 10
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: salt
+          amount: 1
+      chance: 9
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: apple
+          amount: 1
+      chance: 9
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: vanilla
+          amount: 1
+      chance: 4.9
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: Orange
+          amount: 1
+      chance: 13.1
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: cocoa_beans
+          amount: 1
+      chance: 8.1
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: Catnip
+          amount: 1
+      chance: 9.9
