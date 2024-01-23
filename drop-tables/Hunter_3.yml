@@ -1,6 +1,6 @@
 drop-table:
   ==: NuminousDropTable
-  id: Hunter_2
+  id: Hunter_3
   items:
     - ==: NuminousDropTableItem
       items:
