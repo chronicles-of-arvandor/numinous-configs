@@ -32,13 +32,13 @@ drop-table:
           item-type: coperose
           amount: 1
       chance: 4
-        - ==: NuminousDropTableItem
+    - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: oil_flask
           amount: 1
       chance: 9
-              - ==: NuminousDropTableItem
+    - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: sand
