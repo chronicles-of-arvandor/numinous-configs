@@ -17,7 +17,7 @@ item-type:
         - '{"text":" ","color":"gray"}'
       skull-owner:
         ==: PlayerProfile
-        uniqueId: 04049c90-d3e9-4621-9caf-0000aaa46547
+        uniqueId: 1a931036-9187-4d7b-9054-85323106b796
         name: Head Database
         properties:
           - name: textures
