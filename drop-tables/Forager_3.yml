@@ -47,7 +47,7 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: Orange
+          item-type: orange
           amount: 1
       chance: 13.1
     - ==: NuminousDropTableItem
@@ -59,6 +59,6 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: Catnip
+          item-type: catnip
           amount: 1
       chance: 9.9
