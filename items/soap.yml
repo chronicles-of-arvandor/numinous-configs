@@ -8,16 +8,23 @@ item-type:
   minecraft-item:
     ==: org.bukkit.inventory.ItemStack
     v: 3337
-    type: SNOWBALL
+    type: PLAYER_HEAD
     meta:
       ==: ItemMeta
-      meta-type: UNSPECIFIC
+      meta-type: SKULL
       display-name: '{"text":"Soap","color":"white"}'
       lore:
         - '{"text":"A rudimentary formed bar of ","color":"gray"}'
         - '{"text":"tallow, heavily scented with ","color":"gray"}'
         - '{"text":"oils and herb, used to wash ","color":"gray"}'
         - '{"text":"oneself. ","color":"gray"}'
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: 2b4187c8-cbf9-4471-b229-9e03bc2d36f2
+        name: Head Database
+        properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdjZTdjM2JlMjJjNjA0ZjE1ZmE0ZmUxZjIxNTRmNTEyODRlMTUwYzVhMDg3NGZmODIwZjNmNTM3YzkyOTQxNSJ9fX0=
   on-eat:
     - ==: Blocked
   on-interact-block:
@@ -28,3 +35,4 @@ item-type:
     ==: Weight
     value: 0
     unit: lb
+  allow-log-entries: false
