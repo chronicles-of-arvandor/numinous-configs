@@ -19,8 +19,6 @@ item-type:
         - '{"text":"solids. ","color":"gray"}'
   on-eat:
     - ==: Blocked
-  on-interact-block:
-    - ==: Blocked
   on-interact-air:
     - ==: Blocked
   weight:

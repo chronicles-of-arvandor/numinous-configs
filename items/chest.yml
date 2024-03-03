@@ -18,8 +18,6 @@ item-type:
         - '{"text":"300 pounds of gear. ","color":"gray"}'
   on-eat:
     - ==: Blocked
-  on-interact-block:
-    - ==: Blocked
   on-interact-air:
     - ==: Blocked
   weight:
