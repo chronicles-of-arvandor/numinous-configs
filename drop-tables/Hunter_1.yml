@@ -7,31 +7,19 @@ drop-table:
         - ==: NuminousItemStack
           item-type: chunk_of_meat
           amount: 1
-      chance: 20
+      chance: 28.8
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: animal_hide
           amount: 1
-      chance: 6
+      chance: 11
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: lard
           amount: 1
-      chance: 3
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: horsehair
-          amount: 1
-      chance: 8.8
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: scale
-          amount: 1
-      chance: 9.8
+      chance: 7.8
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack

@@ -7,25 +7,25 @@ drop-table:
         - ==: NuminousItemStack
           item-type: bone
           amount: 1
-      chance: 6
+      chance: 12
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: fish
           amount: 1
-      chance: 4
+      chance: 15
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: milk
           amount: 1
-      chance: 19
+      chance: 13
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: wool
           amount: 1
-      chance: 10
+      chance: 20
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
@@ -37,7 +37,7 @@ drop-table:
         - ==: NuminousItemStack
           item-type: animal_hide
           amount: 1
-      chance: 10
+      chance: 16.9
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
@@ -47,18 +47,6 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: scale
-          amount: 1
-      chance: 1
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
           item-type: knavian_adventurers_badge
           amount: 1
-      chance: 16
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: tallow
-          amount: 1
-      chance: 11
+      chance: 0.1
