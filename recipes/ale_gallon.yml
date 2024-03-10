@@ -10,8 +10,14 @@ recipe:
       item-type: ale_gallon
       amount: 32
   required-profession-level:
-    8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d: 5
-  experience: 32
-  stamina: 32
+    22e71a24-21e1-48d5-a1bd-db2c5f7d60b0: 1
+    96069643-8977-49ad-a793-b4440d0b3f2e: 1
+    8d0132cb-825f-404a-a6b5-2d29f380e1fb: 1
+    89c7c54f-58ce-44f4-b397-10abcbbc7f81: 1
+    60b85d6a-87d7-483f-9db6-2b2b67ce51b1: 1
+    1278817a-a1f3-4c0a-951a-e148f70f3302: 1
+    8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d: 1
+  experience: 0
+  stamina: 0
   workstation: CRAFTING_TABLE
   icon: POTION
