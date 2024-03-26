@@ -13,7 +13,7 @@ drop-table:
         - ==: NuminousItemStack
           item-type: nightshade_berries
           amount: 1
-      chance: 6
+      chance: 11
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
@@ -23,21 +23,33 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
+          item-type: lavender
+          amount: 1
+      chance: 6
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
           item-type: mint
           amount: 1
-      chance: 10
+      chance: 6
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: rose_petal
+          amount: 1
+      chance: 6
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: wood
           amount: 1
-      chance: 12
+      chance: 6
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: hemp
+          item-type: strawberry
           amount: 1
-      chance: 14
+      chance: 10
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
@@ -55,4 +67,4 @@ drop-table:
         - ==: NuminousItemStack
           item-type: wheat
           amount: 1
-      chance: 13
+      chance: 10

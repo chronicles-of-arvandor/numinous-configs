@@ -7,19 +7,25 @@ drop-table:
         - ==: NuminousItemStack
           item-type: heartroot_herb
           amount: 1
-      chance: 18
+      chance: 8
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: sap
           amount: 1
-      chance: 5
+      chance: 0.1
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: grapes
+          amount: 1
+      chance: 18.9
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: flax
           amount: 1
-      chance: 15
+      chance: 10
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
@@ -31,28 +37,28 @@ drop-table:
         - ==: NuminousItemStack
           item-type: apple
           amount: 1
-      chance: 16
+      chance: 9
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: vanilla
           amount: 1
-      chance: 11
+      chance: 4.9
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: orange
+          amount: 1
+      chance: 13.1
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: cocoa_beans
           amount: 1
-      chance: 11
+      chance: 8.1
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: catnip
           amount: 1
-      chance: 10    
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: feather
-          amount: 1
-      chance: 5
+      chance: 9.9

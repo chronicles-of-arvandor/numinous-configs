@@ -17,13 +17,7 @@ drop-table:
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: flax
-          amount: 1
-      chance: 10    
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: grapes
+          item-type: orange
           amount: 1
       chance: 10
     - ==: NuminousDropTableItem
@@ -37,7 +31,7 @@ drop-table:
         - ==: NuminousItemStack
           item-type: salt
           amount: 1
-      chance: 30
+      chance: 40
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
