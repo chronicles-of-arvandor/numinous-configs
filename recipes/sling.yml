@@ -10,7 +10,7 @@ recipe:
       item-type: sling
       amount: 10
   required-profession-level:
-    22e71a24-21e1-48d5-a1bd-db2c5f7d60b0: 2
+    22e71a24-21e1-48d5-a1bd-db2c5f7d60b0: 1
   experience: 1
   stamina: 1
   workstation: CRAFTING_TABLE
