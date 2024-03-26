@@ -10,8 +10,8 @@ recipe:
       item-type: jug
       amount: 100
   required-profession-level:
-    96069643-8977-49ad-a793-b4440d0b3f2e: 2
-  experience: 20
-  stamina: 20
+    8a4188e0-8ac6-4ce3-97e2-b7f180bfa24d: 2
+  experience: 1
+  stamina: 1
   workstation: CRAFTING_TABLE
   icon: BUCKET
