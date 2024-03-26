@@ -7,13 +7,7 @@ drop-table:
         - ==: NuminousItemStack
           item-type: bone
           amount: 1
-      chance: 29
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: tallow
-          amount: 1
-      chance: 10.5
+      chance: 39.5
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
