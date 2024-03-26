@@ -13,7 +13,7 @@ recipe:
       item-type: chariot
       amount: 1
   required-profession-level:
-    96069643-8977-49ad-a793-b4440d0b3f2e: 9
+    96069643-8977-49ad-a793-b4440d0b3f2e: 10
   experience: 39
   stamina: 39
   workstation: CRAFTING_TABLE
