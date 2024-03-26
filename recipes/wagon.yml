@@ -13,8 +13,8 @@ recipe:
       item-type: wagon
       amount: 1
   required-profession-level:
-    1278817a-a1f3-4c0a-951a-e148f70f3302: 9
-  experience: 60
-  stamina: 60
+    1278817a-a1f3-4c0a-951a-e148f70f3302: 10
+  experience: 10
+  stamina: 10
   workstation: CRAFTING_TABLE
   icon: STRIPPED_DARK_OAK_LOG

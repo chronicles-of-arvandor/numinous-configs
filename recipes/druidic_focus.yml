@@ -16,7 +16,7 @@ recipe:
       item-type: druidic_focus
       amount: 1
   required-profession-level:
-    60b85d6a-87d7-483f-9db6-2b2b67ce51b1: 9
+    1278817a-a1f3-4c0a-951a-e148f70f3302: 9
   experience: 50
   stamina: 50
   workstation: CRAFTING_TABLE
