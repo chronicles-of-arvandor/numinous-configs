@@ -13,8 +13,8 @@ recipe:
       item-type: studded_leather_armor
       amount: 1
   required-profession-level:
-    96069643-8977-49ad-a793-b4440d0b3f2e: 9
-    22e71a24-21e1-48d5-a1bd-db2c5f7d60b0: 9
+    96069643-8977-49ad-a793-b4440d0b3f2e: 8
+    22e71a24-21e1-48d5-a1bd-db2c5f7d60b0: 8
   experience: 25
   stamina: 25
   workstation: CRAFTING_TABLE
