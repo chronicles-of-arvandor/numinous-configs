@@ -13,28 +13,34 @@ drop-table:
         - ==: NuminousItemStack
           item-type: sap
           amount: 1
-      chance: 6.9
-    - ==: NuminousDropTableItem
-      items:
-        - ==: NuminousItemStack
-          item-type: orange
-          amount: 1
       chance: 10
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
-          item-type: cotton
+          item-type: flax
           amount: 1
-      chance: 11
+      chance: 7.5
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: grapes
+          amount: 12
+      chance: 15
+    - ==: NuminousDropTableItem
+      items:
+        - ==: NuminousItemStack
+          item-type: cotton
+          amount: 3
+      chance: 30.5
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: salt
-          amount: 1
-      chance: 40
+          amount: 6
+      chance: 17
     - ==: NuminousDropTableItem
       items:
         - ==: NuminousItemStack
           item-type: apple
-          amount: 1
-      chance: 25.1
+          amount: 10
+      chance: 13
