@@ -21,6 +21,7 @@ item-type:
     - ==: Blocked
   on-interact-air:
     - ==: Blocked
+  on-interact-block: []
   weight:
     ==: Weight
     value: 70
